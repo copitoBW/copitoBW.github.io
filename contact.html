@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpeakNow - Contact</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/pages/contact.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <main>
+    <div id="banner">
+      <img src="assets/images/hangzhou_nightview_2.jpg" alt="Contact Spanish Institute Banner" />
+    </div>
+    
+    <section class="contact-content">
+      <h1 data-i18n="contact_title">Contact Us</h1>
+      <p data-i18n="contact_intro" class="intro-text">
+        Ready to start your Spanish learning journey? We'd love to hear from you! 
+        Get in touch with our team to learn more about our courses or ask any questions.
+      </p>
+
+      <div class="contact-container">
+        <!-- Contact Form -->
+        <div class="contact-form-section">
+          <h2 data-i18n="send_message">Send us a Message</h2>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name"><span data-i18n="full_name">Name</span><span class="required-indicator">*</span></label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email"><span data-i18n="email">Email</span><span class="required-indicator">*</span></label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone" data-i18n="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div class="form-group">
+              <label for="level" data-i18n="current_level">Current Spanish Level</label>
+              <select id="level" name="level">
+                <option value="" data-i18n="select_level">Select your level</option>
+                <option value="absolute-beginner" data-i18n="absolute_beginner">Absolute Beginner</option>
+                <option value="beginner" data-i18n="beginner_level">Beginner (A1-A2)</option>
+                <option value="intermediate" data-i18n="intermediate_level">Intermediate (B1-B2)</option>
+                <option value="advanced" data-i18n="advanced_level">Advanced (C1-C2)</option>
+                <option value="not-sure" data-i18n="not_sure">Not Sure</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="interest" data-i18n="interested_in">What are you interested in?</label>
+              <select id="interest" name="interest">
+                <option value="" data-i18n="select_interest">Select an option</option>
+                <option value="general-spanish" data-i18n="general_spanish">General Spanish Courses</option>
+                <option value="kids-spanish" data-i18n="kids_spanish">Spanish for Kids</option>
+                <option value="dele-preparation" data-i18n="dele_preparation">DELE Exam Preparation</option>
+                <option value="siele-preparation" data-i18n="siele_preparation">SIELE Exam Preparation</option>
+                <option value="business-spanish" data-i18n="business_spanish_option">Business Spanish</option>
+                <option value="travel-spanish" data-i18n="travel_spanish_option">Travel Spanish</option>
+                <option value="conversation-practice" data-i18n="conversation_practice_option">Conversation Practice</option>
+                <option value="other" data-i18n="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" data-i18n="message">Message</label>
+              <textarea id="message" name="message" rows="5" data-i18n-placeholder="message_placeholder" placeholder="Tell us about your goals, preferred schedule, or any questions you have..."></textarea>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <span class="checkmark"></span>
+                <span data-i18n="newsletter_signup">I'd like to receive updates about new courses and Spanish learning tips</span>
+              </label>
+            </div>
+
+            <button type="submit" class="submit-btn" data-i18n="send_message_btn">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-info-section">
+          <h2 data-i18n="get_in_touch">Get in Touch</h2>
+          
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-icon">
+                <img src="assets/icons/gmail.svg" alt="Gmail" class="contact-method-icon">
+              </div>
+              <div class="contact-details">
+                <h3 data-i18n="email_us">Email Us</h3>
+                <p>tuanzispanish@163.com</p>
+                <p class="contact-note" data-i18n="email_response">We'll respond within 24 hours</p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <img src="assets/icons/wechat.svg" alt="WeChat" class="contact-method-icon">
+              </div>
+              <div class="contact-details">
+                <h3 data-i18n="wechat">WeChat</h3>
+                <p>tuanzixiyu</p>
+                <!-- <p class="contact-note" data-i18n="wechat_hours">Mon-Fri: 9AM-6PM EST</p> -->
+              </div>
+            </div>
+
+            <!-- <div class="contact-method">
+              <div class="contact-icon">
+                <img src="assets/icons/whatsapp.svg" alt="WhatsApp" class="contact-method-icon">
+              </div>
+              <div class="contact-details">
+                <h3 data-i18n="whatsapp">WhatsApp</h3>
+                <p>+1 123-4567</p>
+                <p class="contact-note" data-i18n="whatsapp_hours">Mon-Fri: 9AM-6PM EST</p>
+              </div>
+            </div> -->
+
+            <!-- <div class="contact-method">
+              <div class="contact-icon">🕒</div>
+              <div class="contact-details">
+                <h3 data-i18n="office_hours">Office Hours</h3>
+                <p data-i18n="hours_schedule">Monday - Friday: 9:00 AM - 8:00 PM EST</p>
+                <p data-i18n="weekend_hours">Saturday: 10:00 AM - 4:00 PM EST</p>
+                <p class="contact-note" data-i18n="timezone_note">All times in Eastern Standard Time</p>
+              </div>
+            </div> -->
+          </div>
+
+          <!-- Quick Actions -->
+          <div class="quick-actions">
+            <h3 data-i18n="quick_actions">Quick Actions</h3>
+            <div class="action-buttons">
+              <!-- <a href="#contact-form" class="action-btn primary" data-i18n="book_trial">Contact Us</a> -->
+              <a href="courses.html" class="action-btn primary" data-i18n="view_courses">View Our Courses</a>
+            </div>
+          </div>
+
+          <!-- FAQ Section -->
+          <div class="faq-section">
+            <h3 data-i18n="common_questions">Common Questions</h3>
+            <div class="faq-list">
+              <div class="faq-item">
+                <h4 data-i18n="faq_trial_question">How do I get started with classes?</h4>
+                <p data-i18n="faq_trial_answer">Simply contact us and we'll help you choose the perfect course for your level and goals.</p>
+              </div>
+              <div class="faq-item">
+                <h4 data-i18n="faq_class_types_question">What types of classes do you offer?</h4>
+                <p data-i18n="faq_class_types_answer">We offer flexible options for every learning style and budget:
+                  • Group Classes (8-20 Students): Our most cost-effective choice for an interactive and social learning experience.
+                  • Small Group Classes (1-on-2 or 1-on-3): A perfect balance of personal attention and peer motivation. Ideal for learning with friends.
+                  • 1-on-1 Customized Courses: Fully tailored to your personal goals and schedule for the fastest and most efficient progress.
+                </p>
+              </div>
+              <div class="faq-item">
+                <h4 data-i18n="faq_schedule_question">How flexible are the class schedules?</h4>
+                <p data-i18n="faq_schedule_answer">Very flexible! You can book classes that fit your schedule, with options from early morning to evening.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Success Message (hidden by default) -->
+      <div id="success-message" class="success-message" style="display: none;">
+        <div class="success-content">
+          <div class="success-icon">✅</div>
+          <h3 data-i18n="message_sent">Message Sent Successfully!</h3>
+          <p data-i18n="message_sent_text">Thank you for contacting us. We'll get back to you within 24 hours.</p>
+          <button id="close-success" class="close-success-btn" data-i18n="close">Close</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <div id="footer-placeholder"></div>
+
+  <script src="js/include.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/pages/contact.js"></script>
+</body>
+</html>

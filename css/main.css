@@ -1,0 +1,291 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap');
+
+/* === Enhanced Color Palette === */
+:root {
+  /* Primary Colors - Modern blue and teal palette */
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8fafb;
+  --color-text: #1e293b;
+  --color-text-alt: #64748b;
+  --color-primary: #5572e4;
+  --color-primary-light: #7c93f0;
+  --color-primary-dark: #3f51b5;
+  --color-secondary: #5fc6c3;
+  --color-secondary-light: #7dd3d8;
+  --color-accent: #10b981;
+  --color-success: #059669;
+  
+  /* UI Colors */
+  --color-border: #e2e8f0;
+  --color-nav-bg: #ffffff;
+  --color-nav-link: #1e293b;
+  --color-nav-link-active: #5572e4;
+  --color-dropdown-bg: #ffffff;
+  --color-footer-bg: #1e293b;
+  --color-footer-text: #94a3b8;
+  --color-footer-text-alt: #64748b;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.16);
+  
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  --color-bg: #0f172a;
+  --color-bg-alt: #1e293b;
+  --color-text: #f1f5f9;
+  --color-text-alt: #cbd5e1;
+  --color-primary: #6366f1;
+  --color-primary-light: #8b5cf6;
+  --color-primary-dark: #4338ca;
+  --color-secondary: #06b6d4;
+  --color-secondary-light: #22d3ee;
+  --color-accent: #10b981;
+  --color-border: #334155;
+  --color-nav-bg: #1e293b;
+  --color-nav-link: #f1f5f9;
+  --color-nav-link-active: #6366f1;
+  --color-dropdown-bg: #1e293b;
+  --color-footer-bg: #0f172a;
+  --color-footer-text: #cbd5e1;
+  --color-footer-text-alt: #94a3b8;
+}
+
+/* === Reset & Base Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  background: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* === Main Layout === */
+main {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--space-2xl) 0;
+  background: var(--color-bg-alt);
+  color: var(--color-text);
+}
+
+/* === Banner Section === */
+#banner {
+  width: 100%;
+  margin-bottom: var(--space-xl);
+  overflow: hidden;
+  border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  max-height: 800px;
+}
+
+#banner img {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  max-height: 800px;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Responsive banner heights for different screen sizes */
+@media (min-width: 2560px) {
+  #banner {
+    max-height: 900px;
+  }
+  #banner img {
+    height: 800px;
+    max-height: 800px;
+    object-position: center 35%;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2559px) {
+  #banner {
+    max-height: 750px;
+  }
+  #banner img {
+    height: 700px;
+    max-height: 700px;
+    object-position: center 35%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1919px) {
+  #banner {
+    max-height: 850px;
+  }
+  #banner img {
+    height: 850px;
+    object-position: center 30%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+  #banner img {
+    height: 600px;
+    object-position: center 45%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #banner img {
+    height: 450px;
+    object-position: center 20%;
+  }
+}
+
+@media (max-width: 767px) {
+  #banner img {
+    height: 300px;
+    object-position: center 15%;
+  }
+}
+
+/* #banner:hover img {
+  transform: scale(1.02);
+} */
+
+/* Add overlay for better text contrast if needed */
+/* #banner::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+  pointer-events: none;
+} */
+
+/* === CTA Button === */
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--space-md);
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: white;
+  border: none;
+  border-radius: var(--radius-xl);
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  box-shadow: var(--shadow-md);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.cta-btn:hover::before {
+  left: 100%;
+}
+
+.cta-btn:active {
+  transform: translateY(0);
+}
+
+.cta-btn.primary {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: white;
+}
+
+.cta-btn.secondary {
+  background: transparent;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.cta-btn.secondary:hover {
+  background: var(--color-primary);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+  .cta-btn.primary,
+  .cta-btn.secondary {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) { 
+  .cta-btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* === Animation Utilities === */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,56 @@
+<header>
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="assets/images/logo_en_2.png" alt="SpeakNow Logo"/>
+            </a>
+        </div>
+
+        <!-- Hamburger button for small screens -->
+        <button class="hamburger" aria-label="Toggle navigation">
+        ☰
+        </button>
+        <div class="nav-center">
+            <button class="close-btn" aria-label="Close navigation">✕</button>
+            <ul>
+                <li><a href="index.html" data-i18n="home">Home</a></li>
+                <li><a href="courses.html" data-i18n="courses">Courses</a></li>
+                <li><a href="contact.html" data-i18n="contact">Contact</a></li>
+                <li><a href="about.html" data-i18n="about">About Us</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="dropdown">
+                <button class="dropbtn">⚙️</button>
+                <div class="dropdown-content">      
+                    <div class="dropdown-section">
+                        <label for="lang-select" data-i18n="language_label">🌐 Language</label>
+                        <select id="lang-select">
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="zh">中文</option>
+                        </select>
+                    </div>
+
+                    <div class="dropdown-section">
+                        <label for="theme-select" data-i18n="theme_label">🎨 Theme</label>
+                        <select id="theme-select">
+                        <option value="light" data-i18n="light_theme">Light</option>
+                        <option value="dark" data-i18n="dark_theme">Dark</option>
+                        </select>
+                    </div>
+
+                    <div class="dropdown-section">
+                        <label for="font-select" data-i18n="font_size_label">🔎 Font Size</label>
+                        <select id="font-select">
+                        <option value="small" data-i18n="small_font">Small</option>
+                        <option value="medium" data-i18n="medium_font" selected>Medium</option>
+                        <option value="large" data-i18n="large_font">Large</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

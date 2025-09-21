@@ -1,11 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>JiyanEdu Test Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpeakNow - Home</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/pages/index.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-  <h1>It works! 🚀</h1>
-  <p>This is a test page for jiyanedu.me</p>
-  <p>I have made this change from my laptop for jiyanedu.me</p>
+  <div id="header-placeholder"></div>
+
+  <main>
+    <div id="banner">
+      <img src="assets/images/Creative-Website-Header.jpg" alt="Spanish Class Banner" />
+    </div>
+    <section class="home-content">
+      <h1 data-i18n="welcome_title">Welcome to SpeakNow Spanish Institute</h1>
+      <p data-i18n="welcome_intro">
+        Learn Spanish with native teachers! Whether you’re a total beginner or looking to refine your fluency, 
+        we provide personalized lessons that fit your goals and schedule.
+      </p>
+      <ul>
+        <li data-i18n="feature_structured_courses">📚 <b>Structured courses</b> from A1 to C2 levels</li>
+        <li data-i18n="feature_flexible_classes">💻 <b>Flexible online classes</b> — 1:1 or small groups or big groups</li>
+        <li data-i18n="feature_tailored_lessons">🌎 <b>Tailored lessons</b> for travel, business, or conversation practice</li>
+        <li data-i18n="feature_friendly_teachers">👩‍🏫 <b>Friendly, experienced teachers</b> who guide you step by step</li>
+        <li data-i18n="feature_practical_learning">  <b>Practical learning</b> focused on real-life communication</li>
+        <li><img src="assets/images/exam.png" alt="Exam Preparation" /> <span data-i18n="feature_exam_preparation"><b>Exam preparation</b> with DELE and SIELE practice tests and feedback</span></li>
+      </ul>
+      <p data-i18n="coming_soon">
+        Contact us today and start speaking Spanish with confidence!
+      </p>
+      <a href="contact.html" class="cta-btn" data-i18n="book_now">Book Now</a>
+    </section>
+    <!-- Why Choose Us Section (moved from About) -->
+    <section class="why-choose-section">
+      <h2 data-i18n="why_choose_speaknow">Why Choose SpeakNow?</h2>
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <div class="benefit-icon"><img src="assets/images/spanish.png" alt="Expert Teachers"></div>
+          <h4 data-i18n="expert_teachers">Expert Native Teachers</h4>
+          <p data-i18n="expert_teachers_desc">Learn from qualified native speakers with years of teaching experience and deep cultural knowledge.</p>
+        </div>
+        
+        <div class="benefit-item">
+          <div class="benefit-icon"><img src="assets/images/personalized.png" alt="Personalized Approach"></div>
+          <h4 data-i18n="personalized_approach">Personalized Approach</h4>
+          <p data-i18n="personalized_approach_desc">Customized lessons based on your goals, interests, and learning style for maximum effectiveness.</p>
+        </div>
+        
+        <div class="benefit-item">
+          <div class="benefit-icon"><img src="assets/images/flexible_schedule.png" alt="Flexible Scheduling"></div>
+          <h4 data-i18n="flexible_scheduling">Flexible Scheduling</h4>
+          <p data-i18n="flexible_scheduling_desc">Book lessons that fit your lifestyle with our convenient online platform and flexible timing options.</p>
+        </div>
+        
+        <div class="benefit-item">
+          <div class="benefit-icon"><img src="assets/images/multicultural.png" alt="Cultural Immersion"></div>
+          <h4 data-i18n="cultural_immersion">Cultural Immersion</h4>
+          <p data-i18n="cultural_immersion_desc">Go beyond grammar to understand the rich cultures, traditions, and perspectives of Spanish-speaking countries.</p>
+        </div>
+        
+        <div class="benefit-item">
+          <div class="benefit-icon"><img src="assets/images/daily_life.png" alt="Practical Communication"></div>
+          <h4 data-i18n="practical_communication">Practical Communication</h4>
+          <p data-i18n="practical_communication_desc">Focus on real-world scenarios and conversations you'll actually use in daily life, travel, or work.</p>
+        </div>
+        
+        <div class="benefit-item">
+          <div class="benefit-icon"><img src="assets/images/success.png" alt="Ongoing Support"></div>
+          <h4 data-i18n="ongoing_support">Ongoing Support</h4>
+          <p data-i18n="ongoing_support_desc">Continuous guidance, feedback, and encouragement to help you achieve your Spanish learning goals.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+      <h2 data-i18n="by_the_numbers">By the Numbers</h2>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">200+</div>
+          <div class="stat-label" data-i18n="students_taught">Students Taught</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">2,000+</div>
+          <div class="stat-label" data-i18n="lessons_completed">Lessons Completed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">8</div>
+          <div class="stat-label" data-i18n="countries_represented">Countries Represented</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">98%</div>
+          <div class="stat-label" data-i18n="satisfaction_rate">Satisfaction Rate</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="about-cta">
+      <h2 data-i18n="ready_to_begin">Ready to Begin Your Spanish Journey?</h2>
+      <p data-i18n="join_our_community" class="cta-text">
+        Join our community of Spanish learners and discover the joy of connecting with new cultures through language.
+      </p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="cta-btn primary" data-i18n="start_free_trial">Get Started</a>
+      </div>
+    </section>
+  </main>
+  
+  <div id="footer-placeholder"></div>
+
+  <script src="js/include.js"></script>
+  <script src="js/navigation.js"></script>
 </body>
 </html>
