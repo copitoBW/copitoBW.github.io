@@ -120,7 +120,6 @@ main {
 #banner img {
   width: 100%;
   height: auto;
-  min-height: 300px;
   max-height: 800px;
   object-fit: cover;
   object-position: center center;
@@ -177,8 +176,10 @@ main {
 
 @media (max-width: 767px) {
   #banner img {
-    height: 300px;
-    object-position: center 15%;
+    height: 400px;
+    object-fit: contain;
+    object-position: center center;
+    background: var(--color-bg-alt);
   }
 }
 
