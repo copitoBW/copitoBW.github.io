@@ -109,7 +109,7 @@ main {
 /* === Banner Section === */
 #banner {
   width: 100%;
-  margin-bottom: var(--space-xl);
+  margin-bottom: 10px;
   overflow: hidden;
   border-radius: 0 0 var(--radius-xl) var(--radius-xl);
   box-shadow: var(--shadow-lg);
@@ -175,11 +175,18 @@ main {
 }
 
 @media (max-width: 767px) {
+  #banner {
+    background: var(--color-bg-alt);
+    max-height: none;
+    min-height: auto;
+  }
+  
   #banner img {
-    height: 400px;
+    height: auto;
+    max-height: 400px;
+    width: 100%;
     object-fit: contain;
     object-position: center center;
-    background: var(--color-bg-alt);
   }
 }
 
