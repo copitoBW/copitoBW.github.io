@@ -83,7 +83,7 @@ copitoBW.github.io/
 
 ## 🌍 Live Website
 
-Visit our website: [www.jiyanedu.me](https://www.jiyanedu.me)
+Visit our website: [www.jiyaneducation.com](https://www.jiyaneducation.com)
 
 ## 🎯 Key Features
 
@@ -103,7 +103,7 @@ Visit our website: [www.jiyanedu.me](https://www.jiyanedu.me)
 ## 🚀 Getting Started
 
 ### For Visitors
-1. Visit [www.jiyanedu.me](https://www.jiyanedu.me)
+1. Visit [www.jiyaneducation.com](https://www.jiyaneducation.com)
 2. Choose your preferred language (English, Spanish, or Chinese)
 3. Explore our course offerings
 4. Contact us through the contact form or WeChat (tuanzixiyu)
@@ -122,7 +122,7 @@ Visit our website: [www.jiyanedu.me](https://www.jiyanedu.me)
 
 ## 📞 Contact Information
 
-- **Website**: [www.jiyanedu.me](https://www.jiyanedu.me)
+- **Website**: [www.jiyaneducation.com](https://www.jiyaneducation.com)
 - **Email**: tuanzispanish@163.com
 - **WeChat**: tuanzixiyu
 - **Address**: 杭州市上城区悦郡城5幢1026室
