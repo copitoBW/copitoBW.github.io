@@ -109,7 +109,8 @@ footer {
 
 .phone-item {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 0.5rem;
 }
 
@@ -118,6 +119,16 @@ footer {
   height: 20px;
   filter: brightness(0) invert(1);
   opacity: 0.8;
+}
+
+.wechat-qr-code {
+  display: block;
+  margin-top: 8px;
+  max-width: 120px;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Social Media Section */
@@ -227,9 +238,21 @@ footer {
     justify-content: center;
   }
   
+  .footer-contact {
+    align-items: center;
+  }
+  
+  .contact-item {
+    align-items: center;
+  }
+  
+  .phone-numbers {
+    align-items: center;
+  }
+  
   .phone-item {
-    justify-content: center;
-    }
+    align-items: center;
+  }
 
   .social-links {
     grid-template-columns: repeat(3, 1fr);

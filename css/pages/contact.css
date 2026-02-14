@@ -297,7 +297,7 @@
 
 .contact-method {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: var(--space-md);
   padding: var(--space-lg);
   background: var(--color-bg);
@@ -350,6 +350,31 @@
   color: var(--color-text-alt);
   opacity: 0.8;
   font-style: italic;
+}
+
+/* WeChat specific styling */
+.wechat-details {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  flex: 1;
+}
+
+.wechat-text {
+  flex: 1;
+}
+
+.wechat-qr {
+  flex-shrink: 0;
+}
+
+.wechat-qr-code {
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  border: 2px solid var(--color-border);
+  object-fit: cover;
 }
 
 /* === QUICK ACTIONS === */
@@ -599,6 +624,17 @@
     padding: var(--space-md);
     flex-direction: column;
     text-align: center;
+  }
+  
+  .wechat-details {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .wechat-qr-code {
+    width: 140px;
+    height: 140px;
   }
   
   .contact-icon {
