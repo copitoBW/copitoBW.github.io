@@ -123,7 +123,7 @@ Visit our website: [www.jiyaneducation.com](https://www.jiyaneducation.com)
 ## 📞 Contact Information
 
 - **Website**: [www.jiyaneducation.com](https://www.jiyaneducation.com)
-- **Email**: tuanzispanish@163.com
+- **Email**: speaknowedu@163.com
 - **WeChat**: tuanzixiyu
 - **Address**: 杭州市上城区悦郡城5幢1026室
 

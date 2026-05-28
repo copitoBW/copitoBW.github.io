@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Add checkbox value and format data for EmailJS
             const emailData = {
-                to_email: 'tuanzispanish@163.com',
+                to_email: 'speaknowedu@163.com',
                 from_name: data.name,
                 from_email: data.email,
                 phone: data.phone || 'Not provided',
