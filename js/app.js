@@ -201,7 +201,8 @@
   function prefectureMap(info, place) {
     const W = 600, H = 520;
     const spots = place.spots || [];
-    const zoomTo = place.zoom && MUNI ? MUNI.filter((f) => f.id.startsWith(place.zoom)) : null;
+    const zoomed = place.zoom && zoomState[info.slug] !== "all";
+    const zoomTo = zoomed && MUNI ? MUNI.filter((f) => f.id.startsWith(place.zoom)) : null;
     const fitShape = zoomTo && zoomTo.length
       ? { type: "FeatureCollection", features: zoomTo }
       : focusShape(FEATURES[info.code], spots);
@@ -318,12 +319,34 @@
     ];
   }
 
+  // Names of the cities/wards colored on the map.
+  function areaChips(info, place) {
+    if (!MUNI) return null;
+    const spots = place.spots || [];
+    const areas = new Set(place.areas || []);
+    const hits = MUNI.filter((f) => f.id.slice(0, 2) === info.code &&
+      (areas.has(f.id) || spots.some((s) => d3.geoContains(f, [s.lon, s.lat]))));
+    if (!hits.length) return null;
+    return h("div", { class: "areas" },
+      h("h2", {}, `${t("areasTitle")} · ${hits.length}`),
+      h("ul", {}, hits.map((f) => h("li", {}, muniName(f)))));
+  }
+
   function prefectureView(slug) {
     const info = P[slug];
     const place = visited.get(slug);
     if (!info || !place) return [h("a", { class: "back", href: "#/" }, t("back")), h("p", {}, t("notFound"))];
 
     const mapCard = h("div", { class: "map-card" });
+    if (place.zoom) {
+      const cur = zoomState[slug] === "all" ? "all" : "zoom";
+      const btn = (mode, label) => h("button", {
+        type: "button", "aria-pressed": String(cur === mode),
+        onclick: () => { zoomState[slug] = mode; render(); }
+      }, label);
+      mapCard.append(h("div", { class: "zoom-toggle", role: "group" },
+        btn("zoom", loc(place.zoomLabel) || t("zoomIn")), btn("all", t("viewAll"))));
+    }
     const svg = prefectureMap(info, place);
     mapCard.append(svg);
     attachTip(mapCard, svg);
@@ -356,7 +379,7 @@
     return [
       h("a", { class: "back", href: "#/" }, t("back")),
       h("div", { class: "pref-head" }, h("h1", {}, prefName(info)), h("div", { class: "alt" }, `${prefAlt(info)} · ${t("regions")[info.region]}`)),
-      h("div", { class: "pref-layout" }, mapCard, h("div", {}, note)),
+      h("div", { class: "pref-layout" }, mapCard, h("div", {}, note, areaChips(info, place))),
       h("h2", { class: "section-title" }, t("spots")),
       ...spotSections
     ];
@@ -386,6 +409,7 @@
     return m ? { view: "pref", slug: m[1] } : { view: "home" };
   }
   let lastRoute = "";
+  const zoomState = {}; // slug -> "all" | "zoom" (for prefectures with a zoomed view)
   function render() {
     applyStatic();
     if (!DATA) return;
