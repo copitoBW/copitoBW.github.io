@@ -109,7 +109,22 @@
           },
           "lat": 35.0116,
           "lon": 135.7681,
-          "photos": []
+          "photos": [
+            {
+              "src": "photos/kyoto/fushimi-inari.jpg",
+              "caption": {
+                "en": "Fushimi Inari Taisha",
+                "ja": "伏見稲荷大社",
+                "es": "Santuario Fushimi Inari"
+              },
+              "credit": {
+                "author": "Sergiy Galyonkin",
+                "license": "CC BY-SA 2.0",
+                "url": "https://commons.wikimedia.org/wiki/File:A_temple_in_Kyoto_(52407317930).jpg"
+              },
+              "test": true
+            }
+          ]
         }
       ]
     },
@@ -126,7 +141,22 @@
           },
           "lat": 34.6937,
           "lon": 135.5023,
-          "photos": []
+          "photos": [
+            {
+              "src": "photos/osaka/osaka-castle.jpg",
+              "caption": {
+                "en": "Osaka Castle walls",
+                "ja": "大阪城の石垣",
+                "es": "Murallas del castillo de Osaka"
+              },
+              "credit": {
+                "author": "dave massie",
+                "license": "CC BY 2.0",
+                "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%98%AA%E5%9F%8E_%E7%9F%B3%E5%9E%A3_(54539316083).jpg"
+              },
+              "test": true
+            }
+          ]
         }
       ]
     },
@@ -143,7 +173,22 @@
           },
           "lat": 34.6851,
           "lon": 135.8048,
-          "photos": []
+          "photos": [
+            {
+              "src": "photos/nara/todaiji.jpg",
+              "caption": {
+                "en": "Inside Tōdai-ji",
+                "ja": "東大寺の大仏殿",
+                "es": "Dentro del Tōdai-ji"
+              },
+              "credit": {
+                "author": "TANAKA Juuyoh (田中十洋)",
+                "license": "CC BY 2.0",
+                "url": "https://commons.wikimedia.org/wiki/File:T%C5%8Ddai-ji_Temple,_Nara;_November_2010_(01).jpg"
+              },
+              "test": true
+            }
+          ]
         }
       ]
     },
