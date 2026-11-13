@@ -332,10 +332,30 @@
       h("ul", {}, hits.map((f) => h("li", {}, muniName(f)))));
   }
 
+  const arrowSvg = (dir) => {
+    const el = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    el.setAttribute("viewBox", "0 0 24 24"); el.setAttribute("aria-hidden", "true"); el.setAttribute("class", "ico");
+    el.innerHTML = dir === "left"
+      ? '<path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>'
+      : '<path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>';
+    return el;
+  };
+  const backLink = () => h("a", { class: "back", href: "#/", "aria-label": t("back") }, arrowSvg("left"), h("span", {}, t("japan")));
+
+  // Previous / next visited prefecture (north to south).
+  function prefNav(slug) {
+    const order = PREFECTURES.map((p) => p[1]).filter((s) => visited.has(s));
+    const i = order.indexOf(slug);
+    const prev = order[(i - 1 + order.length) % order.length], next = order[(i + 1) % order.length];
+    return h("nav", { class: "pref-nav" },
+      h("a", { href: `#/japan/${prev}`, class: "prev" }, arrowSvg("left"), h("span", {}, prefName(P[prev]))),
+      h("a", { href: `#/japan/${next}`, class: "next" }, h("span", {}, prefName(P[next])), arrowSvg("right")));
+  }
+
   function prefectureView(slug) {
     const info = P[slug];
     const place = visited.get(slug);
-    if (!info || !place) return [h("a", { class: "back", href: "#/" }, t("back")), h("p", {}, t("notFound"))];
+    if (!info || !place) return [backLink(), h("p", {}, t("notFound"))];
 
     const mapCard = h("div", { class: "map-card" });
     if (place.zoom) {
@@ -365,7 +385,8 @@
           const items = photos.length
             ? photos.map((ph) => h("button", { class: "polaroid", type: "button", onclick: () => openLightbox(ph) },
                 h("div", { class: "pic" }, h("img", { src: ph.src, alt: loc(ph.caption) || loc(s.name), loading: "lazy" })),
-                ph.caption ? h("div", { class: "cap" }, loc(ph.caption)) : null))
+                ph.caption ? h("div", { class: "cap" }, loc(ph.caption)) : null,
+                ph.credit ? h("div", { class: "sub" }, `📷 ${ph.credit.author}`) : null))
             : [h("div", { class: "polaroid" },
                 h("div", { class: "pic" }, postcard(slug + i)),
                 h("div", { class: "cap" }, loc(s.name)),
@@ -377,28 +398,33 @@
       : [h("p", { class: "muted" }, t("noSpots"))];
 
     return [
-      h("a", { class: "back", href: "#/" }, t("back")),
+      backLink(),
       h("div", { class: "pref-head" }, h("h1", {}, prefName(info)), h("div", { class: "alt" }, `${prefAlt(info)} · ${t("regions")[info.region]}`)),
       h("div", { class: "pref-layout" }, mapCard, h("div", {}, note, areaChips(info, place))),
       h("h2", { class: "section-title" }, t("spots")),
-      ...spotSections
-    ];
+      ...spotSections,
+      visited.size > 1 ? prefNav(slug) : null
+    ].filter(Boolean);
   }
 
   // ---------- lightbox ----------
   const lb = h("div", { class: "lightbox", role: "dialog", "aria-modal": "true" });
   const lbImg = h("img", { alt: "" });
   const lbCap = h("p");
+  const lbCredit = h("a", { class: "lb-credit", target: "_blank", rel: "noopener" });
   const lbClose = h("button", { type: "button", "aria-label": "Close" }, "×");
-  lb.append(lbClose, lbImg, lbCap);
+  lb.append(lbClose, lbImg, lbCap, lbCredit);
   document.body.append(lb);
   const closeLb = () => { lb.classList.remove("open"); lbImg.src = ""; };
-  lb.addEventListener("click", (e) => { if (e.target !== lbImg) closeLb(); });
+  lb.addEventListener("click", (e) => { if (e.target !== lbImg && e.target !== lbCredit) closeLb(); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLb(); });
   function openLightbox(ph) {
     lbImg.src = ph.src;
     lbImg.alt = loc(ph.caption);
     lbCap.textContent = loc(ph.caption);
+    const c = ph.credit;
+    lbCredit.hidden = !c;
+    if (c) { lbCredit.textContent = `📷 ${c.author} · ${c.license}`; lbCredit.href = c.url; }
     lb.classList.add("open");
   }
 
