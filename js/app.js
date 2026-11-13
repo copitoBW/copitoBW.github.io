@@ -50,6 +50,9 @@
 
   let DATA = null;    // trips
   let FEATURES = null; // GeoJSON features by code
+  let MUNI = null;     // municipality features, loaded on first prefecture page
+  let muniLoading = null;
+  const nextSpots = []; // {prefecture, name, lat, lon}
   const visited = new Map(); // slug -> place entry
   const nextSet = new Set();
 
@@ -141,8 +144,9 @@
       tip.style.opacity = "1";
     };
     svg.addEventListener("pointermove", (e) => {
-      const code = e.target.dataset && e.target.dataset.code;
-      if (code) show(e, prefName(byCode[code])); else tip.style.opacity = "0";
+      const ds = e.target.dataset || {};
+      const text = ds.name || (ds.code && byCode[ds.code] ? prefName(byCode[ds.code]) : "");
+      if (text) show(e, text); else tip.style.opacity = "0";
     });
     svg.addEventListener("pointerleave", () => { tip.style.opacity = "0"; });
   }
@@ -197,8 +201,13 @@
   function prefectureMap(info, place) {
     const W = 600, H = 520;
     const spots = place.spots || [];
-    const proj = d3.geoMercator().fitExtent([[40, 40], [W - 40, H - 40]], focusShape(FEATURES[info.code], spots));
+    const zoomTo = place.zoom && MUNI ? MUNI.filter((f) => f.id.startsWith(place.zoom)) : null;
+    const fitShape = zoomTo && zoomTo.length
+      ? { type: "FeatureCollection", features: zoomTo }
+      : focusShape(FEATURES[info.code], spots);
+    const proj = d3.geoMercator().fitExtent([[40, 40], [W - 40, H - 40]], fitShape);
     const path = d3.geoPath(proj);
+    const nexts = nextSpots.filter((n) => n.prefecture === info.slug);
     const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": prefName(info) });
 
     for (const code of Object.keys(FEATURES)) {
@@ -206,6 +215,26 @@
       svg.append(svgEl("path", { d: path(FEATURES[code]), class: "pref context", "data-code": code }));
     }
     svg.append(svgEl("path", { d: path(FEATURES[info.code]), class: "pref focus", "data-code": info.code }));
+
+    if (MUNI) {
+      const areas = new Set(place.areas || []);
+      for (const f of MUNI) {
+        if (f.id.slice(0, 2) !== info.code) continue;
+        const hit = areas.has(f.id) || spots.some((s) => d3.geoContains(f, [s.lon, s.lat]));
+        svg.append(svgEl("path", { d: path(f), class: "muni" + (hit ? " visited" : ""), "data-name": muniName(f) }));
+      }
+    }
+
+    nexts.forEach((s) => {
+      const [x, y] = proj([s.lon, s.lat]);
+      const g = svgEl("g", { class: "pin next-pin" });
+      g.append(svgEl("circle", { cx: x, cy: y, r: 11 }));
+      const right = x < W - 200;
+      const label = svgEl("text", { x: right ? x + 17 : x - 17, y: y + 10, "text-anchor": right ? "start" : "end" });
+      label.textContent = `${loc(s.name)}?`;
+      g.append(label);
+      svg.append(g);
+    });
 
     spots.forEach((s, i) => {
       const [x, y] = proj([s.lon, s.lat]);
@@ -221,6 +250,19 @@
       svg.append(g);
     });
     return svg;
+  }
+
+  function muniName(f) {
+    const n = MUNI_NAMES[f.id];
+    return n ? (n[lang] || n.en) : f.properties.n;
+  }
+  function loadMuni() {
+    if (!muniLoading) {
+      muniLoading = fetch("data/municipalities.topo.json").then((r) => r.json()).then((topo) => {
+        MUNI = topojson.feature(topo, topo.objects.municipalities).features;
+        render();
+      }).catch((e) => console.error(e));
+    }
   }
 
   // ---------- views ----------
@@ -253,13 +295,18 @@
       h("span", {}, h("i", { style: "background:var(--next)" }), t("legendNext")),
       h("span", {}, h("i", { style: "background:var(--none)" }), t("legendNone")));
 
-    const nextItems = [...nextSet].filter((s) => P[s]).map((s) => h("li", {}, prefName(P[s])));
+    const nextItems = (DATA.next || []).map((n) => {
+      if (typeof n === "string") return P[n] ? h("li", {}, prefName(P[n])) : null;
+      const pi = P[n.prefecture];
+      return h("li", {}, loc(n.name), pi ? h("small", {}, ` · ${prefName(pi)}`) : null);
+    }).filter(Boolean);
 
     // visited list, grouped by JIS order (north to south)
     const cards = PREFECTURES.filter(([, slug]) => visited.has(slug)).map(([, slug]) => polaroidLink(P[slug], visited.get(slug)));
 
     return [
       h("section", { class: "hero" }, h("h1", {}, t("title")), h("p", {}, t("subtitle"))),
+      h("h2", { class: "chapter" }, t("japan")),
       h("div", { class: "counter" }, h("strong", {}, t("counter", n, total)), bar),
       card,
       legend,
@@ -343,6 +390,7 @@
     applyStatic();
     if (!DATA) return;
     const r = route();
+    if (r.view === "pref" && !MUNI) loadMuni();
     app.replaceChildren(...(r.view === "pref" ? prefectureView(r.slug) : homeView()));
     const key = location.hash;
     if (key !== lastRoute) { window.scrollTo(0, 0); lastRoute = key; }
@@ -360,7 +408,10 @@
     for (const f of topojson.feature(topo, topo.objects.prefectures).features) FEATURES[f.id] = f;
     DATA = data;
     for (const p of data.places || []) if (P[p.prefecture]) visited.set(p.prefecture, p);
-    for (const s of data.next || []) nextSet.add(s);
+    for (const s of data.next || []) {
+      if (typeof s === "string") nextSet.add(s);
+      else if (s && typeof s.lat === "number") nextSpots.push(s);
+    }
     render();
   }).catch((err) => {
     app.replaceChildren(h("p", { class: "muted" }, "Could not load the map data."));

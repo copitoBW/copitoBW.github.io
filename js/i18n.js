@@ -1,8 +1,9 @@
 // UI text in three languages. Place names live in data files.
 window.I18N = {
   en: {
-    title: "My Japan Scrapbook",
-    subtitle: "An album of the places I've been, one prefecture at a time.",
+    title: "Copito Diary",
+    japan: "Japan",
+    subtitle: "Travel notes and photos from the places I visit — starting with Japan.",
     counter: (n, t) => `${n} / ${t} prefectures visited`,
     tapHint: "Tap a colored prefecture to open its album.",
     notYet: "Not visited yet — someday!",
@@ -28,8 +29,9 @@ window.I18N = {
     notFound: "That page doesn't exist."
   },
   ja: {
-    title: "日本スクラップブック",
-    subtitle: "訪れた場所のアルバム。都道府県ごとに少しずつ。",
+    title: "コピト日記",
+    japan: "日本",
+    subtitle: "訪れた場所の旅のメモと写真。まずは日本から。",
     counter: (n, t) => `${t}都道府県中 ${n} 訪問`,
     tapHint: "色のついた都道府県をタップするとアルバムが開きます。",
     notYet: "まだ行っていません — いつか！",
@@ -55,8 +57,9 @@ window.I18N = {
     notFound: "このページは存在しません。"
   },
   es: {
-    title: "Mi álbum de Japón",
-    subtitle: "Un álbum de los lugares que he visitado, prefectura por prefectura.",
+    title: "Diario de Copito",
+    japan: "Japón",
+    subtitle: "Notas y fotos de los lugares que visito — empezando por Japón.",
     counter: (n, t) => `${n} / ${t} prefecturas visitadas`,
     tapHint: "Toca una prefectura de color para abrir su álbum.",
     notYet: "Aún no la visito — ¡algún día!",
@@ -133,3 +136,22 @@ window.PREFECTURES = [
   ["46", "kagoshima", "Kagoshima", "鹿児島県", "Kagoshima", 7],
   ["47", "okinawa", "Okinawa", "沖縄県", "Okinawa", 7]
 ];
+
+// Municipality names shown in map tooltips (others fall back to the romanized name).
+window.MUNI_NAMES = {
+  "13101": { en: "Chiyoda", ja: "千代田区" }, "13102": { en: "Chuo", ja: "中央区" },
+  "13103": { en: "Minato", ja: "港区" }, "13104": { en: "Shinjuku", ja: "新宿区" },
+  "13105": { en: "Bunkyo", ja: "文京区" }, "13106": { en: "Taito", ja: "台東区" },
+  "13107": { en: "Sumida", ja: "墨田区" }, "13108": { en: "Koto", ja: "江東区" },
+  "13109": { en: "Shinagawa", ja: "品川区" }, "13110": { en: "Meguro", ja: "目黒区" },
+  "13111": { en: "Ota", ja: "大田区" }, "13112": { en: "Setagaya", ja: "世田谷区" },
+  "13113": { en: "Shibuya", ja: "渋谷区" }, "13114": { en: "Nakano", ja: "中野区" },
+  "13115": { en: "Suginami", ja: "杉並区" }, "13116": { en: "Toshima", ja: "豊島区" },
+  "13117": { en: "Kita", ja: "北区" }, "13118": { en: "Arakawa", ja: "荒川区" },
+  "13119": { en: "Itabashi", ja: "板橋区" }, "13120": { en: "Nerima", ja: "練馬区" },
+  "13121": { en: "Adachi", ja: "足立区" }, "13122": { en: "Katsushika", ja: "葛飾区" },
+  "13123": { en: "Edogawa", ja: "江戸川区" },
+  "14100": { en: "Yokohama", ja: "横浜市" }, "14130": { en: "Kawasaki", ja: "川崎市" },
+  "14204": { en: "Kamakura", ja: "鎌倉市" }, "14382": { en: "Hakone", ja: "箱根町" },
+  "32201": { en: "Matsue", ja: "松江市" }, "32203": { en: "Izumo", ja: "出雲市" }
+};

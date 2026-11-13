@@ -138,7 +138,15 @@ main { max-width: 980px; margin: 0 auto; padding: 16px; }
 .pref.visited:hover, .pref.visited:focus { fill: var(--visited-hover); outline: none; }
 .pref.next { fill: var(--next); }
 .pref.context { fill: var(--none); opacity: .55; }
-.pref.focus { fill: var(--visited); }
+.pref.focus { fill: color-mix(in srgb, var(--visited) 38%, var(--none)); }
+.muni { fill: transparent; stroke: var(--card); stroke-width: .7; stroke-opacity: .7; }
+.muni.visited { fill: var(--visited); }
+.muni:hover { fill: color-mix(in srgb, var(--visited) 25%, transparent); }
+.muni.visited:hover { fill: var(--visited-hover); }
+.pin.next-pin circle { fill: var(--next); stroke: var(--ink-soft); stroke-dasharray: 3 3; cursor: default; }
+.chapter { text-align: center; font-family: var(--hand); font-size: 2.2rem; margin: 18px 0 0; }
+.chapter::before, .chapter::after { content: "～"; color: var(--accent); margin: 0 10px; }
+.next-list li small { font-family: var(--body); font-size: .8rem; color: var(--ink-soft); }
 .inset-box { fill: none; stroke: var(--line); stroke-dasharray: 4 4; }
 .inset-label { font-family: var(--hand); font-size: 28px; font-weight: 700; fill: var(--ink-soft); }
 .hint { text-align: center; font-size: .85rem; color: var(--ink-soft); margin: 8px 0 0; }

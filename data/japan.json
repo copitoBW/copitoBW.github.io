@@ -1,26 +1,58 @@
 {
-  "next": ["hokkaido", "okinawa"],
+  "next": [
+    "hokkaido",
+    {
+      "prefecture": "kanagawa",
+      "name": {
+        "en": "Hakone",
+        "ja": "箱根",
+        "es": "Hakone"
+      },
+      "lat": 35.2324,
+      "lon": 139.1069
+    }
+  ],
   "places": [
     {
       "prefecture": "tokyo",
       "visits": [],
       "note": {},
-      "spots": [
-        { "name": { "en": "Tokyo", "ja": "東京", "es": "Tokio" }, "lat": 35.6812, "lon": 139.7671, "photos": [] }
-      ]
+      "spots": [],
+      "zoom": "131",
+      "areas": []
     },
     {
       "prefecture": "kanagawa",
       "visits": [],
       "note": {},
-      "spots": []
+      "spots": [
+        {
+          "name": {
+            "en": "Yokohama",
+            "ja": "横浜",
+            "es": "Yokohama"
+          },
+          "lat": 35.4437,
+          "lon": 139.638,
+          "photos": []
+        }
+      ]
     },
     {
       "prefecture": "ibaraki",
       "visits": [],
       "note": {},
       "spots": [
-        { "name": { "en": "Tsukuba", "ja": "つくば", "es": "Tsukuba" }, "lat": 36.0835, "lon": 140.0764, "photos": [] }
+        {
+          "name": {
+            "en": "Tsukuba",
+            "ja": "つくば",
+            "es": "Tsukuba"
+          },
+          "lat": 36.0835,
+          "lon": 140.0764,
+          "photos": []
+        }
       ]
     },
     {
@@ -28,7 +60,16 @@
       "visits": [],
       "note": {},
       "spots": [
-        { "name": { "en": "Kyoto", "ja": "京都", "es": "Kioto" }, "lat": 35.0116, "lon": 135.7681, "photos": [] }
+        {
+          "name": {
+            "en": "Kyoto",
+            "ja": "京都",
+            "es": "Kioto"
+          },
+          "lat": 35.0116,
+          "lon": 135.7681,
+          "photos": []
+        }
       ]
     },
     {
@@ -36,7 +77,16 @@
       "visits": [],
       "note": {},
       "spots": [
-        { "name": { "en": "Osaka", "ja": "大阪", "es": "Osaka" }, "lat": 34.6937, "lon": 135.5023, "photos": [] }
+        {
+          "name": {
+            "en": "Osaka",
+            "ja": "大阪",
+            "es": "Osaka"
+          },
+          "lat": 34.6937,
+          "lon": 135.5023,
+          "photos": []
+        }
       ]
     },
     {
@@ -44,7 +94,16 @@
       "visits": [],
       "note": {},
       "spots": [
-        { "name": { "en": "Nara", "ja": "奈良", "es": "Nara" }, "lat": 34.6851, "lon": 135.8048, "photos": [] }
+        {
+          "name": {
+            "en": "Nara",
+            "ja": "奈良",
+            "es": "Nara"
+          },
+          "lat": 34.6851,
+          "lon": 135.8048,
+          "photos": []
+        }
       ]
     },
     {
@@ -52,22 +111,60 @@
       "visits": [],
       "note": {},
       "spots": [
-        { "name": { "en": "Kobe", "ja": "神戸", "es": "Kobe" }, "lat": 34.6901, "lon": 135.1955, "photos": [] },
-        { "name": { "en": "Awaji Island", "ja": "淡路島", "es": "Isla de Awaji" }, "lat": 34.36, "lon": 134.85, "photos": [] }
+        {
+          "name": {
+            "en": "Awaji Island",
+            "ja": "淡路島",
+            "es": "Isla de Awaji"
+          },
+          "lat": 34.36,
+          "lon": 134.85,
+          "photos": []
+        }
       ]
     },
     {
       "prefecture": "shimane",
       "visits": [],
       "note": {},
-      "spots": []
+      "spots": [
+        {
+          "name": {
+            "en": "Izumo",
+            "ja": "出雲",
+            "es": "Izumo"
+          },
+          "lat": 35.367,
+          "lon": 132.7547,
+          "photos": []
+        },
+        {
+          "name": {
+            "en": "Matsue",
+            "ja": "松江",
+            "es": "Matsue"
+          },
+          "lat": 35.4723,
+          "lon": 133.0505,
+          "photos": []
+        }
+      ]
     },
     {
       "prefecture": "okayama",
       "visits": [],
       "note": {},
       "spots": [
-        { "name": { "en": "Kurashiki", "ja": "倉敷", "es": "Kurashiki" }, "lat": 34.585, "lon": 133.772, "photos": [] }
+        {
+          "name": {
+            "en": "Kurashiki",
+            "ja": "倉敷",
+            "es": "Kurashiki"
+          },
+          "lat": 34.585,
+          "lon": 133.772,
+          "photos": []
+        }
       ]
     },
     {
@@ -75,7 +172,16 @@
       "visits": [],
       "note": {},
       "spots": [
-        { "name": { "en": "Hiroshima", "ja": "広島", "es": "Hiroshima" }, "lat": 34.3853, "lon": 132.4553, "photos": [] }
+        {
+          "name": {
+            "en": "Hiroshima",
+            "ja": "広島",
+            "es": "Hiroshima"
+          },
+          "lat": 34.3853,
+          "lon": 132.4553,
+          "photos": []
+        }
       ]
     }
   ]
