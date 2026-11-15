@@ -17,7 +17,1479 @@
       "prefecture": "tokyo",
       "visits": [],
       "note": {},
-      "spots": [],
+      "spots": [
+        {
+          "id": "akihabara",
+          "name": {
+            "en": "Akihabara",
+            "ja": "秋葉原",
+            "es": "Akihabara"
+          },
+          "lat": 35.6984,
+          "lon": 139.7731,
+          "visits": [
+            {
+              "date": "2023-01-14",
+              "photos": [
+                {
+                  "src": "photos/tokyo/akihabara/2023-01-14/20230114_174525.jpg",
+                  "thumb": "photos/tokyo/akihabara/2023-01-14/thumbs/20230114_174525.jpg",
+                  "caption": {
+                    "en": "Anime shop windows",
+                    "ja": "アニメショップのウィンドウ",
+                    "es": "Vitrinas de anime"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/akihabara/2023-01-14/20230114_174938.jpg",
+                  "thumb": "photos/tokyo/akihabara/2023-01-14/thumbs/20230114_174938.jpg",
+                  "caption": {
+                    "en": "Chūō-dōri at night",
+                    "ja": "夜の中央通り",
+                    "es": "Chūō-dōri de noche"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2023-01-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/akihabara/2023-01-21/20230121_115109.jpg",
+                  "thumb": "photos/tokyo/akihabara/2023-01-21/thumbs/20230121_115109.jpg",
+                  "caption": {
+                    "en": "maimai at GiGO",
+                    "ja": "GiGOでmaimai",
+                    "es": "maimai en GiGO"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/akihabara/2023-01-21/20230121_115648.jpg",
+                  "thumb": "photos/tokyo/akihabara/2023-01-21/thumbs/20230121_115648.jpg",
+                  "caption": {
+                    "en": "Going for the full combo",
+                    "ja": "フルコンボを狙う",
+                    "es": "Buscando el full combo"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/akihabara/2023-01-21/20230121_134602.jpg",
+                  "thumb": "photos/tokyo/akihabara/2023-01-21/thumbs/20230121_134602.jpg",
+                  "caption": {
+                    "en": "Kitsune udon (the kitsune already had a bite missing)",
+                    "ja": "きつねうどん（撮る前にお揚げをひと口…）",
+                    "es": "Kitsune udon (al kitsune ya le faltaba un mordisco)"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/akihabara/2023-01-21/20230121_134837.jpg",
+                  "thumb": "photos/tokyo/akihabara/2023-01-21/thumbs/20230121_134837.jpg",
+                  "caption": {
+                    "en": "Udon time at atre",
+                    "ja": "アトレでうどん",
+                    "es": "Hora del udon en atre"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2023-02-11",
+              "photos": [
+                {
+                  "src": "photos/tokyo/akihabara/2023-02-11/20230211_122306.jpg",
+                  "thumb": "photos/tokyo/akihabara/2023-02-11/thumbs/20230211_122306.jpg",
+                  "caption": {
+                    "en": "mAAch ecute Kanda Manseibashi",
+                    "ja": "マーチエキュート神田万世橋",
+                    "es": "mAAch ecute Kanda Manseibashi"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/akihabara/2023-02-11/20230211_wa0013.jpg",
+                  "thumb": "photos/tokyo/akihabara/2023-02-11/thumbs/20230211_wa0013.jpg",
+                  "caption": {
+                    "en": "Retro vending machines (popcorn!)",
+                    "ja": "レトロ自販機（ポップコーン！）",
+                    "es": "Máquinas expendedoras retro (¡palomitas!)"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2023-02-19",
+              "photos": [
+                {
+                  "src": "photos/tokyo/akihabara/2023-02-19/20230219_131611.jpg",
+                  "thumb": "photos/tokyo/akihabara/2023-02-19/thumbs/20230219_131611.jpg",
+                  "caption": {
+                    "en": "Akihabara selfie",
+                    "ja": "秋葉原で自撮り",
+                    "es": "Selfie en Akihabara"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Pedestrian paradise on Chūō-dōri",
+                    "ja": "中央通りの歩行者天国",
+                    "es": "Chūō-dōri peatonal"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/akihabara/2023-02-19/20230219_131828.jpg",
+                      "thumb": "photos/tokyo/akihabara/2023-02-19/thumbs/20230219_131828.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/akihabara/2023-02-19/20230219_131838.jpg",
+                      "thumb": "photos/tokyo/akihabara/2023-02-19/thumbs/20230219_131838.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "asakusa",
+          "name": {
+            "en": "Asakusa",
+            "ja": "浅草",
+            "es": "Asakusa"
+          },
+          "lat": 35.7148,
+          "lon": 139.7967,
+          "visits": [
+            {
+              "date": "2023-01-14",
+              "photos": [
+                {
+                  "src": "photos/tokyo/asakusa/2023-01-14/20230114_212109.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-01-14/thumbs/20230114_212109.jpg",
+                  "caption": {
+                    "en": "Kannon-dōri arcade",
+                    "ja": "観音通り",
+                    "es": "Galería Kannon-dōri"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-01-14/20230114_212409.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-01-14/thumbs/20230114_212409.jpg",
+                  "caption": {
+                    "en": "Kaminarimon",
+                    "ja": "雷門",
+                    "es": "Kaminarimon"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-01-14/20230114_212643.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-01-14/thumbs/20230114_212643.jpg",
+                  "caption": {
+                    "en": "Nakamise after closing",
+                    "ja": "閉店後の仲見世",
+                    "es": "Nakamise ya cerrado"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-01-14/20230114_212950.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-01-14/thumbs/20230114_212950.jpg",
+                  "caption": {
+                    "en": "Denbōin-dōri",
+                    "ja": "伝法院通り",
+                    "es": "Denbōin-dōri"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-01-14/20230114_213122.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-01-14/thumbs/20230114_213122.jpg",
+                  "caption": {
+                    "en": "Nakamise toward Hōzōmon",
+                    "ja": "仲見世と宝蔵門",
+                    "es": "Nakamise hacia el Hōzōmon"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-01-14/20230114_213403.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-01-14/thumbs/20230114_213403.jpg",
+                  "caption": {
+                    "en": "Five-storied pagoda",
+                    "ja": "五重塔",
+                    "es": "Pagoda de cinco pisos"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-01-14/20230114_213659.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-01-14/thumbs/20230114_213659.jpg",
+                  "caption": {
+                    "en": "Sensō-ji Main Hall",
+                    "ja": "浅草寺本堂",
+                    "es": "Salón principal del Sensō-ji"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-01-14/20230114_214104.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-01-14/thumbs/20230114_214104.jpg",
+                  "caption": {
+                    "en": "Omikuji: best fortune!",
+                    "ja": "おみくじ：大吉！",
+                    "es": "Omikuji: ¡la mejor suerte!"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-01-14/20230114_214704.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-01-14/thumbs/20230114_214704.jpg",
+                  "caption": {
+                    "en": "Pagoda and Skytree",
+                    "ja": "五重塔とスカイツリー",
+                    "es": "La pagoda y el Skytree"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-01-14/20230114_220652.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-01-14/thumbs/20230114_220652.jpg",
+                  "caption": {
+                    "en": "Taiyaki",
+                    "ja": "たい焼き",
+                    "es": "Taiyaki"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-01-14/20230114_222135.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-01-14/thumbs/20230114_222135.jpg",
+                  "caption": {
+                    "en": "Don Quijote Asakusa",
+                    "ja": "ドン・キホーテ浅草店",
+                    "es": "Don Quijote Asakusa"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2023-02-25",
+              "photos": [
+                {
+                  "src": "photos/tokyo/asakusa/2023-02-25/20230225_125359.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-02-25/thumbs/20230225_125359.jpg",
+                  "caption": {
+                    "en": "Nakamise from above",
+                    "ja": "上から見た仲見世",
+                    "es": "Nakamise desde arriba"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Asakusa Culture Tourist Information Center deck",
+                    "ja": "浅草文化観光センター展望テラス",
+                    "es": "Mirador del Centro Cultural y Turístico de Asakusa"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/asakusa/2023-02-25/20230225_125455.jpg",
+                      "thumb": "photos/tokyo/asakusa/2023-02-25/thumbs/20230225_125455.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/asakusa/2023-02-25/20230225_125937.jpg",
+                      "thumb": "photos/tokyo/asakusa/2023-02-25/thumbs/20230225_125937.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-02-25/20230225_131426.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-02-25/thumbs/20230225_131426.jpg",
+                  "caption": {
+                    "en": "Kaminarimon again",
+                    "ja": "再び雷門",
+                    "es": "Kaminarimon otra vez"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-02-25/20230225_132717.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-02-25/thumbs/20230225_132717.jpg",
+                  "caption": {
+                    "en": "Hōzōmon",
+                    "ja": "宝蔵門",
+                    "es": "Hōzōmon"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2023-02-25/20230225_132904.jpg",
+                  "thumb": "photos/tokyo/asakusa/2023-02-25/thumbs/20230225_132904.jpg",
+                  "caption": {
+                    "en": "Five-storied pagoda",
+                    "ja": "五重塔",
+                    "es": "Pagoda de cinco pisos"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Azumabashi, the Asahi flame and Skytree",
+                    "ja": "吾妻橋とアサヒのオブジェとスカイツリー",
+                    "es": "Azumabashi, la llama de Asahi y el Skytree"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/asakusa/2023-02-25/20230225_153514.jpg",
+                      "thumb": "photos/tokyo/asakusa/2023-02-25/thumbs/20230225_153514.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/asakusa/2023-02-25/20230225_153521.jpg",
+                      "thumb": "photos/tokyo/asakusa/2023-02-25/thumbs/20230225_153521.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sendagaya",
+          "name": {
+            "en": "Sendagaya",
+            "ja": "千駄ヶ谷",
+            "es": "Sendagaya"
+          },
+          "lat": 35.6808,
+          "lon": 139.7118,
+          "visits": [
+            {
+              "date": "2023-01-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/sendagaya/2023-01-21/20230121_144401.jpg",
+                  "thumb": "photos/tokyo/sendagaya/2023-01-21/thumbs/20230121_144401.jpg",
+                  "caption": {
+                    "en": "Tokyo Metropolitan Gymnasium",
+                    "ja": "東京体育館",
+                    "es": "Gimnasio Metropolitano de Tokio"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Gymnasium entrance",
+                    "ja": "東京体育館の入口",
+                    "es": "Entrada del gimnasio"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/sendagaya/2023-01-21/20230121_144751.jpg",
+                      "thumb": "photos/tokyo/sendagaya/2023-01-21/thumbs/20230121_144751.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/sendagaya/2023-01-21/20230121_144753.jpg",
+                      "thumb": "photos/tokyo/sendagaya/2023-01-21/thumbs/20230121_144753.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/sendagaya/2023-01-21/20230121_145020.jpg",
+                  "thumb": "photos/tokyo/sendagaya/2023-01-21/thumbs/20230121_145020.jpg",
+                  "caption": {
+                    "en": "At the Main Arena",
+                    "ja": "メインアリーナの前で",
+                    "es": "En la Arena Principal"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/sendagaya/2023-01-21/20230121_145555.jpg",
+                  "thumb": "photos/tokyo/sendagaya/2023-01-21/thumbs/20230121_145555.jpg",
+                  "caption": {
+                    "en": "Japan National Stadium",
+                    "ja": "国立競技場",
+                    "es": "Estadio Nacional de Japón"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shinjuku",
+          "name": {
+            "en": "Shinjuku",
+            "ja": "新宿",
+            "es": "Shinjuku"
+          },
+          "lat": 35.6938,
+          "lon": 139.7034,
+          "visits": [
+            {
+              "date": "2023-01-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/shinjuku/2023-01-21/20230121_153518.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_153518.jpg",
+                  "caption": {
+                    "en": "NTT Docomo Yoyogi Building",
+                    "ja": "NTTドコモ代々木ビル",
+                    "es": "Edificio NTT Docomo Yoyogi"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The 3D cat of Shinjuku",
+                    "ja": "新宿東口の猫",
+                    "es": "El gato 3D de Shinjuku"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-21/20230121_155606.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_155606.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-21/20230121_155612.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_155612.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-21/20230121_155650.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_155650.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-21/20230121_155653.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_155653.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-21/20230121_155657.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_155657.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2023-01-21/20230121_161159.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_161159.jpg",
+                  "caption": {
+                    "en": "Omoide Yokochō",
+                    "ja": "思い出横丁",
+                    "es": "Omoide Yokochō"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2023-01-21/20230121_161836.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_161836.jpg",
+                  "caption": {
+                    "en": "Omoide Yokochō entrance",
+                    "ja": "思い出横丁の入口",
+                    "es": "Entrada de Omoide Yokochō"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2023-01-21/20230121_162038.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_162038.jpg",
+                  "caption": {
+                    "en": "Shinjuku streets",
+                    "ja": "新宿の街並み",
+                    "es": "Calles de Shinjuku"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2023-01-21/20230121_162528.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_162528.jpg",
+                  "caption": {
+                    "en": "Busy street near Kabukichō",
+                    "ja": "歌舞伎町近くの通り",
+                    "es": "Calle cerca de Kabukichō"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2023-01-21/20230121_162639.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_162639.jpg",
+                  "caption": {
+                    "en": "Kabukichō Ichiban-gai gate",
+                    "ja": "歌舞伎町一番街",
+                    "es": "Arco de Kabukichō Ichiban-gai"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2023-01-21/20230121_163917.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2023-01-21/thumbs/20230121_163917.jpg",
+                  "caption": {
+                    "en": "Shinjuku Golden Gai",
+                    "ja": "新宿ゴールデン街",
+                    "es": "Shinjuku Golden Gai"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2023-01-29",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Rooftop garden illuminations",
+                    "ja": "屋上庭園のイルミネーション",
+                    "es": "Iluminación en un jardín de azotea"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-29/20230129_171024.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_171024.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-29/20230129_171138.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_171138.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2023-01-29/20230129_171832.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_171832.jpg",
+                  "caption": {
+                    "en": "Docomo Tower at dusk",
+                    "ja": "夕暮れのドコモタワー",
+                    "es": "La Docomo Tower al atardecer"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2023-01-29/20230129_190958.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_190958.jpg",
+                  "caption": {
+                    "en": "The cat again, at night",
+                    "ja": "夜の新宿東口の猫",
+                    "es": "El gato otra vez, de noche"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Kabukichō gate, chullo on",
+                    "ja": "歌舞伎町一番街で",
+                    "es": "Arco de Kabukichō, con chullo"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-29/20230129_191655.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_191655.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-29/20230129_191717.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_191717.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-29/20230129_191755.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_191755.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-29/20230129_191837.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_191837.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2023-01-29/20230129_192158.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_192158.jpg",
+                  "caption": {
+                    "en": "Godzilla Road",
+                    "ja": "ゴジラロード",
+                    "es": "Godzilla Road"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Godzilla over Kabukichō",
+                    "ja": "歌舞伎町のゴジラ",
+                    "es": "Godzilla sobre Kabukichō"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-29/20230129_192458.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_192458.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shinjuku/2023-01-29/20230129_192547.jpg",
+                      "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_192547.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2023-01-29/20230129_192948.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2023-01-29/thumbs/20230129_192948.jpg",
+                  "caption": {
+                    "en": "I ♥ Kabukichō",
+                    "ja": "I ♥ 歌舞伎町",
+                    "es": "I ♥ Kabukichō"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shinjuku-gyoen",
+          "name": {
+            "en": "Shinjuku Gyoen",
+            "ja": "新宿御苑",
+            "es": "Shinjuku Gyoen"
+          },
+          "lat": 35.6852,
+          "lon": 139.71,
+          "visits": [
+            {
+              "date": "2023-01-29",
+              "photos": [
+                {
+                  "src": "photos/tokyo/shinjuku-gyoen/2023-01-29/20230129_141436.jpg",
+                  "thumb": "photos/tokyo/shinjuku-gyoen/2023-01-29/thumbs/20230129_141436.jpg",
+                  "caption": {
+                    "en": "On the bridge over the pond",
+                    "ja": "池の橋の上で",
+                    "es": "En el puente sobre el estanque"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku-gyoen/2023-01-29/20230129_141608.jpg",
+                  "thumb": "photos/tokyo/shinjuku-gyoen/2023-01-29/thumbs/20230129_141608.jpg",
+                  "caption": {
+                    "en": "Stone lantern by the pond",
+                    "ja": "池のほとりの石灯籠",
+                    "es": "Linterna de piedra junto al estanque"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku-gyoen/2023-01-29/20230129_141711.jpg",
+                  "thumb": "photos/tokyo/shinjuku-gyoen/2023-01-29/thumbs/20230129_141711.jpg",
+                  "caption": {
+                    "en": "Docomo Tower over the garden",
+                    "ja": "庭園の上のドコモタワー",
+                    "es": "La Docomo Tower sobre el jardín"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku-gyoen/2023-01-29/20230129_141952.jpg",
+                  "thumb": "photos/tokyo/shinjuku-gyoen/2023-01-29/thumbs/20230129_141952.jpg",
+                  "caption": {
+                    "en": "Japanese garden",
+                    "ja": "日本庭園",
+                    "es": "Jardín japonés"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku-gyoen/2023-01-29/20230129_152817.jpg",
+                  "thumb": "photos/tokyo/shinjuku-gyoen/2023-01-29/thumbs/20230129_152817.jpg",
+                  "caption": {
+                    "en": "Pine trees and reflections",
+                    "ja": "松と水面の映り込み",
+                    "es": "Pinos y reflejos"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku-gyoen/2023-01-29/20230129_154226.jpg",
+                  "thumb": "photos/tokyo/shinjuku-gyoen/2023-01-29/thumbs/20230129_154226.jpg",
+                  "caption": {
+                    "en": "Plane tree avenue",
+                    "ja": "プラタナス並木",
+                    "es": "Avenida de plátanos"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shibuya",
+          "name": {
+            "en": "Shibuya",
+            "ja": "渋谷",
+            "es": "Shibuya"
+          },
+          "lat": 35.6591,
+          "lon": 139.7006,
+          "visits": [
+            {
+              "date": "2023-01-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/shibuya/2023-01-21/20230121_172654.jpg",
+                  "thumb": "photos/tokyo/shibuya/2023-01-21/thumbs/20230121_172654.jpg",
+                  "caption": {
+                    "en": "Shibuya Scramble Crossing",
+                    "ja": "渋谷スクランブル交差点",
+                    "es": "Cruce de Shibuya"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shibuya/2023-01-21/20230121_172709.jpg",
+                  "thumb": "photos/tokyo/shibuya/2023-01-21/thumbs/20230121_172709.jpg",
+                  "caption": {
+                    "en": "Lights over the crossing",
+                    "ja": "交差点のネオン",
+                    "es": "Luces sobre el cruce"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shibuya/2023-01-21/20230121_173015.jpg",
+                  "thumb": "photos/tokyo/shibuya/2023-01-21/thumbs/20230121_173015.jpg",
+                  "caption": {
+                    "en": "Crossing toward 109",
+                    "ja": "109へ向かう交差点",
+                    "es": "Cruzando hacia el 109"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shibuya/2023-01-21/20230121_173739.jpg",
+                  "thumb": "photos/tokyo/shibuya/2023-01-21/thumbs/20230121_173739.jpg",
+                  "caption": {
+                    "en": "With Hachikō",
+                    "ja": "ハチ公と",
+                    "es": "Con Hachikō"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shibuya/2023-01-21/20230121_174508.jpg",
+                  "thumb": "photos/tokyo/shibuya/2023-01-21/thumbs/20230121_174508.jpg",
+                  "caption": {
+                    "en": "The crossing from above",
+                    "ja": "上から見た交差点",
+                    "es": "El cruce desde arriba"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2023-02-05",
+              "photos": [
+                {
+                  "src": "photos/tokyo/shibuya/2023-02-05/20230205_201642.jpg",
+                  "thumb": "photos/tokyo/shibuya/2023-02-05/thumbs/20230205_201642.jpg",
+                  "caption": {
+                    "en": "Ryu at Shibuya PARCO",
+                    "ja": "渋谷PARCOのリュウ",
+                    "es": "Ryu en Shibuya PARCO"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shibuya/2023-02-05/20230205_201706.jpg",
+                  "thumb": "photos/tokyo/shibuya/2023-02-05/thumbs/20230205_201706.jpg",
+                  "caption": {
+                    "en": "Nintendo TOKYO",
+                    "ja": "Nintendo TOKYO",
+                    "es": "Nintendo TOKYO"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shibuya/2023-02-05/20230205_211503.jpg",
+                  "thumb": "photos/tokyo/shibuya/2023-02-05/thumbs/20230205_211503.jpg",
+                  "caption": {
+                    "en": "Hachikō again, at night",
+                    "ja": "夜のハチ公、再び",
+                    "es": "Hachikō otra vez, de noche"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tokyo-tower",
+          "name": {
+            "en": "Tokyo Tower",
+            "ja": "東京タワー",
+            "es": "Torre de Tokio"
+          },
+          "lat": 35.6586,
+          "lon": 139.7454,
+          "visits": [
+            {
+              "date": "2023-01-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/tokyo-tower/2023-01-21/20230121_183011.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2023-01-21/thumbs/20230121_183011.jpg",
+                  "caption": {
+                    "en": "First sight of Tokyo Tower",
+                    "ja": "東京タワーが見えた",
+                    "es": "Primera vista de la Torre de Tokio"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-tower/2023-01-21/20230121_183712.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2023-01-21/thumbs/20230121_183712.jpg",
+                  "caption": {
+                    "en": "Between the buildings",
+                    "ja": "ビルの間から",
+                    "es": "Entre los edificios"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-tower/2023-01-21/20230121_183824.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2023-01-21/thumbs/20230121_183824.jpg",
+                  "caption": {
+                    "en": "Almost there",
+                    "ja": "もうすぐ",
+                    "es": "Ya casi"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-tower/2023-01-21/20230121_184649.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2023-01-21/thumbs/20230121_184649.jpg",
+                  "caption": {
+                    "en": "Tower selfie",
+                    "ja": "タワーと自撮り",
+                    "es": "Selfie con la torre"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-tower/2023-01-21/20230121_193451.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2023-01-21/thumbs/20230121_193451.jpg",
+                  "caption": {
+                    "en": "Tokyo Tower model",
+                    "ja": "東京タワーの模型",
+                    "es": "Maqueta de la Torre de Tokio"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-tower/2023-01-21/20230121_202743.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2023-01-21/thumbs/20230121_202743.jpg",
+                  "caption": {
+                    "en": "Mirror art inside the tower",
+                    "ja": "タワー内の鏡のアート",
+                    "es": "Arte de espejos en la torre"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-tower/2023-01-21/20230121_204151.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2023-01-21/thumbs/20230121_204151.jpg",
+                  "caption": {
+                    "en": "Night view toward Rainbow Bridge",
+                    "ja": "レインボーブリッジ方面の夜景",
+                    "es": "Vista nocturna hacia el Rainbow Bridge"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-tower/2023-01-21/20230121_205941.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2023-01-21/thumbs/20230121_205941.jpg",
+                  "caption": {
+                    "en": "On the observation deck",
+                    "ja": "展望台にて",
+                    "es": "En el mirador"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-tower/2023-01-21/20230121_211542.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2023-01-21/thumbs/20230121_211542.jpg",
+                  "caption": {
+                    "en": "Glass floor: looking down",
+                    "ja": "ルックダウンウィンドウ",
+                    "es": "Piso de vidrio: mirando abajo"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jma",
+          "name": {
+            "en": "Japan Meteorological Agency",
+            "ja": "気象庁",
+            "es": "Agencia Meteorológica de Japón"
+          },
+          "lat": 35.6669,
+          "lon": 139.7468,
+          "visits": [
+            {
+              "date": "2023-01-31",
+              "photos": [
+                {
+                  "src": "photos/tokyo/jma/2023-01-31/20230131_wa0002.jpg",
+                  "thumb": "photos/tokyo/jma/2023-01-31/thumbs/20230131_wa0002.jpg",
+                  "caption": {
+                    "en": "Meteorological Science Museum",
+                    "ja": "気象科学館",
+                    "es": "Museo de Ciencias Meteorológicas"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/jma/2023-01-31/20230131_wa0005.jpg",
+                  "thumb": "photos/tokyo/jma/2023-01-31/thumbs/20230131_wa0005.jpg",
+                  "caption": {
+                    "en": "Japan Meteorological Agency",
+                    "ja": "気象庁",
+                    "es": "Agencia Meteorológica de Japón"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "meiji-jingu",
+          "name": {
+            "en": "Meiji Jingū",
+            "ja": "明治神宮",
+            "es": "Meiji Jingū"
+          },
+          "lat": 35.6764,
+          "lon": 139.6993,
+          "visits": [
+            {
+              "date": "2023-02-05",
+              "photos": [
+                {
+                  "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_124842.jpg",
+                  "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_124842.jpg",
+                  "caption": {
+                    "en": "Ponies at Meiji Jingū",
+                    "ja": "明治神宮のポニー",
+                    "es": "Ponis en el Meiji Jingū"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "At the torii",
+                    "ja": "鳥居の前で",
+                    "es": "En el torii"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_125327.jpg",
+                      "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_125327.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_125619.jpg",
+                      "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_125619.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_125812.jpg",
+                  "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_125812.jpg",
+                  "caption": {
+                    "en": "Map of the shrine grounds",
+                    "ja": "明治神宮境内案内図",
+                    "es": "Mapa del santuario"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_130148.jpg",
+                  "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_130148.jpg",
+                  "caption": {
+                    "en": "Shiseikan budō hall",
+                    "ja": "至誠館",
+                    "es": "Salón de budō Shiseikan"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_130520.jpg",
+                  "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_130520.jpg",
+                  "caption": {
+                    "en": "Someone lent me a bow!",
+                    "ja": "弓を貸してもらいました！",
+                    "es": "¡Alguien me prestó su arco!"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_133526.jpg",
+                  "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_133526.jpg",
+                  "caption": {
+                    "en": "At the shrine gate",
+                    "ja": "神門の前で",
+                    "es": "En la puerta del santuario"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_133659.jpg",
+                  "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_133659.jpg",
+                  "caption": {
+                    "en": "Temizuya",
+                    "ja": "手水舎",
+                    "es": "Temizuya (fuente de purificación)"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Meoto Kusu, the husband-and-wife camphor trees",
+                    "ja": "夫婦楠",
+                    "es": "Meoto Kusu, los alcanforeros esposos"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_134357.jpg",
+                      "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_134357.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_134422.jpg",
+                      "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_134422.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_134446.jpg",
+                      "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_134446.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_134515.jpg",
+                      "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_134515.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_134627.jpg",
+                  "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_134627.jpg",
+                  "caption": {
+                    "en": "Main hall",
+                    "ja": "御社殿",
+                    "es": "Salón principal"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/meiji-jingu/2023-02-05/20230205_145818.jpg",
+                  "thumb": "photos/tokyo/meiji-jingu/2023-02-05/thumbs/20230205_145818.jpg",
+                  "caption": {
+                    "en": "Sake barrels",
+                    "ja": "奉献酒樽",
+                    "es": "Barriles de sake"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "harajuku",
+          "name": {
+            "en": "Harajuku & Omotesandō",
+            "ja": "原宿・表参道",
+            "es": "Harajuku y Omotesandō"
+          },
+          "lat": 35.6702,
+          "lon": 139.7027,
+          "visits": [
+            {
+              "date": "2023-02-05",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Takeshita Street",
+                    "ja": "竹下通り",
+                    "es": "Calle Takeshita"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/harajuku/2023-02-05/20230205_151821.jpg",
+                      "thumb": "photos/tokyo/harajuku/2023-02-05/thumbs/20230205_151821.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/harajuku/2023-02-05/20230205_151913.jpg",
+                      "thumb": "photos/tokyo/harajuku/2023-02-05/thumbs/20230205_151913.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/harajuku/2023-02-05/20230205_152024.jpg",
+                      "thumb": "photos/tokyo/harajuku/2023-02-05/thumbs/20230205_152024.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/harajuku/2023-02-05/20230205_160740.jpg",
+                  "thumb": "photos/tokyo/harajuku/2023-02-05/thumbs/20230205_160740.jpg",
+                  "caption": {
+                    "en": "Tōgō Shrine",
+                    "ja": "東郷神社",
+                    "es": "Santuario Tōgō"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Kaleidoscope entrance, Tokyu Plaza Omotesandō",
+                    "ja": "東急プラザ表参道原宿の鏡の入口",
+                    "es": "La entrada de espejos de Tokyu Plaza Omotesandō"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/harajuku/2023-02-05/20230205_162819.jpg",
+                      "thumb": "photos/tokyo/harajuku/2023-02-05/thumbs/20230205_162819.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/harajuku/2023-02-05/20230205_162952.jpg",
+                      "thumb": "photos/tokyo/harajuku/2023-02-05/thumbs/20230205_162952.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/harajuku/2023-02-05/20230205_163333.jpg",
+                      "thumb": "photos/tokyo/harajuku/2023-02-05/thumbs/20230205_163333.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yoyogi-park",
+          "name": {
+            "en": "Yoyogi Park",
+            "ja": "代々木公園",
+            "es": "Parque Yoyogi"
+          },
+          "lat": 35.6717,
+          "lon": 139.6949,
+          "visits": [
+            {
+              "date": "2023-02-05",
+              "photos": [
+                {
+                  "src": "photos/tokyo/yoyogi-park/2023-02-05/20230205_183200.jpg",
+                  "thumb": "photos/tokyo/yoyogi-park/2023-02-05/thumbs/20230205_183200.jpg",
+                  "caption": {
+                    "en": "My favorite bridge",
+                    "ja": "お気に入りの橋",
+                    "es": "Mi puente favorito"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/yoyogi-park/2023-02-05/20230205_184132.jpg",
+                  "thumb": "photos/tokyo/yoyogi-park/2023-02-05/thumbs/20230205_184132.jpg",
+                  "caption": {
+                    "en": "Tree-lined path toward Shibuya",
+                    "ja": "渋谷へ続く並木道",
+                    "es": "Camino arbolado hacia Shibuya"
+                  }
+                }
+              ],
+              "note": {
+                "en": "On the way to Shibuya I crossed the park's bridges. I really like this one.",
+                "ja": "渋谷へ向かう途中、公園の橋を渡りました。この橋がお気に入りです。",
+                "es": "De camino a Shibuya crucé los puentes del parque. Este me gusta mucho."
+              }
+            }
+          ]
+        },
+        {
+          "id": "kanda-myojin",
+          "name": {
+            "en": "Kanda Myōjin",
+            "ja": "神田明神",
+            "es": "Kanda Myōjin"
+          },
+          "lat": 35.702,
+          "lon": 139.7679,
+          "visits": [
+            {
+              "date": "2023-02-19",
+              "photos": [
+                {
+                  "src": "photos/tokyo/kanda-myojin/2023-02-19/20230219_135519.jpg",
+                  "thumb": "photos/tokyo/kanda-myojin/2023-02-19/thumbs/20230219_135519.jpg",
+                  "caption": {
+                    "en": "Kanda Myōjin's gate",
+                    "ja": "神田明神の随神門",
+                    "es": "La puerta del Kanda Myōjin"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hie-shrine",
+          "name": {
+            "en": "Hie Shrine",
+            "ja": "日枝神社",
+            "es": "Santuario Hie"
+          },
+          "lat": 35.6747,
+          "lon": 139.7397,
+          "visits": [
+            {
+              "date": "2023-02-19",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Tunnel of torii",
+                    "ja": "鳥居のトンネル",
+                    "es": "Túnel de torii"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/hie-shrine/2023-02-19/20230219_170146.jpg",
+                      "thumb": "photos/tokyo/hie-shrine/2023-02-19/thumbs/20230219_170146.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/hie-shrine/2023-02-19/20230219_170240.jpg",
+                      "thumb": "photos/tokyo/hie-shrine/2023-02-19/thumbs/20230219_170240.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/hie-shrine/2023-02-19/20230219_170628.jpg",
+                  "thumb": "photos/tokyo/hie-shrine/2023-02-19/thumbs/20230219_170628.jpg",
+                  "caption": {
+                    "en": "Torii stairs",
+                    "ja": "鳥居の階段",
+                    "es": "Escaleras de torii"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/hie-shrine/2023-02-19/20230219_171801.jpg",
+                  "thumb": "photos/tokyo/hie-shrine/2023-02-19/thumbs/20230219_171801.jpg",
+                  "caption": {
+                    "en": "Taking a break on the stairs",
+                    "ja": "階段でひと休み",
+                    "es": "Descanso en las escaleras"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "imperial-palace",
+          "name": {
+            "en": "Imperial Palace",
+            "ja": "皇居",
+            "es": "Palacio Imperial"
+          },
+          "lat": 35.68,
+          "lon": 139.756,
+          "visits": [
+            {
+              "date": "2023-02-19",
+              "photos": [
+                {
+                  "src": "photos/tokyo/imperial-palace/2023-02-19/20230219_175613.jpg",
+                  "thumb": "photos/tokyo/imperial-palace/2023-02-19/thumbs/20230219_175613.jpg",
+                  "caption": {
+                    "en": "Imperial Palace at night",
+                    "ja": "夜の皇居",
+                    "es": "El Palacio Imperial de noche"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tokyo-station",
+          "name": {
+            "en": "Tokyo Station",
+            "ja": "東京駅",
+            "es": "Estación de Tokio"
+          },
+          "lat": 35.6812,
+          "lon": 139.7671,
+          "visits": [
+            {
+              "date": "2023-02-19",
+              "photos": [
+                {
+                  "src": "photos/tokyo/tokyo-station/2023-02-19/20230219_183338.jpg",
+                  "thumb": "photos/tokyo/tokyo-station/2023-02-19/thumbs/20230219_183338.jpg",
+                  "caption": {
+                    "en": "Gyōkō-dōri toward Tokyo Station",
+                    "ja": "行幸通りから東京駅へ",
+                    "es": "Gyōkō-dōri hacia la estación de Tokio"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-station/2023-02-19/20230219_183709.jpg",
+                  "thumb": "photos/tokyo/tokyo-station/2023-02-19/thumbs/20230219_183709.jpg",
+                  "caption": {
+                    "en": "Marunouchi building at night",
+                    "ja": "夜の丸の内駅舎",
+                    "es": "El edificio Marunouchi de noche"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Tokyo Station selfies",
+                    "ja": "東京駅で自撮り",
+                    "es": "Selfies en la estación de Tokio"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/tokyo-station/2023-02-19/20230219_184401.jpg",
+                      "thumb": "photos/tokyo/tokyo-station/2023-02-19/thumbs/20230219_184401.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/tokyo-station/2023-02-19/20230219_184408.jpg",
+                      "thumb": "photos/tokyo/tokyo-station/2023-02-19/thumbs/20230219_184408.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/tokyo-station/2023-02-19/20230219_184629.jpg",
+                  "thumb": "photos/tokyo/tokyo-station/2023-02-19/thumbs/20230219_184629.jpg",
+                  "caption": {
+                    "en": "The red-brick facade",
+                    "ja": "赤レンガの駅舎",
+                    "es": "La fachada de ladrillo rojo"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tokyo-skytree",
+          "name": {
+            "en": "Tokyo Skytree",
+            "ja": "東京スカイツリー",
+            "es": "Tokyo Skytree"
+          },
+          "lat": 35.7101,
+          "lon": 139.8107,
+          "visits": [
+            {
+              "date": "2023-02-25",
+              "photos": [
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2023-02-25/20230225_161044.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2023-02-25/thumbs/20230225_161044.jpg",
+                  "caption": {
+                    "en": "Skytree from the canal bridge",
+                    "ja": "橋から見たスカイツリー",
+                    "es": "El Skytree desde el puente"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2023-02-25/20230225_161720.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2023-02-25/thumbs/20230225_161720.jpg",
+                  "caption": {
+                    "en": "Skytree over the canal",
+                    "ja": "運河とスカイツリー",
+                    "es": "El Skytree sobre el canal"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2023-02-25/20230225_163934.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2023-02-25/thumbs/20230225_163934.jpg",
+                  "caption": {
+                    "en": "Looking straight up",
+                    "ja": "真下から見上げる",
+                    "es": "Mirando hacia arriba"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2023-02-25/20230225_164159.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2023-02-25/thumbs/20230225_164159.jpg",
+                  "caption": {
+                    "en": "Tokyo Solamachi",
+                    "ja": "東京ソラマチ",
+                    "es": "Tokyo Solamachi"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Early cherry blossoms and Skytree",
+                    "ja": "早咲きの桜とスカイツリー",
+                    "es": "Cerezos tempranos y el Skytree"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/tokyo-skytree/2023-02-25/20230225_172844.jpg",
+                      "thumb": "photos/tokyo/tokyo-skytree/2023-02-25/thumbs/20230225_172844.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/tokyo-skytree/2023-02-25/20230225_173159.jpg",
+                      "thumb": "photos/tokyo/tokyo-skytree/2023-02-25/thumbs/20230225_173159.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "odaiba",
+          "name": {
+            "en": "Odaiba",
+            "ja": "お台場",
+            "es": "Odaiba"
+          },
+          "lat": 35.63,
+          "lon": 139.775,
+          "visits": [
+            {
+              "date": "2023-02-25",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Odaiba beach at night",
+                    "ja": "夜のお台場海浜公園",
+                    "es": "La playa de Odaiba de noche"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/odaiba/2023-02-25/20230225_184101.jpg",
+                      "thumb": "photos/tokyo/odaiba/2023-02-25/thumbs/20230225_184101.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/odaiba/2023-02-25/20230225_184525.jpg",
+                      "thumb": "photos/tokyo/odaiba/2023-02-25/thumbs/20230225_184525.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Statue of Liberty replica",
+                    "ja": "自由の女神像",
+                    "es": "Réplica de la Estatua de la Libertad"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/odaiba/2023-02-25/20230225_190714.jpg",
+                      "thumb": "photos/tokyo/odaiba/2023-02-25/thumbs/20230225_190714.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/odaiba/2023-02-25/20230225_190807.jpg",
+                      "thumb": "photos/tokyo/odaiba/2023-02-25/thumbs/20230225_190807.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/odaiba/2023-02-25/20230225_191442.jpg",
+                  "thumb": "photos/tokyo/odaiba/2023-02-25/thumbs/20230225_191442.jpg",
+                  "caption": {
+                    "en": "Lady Liberty and me",
+                    "ja": "自由の女神と",
+                    "es": "La Estatua de la Libertad y yo"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Rainbow Bridge",
+                    "ja": "レインボーブリッジ",
+                    "es": "Rainbow Bridge"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/odaiba/2023-02-25/20230225_192341.jpg",
+                      "thumb": "photos/tokyo/odaiba/2023-02-25/thumbs/20230225_192341.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/odaiba/2023-02-25/20230225_192537.jpg",
+                      "thumb": "photos/tokyo/odaiba/2023-02-25/thumbs/20230225_192537.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Unicorn Gundam",
+                    "ja": "ユニコーンガンダム",
+                    "es": "Unicorn Gundam"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/odaiba/2023-02-25/20230225_193318.jpg",
+                      "thumb": "photos/tokyo/odaiba/2023-02-25/thumbs/20230225_193318.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/odaiba/2023-02-25/20230225_193414.jpg",
+                      "thumb": "photos/tokyo/odaiba/2023-02-25/thumbs/20230225_193414.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/odaiba/2023-02-25/20230225_195009.jpg",
+                  "thumb": "photos/tokyo/odaiba/2023-02-25/thumbs/20230225_195009.jpg",
+                  "caption": {
+                    "en": "TOKYO sign",
+                    "ja": "TOKYOのサイン",
+                    "es": "Letrero TOKYO"
+                  }
+                }
+              ],
+              "note": {
+                "en": "The last stop of my 2023 adventures in Japan.",
+                "ja": "2023年の日本での冒険、最後の場所。",
+                "es": "La última parada de mis aventuras en Japón en 2023."
+              }
+            }
+          ]
+        }
+      ],
       "zoom": "131",
       "areas": [
         "13101",
@@ -50,14 +1522,218 @@
       "note": {},
       "spots": [
         {
+          "id": "yokohama-chinatown",
           "name": {
-            "en": "Yokohama",
-            "ja": "横浜",
-            "es": "Yokohama"
+            "en": "Yokohama Chinatown",
+            "ja": "横浜中華街",
+            "es": "Barrio Chino de Yokohama"
           },
-          "lat": 35.4437,
-          "lon": 139.638,
-          "photos": []
+          "lat": 35.4423,
+          "lon": 139.646,
+          "visits": [
+            {
+              "date": "2023-01-22",
+              "photos": [
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_182240.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_182240.jpg",
+                  "caption": {
+                    "en": "At the Chinatown gate",
+                    "ja": "中華街の門で",
+                    "es": "En el arco del Barrio Chino"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_182734.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_182734.jpg",
+                  "caption": {
+                    "en": "Gate at night",
+                    "ja": "夜の牌楼",
+                    "es": "Arco de noche"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Zenrinmon gate",
+                    "ja": "善隣門",
+                    "es": "Arco Zenrinmon"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_183401.jpg",
+                      "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_183401.jpg"
+                    },
+                    {
+                      "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_183409.jpg",
+                      "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_183409.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_183725.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_183725.jpg",
+                  "caption": {
+                    "en": "Chūkagai Ōdōri",
+                    "ja": "中華街大通り",
+                    "es": "Calle principal del Barrio Chino"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_183834.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_183834.jpg",
+                  "caption": {
+                    "en": "Yokohama souvenir towel",
+                    "ja": "横浜みやげのタオル",
+                    "es": "Toallita de recuerdo de Yokohama"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_183854.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_183854.jpg",
+                  "caption": {
+                    "en": "Lanterns and crowds",
+                    "ja": "提灯と人混み",
+                    "es": "Faroles y multitudes"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_184426.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_184426.jpg",
+                  "caption": {
+                    "en": "Pan-fried xiaolongbao",
+                    "ja": "焼き小籠包",
+                    "es": "Xiaolongbao a la plancha"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_184713.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_184713.jpg",
+                  "caption": {
+                    "en": "First bite",
+                    "ja": "ひと口目",
+                    "es": "Primer bocado"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_184720.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_184720.jpg",
+                  "caption": {
+                    "en": "Hot, hot, hot!",
+                    "ja": "あつっ！",
+                    "es": "¡Quema, quema!"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_190216.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_190216.jpg",
+                  "caption": {
+                    "en": "Panda bun",
+                    "ja": "パンダまん",
+                    "es": "Pan de panda"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_190433.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_190433.jpg",
+                  "caption": {
+                    "en": "Hong Kong Road",
+                    "ja": "香港路",
+                    "es": "Calle Hong Kong"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_191502.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_191502.jpg",
+                  "caption": {
+                    "en": "Kantei-byō temple",
+                    "ja": "関帝廟",
+                    "es": "Templo Kantei-byō"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_191657.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_191657.jpg",
+                  "caption": {
+                    "en": "Waving from Kantei-byō",
+                    "ja": "関帝廟で手を振る",
+                    "es": "Saludando desde el Kantei-byō"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_193101.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_193101.jpg",
+                  "caption": {
+                    "en": "Kantei-byō roof",
+                    "ja": "関帝廟の屋根",
+                    "es": "El techo del Kantei-byō"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_193517.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_193517.jpg",
+                  "caption": {
+                    "en": "Incense burner",
+                    "ja": "香炉",
+                    "es": "Quemador de incienso"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_193539.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_193539.jpg",
+                  "caption": {
+                    "en": "Inside the main hall",
+                    "ja": "本殿の中",
+                    "es": "Dentro del salón principal"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_193813.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_193813.jpg",
+                  "caption": {
+                    "en": "Guardian lion",
+                    "ja": "守護の獅子",
+                    "es": "León guardián"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_201950.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_201950.jpg",
+                  "caption": {
+                    "en": "Strawberry candy and a gate",
+                    "ja": "いちご飴と門",
+                    "es": "Fresas caramelizadas y un arco"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_202214.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_202214.jpg",
+                  "caption": {
+                    "en": "With a hanfu cosplayer",
+                    "ja": "漢服の方と",
+                    "es": "Con una chica en hanfu"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_204706.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_204706.jpg",
+                  "caption": {
+                    "en": "Giant fried squid",
+                    "ja": "長炸大魷魚",
+                    "es": "Calamar frito gigante"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2023-01-22/20230122_204737.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2023-01-22/thumbs/20230122_204737.jpg",
+                  "caption": {
+                    "en": "Bigger than my face",
+                    "ja": "顔より大きい",
+                    "es": "Más grande que mi cara"
+                  }
+                }
+              ]
+            }
+          ]
         },
         {
           "name": {
@@ -87,14 +1763,255 @@
       "note": {},
       "spots": [
         {
+          "id": "tsukuba",
           "name": {
             "en": "Tsukuba",
             "ja": "つくば",
             "es": "Tsukuba"
           },
-          "lat": 36.0835,
-          "lon": 140.0764,
-          "photos": []
+          "lat": 36.0826,
+          "lon": 140.1115,
+          "visits": [
+            {
+              "date": "2023-01-12",
+              "photos": [
+                {
+                  "src": "photos/ibaraki/tsukuba/2023-01-12/20230112_205258.jpg",
+                  "thumb": "photos/ibaraki/tsukuba/2023-01-12/thumbs/20230112_205258.jpg",
+                  "caption": {
+                    "en": "Dōhō Park at night",
+                    "ja": "夜の洞峰公園",
+                    "es": "Parque Dōhō de noche"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2023-01-13",
+              "photos": [
+                {
+                  "src": "photos/ibaraki/tsukuba/2023-01-13/20230113_203738.jpg",
+                  "thumb": "photos/ibaraki/tsukuba/2023-01-13/thumbs/20230113_203738.jpg",
+                  "caption": {
+                    "en": "Central Park pond and the Expo Center rocket",
+                    "ja": "中央公園の池とエキスポセンターのロケット",
+                    "es": "Laguna del Parque Central y el cohete del Expo Center"
+                  }
+                },
+                {
+                  "src": "photos/ibaraki/tsukuba/2023-01-13/20230113_204826.jpg",
+                  "thumb": "photos/ibaraki/tsukuba/2023-01-13/thumbs/20230113_204826.jpg",
+                  "caption": {
+                    "en": "Tsukuba Expo Center",
+                    "ja": "つくばエキスポセンター",
+                    "es": "Tsukuba Expo Center"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mount-tsukuba",
+          "name": {
+            "en": "Mount Tsukuba",
+            "ja": "筑波山",
+            "es": "Monte Tsukuba"
+          },
+          "lat": 36.2253,
+          "lon": 140.1067,
+          "visits": [
+            {
+              "date": "2023-02-09",
+              "photos": [
+                {
+                  "src": "photos/ibaraki/mount-tsukuba/2023-02-09/20230209_130957.jpg",
+                  "thumb": "photos/ibaraki/mount-tsukuba/2023-02-09/thumbs/20230209_130957.jpg",
+                  "caption": {
+                    "en": "Cable car Miyawaki Station",
+                    "ja": "ケーブルカー宮脇駅",
+                    "es": "Estación del funicular Miyawaki"
+                  }
+                },
+                {
+                  "src": "photos/ibaraki/mount-tsukuba/2023-02-09/20230209_132123.jpg",
+                  "thumb": "photos/ibaraki/mount-tsukuba/2023-02-09/thumbs/20230209_132123.jpg",
+                  "caption": {
+                    "en": "Riding up the cable car",
+                    "ja": "ケーブルカーで山頂へ",
+                    "es": "Subiendo en el funicular"
+                  }
+                },
+                {
+                  "src": "photos/ibaraki/mount-tsukuba/2023-02-09/20230209_134929.jpg",
+                  "thumb": "photos/ibaraki/mount-tsukuba/2023-02-09/thumbs/20230209_134929.jpg",
+                  "caption": {
+                    "en": "Mt. Tsukuba, 877 m",
+                    "ja": "筑波山 877m",
+                    "es": "Monte Tsukuba, 877 m"
+                  }
+                },
+                {
+                  "src": "photos/ibaraki/mount-tsukuba/2023-02-09/20230209_135048.jpg",
+                  "thumb": "photos/ibaraki/mount-tsukuba/2023-02-09/thumbs/20230209_135048.jpg",
+                  "caption": {
+                    "en": "View from the summit",
+                    "ja": "山頂からの眺め",
+                    "es": "Vista desde la cima"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "On top of the lookout",
+                    "ja": "展望台の上で",
+                    "es": "En lo alto del mirador"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/ibaraki/mount-tsukuba/2023-02-09/20230209_135119.jpg",
+                      "thumb": "photos/ibaraki/mount-tsukuba/2023-02-09/thumbs/20230209_135119.jpg"
+                    },
+                    {
+                      "src": "photos/ibaraki/mount-tsukuba/2023-02-09/20230209_135124.jpg",
+                      "thumb": "photos/ibaraki/mount-tsukuba/2023-02-09/thumbs/20230209_135124.jpg"
+                    },
+                    {
+                      "src": "photos/ibaraki/mount-tsukuba/2023-02-09/20230209_135135.jpg",
+                      "thumb": "photos/ibaraki/mount-tsukuba/2023-02-09/thumbs/20230209_135135.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/ibaraki/mount-tsukuba/2023-02-09/20230209_135529.jpg",
+                  "thumb": "photos/ibaraki/mount-tsukuba/2023-02-09/thumbs/20230209_135529.jpg",
+                  "caption": {
+                    "en": "With the summit sign",
+                    "ja": "山頂の看板と",
+                    "es": "Con el letrero de la cima"
+                  }
+                },
+                {
+                  "src": "photos/ibaraki/mount-tsukuba/2023-02-09/20230209_143934.jpg",
+                  "thumb": "photos/ibaraki/mount-tsukuba/2023-02-09/thumbs/20230209_143934.jpg",
+                  "caption": {
+                    "en": "Tsukubasan Shrine",
+                    "ja": "筑波山神社",
+                    "es": "Santuario Tsukubasan"
+                  }
+                },
+                {
+                  "src": "photos/ibaraki/mount-tsukuba/2023-02-09/20230209_wa0020.jpg",
+                  "thumb": "photos/ibaraki/mount-tsukuba/2023-02-09/thumbs/20230209_wa0020.jpg",
+                  "caption": {
+                    "en": "Shrine gate",
+                    "ja": "随神門",
+                    "es": "Puerta del santuario"
+                  }
+                },
+                {
+                  "src": "photos/ibaraki/mount-tsukuba/2023-02-09/20230209_wa0022.jpg",
+                  "thumb": "photos/ibaraki/mount-tsukuba/2023-02-09/thumbs/20230209_wa0022.jpg",
+                  "caption": {
+                    "en": "Resting at a small shrine",
+                    "ja": "小さな社でひと休み",
+                    "es": "Descansando en un pequeño santuario"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "matsumi-park",
+          "name": {
+            "en": "Matsumi Park",
+            "ja": "松見公園",
+            "es": "Parque Matsumi"
+          },
+          "lat": 36.104,
+          "lon": 140.1037,
+          "visits": [
+            {
+              "date": "2023-02-18",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Feeding the ducks",
+                    "ja": "カモにえさやり",
+                    "es": "Dando de comer a los patos"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/ibaraki/matsumi-park/2023-02-18/20230218_162540.jpg",
+                      "thumb": "photos/ibaraki/matsumi-park/2023-02-18/thumbs/20230218_162540.jpg"
+                    },
+                    {
+                      "src": "photos/ibaraki/matsumi-park/2023-02-18/20230218_162632.jpg",
+                      "thumb": "photos/ibaraki/matsumi-park/2023-02-18/thumbs/20230218_162632.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/ibaraki/matsumi-park/2023-02-18/20230218_165216.jpg",
+                  "thumb": "photos/ibaraki/matsumi-park/2023-02-18/thumbs/20230218_165216.jpg",
+                  "caption": {
+                    "en": "Plum blossoms by the pond",
+                    "ja": "池のほとりの梅",
+                    "es": "Flores de ciruelo junto al estanque"
+                  }
+                },
+                {
+                  "src": "photos/ibaraki/matsumi-park/2023-02-18/20230218_165623.jpg",
+                  "thumb": "photos/ibaraki/matsumi-park/2023-02-18/thumbs/20230218_165623.jpg",
+                  "caption": {
+                    "en": "Plum tree over the water",
+                    "ja": "水辺の梅の木",
+                    "es": "Ciruelo sobre el agua"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Plum blossom selfies",
+                    "ja": "梅と自撮り",
+                    "es": "Selfies con flores de ciruelo"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/ibaraki/matsumi-park/2023-02-18/20230218_165815.jpg",
+                      "thumb": "photos/ibaraki/matsumi-park/2023-02-18/thumbs/20230218_165815.jpg"
+                    },
+                    {
+                      "src": "photos/ibaraki/matsumi-park/2023-02-18/20230218_165928.jpg",
+                      "thumb": "photos/ibaraki/matsumi-park/2023-02-18/thumbs/20230218_165928.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/ibaraki/matsumi-park/2023-02-18/20230218_170235.jpg",
+                  "thumb": "photos/ibaraki/matsumi-park/2023-02-18/thumbs/20230218_170235.jpg",
+                  "caption": {
+                    "en": "The observation tower",
+                    "ja": "展望塔",
+                    "es": "La torre mirador"
+                  }
+                },
+                {
+                  "src": "photos/ibaraki/matsumi-park/2023-02-18/20230218_170838.jpg",
+                  "thumb": "photos/ibaraki/matsumi-park/2023-02-18/thumbs/20230218_170838.jpg",
+                  "caption": {
+                    "en": "Sunset over the pond",
+                    "ja": "池の夕焼け",
+                    "es": "Atardecer sobre el estanque"
+                  }
+                }
+              ],
+              "note": {
+                "en": "I came to feed the ducks, and the plum trees were in bloom.",
+                "ja": "カモにえさをあげに来たら、梅が咲いていました。",
+                "es": "Vine a darles de comer a los patos y los ciruelos estaban en flor."
+              }
+            }
+          ]
         }
       ]
     },
@@ -104,31 +2021,166 @@
       "note": {},
       "spots": [
         {
+          "id": "arashiyama",
           "name": {
-            "en": "Kyoto",
-            "ja": "京都",
-            "es": "Kioto"
+            "en": "Arashiyama",
+            "ja": "嵐山",
+            "es": "Arashiyama"
           },
-          "lat": 35.0116,
-          "lon": 135.7681,
-          "photos": [
+          "lat": 35.017,
+          "lon": 135.6713,
+          "visits": [
             {
-              "src": "photos/kyoto/fushimi-inari.jpg",
-              "caption": {
-                "en": "Fushimi Inari Taisha",
-                "ja": "伏見稲荷大社",
-                "es": "Santuario Fushimi Inari"
+              "date": "2023-02-03",
+              "note": {
+                "en": "Arrived late and escaped to Arashiyama. Everything was dark and there wasn't a soul around. Really scary!",
+                "ja": "夜遅くに着いて、嵐山へ抜け出しました。真っ暗で誰もいなくて、本当に怖かった！",
+                "es": "Llegamos tarde y me escapé a Arashiyama. Todo estaba oscuro y no había ni un alma. ¡Daba miedo de verdad!"
               },
-              "credit": {
-                "author": "Sergiy Galyonkin",
-                "license": "CC BY-SA 2.0",
-                "url": "https://commons.wikimedia.org/wiki/File:A_temple_in_Kyoto_(52407317930).jpg"
+              "photos": [
+                {
+                  "src": "photos/kyoto/arashiyama/2023-02-03/20230203_204854.jpg",
+                  "thumb": "photos/kyoto/arashiyama/2023-02-03/thumbs/20230203_204854.jpg",
+                  "caption": {
+                    "en": "Empty streets of Saga",
+                    "ja": "誰もいない嵯峨の道",
+                    "es": "Calles vacías de Saga"
+                  }
+                },
+                {
+                  "src": "photos/kyoto/arashiyama/2023-02-03/20230203_205643.jpg",
+                  "thumb": "photos/kyoto/arashiyama/2023-02-03/thumbs/20230203_205643.jpg",
+                  "caption": {
+                    "en": "A lonely lit path",
+                    "ja": "灯りだけの小道",
+                    "es": "Un camino iluminado y solitario"
+                  }
+                },
+                {
+                  "src": "photos/kyoto/arashiyama/2023-02-03/20230203_212005.jpg",
+                  "thumb": "photos/kyoto/arashiyama/2023-02-03/thumbs/20230203_212005.jpg",
+                  "caption": {
+                    "en": "Bamboo grove at night",
+                    "ja": "夜の竹林",
+                    "es": "El bosque de bambú de noche"
+                  }
+                },
+                {
+                  "src": "photos/kyoto/arashiyama/2023-02-03/20230203_213153.jpg",
+                  "thumb": "photos/kyoto/arashiyama/2023-02-03/thumbs/20230203_213153.jpg",
+                  "caption": {
+                    "en": "Saga Torokko Station",
+                    "ja": "トロッコ嵯峨駅",
+                    "es": "Estación Saga Torokko"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kyoto-station",
+          "name": {
+            "en": "Kyoto Station",
+            "ja": "京都駅",
+            "es": "Estación de Kioto"
+          },
+          "lat": 34.9858,
+          "lon": 135.7588,
+          "visits": [
+            {
+              "date": "2023-02-03",
+              "note": {
+                "en": "Found on my way back to the hotel.",
+                "ja": "ホテルへの帰り道で見つけました。",
+                "es": "Lo encontré de regreso al hotel."
               },
-              "test": true
+              "photos": [
+                {
+                  "src": "photos/kyoto/kyoto-station/2023-02-03/20230203_215816.jpg",
+                  "thumb": "photos/kyoto/kyoto-station/2023-02-03/thumbs/20230203_215816.jpg",
+                  "caption": {
+                    "en": "Penguins at Kyoto Station",
+                    "ja": "京都駅のペンギン",
+                    "es": "Pingüinos en la estación de Kioto"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Kyoto Station",
+                    "ja": "京都駅",
+                    "es": "Estación de Kioto"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/kyoto/kyoto-station/2023-02-03/20230203_220041.jpg",
+                      "thumb": "photos/kyoto/kyoto-station/2023-02-03/thumbs/20230203_220041.jpg"
+                    },
+                    {
+                      "src": "photos/kyoto/kyoto-station/2023-02-03/20230203_220204.jpg",
+                      "thumb": "photos/kyoto/kyoto-station/2023-02-03/thumbs/20230203_220204.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/kyoto/kyoto-station/2023-02-03/20230203_220339.jpg",
+                  "thumb": "photos/kyoto/kyoto-station/2023-02-03/thumbs/20230203_220339.jpg",
+                  "caption": {
+                    "en": "Kyoto Tower",
+                    "ja": "京都タワー",
+                    "es": "Torre de Kioto"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kinkakuji",
+          "name": {
+            "en": "Kinkaku-ji",
+            "ja": "金閣寺",
+            "es": "Kinkaku-ji"
+          },
+          "lat": 35.0394,
+          "lon": 135.7292,
+          "visits": [
+            {
+              "date": "2023-02-04",
+              "photos": [
+                {
+                  "src": "photos/kyoto/kinkakuji/2023-02-04/20230204_090755.jpg",
+                  "thumb": "photos/kyoto/kinkakuji/2023-02-04/thumbs/20230204_090755.jpg",
+                  "caption": {
+                    "en": "At Kinkaku-ji",
+                    "ja": "金閣寺にて",
+                    "es": "En el Kinkaku-ji"
+                  }
+                },
+                {
+                  "src": "photos/kyoto/kinkakuji/2023-02-04/20230204_091446.jpg",
+                  "thumb": "photos/kyoto/kinkakuji/2023-02-04/thumbs/20230204_091446.jpg",
+                  "caption": {
+                    "en": "The Golden Pavilion and its reflection",
+                    "ja": "金閣と鏡湖池",
+                    "es": "El Pabellón Dorado y su reflejo"
+                  }
+                },
+                {
+                  "src": "photos/kyoto/kinkakuji/2023-02-04/20230204_091619.jpg",
+                  "thumb": "photos/kyoto/kinkakuji/2023-02-04/thumbs/20230204_091619.jpg",
+                  "caption": {
+                    "en": "Kinkaku-ji selfie",
+                    "ja": "金閣寺で自撮り",
+                    "es": "Selfie en el Kinkaku-ji"
+                  }
+                }
+              ]
             }
           ]
         }
-      ]
+      ],
+      "cover": "photos/kyoto/kinkakuji/2023-02-04/20230204_091446.jpg"
     },
     {
       "prefecture": "osaka",
@@ -200,16 +2252,86 @@
       "note": {},
       "spots": [
         {
+          "id": "kobe",
+          "name": {
+            "en": "Shin-Kobe",
+            "ja": "新神戸",
+            "es": "Shin-Kobe"
+          },
+          "lat": 34.7066,
+          "lon": 135.1959,
+          "visits": [
+            {
+              "date": "2023-02-03",
+              "photos": [
+                {
+                  "src": "photos/hyogo/kobe/2023-02-03/20230203_142247.jpg",
+                  "thumb": "photos/hyogo/kobe/2023-02-03/thumbs/20230203_142247.jpg",
+                  "caption": {
+                    "en": "Shin-Kobe Station: changing to the bus",
+                    "ja": "新神戸駅でバスに乗り換え",
+                    "es": "Estación Shin-Kobe: cambio al bus"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "awaji",
           "name": {
             "en": "Awaji Island",
             "ja": "淡路島",
             "es": "Isla de Awaji"
           },
-          "lat": 34.36,
-          "lon": 134.85,
-          "photos": []
+          "lat": 34.5876,
+          "lon": 134.9629,
+          "visits": [
+            {
+              "date": "2023-02-03",
+              "photos": [
+                {
+                  "src": "photos/hyogo/awaji/2023-02-03/20230203_155811.jpg",
+                  "thumb": "photos/hyogo/awaji/2023-02-03/thumbs/20230203_155811.jpg",
+                  "caption": {
+                    "en": "Standing over the Nojima Fault (1995 earthquake)",
+                    "ja": "野島断層の上で（1995年の地震）",
+                    "es": "Sobre la falla de Nojima (terremoto de 1995)"
+                  }
+                },
+                {
+                  "src": "photos/hyogo/awaji/2023-02-03/20230203_163824.jpg",
+                  "thumb": "photos/hyogo/awaji/2023-02-03/thumbs/20230203_163824.jpg",
+                  "caption": {
+                    "en": "Heart monument",
+                    "ja": "ハートのモニュメント",
+                    "es": "Monumento del corazón"
+                  }
+                },
+                {
+                  "src": "photos/hyogo/awaji/2023-02-03/20230203_170015.jpg",
+                  "thumb": "photos/hyogo/awaji/2023-02-03/thumbs/20230203_170015.jpg",
+                  "caption": {
+                    "en": "Ferris wheel at Awaji Service Area",
+                    "ja": "淡路SAの観覧車",
+                    "es": "Noria del área de servicio de Awaji"
+                  }
+                },
+                {
+                  "src": "photos/hyogo/awaji/2023-02-03/20230203_170451.jpg",
+                  "thumb": "photos/hyogo/awaji/2023-02-03/thumbs/20230203_170451.jpg",
+                  "caption": {
+                    "en": "Crossing the Akashi Kaikyō Bridge",
+                    "ja": "明石海峡大橋を渡る",
+                    "es": "Cruzando el puente Akashi Kaikyō"
+                  }
+                }
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "cover": "photos/hyogo/awaji/2023-02-03/20230203_155811.jpg"
     },
     {
       "prefecture": "shimane",
@@ -261,16 +2383,227 @@
       "note": {},
       "spots": [
         {
+          "id": "hiroshima-station",
           "name": {
-            "en": "Hiroshima",
-            "ja": "広島",
-            "es": "Hiroshima"
+            "en": "Hiroshima Station",
+            "ja": "広島駅",
+            "es": "Estación de Hiroshima"
           },
-          "lat": 34.3853,
-          "lon": 132.4553,
-          "photos": []
+          "lat": 34.3978,
+          "lon": 132.4753,
+          "visits": [
+            {
+              "date": "2023-02-02",
+              "photos": [
+                {
+                  "src": "photos/hiroshima/hiroshima-station/2023-02-02/20230202_131318.jpg",
+                  "thumb": "photos/hiroshima/hiroshima-station/2023-02-02/thumbs/20230202_131318.jpg",
+                  "caption": {
+                    "en": "Our Shinkansen (N700A)",
+                    "ja": "乗った新幹線（N700A）",
+                    "es": "Nuestro Shinkansen (N700A)"
+                  }
+                },
+                {
+                  "src": "photos/hiroshima/hiroshima-station/2023-02-02/20230202_173203.jpg",
+                  "thumb": "photos/hiroshima/hiroshima-station/2023-02-02/thumbs/20230202_173203.jpg",
+                  "caption": {
+                    "en": "Arrived at Hiroshima Station",
+                    "ja": "広島駅に到着",
+                    "es": "Llegada a la estación de Hiroshima"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "peace-park",
+          "name": {
+            "en": "Peace Memorial Park",
+            "ja": "平和記念公園",
+            "es": "Parque Conmemorativo de la Paz"
+          },
+          "lat": 34.3955,
+          "lon": 132.4536,
+          "visits": [
+            {
+              "date": "2023-02-02",
+              "note": {
+                "en": "We arrived late, so everyone rested, but I went out for a night walk to the park.",
+                "ja": "到着が遅かったのでみんなは休憩。でも私は夜の公園へ散歩に出かけました。",
+                "es": "Llegamos tarde y todos descansaron, pero yo salí a caminar de noche hasta el parque."
+              },
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Night walk by the river",
+                    "ja": "夜の川沿いを散歩",
+                    "es": "Paseo nocturno junto al río"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/hiroshima/peace-park/2023-02-02/20230202_192752.jpg",
+                      "thumb": "photos/hiroshima/peace-park/2023-02-02/thumbs/20230202_192752.jpg"
+                    },
+                    {
+                      "src": "photos/hiroshima/peace-park/2023-02-02/20230202_192956.jpg",
+                      "thumb": "photos/hiroshima/peace-park/2023-02-02/thumbs/20230202_192956.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/hiroshima/peace-park/2023-02-02/20230202_201513.jpg",
+                  "thumb": "photos/hiroshima/peace-park/2023-02-02/thumbs/20230202_201513.jpg",
+                  "caption": {
+                    "en": "A-Bomb Dome at night",
+                    "ja": "夜の原爆ドーム",
+                    "es": "La Cúpula de la Bomba Atómica de noche"
+                  }
+                },
+                {
+                  "src": "photos/hiroshima/peace-park/2023-02-02/20230202_202613.jpg",
+                  "thumb": "photos/hiroshima/peace-park/2023-02-02/thumbs/20230202_202613.jpg",
+                  "caption": {
+                    "en": "Children's Peace Monument at night",
+                    "ja": "夜の原爆の子の像",
+                    "es": "Monumento a la Paz de los Niños de noche"
+                  }
+                },
+                {
+                  "src": "photos/hiroshima/peace-park/2023-02-02/20230202_202928.jpg",
+                  "thumb": "photos/hiroshima/peace-park/2023-02-02/thumbs/20230202_202928.jpg",
+                  "caption": {
+                    "en": "The Dome reflected in the river",
+                    "ja": "川に映る原爆ドーム",
+                    "es": "La Cúpula reflejada en el río"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2023-02-03",
+              "photos": [
+                {
+                  "src": "photos/hiroshima/peace-park/2023-02-03/20230203_085305.jpg",
+                  "thumb": "photos/hiroshima/peace-park/2023-02-03/thumbs/20230203_085305.jpg",
+                  "caption": {
+                    "en": "A-Bomb Dome in the morning",
+                    "ja": "朝の原爆ドーム",
+                    "es": "La Cúpula por la mañana"
+                  }
+                },
+                {
+                  "src": "photos/hiroshima/peace-park/2023-02-03/20230203_wa0005.jpg",
+                  "thumb": "photos/hiroshima/peace-park/2023-02-03/thumbs/20230203_wa0005.jpg",
+                  "caption": {
+                    "en": "At the A-Bomb Dome",
+                    "ja": "原爆ドームの前で",
+                    "es": "Frente a la Cúpula"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Children's Peace Monument",
+                    "ja": "原爆の子の像",
+                    "es": "Monumento a la Paz de los Niños"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/hiroshima/peace-park/2023-02-03/20230203_090345.jpg",
+                      "thumb": "photos/hiroshima/peace-park/2023-02-03/thumbs/20230203_090345.jpg"
+                    },
+                    {
+                      "src": "photos/hiroshima/peace-park/2023-02-03/20230203_090626.jpg",
+                      "thumb": "photos/hiroshima/peace-park/2023-02-03/thumbs/20230203_090626.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/hiroshima/peace-park/2023-02-03/20230203_090856.jpg",
+                  "thumb": "photos/hiroshima/peace-park/2023-02-03/thumbs/20230203_090856.jpg",
+                  "caption": {
+                    "en": "Looking toward the Peace Memorial Museum",
+                    "ja": "平和記念資料館を望む",
+                    "es": "Mirando hacia el Museo de la Paz"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Cenotaph for the A-bomb Victims",
+                    "ja": "原爆死没者慰霊碑",
+                    "es": "Cenotafio de las víctimas de la bomba"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/hiroshima/peace-park/2023-02-03/20230203_091658.jpg",
+                      "thumb": "photos/hiroshima/peace-park/2023-02-03/thumbs/20230203_091658.jpg"
+                    },
+                    {
+                      "src": "photos/hiroshima/peace-park/2023-02-03/20230203_091751.jpg",
+                      "thumb": "photos/hiroshima/peace-park/2023-02-03/thumbs/20230203_091751.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "peace-museum",
+          "name": {
+            "en": "Peace Memorial Museum",
+            "ja": "広島平和記念資料館",
+            "es": "Museo Conmemorativo de la Paz"
+          },
+          "lat": 34.3916,
+          "lon": 132.4519,
+          "visits": [
+            {
+              "date": "2023-02-03",
+              "photos": [
+                {
+                  "src": "photos/hiroshima/peace-museum/2023-02-03/20230203_113152.jpg",
+                  "thumb": "photos/hiroshima/peace-museum/2023-02-03/thumbs/20230203_113152.jpg",
+                  "caption": {
+                    "en": "Shin's tricycle and helmet",
+                    "ja": "伸ちゃんの三輪車と鉄かぶと",
+                    "es": "El triciclo y el casco de Shin"
+                  }
+                },
+                {
+                  "src": "photos/hiroshima/peace-museum/2023-02-03/20230203_114718.jpg",
+                  "thumb": "photos/hiroshima/peace-museum/2023-02-03/thumbs/20230203_114718.jpg",
+                  "caption": {
+                    "en": "Paper cranes folded by Sadako",
+                    "ja": "禎子さんが折った鶴",
+                    "es": "Grullas de papel dobladas por Sadako"
+                  }
+                },
+                {
+                  "src": "photos/hiroshima/peace-museum/2023-02-03/20230203_115227.jpg",
+                  "thumb": "photos/hiroshima/peace-museum/2023-02-03/thumbs/20230203_115227.jpg",
+                  "caption": {
+                    "en": "Models of Little Boy and Fat Man",
+                    "ja": "リトルボーイとファットマンの模型",
+                    "es": "Maquetas de Little Boy y Fat Man"
+                  }
+                },
+                {
+                  "src": "photos/hiroshima/peace-museum/2023-02-03/20230203_115314.jpg",
+                  "thumb": "photos/hiroshima/peace-museum/2023-02-03/thumbs/20230203_115314.jpg",
+                  "caption": {
+                    "en": "The Dome before and after",
+                    "ja": "被爆前と後のドーム",
+                    "es": "La Cúpula antes y después"
+                  }
+                }
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "cover": "photos/hiroshima/peace-park/2023-02-03/20230203_085305.jpg"
     }
   ]
 }

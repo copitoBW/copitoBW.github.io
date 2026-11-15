@@ -5,3 +5,7 @@ CLAUDE.local.md
 
 # Local reference material (third-party maps, PDFs): keep on this PC only
 reference/
+
+# Raw photos straight from the phone (full size, with GPS): never commit.
+# The photo tool copies cleaned, resized versions into photos/.
+inbox/

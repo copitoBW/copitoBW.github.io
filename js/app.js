@@ -37,6 +37,31 @@
     return typeof v === "function" ? v(...args) : v;
   };
   const loc = (obj) => (obj && (obj[lang] || obj.en)) || "";
+  const LOCALES = { en: "en-GB", ja: "ja-JP", es: "es-PE" };
+  const fmtDate = (iso) => {
+    const [y, m, d] = iso.split("-").map(Number);
+    return new Intl.DateTimeFormat(LOCALES[lang], { year: "numeric", month: "long", day: "numeric" }).format(new Date(y, m - 1, d));
+  };
+
+  // A spot can hold photos directly (older entries) and/or a list of dated visits.
+  // An entry is either one shot ({src, thumb, caption}) or a stack of shots of the
+  // same moment ({caption, shots: [{src, thumb}, ...]}), shown as a single card.
+  // Every entry gets its visit date attached so the lightbox can show it.
+  const spotVisits = (s) => (s.visits || []).slice().sort((a, b) => a.date.localeCompare(b.date));
+  const spotItems = (s) => [
+    ...(s.photos || []),
+    ...spotVisits(s).flatMap((v) => (v.photos || []).map((p) => ({ ...p, date: v.date })))
+  ];
+  const shotsOf = (it) => (it.shots && it.shots.length
+    ? it.shots.map((sh, i) => ({ ...it, ...sh, shots: undefined, shot: i + 1, of: it.shots.length }))
+    : [it]);
+  const spotPhotos = (s) => spotItems(s).flatMap(shotsOf);
+  // Prefecture visit dates: written by hand, or collected from the spots' visits.
+  const placeDates = (place) => {
+    if (place.visits && place.visits.length) return place.visits;
+    const set = new Set((place.spots || []).flatMap((s) => (s.visits || []).map((v) => v.date)));
+    return [...set].sort();
+  };
 
   // ---------- prefecture lookup ----------
   const P = {};       // slug -> info
@@ -229,7 +254,7 @@
     nexts.forEach((s) => {
       const [x, y] = proj([s.lon, s.lat]);
       const g = svgEl("g", { class: "pin next-pin" });
-      g.append(svgEl("circle", { cx: x, cy: y, r: 11 }));
+      g.append(svgEl("circle", { cx: x, cy: y, r: 11, "data-name": `${loc(s.name)}?` }));
       const right = x < W - 200;
       const label = svgEl("text", { x: right ? x + 17 : x - 17, y: y + 10, "text-anchor": right ? "start" : "end" });
       label.textContent = `${loc(s.name)}?`;
@@ -240,7 +265,7 @@
     spots.forEach((s, i) => {
       const [x, y] = proj([s.lon, s.lat]);
       const g = svgEl("g", { class: "pin", tabindex: "0", role: "link", "aria-label": loc(s.name) });
-      g.append(svgEl("circle", { cx: x, cy: y, r: 11 }));
+      g.append(svgEl("circle", { cx: x, cy: y, r: 11, "data-name": loc(s.name) }));
       const right = x < W - 200;
       const label = svgEl("text", { x: right ? x + 17 : x - 17, y: y + 10, "text-anchor": right ? "start" : "end" });
       label.textContent = loc(s.name);
@@ -250,7 +275,47 @@
       g.addEventListener("keydown", (e) => { if (e.key === "Enter") jump(); });
       svg.append(g);
     });
+    // Labels can only be measured once the map is on the page (and again once the font loads).
+    requestAnimationFrame(() => placeLabels(svg, W, H));
+    if (document.fonts) document.fonts.ready.then(() => placeLabels(svg, W, H));
     return svg;
+  }
+
+  // Keep pin labels from piling up where places are close together (central Tokyo):
+  // each label tries right, left, above, then below its pin and takes the first free
+  // spot. If none is free it hides; the name still shows on hover/tap via the map tooltip.
+  // Visited places are placed first, "next trip?" pins after.
+  function placeLabels(svg, W, H) {
+    if (!svg.isConnected) return;
+    const pins = [...svg.querySelectorAll(".pin:not(.next-pin)"), ...svg.querySelectorAll(".pin.next-pin")];
+    const dots = pins.map((g) => {
+      const c = g.querySelector("circle");
+      return { x: +c.getAttribute("cx"), y: +c.getAttribute("cy"), r: 13 };
+    });
+    const placed = [];
+    const clash = (a, b) => a.x < b.x + b.w && b.x < a.x + a.w && a.y < b.y + b.h && b.y < a.y + a.h;
+    pins.forEach((g, i) => {
+      const text = g.querySelector("text");
+      if (!text) return;
+      text.removeAttribute("display");
+      const bb = text.getBBox();
+      const w = bb.width + 4, h = bb.height;
+      const { x, y } = dots[i];
+      const tries = [[x + 17, y + 10, "start"], [x - 17, y + 10, "end"], [x, y - 18, "middle"], [x, y + 40, "middle"]];
+      for (const [tx, ty, anchor] of tries) {
+        const left = anchor === "start" ? tx : anchor === "end" ? tx - w : tx - w / 2;
+        const box = { x: left, y: ty - h * 0.78, w, h };
+        const inside = box.x >= 0 && box.y >= 0 && box.x + w <= W && box.y + h <= H;
+        const free = !placed.some((p) => clash(box, p)) &&
+          !dots.some((d, j) => j !== i && clash(box, { x: d.x - d.r, y: d.y - d.r, w: 2 * d.r, h: 2 * d.r }));
+        if (inside && free) {
+          text.setAttribute("x", tx); text.setAttribute("y", ty); text.setAttribute("text-anchor", anchor);
+          placed.push(box);
+          return;
+        }
+      }
+      text.setAttribute("display", "none");
+    });
   }
 
   function muniName(f) {
@@ -268,9 +333,12 @@
 
   // ---------- views ----------
   function polaroidLink(info, place) {
-    const first = (place.spots || []).flatMap((s) => s.photos || [])[0];
+    // Cover: the photo named in "cover", else the first real (non-test) photo.
+    const photos = (place.spots || []).flatMap(spotPhotos);
+    const first = (place.cover && photos.find((p) => p.src === place.cover)) ||
+      photos.find((p) => !p.test) || photos[0];
     const pic = h("div", { class: "pic" });
-    if (first) pic.append(h("img", { src: first.src, alt: "", loading: "lazy" }));
+    if (first) pic.append(h("img", { src: first.thumb || first.src, alt: "", loading: "lazy" }));
     else pic.append(postcard(info.slug));
     const n = (place.spots || []).length;
     return h("a", { class: "polaroid", href: `#/japan/${info.slug}` },
@@ -372,28 +440,47 @@
     attachTip(mapCard, svg);
 
     const noteText = loc(place.note);
-    const visits = place.visits || [];
+    const visits = placeDates(place);
     const note = h("div", { class: "note" },
       h("h2", {}, `✎ ${t("notes")}`),
-      visits.length ? h("p", {}, h("strong", {}, `${t("visits")}: `), visits.join(" · ")) : null,
+      visits.length ? h("p", {}, h("strong", {}, `${t("visits")}: `), visits.map((d) => (/^\d{4}-\d{2}-\d{2}$/.test(d) ? fmtDate(d) : d)).join(" · ")) : null,
       noteText ? noteText.split(/\n+/).map((para) => h("p", {}, para)) : h("p", { class: "muted" }, t("noNote")));
 
     const spots = place.spots || [];
     const spotSections = spots.length
       ? spots.map((s, i) => {
-          const photos = s.photos || [];
-          const items = photos.length
-            ? photos.map((ph) => h("button", { class: "polaroid", type: "button", onclick: () => openLightbox(ph) },
-                h("div", { class: "pic" }, h("img", { src: ph.src, alt: loc(ph.caption) || loc(s.name), loading: "lazy" })),
-                ph.caption ? h("div", { class: "cap" }, loc(ph.caption)) : null,
-                ph.credit ? h("div", { class: "sub" }, `📷 ${ph.credit.author}`) : null))
-            : [h("div", { class: "polaroid" },
-                h("div", { class: "pic" }, postcard(slug + i)),
-                h("div", { class: "cap" }, loc(s.name)),
-                h("div", { class: "sub" }, t("photoSoon")))];
+          // One flat list of shots per spot, so the lightbox pages through everything;
+          // each card remembers where its first shot starts in that list.
+          const items = spotItems(s);
+          const all = [], start = new Map();
+          for (const it of items) { start.set(it, all.length); all.push(...shotsOf(it)); }
+          const card = (it) => {
+            const first = shotsOf(it)[0], n = it.shots ? it.shots.length : 1;
+            return h("button", { class: "polaroid" + (n > 1 ? " stack" : ""), type: "button", onclick: () => openLightbox(all, start.get(it)) },
+              h("div", { class: "pic" },
+                h("img", { src: first.thumb || first.src, alt: loc(it.caption) || loc(s.name), loading: "lazy" }),
+                n > 1 ? h("span", { class: "stack-badge", "aria-label": t("photosCount", n) }, `×${n}`) : null),
+              it.caption ? h("div", { class: "cap" }, loc(it.caption)) : null,
+              it.credit ? h("div", { class: "sub" }, `📷 ${it.credit.author}`) : null);
+          };
+          const loose = items.filter((p) => !p.date);
+          const blocks = [];
+          if (loose.length) blocks.push(h("div", { class: "grid" }, loose.map(card)));
+          for (const v of spotVisits(s)) {
+            const vp = items.filter((p) => p.date === v.date);
+            const count = vp.reduce((n, p) => n + (p.shots ? p.shots.length : 1), 0);
+            blocks.push(h("div", { class: "visit" },
+              h("h4", {}, fmtDate(v.date), count ? h("small", {}, t("photosCount", count)) : null),
+              loc(v.note) ? h("p", { class: "visit-note" }, loc(v.note)) : null,
+              vp.length ? h("div", { class: "grid" }, vp.map(card)) : null));
+          }
+          if (!blocks.length) blocks.push(h("div", { class: "grid" }, h("div", { class: "polaroid" },
+            h("div", { class: "pic" }, postcard(slug + i)),
+            h("div", { class: "cap" }, loc(s.name)),
+            h("div", { class: "sub" }, t("photoSoon")))));
           return h("section", { class: "spot", id: `spot-${i}` },
             h("h3", {}, loc(s.name), s.name && lang !== "ja" && s.name.ja ? h("small", {}, s.name.ja) : null),
-            h("div", { class: "grid" }, items));
+            ...blocks);
         })
       : [h("p", { class: "muted" }, t("noSpots"))];
 
@@ -412,19 +499,50 @@
   const lbImg = h("img", { alt: "" });
   const lbCap = h("p");
   const lbCredit = h("a", { class: "lb-credit", target: "_blank", rel: "noopener" });
-  const lbClose = h("button", { type: "button", "aria-label": "Close" }, "×");
-  lb.append(lbClose, lbImg, lbCap, lbCredit);
+  const lbClose = h("button", { type: "button", class: "lb-close", "aria-label": "Close" }, "×");
+  const lbPrev = h("button", { type: "button", class: "lb-nav prev" }, arrowSvg("left"));
+  const lbNext = h("button", { type: "button", class: "lb-nav next" }, arrowSvg("right"));
+  const lbCount = h("span", { class: "lb-count" });
+  lb.append(lbClose, lbPrev, lbNext, lbImg, lbCap, lbCount, lbCredit);
   document.body.append(lb);
+  let lbList = [], lbIndex = 0;
   const closeLb = () => { lb.classList.remove("open"); lbImg.src = ""; };
-  lb.addEventListener("click", (e) => { if (e.target !== lbImg && e.target !== lbCredit) closeLb(); });
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLb(); });
-  function openLightbox(ph) {
+  const step = (d) => { if (lbList.length > 1) showLb((lbIndex + d + lbList.length) % lbList.length); };
+  lbPrev.addEventListener("click", () => step(-1));
+  lbNext.addEventListener("click", () => step(1));
+  lb.addEventListener("click", (e) => { if (e.target === lb || e.target === lbClose) closeLb(); });
+  document.addEventListener("keydown", (e) => {
+    if (!lb.classList.contains("open")) return;
+    if (e.key === "Escape") closeLb();
+    else if (e.key === "ArrowLeft") step(-1);
+    else if (e.key === "ArrowRight") step(1);
+  });
+  // Swipe left/right on phones.
+  let touchX = null;
+  lb.addEventListener("touchstart", (e) => { touchX = e.touches[0].clientX; }, { passive: true });
+  lb.addEventListener("touchend", (e) => {
+    if (touchX == null) return;
+    const dx = e.changedTouches[0].clientX - touchX;
+    if (Math.abs(dx) > 50) step(dx < 0 ? 1 : -1);
+    touchX = null;
+  });
+  function showLb(i) {
+    lbIndex = i;
+    const ph = lbList[i];
     lbImg.src = ph.src;
     lbImg.alt = loc(ph.caption);
-    lbCap.textContent = loc(ph.caption);
+    lbCap.textContent = [loc(ph.caption), ph.of ? `${ph.shot}/${ph.of}` : "", ph.date ? fmtDate(ph.date) : ""].filter(Boolean).join(" · ");
+    const multi = lbList.length > 1;
+    lbPrev.hidden = lbNext.hidden = lbCount.hidden = !multi;
+    lbPrev.setAttribute("aria-label", t("photoPrev"));
+    lbNext.setAttribute("aria-label", t("photoNext"));
+    lbCount.textContent = `${i + 1} / ${lbList.length}`;
     const c = ph.credit;
     lbCredit.hidden = !c;
     if (c) { lbCredit.textContent = `📷 ${c.author} · ${c.license}`; lbCredit.href = c.url; }
+  }
+  function openLightbox(list, i) {
+    lbList = list; showLb(Math.max(0, i));
     lb.classList.add("open");
   }
 
