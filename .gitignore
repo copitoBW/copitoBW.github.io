@@ -1,0 +1,7 @@
+# Claude files: never commit
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+
+# Local reference material (third-party maps, PDFs): keep on this PC only
+reference/
