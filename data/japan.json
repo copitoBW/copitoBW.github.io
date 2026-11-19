@@ -606,6 +606,38 @@
                   }
                 }
               ]
+            },
+            {
+              "date": "2024-08-25",
+              "photos": [
+                {
+                  "src": "photos/tokyo/shinjuku/2024-08-25/20240825_173820.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2024-08-25/thumbs/20240825_173820.jpg",
+                  "caption": {
+                    "en": "Mode Gakuen Cocoon Tower",
+                    "ja": "モード学園コクーンタワー",
+                    "es": "Mode Gakuen Cocoon Tower"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2024-08-25/20240825_175323.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2024-08-25/thumbs/20240825_175323.jpg",
+                  "caption": {
+                    "en": "Tokyo Metropolitan Government Building",
+                    "ja": "東京都庁",
+                    "es": "Edificio del Gobierno Metropolitano de Tokio"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2024-08-25/20240825_190240.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2024-08-25/thumbs/20240825_190240.jpg",
+                  "caption": {
+                    "en": "Docomo Tower lit up",
+                    "ja": "ライトアップされたドコモタワー",
+                    "es": "La Docomo Tower iluminada"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -768,6 +800,60 @@
                     "en": "Hachikō again, at night",
                     "ja": "夜のハチ公、再び",
                     "es": "Hachikō otra vez, de noche"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2024-04-07",
+              "photos": [
+                {
+                  "src": "photos/tokyo/shibuya/2024-04-07/20240407_191410.jpg",
+                  "thumb": "photos/tokyo/shibuya/2024-04-07/thumbs/20240407_191410.jpg",
+                  "caption": {
+                    "en": "Nintendo TOKYO at Shibuya PARCO",
+                    "ja": "渋谷PARCOのNintendo TOKYO",
+                    "es": "Nintendo TOKYO en Shibuya PARCO"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shibuya/2024-04-07/20240407_194131.jpg",
+                  "thumb": "photos/tokyo/shibuya/2024-04-07/thumbs/20240407_194131.jpg",
+                  "caption": {
+                    "en": "Pokémon Center Shibuya",
+                    "ja": "ポケモンセンターシブヤ",
+                    "es": "Pokémon Center Shibuya"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Shibuya Crossing at night",
+                    "ja": "夜の渋谷スクランブル交差点",
+                    "es": "El cruce de Shibuya de noche"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/shibuya/2024-04-07/20240407_201456.jpg",
+                      "thumb": "photos/tokyo/shibuya/2024-04-07/thumbs/20240407_201456.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shibuya/2024-04-07/20240407_202444.jpg",
+                      "thumb": "photos/tokyo/shibuya/2024-04-07/thumbs/20240407_202444.jpg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "date": "2024-04-10",
+              "photos": [
+                {
+                  "src": "photos/tokyo/shibuya/2024-04-10/20240410_180214.jpg",
+                  "thumb": "photos/tokyo/shibuya/2024-04-10/thumbs/20240410_180214.jpg",
+                  "caption": {
+                    "en": "Hachikō, once more",
+                    "ja": "またハチ公へ",
+                    "es": "Hachikō, una vez más"
                   }
                 }
               ]
@@ -1103,6 +1189,42 @@
                   ]
                 }
               ]
+            },
+            {
+              "date": "2024-07-13",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Omotesandō crossing from the Harakado terrace",
+                    "ja": "ハラカドのテラスから見た神宮前交差点",
+                    "es": "El cruce de Omotesandō desde la terraza de Harakado"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/harajuku/2024-07-13/20240713_192804.jpg",
+                      "thumb": "photos/tokyo/harajuku/2024-07-13/thumbs/20240713_192804.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/harajuku/2024-07-13/20240713_192826.jpg",
+                      "thumb": "photos/tokyo/harajuku/2024-07-13/thumbs/20240713_192826.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/harajuku/2024-07-13/20240713_193930.jpg",
+                  "thumb": "photos/tokyo/harajuku/2024-07-13/thumbs/20240713_193930.jpg",
+                  "caption": {
+                    "en": "The green rooftop terrace at night",
+                    "ja": "夜の緑の屋上テラス",
+                    "es": "La terraza verde de noche"
+                  }
+                }
+              ],
+              "note": {
+                "en": "This time from Harakado, the building across from the mirror entrance, with its terrace full of plants.",
+                "ja": "今回は鏡の入口の向かいにあるハラカドから。植物いっぱいのテラスがあります。",
+                "es": "Esta vez desde Harakado, el edificio frente a la entrada de espejos, con su terraza llena de plantas."
+              }
             }
           ]
         },
@@ -1142,6 +1264,82 @@
                 "en": "On the way to Shibuya I crossed the park's bridges. I really like this one.",
                 "ja": "渋谷へ向かう途中、公園の橋を渡りました。この橋がお気に入りです。",
                 "es": "De camino a Shibuya crucé los puentes del parque. Este me gusta mucho."
+              }
+            },
+            {
+              "date": "2024-04-07",
+              "photos": [
+                {
+                  "src": "photos/tokyo/yoyogi-park/2024-04-07/20240407_183528.jpg",
+                  "thumb": "photos/tokyo/yoyogi-park/2024-04-07/thumbs/20240407_183528.jpg",
+                  "caption": {
+                    "en": "Evening in the park",
+                    "ja": "夕暮れの公園",
+                    "es": "Atardecer en el parque"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/yoyogi-park/2024-04-07/20240407_184158.jpg",
+                  "thumb": "photos/tokyo/yoyogi-park/2024-04-07/thumbs/20240407_184158.jpg",
+                  "caption": {
+                    "en": "Tall trees at dusk",
+                    "ja": "夕暮れの木々",
+                    "es": "Árboles altos al anochecer"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Night hanami under the cherry trees",
+                    "ja": "夜桜の下でお花見",
+                    "es": "Hanami nocturno bajo los cerezos"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/yoyogi-park/2024-04-07/20240407_184250.jpg",
+                      "thumb": "photos/tokyo/yoyogi-park/2024-04-07/thumbs/20240407_184250.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/yoyogi-park/2024-04-07/20240407_184311.jpg",
+                      "thumb": "photos/tokyo/yoyogi-park/2024-04-07/thumbs/20240407_184311.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/yoyogi-park/2024-04-07/20240407_184436.jpg",
+                      "thumb": "photos/tokyo/yoyogi-park/2024-04-07/thumbs/20240407_184436.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/yoyogi-park/2024-04-07/20240407_184915.jpg",
+                  "thumb": "photos/tokyo/yoyogi-park/2024-04-07/thumbs/20240407_184915.jpg",
+                  "caption": {
+                    "en": "My favorite bridge again",
+                    "ja": "またお気に入りの橋へ",
+                    "es": "Otra vez mi puente favorito"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/yoyogi-park/2024-04-07/20240407_185040.jpg",
+                  "thumb": "photos/tokyo/yoyogi-park/2024-04-07/thumbs/20240407_185040.jpg",
+                  "caption": {
+                    "en": "Red flowers along the road below the bridge",
+                    "ja": "橋の下の道に咲く赤い花",
+                    "es": "Flores rojas en la pista bajo el puente"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/yoyogi-park/2024-04-07/20240407_185152.jpg",
+                  "thumb": "photos/tokyo/yoyogi-park/2024-04-07/thumbs/20240407_185152.jpg",
+                  "caption": {
+                    "en": "Crossing toward Shibuya",
+                    "ja": "渋谷へ渡る",
+                    "es": "Cruzando hacia Shibuya"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Back for the cherry blossoms, and across my favorite bridge again.",
+                "ja": "お花見に戻ってきて、またお気に入りの橋を渡りました。",
+                "es": "Volví por los cerezos y crucé otra vez mi puente favorito."
               }
             }
           ]
@@ -1378,6 +1576,88 @@
                   ]
                 }
               ]
+            },
+            {
+              "date": "2024-04-20",
+              "photos": [
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2024-04-20/20240420_184601.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2024-04-20/thumbs/20240420_184601.jpg",
+                  "caption": {
+                    "en": "Skytree lit up",
+                    "ja": "ライトアップされたスカイツリー",
+                    "es": "El Skytree iluminado"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2024-04-20/20240420_193339.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2024-04-20/thumbs/20240420_193339.jpg",
+                  "caption": {
+                    "en": "Rayquaza at Pokémon Center Skytree Town",
+                    "ja": "ポケモンセンタースカイツリータウンのレックウザ",
+                    "es": "Rayquaza en el Pokémon Center Skytree Town"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2024-04-20/20240420_194217.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2024-04-20/thumbs/20240420_194217.jpg",
+                  "caption": {
+                    "en": "Me and Rayquaza",
+                    "ja": "レックウザと",
+                    "es": "Rayquaza y yo"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2024-04-20/20240420_195001.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2024-04-20/thumbs/20240420_195001.jpg",
+                  "caption": {
+                    "en": "Under the tower with the koinobori",
+                    "ja": "こいのぼりとスカイツリー",
+                    "es": "Bajo la torre con los koinobori"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2024-04-20/20240420_202103.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2024-04-20/thumbs/20240420_202103.jpg",
+                  "caption": {
+                    "en": "Inside Skytree, 350 m up",
+                    "ja": "スカイツリーの中、350m",
+                    "es": "Dentro del Skytree, a 350 m"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2024-04-20/20240420_203439.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2024-04-20/thumbs/20240420_203439.jpg",
+                  "caption": {
+                    "en": "Tokyo Tower from Skytree",
+                    "ja": "スカイツリーから見た東京タワー",
+                    "es": "La Torre de Tokio desde el Skytree"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2024-04-20/20240420_204206.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2024-04-20/thumbs/20240420_204206.jpg",
+                  "caption": {
+                    "en": "Tembo Deck, 350 m",
+                    "ja": "天望デッキ 350m",
+                    "es": "Tembo Deck, 350 m"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-skytree/2024-04-20/20240420_212940.jpg",
+                  "thumb": "photos/tokyo/tokyo-skytree/2024-04-20/thumbs/20240420_212940.jpg",
+                  "caption": {
+                    "en": "Skytree over Solamachi",
+                    "ja": "ソラマチとスカイツリー",
+                    "es": "El Skytree sobre Solamachi"
+                  }
+                }
+              ],
+              "note": {
+                "en": "This time I went up!",
+                "ja": "今回は上まで登りました！",
+                "es": "¡Esta vez sí subí!"
+              }
             }
           ]
         },
@@ -1486,6 +1766,819 @@
                 "ja": "2023年の日本での冒険、最後の場所。",
                 "es": "La última parada de mis aventuras en Japón en 2023."
               }
+            }
+          ]
+        },
+        {
+          "id": "chidorigafuchi",
+          "name": {
+            "en": "Chidorigafuchi",
+            "ja": "千鳥ヶ淵",
+            "es": "Chidorigafuchi"
+          },
+          "lat": 35.6905,
+          "lon": 139.7448,
+          "visits": [
+            {
+              "date": "2024-04-07",
+              "photos": [
+                {
+                  "src": "photos/tokyo/chidorigafuchi/2024-04-07/20240407_165305.jpg",
+                  "thumb": "photos/tokyo/chidorigafuchi/2024-04-07/thumbs/20240407_165305.jpg",
+                  "caption": {
+                    "en": "Sakura season at Chidorigafuchi",
+                    "ja": "桜の季節の千鳥ヶ淵",
+                    "es": "Temporada de sakura en Chidorigafuchi"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/chidorigafuchi/2024-04-07/20240407_165653.jpg",
+                  "thumb": "photos/tokyo/chidorigafuchi/2024-04-07/thumbs/20240407_165653.jpg",
+                  "caption": {
+                    "en": "Rowboats on the moat",
+                    "ja": "お堀のボート",
+                    "es": "Botes en el foso"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/chidorigafuchi/2024-04-07/20240407_165917.jpg",
+                  "thumb": "photos/tokyo/chidorigafuchi/2024-04-07/thumbs/20240407_165917.jpg",
+                  "caption": {
+                    "en": "Cherry trees over the water",
+                    "ja": "水面にかかる桜",
+                    "es": "Cerezos sobre el agua"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/chidorigafuchi/2024-04-07/20240407_170649.jpg",
+                  "thumb": "photos/tokyo/chidorigafuchi/2024-04-07/thumbs/20240407_170649.jpg",
+                  "caption": {
+                    "en": "The moat in full bloom",
+                    "ja": "満開のお堀",
+                    "es": "El foso en plena floración"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "A crow under the blossoms",
+                    "ja": "桜の下のカラス",
+                    "es": "Un cuervo bajo las flores"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/chidorigafuchi/2024-04-07/20240407_171355.jpg",
+                      "thumb": "photos/tokyo/chidorigafuchi/2024-04-07/thumbs/20240407_171355.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/chidorigafuchi/2024-04-07/20240407_171408.jpg",
+                      "thumb": "photos/tokyo/chidorigafuchi/2024-04-07/thumbs/20240407_171408.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/chidorigafuchi/2024-04-07/20240407_171625.jpg",
+                  "thumb": "photos/tokyo/chidorigafuchi/2024-04-07/thumbs/20240407_171625.jpg",
+                  "caption": {
+                    "en": "Sakura selfie",
+                    "ja": "桜と自撮り",
+                    "es": "Selfie con sakura"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/chidorigafuchi/2024-04-07/20240407_172012.jpg",
+                  "thumb": "photos/tokyo/chidorigafuchi/2024-04-07/thumbs/20240407_172012.jpg",
+                  "caption": {
+                    "en": "Everyone stopping for the view",
+                    "ja": "みんな足を止めて眺める",
+                    "es": "Todos se detienen por la vista"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/chidorigafuchi/2024-04-07/20240407_172053.jpg",
+                  "thumb": "photos/tokyo/chidorigafuchi/2024-04-07/thumbs/20240407_172053.jpg",
+                  "caption": {
+                    "en": "The sakura promenade",
+                    "ja": "桜の遊歩道",
+                    "es": "El paseo de los cerezos"
+                  }
+                }
+              ],
+              "note": {
+                "en": "One of Tokyo's most famous spots for cherry blossoms.",
+                "ja": "東京で最も有名なお花見スポットのひとつ。",
+                "es": "Uno de los lugares más famosos de Tokio para ver los cerezos."
+              }
+            }
+          ]
+        },
+        {
+          "id": "suga-shrine",
+          "name": {
+            "en": "Suga Shrine stairs",
+            "ja": "須賀神社の階段",
+            "es": "Escaleras del santuario Suga"
+          },
+          "lat": 35.6853,
+          "lon": 139.7228,
+          "visits": [
+            {
+              "date": "2024-04-10",
+              "photos": [
+                {
+                  "src": "photos/tokyo/suga-shrine/2024-04-10/20240410_144438.jpg",
+                  "thumb": "photos/tokyo/suga-shrine/2024-04-10/thumbs/20240410_144438.jpg",
+                  "caption": {
+                    "en": "Walking up to the stairs",
+                    "ja": "階段へ向かう道",
+                    "es": "Camino a las escaleras"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The stairs with the red railings",
+                    "ja": "赤い手すりの階段",
+                    "es": "Las escaleras de barandas rojas"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/suga-shrine/2024-04-10/20240410_144540.jpg",
+                      "thumb": "photos/tokyo/suga-shrine/2024-04-10/thumbs/20240410_144540.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/suga-shrine/2024-04-10/20240410_144720.jpg",
+                      "thumb": "photos/tokyo/suga-shrine/2024-04-10/thumbs/20240410_144720.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Looking down, like in the movie",
+                    "ja": "映画のように見下ろす",
+                    "es": "Mirando hacia abajo, como en la película"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/suga-shrine/2024-04-10/20240410_144934.jpg",
+                      "thumb": "photos/tokyo/suga-shrine/2024-04-10/thumbs/20240410_144934.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/suga-shrine/2024-04-10/20240410_145019.jpg",
+                      "thumb": "photos/tokyo/suga-shrine/2024-04-10/thumbs/20240410_145019.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "On the Your Name stairs",
+                    "ja": "「君の名は。」の階段で",
+                    "es": "En las escaleras de Your Name"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/suga-shrine/2024-04-10/20240410_145301.jpg",
+                      "thumb": "photos/tokyo/suga-shrine/2024-04-10/thumbs/20240410_145301.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/suga-shrine/2024-04-10/20240410_145315.jpg",
+                      "thumb": "photos/tokyo/suga-shrine/2024-04-10/thumbs/20240410_145315.jpg"
+                    }
+                  ]
+                }
+              ],
+              "note": {
+                "en": "The stairs from the final scene of the movie Your Name (Kimi no Na wa).",
+                "ja": "映画「君の名は。」のラストシーンの階段。",
+                "es": "Las escaleras de la escena final de la película Your Name (Kimi no Na wa)."
+              }
+            }
+          ]
+        },
+        {
+          "id": "nerima-crossing",
+          "name": {
+            "en": "Railroad crossing, Nerima",
+            "ja": "練馬の踏切",
+            "es": "Paso a nivel en Nerima"
+          },
+          "lat": 35.7385,
+          "lon": 139.6625,
+          "visits": [
+            {
+              "date": "2024-04-10",
+              "photos": [
+                {
+                  "src": "photos/tokyo/nerima-crossing/2024-04-10/20240410_165434.jpg",
+                  "thumb": "photos/tokyo/nerima-crossing/2024-04-10/thumbs/20240410_165434.jpg",
+                  "caption": {
+                    "en": "The railroad crossing",
+                    "ja": "踏切",
+                    "es": "El paso a nivel"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Standing on the crossing",
+                    "ja": "踏切に立つ",
+                    "es": "Parado en el paso a nivel"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/nerima-crossing/2024-04-10/20240410_165439.jpg",
+                      "thumb": "photos/tokyo/nerima-crossing/2024-04-10/thumbs/20240410_165439.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/nerima-crossing/2024-04-10/20240410_165543.jpg",
+                      "thumb": "photos/tokyo/nerima-crossing/2024-04-10/thumbs/20240410_165543.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/nerima-crossing/2024-04-10/20240410_165647.jpg",
+                  "thumb": "photos/tokyo/nerima-crossing/2024-04-10/thumbs/20240410_165647.jpg",
+                  "caption": {
+                    "en": "Crossing signals",
+                    "ja": "踏切の警報機",
+                    "es": "Las señales del cruce"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/nerima-crossing/2024-04-10/20240410_165843.jpg",
+                  "thumb": "photos/tokyo/nerima-crossing/2024-04-10/thumbs/20240410_165843.jpg",
+                  "caption": {
+                    "en": "From the other side",
+                    "ja": "反対側から",
+                    "es": "Desde el otro lado"
+                  }
+                }
+              ],
+              "note": {
+                "en": "A real-life scene from the anime Your Lie in April (Shigatsu wa Kimi no Uso).",
+                "ja": "アニメ「四月は君の嘘」の舞台になった踏切。",
+                "es": "Una escena real del anime Your Lie in April (Shigatsu wa Kimi no Uso)."
+              }
+            }
+          ]
+        },
+        {
+          "id": "lake-okutama",
+          "name": {
+            "en": "Lake Okutama",
+            "ja": "奥多摩湖",
+            "es": "Lago Okutama"
+          },
+          "lat": 35.7895,
+          "lon": 139.048,
+          "visits": [
+            {
+              "date": "2024-05-04",
+              "photos": [
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_132402.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_132402.jpg",
+                  "caption": {
+                    "en": "Hello from Lake Okutama",
+                    "ja": "奥多摩湖から",
+                    "es": "Saludos desde el lago Okutama"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_132459.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_132459.jpg",
+                  "caption": {
+                    "en": "The lake in fresh green",
+                    "ja": "新緑の湖",
+                    "es": "El lago en verde primavera"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_132730.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_132730.jpg",
+                  "caption": {
+                    "en": "Toward Ogouchi Dam",
+                    "ja": "小河内ダム方面",
+                    "es": "Hacia la represa Ogouchi"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_133055.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_133055.jpg",
+                  "caption": {
+                    "en": "Trail map of the Ogouchi zone",
+                    "ja": "小河内ゾーンの案内図",
+                    "es": "Mapa de senderos de la zona Ogouchi"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_134636.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_134636.jpg",
+                  "caption": {
+                    "en": "Islands of forest",
+                    "ja": "森の島々",
+                    "es": "Islas de bosque"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_140102.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_140102.jpg",
+                  "caption": {
+                    "en": "Higher up the trail",
+                    "ja": "さらに登って",
+                    "es": "Más arriba en el sendero"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_143332.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_143332.jpg",
+                  "caption": {
+                    "en": "Through the trees",
+                    "ja": "木々の間から",
+                    "es": "Entre los árboles"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Lookout over the lake",
+                    "ja": "湖を見渡す展望地",
+                    "es": "Mirador sobre el lago"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_144223.jpg",
+                      "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_144223.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_144301.jpg",
+                      "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_144301.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_144500.jpg",
+                      "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_144500.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_161922.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_161922.jpg",
+                  "caption": {
+                    "en": "The red Mineyato Bridge",
+                    "ja": "赤い峰谷橋",
+                    "es": "El puente rojo Mineyato"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_162241.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_162241.jpg",
+                  "caption": {
+                    "en": "The bridge over the lake",
+                    "ja": "湖にかかる橋",
+                    "es": "El puente sobre el lago"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_162332.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_162332.jpg",
+                  "caption": {
+                    "en": "Walking through a tunnel",
+                    "ja": "トンネルを歩く",
+                    "es": "Caminando por un túnel"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_163837.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_163837.jpg",
+                  "caption": {
+                    "en": "Torii and stairs to a lakeside shrine",
+                    "ja": "湖畔の神社の鳥居と石段",
+                    "es": "Torii y escaleras a un santuario junto al lago"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_164728.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_164728.jpg",
+                  "caption": {
+                    "en": "A wild serow (kamoshika)!",
+                    "ja": "野生のカモシカ！",
+                    "es": "¡Un serow salvaje (kamoshika)!"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_164931.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_164931.jpg",
+                  "caption": {
+                    "en": "The shrine hall",
+                    "ja": "社殿",
+                    "es": "El santuario"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_164950.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_164950.jpg",
+                  "caption": {
+                    "en": "At the temizuya",
+                    "ja": "手水舎で",
+                    "es": "En la fuente de purificación"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The serow came back",
+                    "ja": "カモシカがまた現れた",
+                    "es": "El serow volvió"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_165432.jpg",
+                      "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_165432.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_165435.jpg",
+                      "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_165435.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/lake-okutama/2024-05-04/20240504_183400.jpg",
+                  "thumb": "photos/tokyo/lake-okutama/2024-05-04/thumbs/20240504_183400.jpg",
+                  "caption": {
+                    "en": "Ogouchi Dam from the top",
+                    "ja": "小河内ダムの上から",
+                    "es": "La represa Ogouchi desde arriba"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Hiking around Lake Okutama, the reservoir of Ogouchi Dam, where I even met a wild Japanese serow.",
+                "ja": "小河内ダムの奥多摩湖周辺をハイキング。野生のカモシカにも会えました。",
+                "es": "Caminata alrededor del lago Okutama, el embalse de la represa Ogouchi, ¡y hasta me crucé con un serow japonés salvaje!"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rainbow-bridge",
+          "name": {
+            "en": "Walking the Rainbow Bridge",
+            "ja": "レインボーブリッジを歩く",
+            "es": "Cruzando a pie el Rainbow Bridge"
+          },
+          "lat": 35.6365,
+          "lon": 139.7633,
+          "visits": [
+            {
+              "date": "2024-06-07",
+              "photos": [
+                {
+                  "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_183428.jpg",
+                  "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_183428.jpg",
+                  "caption": {
+                    "en": "The Shibaura loop",
+                    "ja": "芝浦のループ橋",
+                    "es": "El bucle de Shibaura"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_183912.jpg",
+                  "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_183912.jpg",
+                  "caption": {
+                    "en": "The bridge tower",
+                    "ja": "主塔",
+                    "es": "La torre del puente"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_184111.jpg",
+                  "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_184111.jpg",
+                  "caption": {
+                    "en": "Under the bridge",
+                    "ja": "橋の下",
+                    "es": "Debajo del puente"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_184701.jpg",
+                  "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_184701.jpg",
+                  "caption": {
+                    "en": "Elevator up to the promenade",
+                    "ja": "遊歩道へのエレベーター",
+                    "es": "Ascensor hacia el paseo peatonal"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_184930.jpg",
+                  "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_184930.jpg",
+                  "caption": {
+                    "en": "On the promenade",
+                    "ja": "遊歩道にて",
+                    "es": "En el paseo peatonal"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_190257.jpg",
+                  "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_190257.jpg",
+                  "caption": {
+                    "en": "Tokyo Bay through the fence",
+                    "ja": "フェンス越しの東京湾",
+                    "es": "La bahía de Tokio a través de la reja"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_190408.jpg",
+                  "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_190408.jpg",
+                  "caption": {
+                    "en": "Sunset over the bay",
+                    "ja": "湾の夕焼け",
+                    "es": "Atardecer sobre la bahía"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Tokyo Tower and Takeshiba pier",
+                    "ja": "東京タワーと竹芝桟橋",
+                    "es": "La Torre de Tokio y el muelle Takeshiba"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_190428.jpg",
+                      "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_190428.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_190508.jpg",
+                      "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_190508.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_191919.jpg",
+                  "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_191919.jpg",
+                  "caption": {
+                    "en": "Blue hour",
+                    "ja": "ブルーアワー",
+                    "es": "Hora azul"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_192208.jpg",
+                  "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_192208.jpg",
+                  "caption": {
+                    "en": "The skyline at dusk",
+                    "ja": "夕暮れのスカイライン",
+                    "es": "El skyline al anochecer"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_192649.jpg",
+                  "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_192649.jpg",
+                  "caption": {
+                    "en": "The bridge lights up",
+                    "ja": "ライトアップされた橋",
+                    "es": "El puente se ilumina"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Made it across!",
+                    "ja": "渡りきった！",
+                    "es": "¡Lo crucé!"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_192658.jpg",
+                      "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_192658.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_192744.jpg",
+                      "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_192744.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/rainbow-bridge/2024-06-07/20240607_192750.jpg",
+                  "thumb": "photos/tokyo/rainbow-bridge/2024-06-07/thumbs/20240607_192750.jpg",
+                  "caption": {
+                    "en": "Night falls on the bay",
+                    "ja": "夜の東京湾",
+                    "es": "Cae la noche sobre la bahía"
+                  }
+                }
+              ],
+              "note": {
+                "en": "I crossed the Rainbow Bridge on foot, from Shibaura to Odaiba, at sunset.",
+                "ja": "夕暮れのレインボーブリッジを芝浦からお台場まで歩いて渡りました。",
+                "es": "Crucé el Rainbow Bridge a pie, de Shibaura a Odaiba, al atardecer."
+              }
+            }
+          ]
+        },
+        {
+          "id": "sunshine-city",
+          "name": {
+            "en": "Sunshine City",
+            "ja": "サンシャインシティ",
+            "es": "Sunshine City"
+          },
+          "lat": 35.7289,
+          "lon": 139.7194,
+          "visits": [
+            {
+              "date": "2024-07-15",
+              "photos": [
+                {
+                  "src": "photos/tokyo/sunshine-city/2024-07-15/20240715_182213.jpg",
+                  "thumb": "photos/tokyo/sunshine-city/2024-07-15/thumbs/20240715_182213.jpg",
+                  "caption": {
+                    "en": "The garden at the Sunshine City entrance",
+                    "ja": "サンシャインシティ入口の庭",
+                    "es": "El jardín de la entrada de Sunshine City"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shioiri-park",
+          "name": {
+            "en": "Shioiri Park",
+            "ja": "汐入公園",
+            "es": "Parque Shioiri"
+          },
+          "lat": 35.7348,
+          "lon": 139.8076,
+          "visits": [
+            {
+              "date": "2024-07-27",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Sumida River fireworks, with Skytree",
+                    "ja": "隅田川花火大会とスカイツリー",
+                    "es": "Fuegos artificiales del río Sumida, con el Skytree"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/shioiri-park/2024-07-27/20240727_190604.jpg",
+                      "thumb": "photos/tokyo/shioiri-park/2024-07-27/thumbs/20240727_190604.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shioiri-park/2024-07-27/20240727_190608.jpg",
+                      "thumb": "photos/tokyo/shioiri-park/2024-07-27/thumbs/20240727_190608.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/shioiri-park/2024-07-27/20240727_190613.jpg",
+                      "thumb": "photos/tokyo/shioiri-park/2024-07-27/thumbs/20240727_190613.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/shioiri-park/2024-07-27/20240727_192013.jpg",
+                  "thumb": "photos/tokyo/shioiri-park/2024-07-27/thumbs/20240727_192013.jpg",
+                  "caption": {
+                    "en": "Everyone watching from the riverbank",
+                    "ja": "川岸から見守る人たち",
+                    "es": "Todos mirando desde la orilla"
+                  }
+                }
+              ],
+              "note": {
+                "en": "The Sumida River Fireworks were so crowded near Asakusa that I walked all the way to Shioiri Park. At least I could see Skytree from there!",
+                "ja": "隅田川花火大会は浅草周辺が混みすぎて、遠くの汐入公園まで歩きました。そこからスカイツリーも見えました！",
+                "es": "El festival de fuegos artificiales del río Sumida estaba tan lleno cerca de Asakusa que caminé hasta el lejano parque Shioiri. ¡Al menos desde ahí se veía el Skytree!"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gotokuji",
+          "name": {
+            "en": "Gōtoku-ji",
+            "ja": "豪徳寺",
+            "es": "Gōtoku-ji"
+          },
+          "lat": 35.6486,
+          "lon": 139.6474,
+          "visits": [
+            {
+              "date": "2024-08-24",
+              "photos": [
+                {
+                  "src": "photos/tokyo/gotokuji/2024-08-24/20240824_165539.jpg",
+                  "thumb": "photos/tokyo/gotokuji/2024-08-24/thumbs/20240824_165539.jpg",
+                  "caption": {
+                    "en": "Hundreds of maneki-neko",
+                    "ja": "たくさんの招き猫",
+                    "es": "Cientos de maneki-neko"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/gotokuji/2024-08-24/20240824_165929.jpg",
+                  "thumb": "photos/tokyo/gotokuji/2024-08-24/thumbs/20240824_165929.jpg",
+                  "caption": {
+                    "en": "With the big maneki-neko",
+                    "ja": "大きな招き猫と",
+                    "es": "Con el maneki-neko gigante"
+                  }
+                }
+              ],
+              "note": {
+                "en": "The temple of the beckoning cats, on the Tokyu Setagaya Line.",
+                "ja": "東急世田谷線沿いの招き猫のお寺。",
+                "es": "El templo de los gatos de la suerte, en la línea Tokyu Setagaya."
+              }
+            }
+          ]
+        },
+        {
+          "id": "setagaya",
+          "name": {
+            "en": "Around Setagaya Station",
+            "ja": "世田谷駅周辺",
+            "es": "Alrededor de la estación Setagaya"
+          },
+          "lat": 35.6436,
+          "lon": 139.6513,
+          "visits": [
+            {
+              "date": "2024-08-24",
+              "photos": [
+                {
+                  "src": "photos/tokyo/setagaya/2024-08-24/20240824_184205.jpg",
+                  "thumb": "photos/tokyo/setagaya/2024-08-24/thumbs/20240824_184205.jpg",
+                  "caption": {
+                    "en": "A quiet path at dusk",
+                    "ja": "夕暮れの静かな道",
+                    "es": "Un camino tranquilo al anochecer"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "A little red house",
+                    "ja": "小さな赤い家",
+                    "es": "Una casita roja"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/setagaya/2024-08-24/20240824_185013.jpg",
+                      "thumb": "photos/tokyo/setagaya/2024-08-24/thumbs/20240824_185013.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/setagaya/2024-08-24/20240824_185019.jpg",
+                      "thumb": "photos/tokyo/setagaya/2024-08-24/thumbs/20240824_185019.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/setagaya/2024-08-24/20240824_191635.jpg",
+                  "thumb": "photos/tokyo/setagaya/2024-08-24/thumbs/20240824_191635.jpg",
+                  "caption": {
+                    "en": "Something big on that building…",
+                    "ja": "あのビルの上に何か大きなものが…",
+                    "es": "Algo grande sobre ese edificio…"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The famous gorilla building",
+                    "ja": "有名なゴリラビル",
+                    "es": "El famoso edificio del gorila"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/setagaya/2024-08-24/20240824_191712.jpg",
+                      "thumb": "photos/tokyo/setagaya/2024-08-24/thumbs/20240824_191712.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/setagaya/2024-08-24/20240824_191907.jpg",
+                      "thumb": "photos/tokyo/setagaya/2024-08-24/thumbs/20240824_191907.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "miyashita-park",
+          "name": {
+            "en": "Miyashita Park",
+            "ja": "宮下公園",
+            "es": "Parque Miyashita"
+          },
+          "lat": 35.6618,
+          "lon": 139.7021,
+          "visits": [
+            {
+              "date": "2024-08-25",
+              "photos": [
+                {
+                  "src": "photos/tokyo/miyashita-park/2024-08-25/20240825_220443.jpg",
+                  "thumb": "photos/tokyo/miyashita-park/2024-08-25/thumbs/20240825_220443.jpg",
+                  "caption": {
+                    "en": "Doraemon and the time machine",
+                    "ja": "ドラえもんとタイムマシン",
+                    "es": "Doraemon y la máquina del tiempo"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -1746,14 +2839,463 @@
           "photos": []
         },
         {
+          "id": "kamakura",
           "name": {
             "en": "Kamakura",
             "ja": "鎌倉",
             "es": "Kamakura"
           },
-          "lat": 35.3192,
-          "lon": 139.5467,
-          "photos": []
+          "lat": 35.319,
+          "lon": 139.5503,
+          "visits": [
+            {
+              "date": "2024-05-22",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Kamakura Station's old clock tower",
+                    "ja": "鎌倉駅の旧駅舎時計台",
+                    "es": "La antigua torre del reloj de la estación de Kamakura"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/kanagawa/kamakura/2024-05-22/20240522_092105.jpg",
+                      "thumb": "photos/kanagawa/kamakura/2024-05-22/thumbs/20240522_092105.jpg"
+                    },
+                    {
+                      "src": "photos/kanagawa/kamakura/2024-05-22/20240522_092114.jpg",
+                      "thumb": "photos/kanagawa/kamakura/2024-05-22/thumbs/20240522_092114.jpg"
+                    }
+                  ]
+                }
+              ],
+              "note": {
+                "en": "A full day in Kamakura: the shrine, the Great Buddha, Hase-dera and the beach.",
+                "ja": "鎌倉で一日：八幡宮、大仏、長谷寺、そして海へ。",
+                "es": "Un día completo en Kamakura: el santuario, el Gran Buda, Hase-dera y la playa."
+              }
+            }
+          ]
+        },
+        {
+          "id": "tsurugaoka-hachimangu",
+          "name": {
+            "en": "Tsurugaoka Hachimangū",
+            "ja": "鶴岡八幡宮",
+            "es": "Tsurugaoka Hachimangū"
+          },
+          "lat": 35.3259,
+          "lon": 139.5564,
+          "visits": [
+            {
+              "date": "2024-05-22",
+              "photos": [
+                {
+                  "src": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/20240522_095431.jpg",
+                  "thumb": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/thumbs/20240522_095431.jpg",
+                  "caption": {
+                    "en": "Dankazura, the raised approach",
+                    "ja": "段葛",
+                    "es": "Dankazura, el camino elevado"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/20240522_100343.jpg",
+                  "thumb": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/thumbs/20240522_100343.jpg",
+                  "caption": {
+                    "en": "The great red torii",
+                    "ja": "大鳥居",
+                    "es": "El gran torii rojo"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/20240522_100748.jpg",
+                  "thumb": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/thumbs/20240522_100748.jpg",
+                  "caption": {
+                    "en": "Taikobashi bridge",
+                    "ja": "太鼓橋",
+                    "es": "El puente Taikobashi"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/20240522_101309.jpg",
+                  "thumb": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/thumbs/20240522_101309.jpg",
+                  "caption": {
+                    "en": "Lotus leaves on Genpei Pond",
+                    "ja": "源平池の蓮",
+                    "es": "Hojas de loto en el estanque Genpei"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The main approach",
+                    "ja": "参道",
+                    "es": "El camino principal"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/20240522_102009.jpg",
+                      "thumb": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/thumbs/20240522_102009.jpg"
+                    },
+                    {
+                      "src": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/20240522_102024.jpg",
+                      "thumb": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/thumbs/20240522_102024.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/20240522_104242.jpg",
+                  "thumb": "photos/kanagawa/tsurugaoka-hachimangu/2024-05-22/thumbs/20240522_104242.jpg",
+                  "caption": {
+                    "en": "In the shrine grounds",
+                    "ja": "境内にて",
+                    "es": "En el santuario"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotoku-in",
+          "name": {
+            "en": "Great Buddha of Kamakura",
+            "ja": "鎌倉大仏（高徳院）",
+            "es": "Gran Buda de Kamakura"
+          },
+          "lat": 35.3167,
+          "lon": 139.5357,
+          "visits": [
+            {
+              "date": "2024-05-22",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "The Great Buddha",
+                    "ja": "鎌倉大仏",
+                    "es": "El Gran Buda"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/kanagawa/kotoku-in/2024-05-22/20240522_114017.jpg",
+                      "thumb": "photos/kanagawa/kotoku-in/2024-05-22/thumbs/20240522_114017.jpg"
+                    },
+                    {
+                      "src": "photos/kanagawa/kotoku-in/2024-05-22/20240522_114023.jpg",
+                      "thumb": "photos/kanagawa/kotoku-in/2024-05-22/thumbs/20240522_114023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "On the steps",
+                    "ja": "階段で",
+                    "es": "En las escaleras"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/kanagawa/kotoku-in/2024-05-22/20240522_114310.jpg",
+                      "thumb": "photos/kanagawa/kotoku-in/2024-05-22/thumbs/20240522_114310.jpg"
+                    },
+                    {
+                      "src": "photos/kanagawa/kotoku-in/2024-05-22/20240522_114311.jpg",
+                      "thumb": "photos/kanagawa/kotoku-in/2024-05-22/thumbs/20240522_114311.jpg"
+                    },
+                    {
+                      "src": "photos/kanagawa/kotoku-in/2024-05-22/20240522_114312.jpg",
+                      "thumb": "photos/kanagawa/kotoku-in/2024-05-22/thumbs/20240522_114312.jpg"
+                    },
+                    {
+                      "src": "photos/kanagawa/kotoku-in/2024-05-22/20240522_114321.jpg",
+                      "thumb": "photos/kanagawa/kotoku-in/2024-05-22/thumbs/20240522_114321.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/kanagawa/kotoku-in/2024-05-22/20240522_115044.jpg",
+                  "thumb": "photos/kanagawa/kotoku-in/2024-05-22/thumbs/20240522_115044.jpg",
+                  "caption": {
+                    "en": "Stone lantern",
+                    "ja": "石灯籠",
+                    "es": "Linterna de piedra"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/kotoku-in/2024-05-22/20240522_120630.jpg",
+                  "thumb": "photos/kanagawa/kotoku-in/2024-05-22/thumbs/20240522_120630.jpg",
+                  "caption": {
+                    "en": "With the Daibutsu",
+                    "ja": "大仏と",
+                    "es": "Con el Daibutsu"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/kotoku-in/2024-05-22/20240522_121619.jpg",
+                  "thumb": "photos/kanagawa/kotoku-in/2024-05-22/thumbs/20240522_121619.jpg",
+                  "caption": {
+                    "en": "Meditating with the Buddha",
+                    "ja": "大仏と瞑想",
+                    "es": "Meditando con el Buda"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hasedera",
+          "name": {
+            "en": "Hase-dera",
+            "ja": "長谷寺",
+            "es": "Hase-dera"
+          },
+          "lat": 35.3125,
+          "lon": 139.5332,
+          "visits": [
+            {
+              "date": "2024-05-22",
+              "photos": [
+                {
+                  "src": "photos/kanagawa/hasedera/2024-05-22/20240522_135039.jpg",
+                  "thumb": "photos/kanagawa/hasedera/2024-05-22/thumbs/20240522_135039.jpg",
+                  "caption": {
+                    "en": "Rows of little jizō",
+                    "ja": "小さなお地蔵さま",
+                    "es": "Filas de pequeños jizō"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/hasedera/2024-05-22/20240522_135237.jpg",
+                  "thumb": "photos/kanagawa/hasedera/2024-05-22/thumbs/20240522_135237.jpg",
+                  "caption": {
+                    "en": "Kannon-dō hall",
+                    "ja": "観音堂",
+                    "es": "Salón Kannon-dō"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/hasedera/2024-05-22/20240522_135432.jpg",
+                  "thumb": "photos/kanagawa/hasedera/2024-05-22/thumbs/20240522_135432.jpg",
+                  "caption": {
+                    "en": "Kamakura and the sea",
+                    "ja": "鎌倉の街と海",
+                    "es": "Kamakura y el mar"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/hasedera/2024-05-22/20240522_135809.jpg",
+                  "thumb": "photos/kanagawa/hasedera/2024-05-22/thumbs/20240522_135809.jpg",
+                  "caption": {
+                    "en": "Amida-dō hall",
+                    "ja": "阿弥陀堂",
+                    "es": "Salón Amida-dō"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Jizō in the forest",
+                    "ja": "森の中のお地蔵さま",
+                    "es": "Jizō en el bosque"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/kanagawa/hasedera/2024-05-22/20240522_141052.jpg",
+                      "thumb": "photos/kanagawa/hasedera/2024-05-22/thumbs/20240522_141052.jpg"
+                    },
+                    {
+                      "src": "photos/kanagawa/hasedera/2024-05-22/20240522_141107.jpg",
+                      "thumb": "photos/kanagawa/hasedera/2024-05-22/thumbs/20240522_141107.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/kanagawa/hasedera/2024-05-22/20240522_141341.jpg",
+                  "thumb": "photos/kanagawa/hasedera/2024-05-22/thumbs/20240522_141341.jpg",
+                  "caption": {
+                    "en": "Yuigahama Bay from the hillside",
+                    "ja": "山腹から見た由比ヶ浜",
+                    "es": "La bahía de Yuigahama desde la colina"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/hasedera/2024-05-22/20240522_141441.jpg",
+                  "thumb": "photos/kanagawa/hasedera/2024-05-22/thumbs/20240522_141441.jpg",
+                  "caption": {
+                    "en": "First hydrangeas of the season",
+                    "ja": "咲き始めのあじさい",
+                    "es": "Las primeras hortensias de la temporada"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/hasedera/2024-05-22/20240522_141650.jpg",
+                  "thumb": "photos/kanagawa/hasedera/2024-05-22/thumbs/20240522_141650.jpg",
+                  "caption": {
+                    "en": "A quiet path",
+                    "ja": "静かな小道",
+                    "es": "Un camino tranquilo"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/hasedera/2024-05-22/20240522_142114.jpg",
+                  "thumb": "photos/kanagawa/hasedera/2024-05-22/thumbs/20240522_142114.jpg",
+                  "caption": {
+                    "en": "The main hall",
+                    "ja": "本堂",
+                    "es": "El salón principal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yuigahama",
+          "name": {
+            "en": "Yuigahama Beach",
+            "ja": "由比ヶ浜",
+            "es": "Playa Yuigahama"
+          },
+          "lat": 35.311,
+          "lon": 139.541,
+          "visits": [
+            {
+              "date": "2024-05-22",
+              "photos": [
+                {
+                  "src": "photos/kanagawa/yuigahama/2024-05-22/20240522_155234.jpg",
+                  "thumb": "photos/kanagawa/yuigahama/2024-05-22/thumbs/20240522_155234.jpg",
+                  "caption": {
+                    "en": "Afternoon at the beach",
+                    "ja": "午後の海岸",
+                    "es": "Tarde en la playa"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "A crow by the waves",
+                    "ja": "波打ち際のカラス",
+                    "es": "Un cuervo junto a las olas"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/kanagawa/yuigahama/2024-05-22/20240522_155446.jpg",
+                      "thumb": "photos/kanagawa/yuigahama/2024-05-22/thumbs/20240522_155446.jpg"
+                    },
+                    {
+                      "src": "photos/kanagawa/yuigahama/2024-05-22/20240522_155450.jpg",
+                      "thumb": "photos/kanagawa/yuigahama/2024-05-22/thumbs/20240522_155450.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "minato-mirai",
+          "name": {
+            "en": "Minato Mirai",
+            "ja": "みなとみらい",
+            "es": "Minato Mirai"
+          },
+          "lat": 35.4555,
+          "lon": 139.637,
+          "visits": [
+            {
+              "date": "2024-07-07",
+              "photos": [
+                {
+                  "src": "photos/kanagawa/minato-mirai/2024-07-07/20240707_192209.jpg",
+                  "thumb": "photos/kanagawa/minato-mirai/2024-07-07/thumbs/20240707_192209.jpg",
+                  "caption": {
+                    "en": "Cosmo Clock 21 at blue hour",
+                    "ja": "ブルーアワーのコスモクロック21",
+                    "es": "Cosmo Clock 21 en la hora azul"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/minato-mirai/2024-07-07/20240707_194304.jpg",
+                  "thumb": "photos/kanagawa/minato-mirai/2024-07-07/thumbs/20240707_194304.jpg",
+                  "caption": {
+                    "en": "Yokohama Cosmo World",
+                    "ja": "よこはまコスモワールド",
+                    "es": "Yokohama Cosmo World"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/minato-mirai/2024-07-07/20240707_195839.jpg",
+                  "thumb": "photos/kanagawa/minato-mirai/2024-07-07/thumbs/20240707_195839.jpg",
+                  "caption": {
+                    "en": "Night road toward the Red Brick Warehouse",
+                    "ja": "赤レンガ倉庫へ向かう夜道",
+                    "es": "Camino nocturno hacia el Red Brick Warehouse"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/minato-mirai/2024-07-07/20240707_202328.jpg",
+                  "thumb": "photos/kanagawa/minato-mirai/2024-07-07/thumbs/20240707_202328.jpg",
+                  "caption": {
+                    "en": "Minato Mirai skyline at night",
+                    "ja": "みなとみらいの夜景",
+                    "es": "El skyline de Minato Mirai de noche"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "red-brick-warehouse",
+          "name": {
+            "en": "Yokohama Red Brick Warehouse",
+            "ja": "横浜赤レンガ倉庫",
+            "es": "Red Brick Warehouse de Yokohama"
+          },
+          "lat": 35.4527,
+          "lon": 139.643,
+          "visits": [
+            {
+              "date": "2024-07-07",
+              "photos": [
+                {
+                  "src": "photos/kanagawa/red-brick-warehouse/2024-07-07/20240707_200153.jpg",
+                  "thumb": "photos/kanagawa/red-brick-warehouse/2024-07-07/thumbs/20240707_200153.jpg",
+                  "caption": {
+                    "en": "The Red Brick Warehouse lit up",
+                    "ja": "ライトアップされた赤レンガ倉庫",
+                    "es": "El Red Brick Warehouse iluminado"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/red-brick-warehouse/2024-07-07/20240707_200514.jpg",
+                  "thumb": "photos/kanagawa/red-brick-warehouse/2024-07-07/thumbs/20240707_200514.jpg",
+                  "caption": {
+                    "en": "Between the two warehouses",
+                    "ja": "二つの倉庫の間",
+                    "es": "Entre los dos almacenes"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/red-brick-warehouse/2024-07-07/20240707_200602.jpg",
+                  "thumb": "photos/kanagawa/red-brick-warehouse/2024-07-07/thumbs/20240707_200602.jpg",
+                  "caption": {
+                    "en": "The plaza at night",
+                    "ja": "夜の広場",
+                    "es": "La plaza de noche"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/red-brick-warehouse/2024-07-07/20240707_200754.jpg",
+                  "thumb": "photos/kanagawa/red-brick-warehouse/2024-07-07/thumbs/20240707_200754.jpg",
+                  "caption": {
+                    "en": "Red brick selfie",
+                    "ja": "赤レンガで自撮り",
+                    "es": "Selfie con ladrillo rojo"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
