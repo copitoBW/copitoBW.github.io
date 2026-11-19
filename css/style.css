@@ -222,6 +222,13 @@ button.polaroid { border: 0; cursor: zoom-in; width: 100%; }
   position: absolute; right: 6px; bottom: 6px; z-index: 1; padding: 1px 8px; border-radius: 999px;
   background: rgba(20, 14, 10, .7); color: #fffaf1; font-size: .75rem; font-weight: 700;
 }
+/* Home: one big polaroid per country */
+.stats { text-align: center; color: var(--ink-soft); margin: -6px 0 6px; font-weight: 600; }
+.grid.countries { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 28px 24px; }
+.grid.countries .polaroid .cap { font-size: 1.9rem; }
+.grid.countries .polaroid .sub { font-size: .85rem; }
+@media (max-width: 640px) { .grid.countries { grid-template-columns: 1fr; } }
+h1.chapter { margin-top: 4px; }
 .visit { margin: 4px 0 22px; }
 .visit h4 {
   display: inline-flex; align-items: baseline; gap: 8px; margin: 6px 0 10px; padding: 2px 12px;

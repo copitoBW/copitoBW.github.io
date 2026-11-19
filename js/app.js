@@ -56,30 +56,71 @@
     ? it.shots.map((sh, i) => ({ ...it, ...sh, shots: undefined, shot: i + 1, of: it.shots.length }))
     : [it]);
   const spotPhotos = (s) => spotItems(s).flatMap(shotsOf);
-  // Prefecture visit dates: written by hand, or collected from the spots' visits.
+  // Region visit dates: written by hand, or collected from the spots' visits.
   const placeDates = (place) => {
     if (place.visits && place.visits.length) return place.visits;
     const set = new Set((place.spots || []).flatMap((s) => (s.visits || []).map((v) => v.date)));
     return [...set].sort();
   };
+  // Cover: the photo named in "cover", else the first real (non-test) photo.
+  const coverOf = (photos, cover) =>
+    (cover && photos.find((p) => p.src === cover)) || photos.find((p) => !p.test) || photos[0];
 
-  // ---------- prefecture lookup ----------
-  const P = {};       // slug -> info
-  const byCode = {};  // "13" -> info
-  for (const [code, slug, en, ja, es, region] of PREFECTURES) {
-    const info = { code, slug, names: { en, ja, es }, region };
-    P[slug] = info; byCode[code] = info;
+  // ---------- countries and their regions ----------
+  // C[slug] = { ...config, R: slug -> region, byCode: code -> region,
+  //             data, visited: Map(regionSlug -> place), nextSet, nextSpots, features, muni }
+  const C = {};
+  for (const cfg of COUNTRIES) {
+    // cfg.data is the album file's path; c.data becomes its loaded contents.
+    const c = { ...cfg, dataFile: cfg.data, R: {}, byCode: {}, data: null, visited: new Map(), nextSet: new Set(), nextSpots: [], features: null };
+    for (const [code, slug, en, ja, es, group] of cfg.regions) {
+      const info = { code, slug, names: { en, ja, es }, group };
+      c.R[slug] = info; c.byCode[code] = info;
+    }
+    C[cfg.slug] = c;
   }
-  const prefName = (info) => info.names[lang] || info.names.en;
-  const prefAlt = (info) => (lang === "ja" ? info.names.en : info.names.ja);
+  const regionName = (info) => info.names[lang] || info.names.en;
+  const regionAlt = (info) => (lang === "ja" ? info.names.en : info.names.ja);
+  const countryName = (c) => loc(c.names);
+  const unit = (c, plural) => (c.unit[lang] || c.unit.en)[plural ? 1 : 0];
+  const groupName = (c, i) => (c.groups[lang] || c.groups.en)[i];
+  const regionOf = (p) => p.region || p.prefecture; // Japan's file says "prefecture"
 
-  let DATA = null;    // trips
-  let FEATURES = null; // GeoJSON features by code
-  let MUNI = null;     // municipality features, loaded on first prefecture page
-  let muniLoading = null;
-  const nextSpots = []; // {prefecture, name, lat, lon}
-  const visited = new Map(); // slug -> place entry
-  const nextSet = new Set();
+  function setData(c, data) {
+    c.data = data;
+    for (const p of data.places || []) if (c.R[regionOf(p)]) c.visited.set(regionOf(p), p);
+    for (const s of data.next || []) {
+      if (typeof s === "string") c.nextSet.add(s);
+      else if (s && typeof s.lat === "number") c.nextSpots.push(s);
+    }
+  }
+
+  // Region shapes load the first time a country is opened.
+  const mapLoading = {};
+  function loadMap(c) {
+    if (!mapLoading[c.slug]) {
+      mapLoading[c.slug] = fetch(c.map.file).then((r) => r.json()).then((geo) => {
+        const feats = c.map.object ? topojson.feature(geo, geo.objects[c.map.object]).features : geo.features;
+        c.features = {};
+        for (const f of feats) c.features[f.id] = f;
+        render();
+      }).catch((e) => console.error(e));
+    }
+  }
+  // Japan's city/ward layer, loaded on the first Japanese region page.
+  let MUNI = null, muniLoading = null;
+  function loadMuni() {
+    if (!muniLoading) {
+      muniLoading = fetch("data/municipalities.topo.json").then((r) => r.json()).then((topo) => {
+        MUNI = topojson.feature(topo, topo.objects.municipalities).features;
+        render();
+      }).catch((e) => console.error(e));
+    }
+  }
+  function muniName(f) {
+    const n = MUNI_NAMES[f.id];
+    return n ? (n[lang] || n.en) : f.properties.n;
+  }
 
   // ---------- theme ----------
   const themeBtn = document.getElementById("themeBtn");
@@ -158,93 +199,109 @@
     return el;
   };
 
+  // Every map shape carries its own name in data-name, so the tooltip just reads it.
   function attachTip(card, svg) {
     const tip = h("div", { class: "map-tip" });
     card.append(tip);
-    const show = (e, text) => {
+    svg.addEventListener("pointermove", (e) => {
+      const text = (e.target.dataset || {}).name || "";
+      if (!text) { tip.style.opacity = "0"; return; }
       const r = card.getBoundingClientRect();
       tip.textContent = text;
       tip.style.left = `${e.clientX - r.left}px`;
       tip.style.top = `${e.clientY - r.top}px`;
       tip.style.opacity = "1";
-    };
-    svg.addEventListener("pointermove", (e) => {
-      const ds = e.target.dataset || {};
-      const text = ds.name || (ds.code && byCode[ds.code] ? prefName(byCode[ds.code]) : "");
-      if (text) show(e, text); else tip.style.opacity = "0";
     });
     svg.addEventListener("pointerleave", () => { tip.style.opacity = "0"; });
   }
 
-  function japanMap() {
-    const W = 800, H = 800;
-    const main = d3.geoMercator().fitExtent([[18, 18], [W - 18, H - 18]],
-      { type: "MultiPoint", coordinates: [[128.5, 30.8], [146.0, 45.6]] });
-    const okinawa = FEATURES["47"];
-    const inset = d3.geoMercator().fitExtent([[36, 62], [296, 262]], focusShape(okinawa, [], 0.05));
-    const pathMain = d3.geoPath(main), pathInset = d3.geoPath(inset);
+  // The polygons of a shape, dropping specks smaller than minShare of its largest part.
+  function mainPolys(geometry, minShare) {
+    const polys = geometry.type === "Polygon" ? [geometry.coordinates] : geometry.coordinates;
+    const areas = polys.map((p) => d3.geoArea({ type: "Polygon", coordinates: p }));
+    const max = Math.max(...areas);
+    return polys.filter((_, i) => areas[i] >= max * minShare);
+  }
+  // Bounds that ignore tiny far-off islands (so Tokyo isn't zoomed out to Ogasawara).
+  function focusShape(feature, spots, minShare = 0.15) {
+    const geoms = [{ type: "MultiPolygon", coordinates: mainPolys(feature.geometry, minShare) }];
+    if (spots.length) geoms.push({ type: "MultiPoint", coordinates: spots.map((s) => [s.lon, s.lat]) });
+    return { type: "GeometryCollection", geometries: geoms };
+  }
 
-    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": t("title") });
-    svg.append(svgEl("rect", { class: "inset-box", x: 22, y: 22, width: 290, height: 254, rx: 8 }));
-    const lbl = svgEl("text", { class: "inset-label", x: 36, y: 52 });
-    lbl.textContent = prefName(P.okinawa);
-    svg.append(lbl);
+  // A whole country, regions colored by visited / next trip / not yet.
+  function countryMap(c) {
+    const [W, H] = c.size;
+    const feats = Object.values(c.features);
+    let fit;
+    if (c.extent) fit = { type: "MultiPoint", coordinates: c.extent };
+    else {
+      // Fit the mainland: skip regions' tiny islands so the map isn't mostly sea.
+      const polys = feats.filter((f) => f.id !== c.inset).flatMap((f) => mainPolys(f.geometry, 0.05));
+      fit = { type: "MultiPolygon", coordinates: polys };
+    }
+    const main = d3.geoMercator().fitExtent([[18, 18], [W - 18, H - 18]], fit);
+    const pathMain = d3.geoPath(main);
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": countryName(c) });
 
-    for (const code of Object.keys(FEATURES)) {
-      const info = byCode[code];
-      const isVisited = visited.has(info.slug);
-      const d = (code === "47" ? pathInset : pathMain)(FEATURES[code]);
-      const cls = "pref" + (isVisited ? " visited" : nextSet.has(info.slug) ? " next" : "");
-      const p = svgEl("path", { d, class: cls, "data-code": code });
+    let pathInset = null;
+    if (c.inset && c.features[c.inset]) {
+      const inset = d3.geoMercator().fitExtent([[36, 62], [296, 262]], focusShape(c.features[c.inset], [], 0.05));
+      pathInset = d3.geoPath(inset);
+      svg.append(svgEl("rect", { class: "inset-box", x: 22, y: 22, width: 290, height: 254, rx: 8 }));
+      const lbl = svgEl("text", { class: "inset-label", x: 36, y: 52 });
+      lbl.textContent = regionName(c.byCode[c.inset]);
+      svg.append(lbl);
+    }
+
+    for (const f of feats) {
+      const info = c.byCode[f.id];
+      if (!info) continue;
+      const isVisited = c.visited.has(info.slug);
+      const d = (f.id === c.inset && pathInset ? pathInset : pathMain)(f);
+      const cls = "pref" + (isVisited ? " visited" : c.nextSet.has(info.slug) ? " next" : "");
+      const p = svgEl("path", { d, class: cls, "data-name": regionName(info) });
       const title = svgEl("title");
-      title.textContent = prefName(info);
+      title.textContent = regionName(info);
       p.append(title);
       if (isVisited) {
         p.setAttribute("tabindex", "0");
         p.setAttribute("role", "link");
-        p.setAttribute("aria-label", prefName(info));
-        p.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(info.slug); } });
+        p.setAttribute("aria-label", regionName(info));
+        p.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(c, info.slug); } });
       }
-      p.addEventListener("click", () => (isVisited ? go(info.slug) : toast(`${prefName(info)} — ${t("notYet")}`)));
+      p.addEventListener("click", () => (isVisited ? go(c, info.slug) : toast(`${regionName(info)} — ${t("notYet")}`)));
       svg.append(p);
     }
     return svg;
   }
 
-  // Bounds that ignore tiny far-off islands (so Tokyo isn't zoomed out to Ogasawara).
-  function focusShape(feature, spots, minShare = 0.15) {
-    const g = feature.geometry;
-    let polys = g.type === "Polygon" ? [g.coordinates] : g.coordinates;
-    const areas = polys.map((c) => d3.geoArea({ type: "Polygon", coordinates: c }));
-    const max = Math.max(...areas);
-    polys = polys.filter((_, i) => areas[i] >= max * minShare);
-    const geoms = [{ type: "MultiPolygon", coordinates: polys }];
-    if (spots.length) geoms.push({ type: "MultiPoint", coordinates: spots.map((s) => [s.lon, s.lat]) });
-    return { type: "GeometryCollection", geometries: geoms };
-  }
-
-  function prefectureMap(info, place) {
+  // One region, with its neighbours faded, (for Japan) its cities/wards, and the place pins.
+  function regionMap(c, info, place) {
     const W = 600, H = 520;
     const spots = place.spots || [];
-    const zoomed = place.zoom && zoomState[info.slug] !== "all";
-    const zoomTo = zoomed && MUNI ? MUNI.filter((f) => f.id.startsWith(place.zoom)) : null;
+    const muni = c.municipalities ? MUNI : null;
+    const zoomKey = `${c.slug}/${info.slug}`;
+    const zoomed = place.zoom && zoomState[zoomKey] !== "all";
+    const zoomTo = zoomed && muni ? muni.filter((f) => f.id.startsWith(place.zoom)) : null;
     const fitShape = zoomTo && zoomTo.length
       ? { type: "FeatureCollection", features: zoomTo }
-      : focusShape(FEATURES[info.code], spots);
+      : focusShape(c.features[info.code], spots);
     const proj = d3.geoMercator().fitExtent([[40, 40], [W - 40, H - 40]], fitShape);
     const path = d3.geoPath(proj);
-    const nexts = nextSpots.filter((n) => n.prefecture === info.slug);
-    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": prefName(info) });
+    const nexts = c.nextSpots.filter((n) => regionOf(n) === info.slug);
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": regionName(info) });
 
-    for (const code of Object.keys(FEATURES)) {
+    for (const [code, f] of Object.entries(c.features)) {
       if (code === info.code) continue;
-      svg.append(svgEl("path", { d: path(FEATURES[code]), class: "pref context", "data-code": code }));
+      const other = c.byCode[code];
+      svg.append(svgEl("path", { d: path(f), class: "pref context", "data-name": other ? regionName(other) : "" }));
     }
-    svg.append(svgEl("path", { d: path(FEATURES[info.code]), class: "pref focus", "data-code": info.code }));
+    svg.append(svgEl("path", { d: path(c.features[info.code]), class: "pref focus", "data-name": regionName(info) }));
 
-    if (MUNI) {
+    if (muni) {
       const areas = new Set(place.areas || []);
-      for (const f of MUNI) {
+      for (const f of muni) {
         if (f.id.slice(0, 2) !== info.code) continue;
         const hit = areas.has(f.id) || spots.some((s) => d3.geoContains(f, [s.lon, s.lat]));
         svg.append(svgEl("path", { d: path(f), class: "muni" + (hit ? " visited" : ""), "data-name": muniName(f) }));
@@ -255,8 +312,7 @@
       const [x, y] = proj([s.lon, s.lat]);
       const g = svgEl("g", { class: "pin next-pin" });
       g.append(svgEl("circle", { cx: x, cy: y, r: 11, "data-name": `${loc(s.name)}?` }));
-      const right = x < W - 200;
-      const label = svgEl("text", { x: right ? x + 17 : x - 17, y: y + 10, "text-anchor": right ? "start" : "end" });
+      const label = svgEl("text", { x: x + 17, y: y + 10 });
       label.textContent = `${loc(s.name)}?`;
       g.append(label);
       svg.append(g);
@@ -266,8 +322,7 @@
       const [x, y] = proj([s.lon, s.lat]);
       const g = svgEl("g", { class: "pin", tabindex: "0", role: "link", "aria-label": loc(s.name) });
       g.append(svgEl("circle", { cx: x, cy: y, r: 11, "data-name": loc(s.name) }));
-      const right = x < W - 200;
-      const label = svgEl("text", { x: right ? x + 17 : x - 17, y: y + 10, "text-anchor": right ? "start" : "end" });
+      const label = svgEl("text", { x: x + 17, y: y + 10 });
       label.textContent = loc(s.name);
       g.append(label);
       const jump = () => document.getElementById(`spot-${i}`)?.scrollIntoView({ behavior: "smooth" });
@@ -318,44 +373,76 @@
     });
   }
 
-  function muniName(f) {
-    const n = MUNI_NAMES[f.id];
-    return n ? (n[lang] || n.en) : f.properties.n;
-  }
-  function loadMuni() {
-    if (!muniLoading) {
-      muniLoading = fetch("data/municipalities.topo.json").then((r) => r.json()).then((topo) => {
-        MUNI = topojson.feature(topo, topo.objects.municipalities).features;
-        render();
-      }).catch((e) => console.error(e));
-    }
-  }
-
-  // ---------- views ----------
-  function polaroidLink(info, place) {
-    // Cover: the photo named in "cover", else the first real (non-test) photo.
-    const photos = (place.spots || []).flatMap(spotPhotos);
-    const first = (place.cover && photos.find((p) => p.src === place.cover)) ||
-      photos.find((p) => !p.test) || photos[0];
-    const pic = h("div", { class: "pic" });
-    if (first) pic.append(h("img", { src: first.thumb || first.src, alt: "", loading: "lazy" }));
-    else pic.append(postcard(info.slug));
-    const n = (place.spots || []).length;
-    return h("a", { class: "polaroid", href: `#/japan/${info.slug}` },
-      pic,
-      h("div", { class: "cap" }, prefName(info)),
-      h("div", { class: "sub" }, n ? t("spotsCount", n) : prefAlt(info)));
-  }
-
-  function homeView() {
-    const total = PREFECTURES.length;
-    const n = visited.size;
-
+  // ---------- shared bits ----------
+  const arrowSvg = (dir) => {
+    const el = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    el.setAttribute("viewBox", "0 0 24 24"); el.setAttribute("aria-hidden", "true"); el.setAttribute("class", "ico");
+    el.innerHTML = dir === "left"
+      ? '<path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>'
+      : '<path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>';
+    return el;
+  };
+  const backLink = (href, label) => h("a", { class: "back", href, "aria-label": t("backTo", label) }, arrowSvg("left"), h("span", {}, label));
+  const loading = () => h("p", { class: "muted" }, t("loading"));
+  const progressBar = (n, total) => {
     const bar = h("div", { class: "bar" }, h("span", { style: "width:0" }));
     requestAnimationFrame(() => requestAnimationFrame(() => { bar.firstChild.style.width = `${(n / total) * 100}%`; }));
+    return bar;
+  };
+  const countryPhotos = (c) => [...c.visited.values()].flatMap((p) => (p.spots || []).flatMap(spotPhotos));
 
+  // ---------- views ----------
+  // Home: every country as a card.
+  function homeView() {
+    const all = Object.values(C);
+    const withPlaces = all.filter((c) => c.visited.size);
+    const placeCount = withPlaces.reduce((n, c) => n + [...c.visited.values()].reduce((m, p) => m + (p.spots || []).length, 0), 0);
+    const photoCount = withPlaces.reduce((n, c) => n + countryPhotos(c).filter((p) => !p.test).length, 0);
+
+    const cards = all.map((c) => {
+      const cover = coverOf(countryPhotos(c), c.data.cover);
+      const pic = h("div", { class: "pic" });
+      if (cover) pic.append(h("img", { src: cover.thumb || cover.src, alt: "", loading: "lazy" }));
+      else pic.append(postcard(c.slug));
+      const sub = c.visited.size
+        ? t("regionCount", c.visited.size, c.regions.length, unit(c, true))
+        : t("photosSoonCountry");
+      return h("a", { class: "polaroid", href: `#/${c.slug}` },
+        pic, h("div", { class: "cap" }, countryName(c)), h("div", { class: "sub" }, sub));
+    });
+
+    return [
+      h("section", { class: "hero" }, h("h1", {}, t("title")), h("p", {}, t("subtitle"))),
+      h("p", { class: "stats" }, t("stats", withPlaces.length, placeCount, photoCount)),
+      h("h2", { class: "section-title" }, t("countriesTitle")),
+      h("div", { class: "grid countries" }, cards)
+    ];
+  }
+
+  function regionCard(c, info, place) {
+    const cover = coverOf((place.spots || []).flatMap(spotPhotos), place.cover);
+    const pic = h("div", { class: "pic" });
+    if (cover) pic.append(h("img", { src: cover.thumb || cover.src, alt: "", loading: "lazy" }));
+    else pic.append(postcard(info.slug));
+    const n = (place.spots || []).length;
+    return h("a", { class: "polaroid", href: `#/${c.slug}/${info.slug}` },
+      pic,
+      h("div", { class: "cap" }, regionName(info)),
+      h("div", { class: "sub" }, n ? t("spotsCount", n) : regionAlt(info)));
+  }
+
+  // A country: its map, progress, next trips and region albums.
+  function countryView(c) {
+    const head = [
+      backLink("#/", t("allCountries")),
+      h("h1", { class: "chapter" }, countryName(c))
+    ];
+    if (!c.features) { loadMap(c); return [...head, loading()]; }
+
+    const total = c.regions.length;
+    const n = c.visited.size;
     const card = h("div", { class: "map-card" });
-    const svg = japanMap();
+    const svg = countryMap(c);
     card.append(svg);
     attachTip(card, svg);
 
@@ -364,32 +451,31 @@
       h("span", {}, h("i", { style: "background:var(--next)" }), t("legendNext")),
       h("span", {}, h("i", { style: "background:var(--none)" }), t("legendNone")));
 
-    const nextItems = (DATA.next || []).map((n) => {
-      if (typeof n === "string") return P[n] ? h("li", {}, prefName(P[n])) : null;
-      const pi = P[n.prefecture];
-      return h("li", {}, loc(n.name), pi ? h("small", {}, ` · ${prefName(pi)}`) : null);
+    const nextItems = (c.data.next || []).map((x) => {
+      if (typeof x === "string") return c.R[x] ? h("li", {}, regionName(c.R[x])) : null;
+      const pi = c.R[regionOf(x)];
+      return h("li", {}, loc(x.name), pi ? h("small", {}, ` · ${regionName(pi)}`) : null);
     }).filter(Boolean);
 
-    // visited list, grouped by JIS order (north to south)
-    const cards = PREFECTURES.filter(([, slug]) => visited.has(slug)).map(([, slug]) => polaroidLink(P[slug], visited.get(slug)));
+    // Region albums in the country's own order (Japan: north to south).
+    const cards = c.regions.filter(([, slug]) => c.visited.has(slug)).map(([, slug]) => regionCard(c, c.R[slug], c.visited.get(slug)));
 
     return [
-      h("section", { class: "hero" }, h("h1", {}, t("title")), h("p", {}, t("subtitle"))),
-      h("h2", { class: "chapter" }, t("japan")),
-      h("div", { class: "counter" }, h("strong", {}, t("counter", n, total)), bar),
+      ...head,
+      h("div", { class: "counter" }, h("strong", {}, t("counter", n, total, unit(c, true))), progressBar(n, total)),
       card,
       legend,
-      h("p", { class: "hint" }, t("tapHint")),
-      h("h2", { class: "section-title" }, t("nextTitle")),
-      h("div", { class: "next-card" }, nextItems.length ? h("ul", { class: "next-list" }, nextItems) : h("p", { class: "muted" }, t("nextEmpty"))),
-      h("h2", { class: "section-title" }, t("visitedTitle")),
-      h("div", { class: "grid" }, cards)
-    ];
+      n ? h("p", { class: "hint" }, t("tapHint", unit(c, false))) : null,
+      nextItems.length ? h("h2", { class: "section-title" }, t("nextTitle")) : null,
+      nextItems.length ? h("div", { class: "next-card" }, h("ul", { class: "next-list" }, nextItems)) : null,
+      h("h2", { class: "section-title" }, t("visitedTitle", unit(c, true))),
+      cards.length ? h("div", { class: "grid" }, cards) : h("p", { class: "muted" }, t("photosSoonCountry"))
+    ].filter(Boolean);
   }
 
-  // Names of the cities/wards colored on the map.
-  function areaChips(info, place) {
-    if (!MUNI) return null;
+  // Names of the cities/wards colored on the map (Japan only).
+  function areaChips(c, info, place) {
+    if (!c.municipalities || !MUNI) return null;
     const spots = place.spots || [];
     const areas = new Set(place.areas || []);
     const hits = MUNI.filter((f) => f.id.slice(0, 2) === info.code &&
@@ -400,42 +486,37 @@
       h("ul", {}, hits.map((f) => h("li", {}, muniName(f)))));
   }
 
-  const arrowSvg = (dir) => {
-    const el = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    el.setAttribute("viewBox", "0 0 24 24"); el.setAttribute("aria-hidden", "true"); el.setAttribute("class", "ico");
-    el.innerHTML = dir === "left"
-      ? '<path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>'
-      : '<path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>';
-    return el;
-  };
-  const backLink = () => h("a", { class: "back", href: "#/", "aria-label": t("back") }, arrowSvg("left"), h("span", {}, t("japan")));
-
-  // Previous / next visited prefecture (north to south).
-  function prefNav(slug) {
-    const order = PREFECTURES.map((p) => p[1]).filter((s) => visited.has(s));
+  // Previous / next visited region in the same country.
+  function regionNav(c, slug) {
+    const order = c.regions.map((r) => r[1]).filter((s) => c.visited.has(s));
     const i = order.indexOf(slug);
     const prev = order[(i - 1 + order.length) % order.length], next = order[(i + 1) % order.length];
     return h("nav", { class: "pref-nav" },
-      h("a", { href: `#/japan/${prev}`, class: "prev" }, arrowSvg("left"), h("span", {}, prefName(P[prev]))),
-      h("a", { href: `#/japan/${next}`, class: "next" }, h("span", {}, prefName(P[next])), arrowSvg("right")));
+      // With only two regions, "previous" and "next" are the same one: show it once.
+      prev === next ? h("span") : h("a", { href: `#/${c.slug}/${prev}`, class: "prev" }, arrowSvg("left"), h("span", {}, regionName(c.R[prev]))),
+      h("a", { href: `#/${c.slug}/${next}`, class: "next" }, h("span", {}, regionName(c.R[next])), arrowSvg("right")));
   }
 
-  function prefectureView(slug) {
-    const info = P[slug];
-    const place = visited.get(slug);
-    if (!info || !place) return [backLink(), h("p", {}, t("notFound"))];
+  function regionView(c, slug) {
+    const info = c.R[slug];
+    const place = c.visited.get(slug);
+    const back = backLink(`#/${c.slug}`, countryName(c));
+    if (!info || !place) return [back, h("p", {}, t("notFound"))];
+    if (!c.features) { loadMap(c); return [back, loading()]; }
+    if (c.municipalities && !MUNI) loadMuni();
 
     const mapCard = h("div", { class: "map-card" });
     if (place.zoom) {
-      const cur = zoomState[slug] === "all" ? "all" : "zoom";
+      const key = `${c.slug}/${slug}`;
+      const cur = zoomState[key] === "all" ? "all" : "zoom";
       const btn = (mode, label) => h("button", {
         type: "button", "aria-pressed": String(cur === mode),
-        onclick: () => { zoomState[slug] = mode; render(); }
+        onclick: () => { zoomState[key] = mode; render(); }
       }, label);
       mapCard.append(h("div", { class: "zoom-toggle", role: "group" },
         btn("zoom", loc(place.zoomLabel) || t("zoomIn")), btn("all", t("viewAll"))));
     }
-    const svg = prefectureMap(info, place);
+    const svg = regionMap(c, info, place);
     mapCard.append(svg);
     attachTip(mapCard, svg);
 
@@ -485,12 +566,12 @@
       : [h("p", { class: "muted" }, t("noSpots"))];
 
     return [
-      backLink(),
-      h("div", { class: "pref-head" }, h("h1", {}, prefName(info)), h("div", { class: "alt" }, `${prefAlt(info)} · ${t("regions")[info.region]}`)),
-      h("div", { class: "pref-layout" }, mapCard, h("div", {}, note, areaChips(info, place))),
+      back,
+      h("div", { class: "pref-head" }, h("h1", {}, regionName(info)), h("div", { class: "alt" }, `${regionAlt(info)} · ${groupName(c, info.group)}`)),
+      h("div", { class: "pref-layout" }, mapCard, h("div", {}, note, areaChips(c, info, place))),
       h("h2", { class: "section-title" }, t("spots")),
       ...spotSections,
-      visited.size > 1 ? prefNav(slug) : null
+      c.visited.size > 1 ? regionNav(c, slug) : null
     ].filter(Boolean);
   }
 
@@ -547,42 +628,40 @@
   }
 
   // ---------- routing ----------
-  function go(slug) { location.hash = `#/japan/${slug}`; }
+  // #/                    home (all countries)
+  // #/japan               a country
+  // #/japan/tokyo         a region of that country
+  function go(c, slug) { location.hash = `#/${c.slug}/${slug}`; }
   function route() {
-    const m = location.hash.match(/^#\/japan\/([a-z]+)/);
-    return m ? { view: "pref", slug: m[1] } : { view: "home" };
+    const m = location.hash.match(/^#\/([a-z]+)(?:\/([a-z-]+))?/);
+    if (!m || !C[m[1]]) return { view: "home" };
+    return m[2] ? { view: "region", c: C[m[1]], slug: m[2] } : { view: "country", c: C[m[1]] };
   }
   let lastRoute = "";
-  const zoomState = {}; // slug -> "all" | "zoom" (for prefectures with a zoomed view)
+  const zoomState = {}; // "country/region" -> "all" | "zoom" (for regions with a zoomed view)
   function render() {
     applyStatic();
-    if (!DATA) return;
+    if (!loaded) return;
     const r = route();
-    if (r.view === "pref" && !MUNI) loadMuni();
-    app.replaceChildren(...(r.view === "pref" ? prefectureView(r.slug) : homeView()));
+    const view = r.view === "region" ? regionView(r.c, r.slug) : r.view === "country" ? countryView(r.c) : homeView();
+    app.replaceChildren(...view);
     const key = location.hash;
     if (key !== lastRoute) { window.scrollTo(0, 0); lastRoute = key; }
-    document.title = r.view === "pref" && P[r.slug] ? `${prefName(P[r.slug])} · ${t("title")}` : t("title");
+    const info = r.view === "region" ? r.c.R[r.slug] : null;
+    document.title = info ? `${regionName(info)} · ${t("title")}`
+      : r.view === "country" ? `${countryName(r.c)} · ${t("title")}` : t("title");
   }
   window.addEventListener("hashchange", render);
 
   // ---------- load ----------
+  // Every country's album file is small, so they all load up front (the home page
+  // needs their counts and covers). The maps load only when a country is opened.
+  let loaded = false;
   applyStatic();
-  Promise.all([
-    fetch("data/prefectures.topo.json").then((r) => r.json()),
-    fetch("data/japan.json").then((r) => r.json())
-  ]).then(([topo, data]) => {
-    FEATURES = {};
-    for (const f of topojson.feature(topo, topo.objects.prefectures).features) FEATURES[f.id] = f;
-    DATA = data;
-    for (const p of data.places || []) if (P[p.prefecture]) visited.set(p.prefecture, p);
-    for (const s of data.next || []) {
-      if (typeof s === "string") nextSet.add(s);
-      else if (s && typeof s.lat === "number") nextSpots.push(s);
-    }
-    render();
-  }).catch((err) => {
-    app.replaceChildren(h("p", { class: "muted" }, "Could not load the map data."));
-    console.error(err);
-  });
+  Promise.all(Object.values(C).map((c) => fetch(c.dataFile).then((r) => r.json()).then((d) => setData(c, d))))
+    .then(() => { loaded = true; render(); })
+    .catch((err) => {
+      app.replaceChildren(h("p", { class: "muted" }, "Could not load the diary."));
+      console.error(err);
+    });
 })();

@@ -1,0 +1,2385 @@
+{
+  "places": [
+    {
+      "region": "beijing",
+      "note": {
+        "en": "Hutongs, the Summer Palace, the Great Wall, the Forbidden City, the Temple of Heaven and the lakes of Shichahai.",
+        "ja": "胡同、頤和園、万里の長城、故宮、天壇、そして什刹海の湖。",
+        "es": "Hutongs, el Palacio de Verano, la Gran Muralla, la Ciudad Prohibida, el Templo del Cielo y los lagos de Shichahai."
+      },
+      "spots": [
+        {
+          "id": "nanluoguxiang",
+          "name": {
+            "en": "Nanluoguxiang",
+            "ja": "南鑼鼓巷",
+            "es": "Nanluoguxiang"
+          },
+          "lat": 39.9372,
+          "lon": 116.4033,
+          "visits": [
+            {
+              "date": "2024-09-03",
+              "photos": [
+                {
+                  "src": "photos/china/beijing/nanluoguxiang/2024-09-03/20240903_195204.jpg",
+                  "thumb": "photos/china/beijing/nanluoguxiang/2024-09-03/thumbs/20240903_195204.jpg",
+                  "caption": {
+                    "en": "First night in Beijing",
+                    "ja": "北京の最初の夜",
+                    "es": "Primera noche en Pekín"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/nanluoguxiang/2024-09-03/20240903_195454.jpg",
+                  "thumb": "photos/china/beijing/nanluoguxiang/2024-09-03/thumbs/20240903_195454.jpg",
+                  "caption": {
+                    "en": "The hutong at night",
+                    "ja": "夜の胡同",
+                    "es": "El hutong de noche"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/nanluoguxiang/2024-09-03/20240903_200015.jpg",
+                  "thumb": "photos/china/beijing/nanluoguxiang/2024-09-03/thumbs/20240903_200015.jpg",
+                  "caption": {
+                    "en": "A treat in the hutong",
+                    "ja": "胡同でおやつ",
+                    "es": "Un antojo en el hutong"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/nanluoguxiang/2024-09-03/20240903_203320.jpg",
+                  "thumb": "photos/china/beijing/nanluoguxiang/2024-09-03/thumbs/20240903_203320.jpg",
+                  "caption": {
+                    "en": "I ♥ Beijing",
+                    "ja": "I ♥ Beijing",
+                    "es": "I ♥ Beijing"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/nanluoguxiang/2024-09-03/20240903_212042.jpg",
+                  "thumb": "photos/china/beijing/nanluoguxiang/2024-09-03/thumbs/20240903_212042.jpg",
+                  "caption": {
+                    "en": "A red bear on Gulou East Street",
+                    "ja": "鼓楼東大街の赤いクマ",
+                    "es": "Un oso rojo en la calle Gulou Este"
+                  }
+                }
+              ],
+              "note": {
+                "en": "My first evening in Beijing, walking the old hutong alleys of Nanluoguxiang.",
+                "ja": "北京の最初の夜、南鑼鼓巷の古い胡同を散歩しました。",
+                "es": "Mi primera noche en Pekín, caminando por los antiguos hutong de Nanluoguxiang."
+              }
+            }
+          ]
+        },
+        {
+          "id": "drum-tower",
+          "name": {
+            "en": "Drum Tower",
+            "ja": "鼓楼",
+            "es": "Torre del Tambor"
+          },
+          "lat": 39.9418,
+          "lon": 116.3946,
+          "visits": [
+            {
+              "date": "2024-09-03",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "The Drum Tower at night",
+                    "ja": "夜の鼓楼",
+                    "es": "La Torre del Tambor de noche"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/drum-tower/2024-09-03/20240903_213447.jpg",
+                      "thumb": "photos/china/beijing/drum-tower/2024-09-03/thumbs/20240903_213447.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/drum-tower/2024-09-03/20240903_213623.jpg",
+                      "thumb": "photos/china/beijing/drum-tower/2024-09-03/thumbs/20240903_213623.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "summer-palace",
+          "name": {
+            "en": "Summer Palace",
+            "ja": "頤和園",
+            "es": "Palacio de Verano"
+          },
+          "lat": 39.9999,
+          "lon": 116.2755,
+          "visits": [
+            {
+              "date": "2024-09-04",
+              "photos": [
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_101128.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_101128.jpg",
+                  "caption": {
+                    "en": "Arriving at the Summer Palace",
+                    "ja": "頤和園に到着",
+                    "es": "Llegando al Palacio de Verano"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_101729.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_101729.jpg",
+                  "caption": {
+                    "en": "Crowds by the back-hill bridge",
+                    "ja": "後山の橋の人混み",
+                    "es": "Multitudes en el puente de la colina trasera"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Above Suzhou Street",
+                    "ja": "蘇州街の上で",
+                    "es": "Sobre la calle Suzhou"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_102022.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_102022.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_102023.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_102023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The painted archway",
+                    "ja": "色鮮やかな牌楼",
+                    "es": "El arco pintado"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_102145.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_102145.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_102153.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_102153.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Up the back hill",
+                    "ja": "後山を登る",
+                    "es": "Subiendo la colina trasera"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_105606.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_105606.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_105622.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_105622.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_110022.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_110022.jpg",
+                  "caption": {
+                    "en": "View over the back hill",
+                    "ja": "後山からの眺め",
+                    "es": "Vista sobre la colina trasera"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_113053.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_113053.jpg",
+                  "caption": {
+                    "en": "The glazed Hall of the Sea of Wisdom",
+                    "ja": "智慧海",
+                    "es": "El salón vidriado del Mar de la Sabiduría"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Climbing the rocks",
+                    "ja": "岩の上に登る",
+                    "es": "Trepando las rocas"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_113427.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_113427.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_113434.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_113434.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_114252.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_114252.jpg",
+                  "caption": {
+                    "en": "Walls of tiny glazed Buddhas",
+                    "ja": "小さな仏像の瑠璃瓦の壁",
+                    "es": "Muros de pequeños Budas vidriados"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "An old stone gate",
+                    "ja": "古い石の門",
+                    "es": "Una antigua puerta de piedra"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_115021.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_115021.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_115057.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_115057.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_115828.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_115828.jpg",
+                  "caption": {
+                    "en": "Resting by the lotus pond",
+                    "ja": "蓮池のそばで休憩",
+                    "es": "Descansando junto al estanque de lotos"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "In a lakeside pavilion",
+                    "ja": "湖畔の亭で",
+                    "es": "En un pabellón junto al lago"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_120212.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_120212.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_120216.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_120216.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_120444.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_120444.jpg",
+                  "caption": {
+                    "en": "The Long Corridor",
+                    "ja": "長廊",
+                    "es": "El Largo Corredor"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_120814.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_120814.jpg",
+                  "caption": {
+                    "en": "Painted beams of the Long Corridor",
+                    "ja": "長廊の彩色画",
+                    "es": "Las vigas pintadas del Largo Corredor"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The Tower of Buddhist Incense appears",
+                    "ja": "仏香閣が見えた",
+                    "es": "Aparece la Torre de la Fragancia Budista"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_121900.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_121900.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_121922.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_121922.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_121956.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_121956.jpg",
+                  "caption": {
+                    "en": "The courtyard below the tower",
+                    "ja": "仏香閣の下の広場",
+                    "es": "El patio bajo la torre"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_122139.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_122139.jpg",
+                  "caption": {
+                    "en": "Gate of Dispelling Clouds",
+                    "ja": "排雲門",
+                    "es": "Puerta de Disipar las Nubes"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Toward the Tower of Buddhist Incense",
+                    "ja": "仏香閣へ",
+                    "es": "Hacia la Torre de la Fragancia Budista"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_122603.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_122603.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_122718.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_122718.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_123150.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_123150.jpg",
+                  "caption": {
+                    "en": "Hall of Dispelling Clouds",
+                    "ja": "排雲殿",
+                    "es": "Salón de Disipar las Nubes"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_123513.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_123513.jpg",
+                  "caption": {
+                    "en": "Marble balustrades",
+                    "ja": "大理石の欄干",
+                    "es": "Balaustradas de mármol"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The steep stairs up",
+                    "ja": "急な石段",
+                    "es": "Las empinadas escaleras"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_123836.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_123836.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_123900.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_123900.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_123946.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_123946.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_124023.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_124023.jpg",
+                  "caption": {
+                    "en": "Made it to the top!",
+                    "ja": "頂上に着いた！",
+                    "es": "¡Llegué arriba!"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Looking back down the terrace",
+                    "ja": "テラスを振り返る",
+                    "es": "Mirando la terraza desde abajo"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_124026.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_124026.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_124034.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_124034.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_124849.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_124849.jpg",
+                  "caption": {
+                    "en": "Kunming Lake from above",
+                    "ja": "上から見た昆明湖",
+                    "es": "El lago Kunming desde arriba"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Selfie over Kunming Lake",
+                    "ja": "昆明湖を背に自撮り",
+                    "es": "Selfie sobre el lago Kunming"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_125027.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_125027.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_125028.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_125028.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Tower of Buddhist Incense",
+                    "ja": "仏香閣",
+                    "es": "Torre de la Fragancia Budista"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_125206.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_125206.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_130840.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_130840.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_130842.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_130842.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_131806.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_131806.jpg",
+                  "caption": {
+                    "en": "Resting in a corridor",
+                    "ja": "回廊でひと休み",
+                    "es": "Descansando en un corredor"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_132129.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_132129.jpg",
+                  "caption": {
+                    "en": "Archway by the lake",
+                    "ja": "湖畔の牌楼",
+                    "es": "Arco junto al lago"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Ducks on Kunming Lake",
+                    "ja": "昆明湖のカモ",
+                    "es": "Patos en el lago Kunming"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_132443.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_132443.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_132459.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_132459.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "A magpie in a lacebark pine",
+                    "ja": "白松にカササギ",
+                    "es": "Una urraca en un pino de corteza blanca"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_141402.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_141402.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_141421.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_141421.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_141820.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_141820.jpg",
+                  "caption": {
+                    "en": "View toward a white pagoda",
+                    "ja": "白い塔を望む",
+                    "es": "Vista hacia una pagoda blanca"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Suzhou Street",
+                    "ja": "蘇州街",
+                    "es": "Calle Suzhou"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_144425.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_144425.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_144440.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_144440.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_145146.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_145146.jpg",
+                  "caption": {
+                    "en": "The Suzhou Street canal",
+                    "ja": "蘇州街の運河",
+                    "es": "El canal de la calle Suzhou"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "By the water",
+                    "ja": "水辺で",
+                    "es": "Junto al agua"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_145423.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_145423.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_145429.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_145429.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Sitting by the canal",
+                    "ja": "運河のほとりで",
+                    "es": "Sentado junto al canal"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_150231.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_150231.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_150234.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_150234.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The red bridge",
+                    "ja": "赤い橋",
+                    "es": "El puente rojo"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_150457.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_150457.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_150850.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_150850.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_151232.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_151232.jpg",
+                  "caption": {
+                    "en": "The quiet back lake",
+                    "ja": "静かな後湖",
+                    "es": "El tranquilo lago trasero"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "On the boat",
+                    "ja": "船の上で",
+                    "es": "En el bote"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_151814.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_151814.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_151845.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_151845.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_152314.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_152314.jpg",
+                  "caption": {
+                    "en": "The tower from the water",
+                    "ja": "湖から見た仏香閣",
+                    "es": "La torre desde el agua"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_152427.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_152427.jpg",
+                  "caption": {
+                    "en": "Boat selfie",
+                    "ja": "船で自撮り",
+                    "es": "Selfie en el bote"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Longevity Hill from the lake",
+                    "ja": "湖から見た万寿山",
+                    "es": "La Colina de la Longevidad desde el lago"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_152459.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_152459.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_152513.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_152513.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_152957.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_152957.jpg",
+                  "caption": {
+                    "en": "Seventeen-Arch Bridge",
+                    "ja": "十七孔橋",
+                    "es": "El Puente de los Diecisiete Arcos"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Kunming Lake",
+                    "ja": "昆明湖",
+                    "es": "Lago Kunming"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_153459.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_153459.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_153503.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_153503.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_155939.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_155939.jpg",
+                  "caption": {
+                    "en": "Wenchang Tower gate",
+                    "ja": "文昌閣",
+                    "es": "La puerta de la Torre Wenchang"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Imperial porcelain at the Wenchang Gallery",
+                    "ja": "文昌院の宮廷磁器",
+                    "es": "Porcelana imperial en la Galería Wenchang"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_161432.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_161432.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_161439.jpg",
+                      "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_161439.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/summer-palace/2024-09-04/20240904_185206.jpg",
+                  "thumb": "photos/china/beijing/summer-palace/2024-09-04/thumbs/20240904_185206.jpg",
+                  "caption": {
+                    "en": "Kunming Lake at dusk",
+                    "ja": "夕暮れの昆明湖",
+                    "es": "El lago Kunming al anochecer"
+                  }
+                }
+              ],
+              "note": {
+                "en": "A full day at the Summer Palace: the back hill, the Tower of Buddhist Incense, Suzhou Street and a boat across Kunming Lake.",
+                "ja": "頤和園で丸一日：後山、仏香閣、蘇州街、そして昆明湖の遊覧船。",
+                "es": "Un día completo en el Palacio de Verano: la colina trasera, la Torre de la Fragancia Budista, la calle Suzhou y un paseo en bote por el lago Kunming."
+              }
+            }
+          ]
+        },
+        {
+          "id": "great-wall",
+          "name": {
+            "en": "Great Wall at Badaling",
+            "ja": "八達嶺長城",
+            "es": "Gran Muralla en Badaling"
+          },
+          "lat": 40.3594,
+          "lon": 116.0204,
+          "visits": [
+            {
+              "date": "2024-09-05",
+              "photos": [
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_120247.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_120247.jpg",
+                  "caption": {
+                    "en": "Arriving at Badaling",
+                    "ja": "八達嶺に到着",
+                    "es": "Llegando a Badaling"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Cable car up the mountain",
+                    "ja": "ロープウェイで山へ",
+                    "es": "Teleférico montaña arriba"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_123421.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_123421.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_123440.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_123440.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_123558.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_123558.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_124025.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_124025.jpg",
+                  "caption": {
+                    "en": "The crowd on the way up",
+                    "ja": "登り道の人混み",
+                    "es": "La multitud subiendo"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "On the Great Wall!",
+                    "ja": "万里の長城の上！",
+                    "es": "¡En la Gran Muralla!"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_130606.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_130606.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_130607.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_130607.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_130751.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_130751.jpg",
+                  "caption": {
+                    "en": "By a watchtower",
+                    "ja": "望楼のそばで",
+                    "es": "Junto a una torre de vigilancia"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_131013.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_131013.jpg",
+                  "caption": {
+                    "en": "Taking a seat on the wall",
+                    "ja": "城壁にひと休み",
+                    "es": "Sentado en la muralla"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_131516.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_131516.jpg",
+                  "caption": {
+                    "en": "Mountains all around",
+                    "ja": "見渡す限りの山",
+                    "es": "Montañas por todas partes"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_132125.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_132125.jpg",
+                  "caption": {
+                    "en": "An umbrella against the sun",
+                    "ja": "日差しよけの傘",
+                    "es": "Un paraguas contra el sol"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_132337.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_132337.jpg",
+                  "caption": {
+                    "en": "The wall winding away",
+                    "ja": "うねる長城",
+                    "es": "La muralla serpenteando"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_132501.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_132501.jpg",
+                  "caption": {
+                    "en": "Great Wall selfie",
+                    "ja": "長城で自撮り",
+                    "es": "Selfie en la Gran Muralla"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Thumbs up at the top",
+                    "ja": "上でグッド",
+                    "es": "Pulgar arriba en lo alto"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_133700.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_133700.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_133857.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_133857.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Posing with the view",
+                    "ja": "絶景と記念撮影",
+                    "es": "Posando con la vista"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_134413.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_134413.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_134433.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_134433.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_134434.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_134434.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_134507.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_134507.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_134514.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_134514.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_134525.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_134525.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_134643.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_134643.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The Great Wall over the hills",
+                    "ja": "山々を越える長城",
+                    "es": "La Gran Muralla sobre las colinas"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_134813.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_134813.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_134818.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_134818.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The steep way down",
+                    "ja": "急な下り道",
+                    "es": "La empinada bajada"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_142034.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_142034.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_142101.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_142101.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/great-wall/2024-09-05/20240905_142201.jpg",
+                      "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_142201.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_142423.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_142423.jpg",
+                  "caption": {
+                    "en": "Selfie on the way down",
+                    "ja": "下りながら自撮り",
+                    "es": "Selfie bajando"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_142734.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_142734.jpg",
+                  "caption": {
+                    "en": "Back toward the watchtower",
+                    "ja": "望楼を振り返る",
+                    "es": "De vuelta hacia la torre"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_142848.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_142848.jpg",
+                  "caption": {
+                    "en": "Tired but happy",
+                    "ja": "疲れたけど満足",
+                    "es": "Cansado pero feliz"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/great-wall/2024-09-05/20240905_153727.jpg",
+                  "thumb": "photos/china/beijing/great-wall/2024-09-05/thumbs/20240905_153727.jpg",
+                  "caption": {
+                    "en": "The Great Wall mural",
+                    "ja": "「長城」の壁画",
+                    "es": "El mural de la Gran Muralla"
+                  }
+                }
+              ],
+              "note": {
+                "en": "The Great Wall at Badaling: up by cable car, along the wall in the hot sun, and down the steep stairs.",
+                "ja": "八達嶺長城：ロープウェイで登り、強い日差しの中を歩き、急な階段を下りました。",
+                "es": "La Gran Muralla en Badaling: subida en teleférico, caminata bajo el sol y bajada por las empinadas escaleras."
+              }
+            }
+          ]
+        },
+        {
+          "id": "deshengmen",
+          "name": {
+            "en": "Deshengmen Arrow Tower",
+            "ja": "徳勝門箭楼",
+            "es": "Torre de Deshengmen"
+          },
+          "lat": 39.9476,
+          "lon": 116.3793,
+          "visits": [
+            {
+              "date": "2024-09-05",
+              "photos": [
+                {
+                  "src": "photos/china/beijing/deshengmen/2024-09-05/20240905_192234.jpg",
+                  "thumb": "photos/china/beijing/deshengmen/2024-09-05/thumbs/20240905_192234.jpg",
+                  "caption": {
+                    "en": "Deshengmen Arrow Tower at night",
+                    "ja": "夜の徳勝門箭楼",
+                    "es": "La torre de Deshengmen de noche"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/deshengmen/2024-09-05/20240905_192346.jpg",
+                  "thumb": "photos/china/beijing/deshengmen/2024-09-05/thumbs/20240905_192346.jpg",
+                  "caption": {
+                    "en": "With the old city gate",
+                    "ja": "古い城門と",
+                    "es": "Con la antigua puerta de la ciudad"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "olympic-park",
+          "name": {
+            "en": "Olympic Park",
+            "ja": "オリンピック公園",
+            "es": "Parque Olímpico"
+          },
+          "lat": 39.993,
+          "lon": 116.3906,
+          "visits": [
+            {
+              "date": "2024-09-05",
+              "photos": [
+                {
+                  "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_202020.jpg",
+                  "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_202020.jpg",
+                  "caption": {
+                    "en": "Arriving at the Olympic Park",
+                    "ja": "オリンピック公園に到着",
+                    "es": "Llegando al Parque Olímpico"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_202053.jpg",
+                  "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_202053.jpg",
+                  "caption": {
+                    "en": "The red lattice escalators",
+                    "ja": "赤い格子のエスカレーター",
+                    "es": "Las escaleras del entramado rojo"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_211806.jpg",
+                  "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_211806.jpg",
+                  "caption": {
+                    "en": "Arms up by the red lattice",
+                    "ja": "赤い格子の前でバンザイ",
+                    "es": "Brazos arriba junto al entramado rojo"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_213127.jpg",
+                  "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_213127.jpg",
+                  "caption": {
+                    "en": "Olympic Tower and lights",
+                    "ja": "オリンピックタワーと光",
+                    "es": "La Torre Olímpica y las luces"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_213305.jpg",
+                  "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_213305.jpg",
+                  "caption": {
+                    "en": "With the Olympic Tower",
+                    "ja": "オリンピックタワーと",
+                    "es": "Con la Torre Olímpica"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Reflections by the lake",
+                    "ja": "湖に映る建物",
+                    "es": "Reflejos junto al lago"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_213623.jpg",
+                      "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_213623.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_213740.jpg",
+                      "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_213740.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_214111.jpg",
+                  "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_214111.jpg",
+                  "caption": {
+                    "en": "Moonlight Pier",
+                    "ja": "月色碼頭",
+                    "es": "Muelle de la Luz de Luna"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_214555.jpg",
+                  "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_214555.jpg",
+                  "caption": {
+                    "en": "The tower over the water",
+                    "ja": "水辺から見たタワー",
+                    "es": "La torre sobre el agua"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The Bird's Nest",
+                    "ja": "鳥の巣（国家体育場）",
+                    "es": "El Nido de Pájaro"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_215631.jpg",
+                      "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_215631.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_215841.jpg",
+                      "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_215841.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_220020.jpg",
+                      "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_220020.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_221557.jpg",
+                  "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_221557.jpg",
+                  "caption": {
+                    "en": "The Water Cube",
+                    "ja": "ウォーターキューブ",
+                    "es": "El Cubo de Agua"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "With the Bird's Nest",
+                    "ja": "鳥の巣と",
+                    "es": "Con el Nido de Pájaro"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_221640.jpg",
+                      "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_221640.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_222100.jpg",
+                      "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_222100.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_222408.jpg",
+                  "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_222408.jpg",
+                  "caption": {
+                    "en": "The Water Cube's dragon",
+                    "ja": "ウォーターキューブの龍",
+                    "es": "El dragón del Cubo de Agua"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/olympic-park/2024-09-05/20240905_224203.jpg",
+                  "thumb": "photos/china/beijing/olympic-park/2024-09-05/thumbs/20240905_224203.jpg",
+                  "caption": {
+                    "en": "A friendly panda",
+                    "ja": "かわいいパンダ",
+                    "es": "Un panda amistoso"
+                  }
+                }
+              ],
+              "note": {
+                "en": "An evening walk around the 2008 Olympic venues, all lit up.",
+                "ja": "ライトアップされた2008年オリンピック会場を夜に散歩。",
+                "es": "Un paseo nocturno por las sedes olímpicas de 2008, todas iluminadas."
+              }
+            }
+          ]
+        },
+        {
+          "id": "tiananmen",
+          "name": {
+            "en": "Tiananmen",
+            "ja": "天安門",
+            "es": "Tiananmén"
+          },
+          "lat": 39.9087,
+          "lon": 116.3975,
+          "visits": [
+            {
+              "date": "2024-09-06",
+              "photos": [
+                {
+                  "src": "photos/china/beijing/tiananmen/2024-09-06/20240906_124548.jpg",
+                  "thumb": "photos/china/beijing/tiananmen/2024-09-06/thumbs/20240906_124548.jpg",
+                  "caption": {
+                    "en": "Tiananmen and the marble column",
+                    "ja": "天安門と華表",
+                    "es": "Tiananmén y la columna de mármol"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "In front of Tiananmen (+1,000,000 social credit)",
+                    "ja": "天安門の前で",
+                    "es": "Frente a Tiananmén (+1 000 000 de crédito social)"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/tiananmen/2024-09-06/20240906_125637.jpg",
+                      "thumb": "photos/china/beijing/tiananmen/2024-09-06/thumbs/20240906_125637.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/tiananmen/2024-09-06/20240906_125641.jpg",
+                      "thumb": "photos/china/beijing/tiananmen/2024-09-06/thumbs/20240906_125641.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "forbidden-city",
+          "name": {
+            "en": "Forbidden City",
+            "ja": "故宮（紫禁城）",
+            "es": "Ciudad Prohibida"
+          },
+          "lat": 39.9163,
+          "lon": 116.3972,
+          "visits": [
+            {
+              "date": "2024-09-06",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "The Meridian Gate",
+                    "ja": "午門",
+                    "es": "La Puerta Meridiana"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_130755.jpg",
+                      "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_130755.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_130810.jpg",
+                      "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_130810.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_132916.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_132916.jpg",
+                  "caption": {
+                    "en": "Map of the palace",
+                    "ja": "故宮の案内図",
+                    "es": "Mapa del palacio"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_140108.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_140108.jpg",
+                  "caption": {
+                    "en": "Golden Water Bridges",
+                    "ja": "金水橋",
+                    "es": "Los Puentes del Agua Dorada"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_140702.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_140702.jpg",
+                  "caption": {
+                    "en": "Gate of Supreme Harmony",
+                    "ja": "太和門",
+                    "es": "Puerta de la Armonía Suprema"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_140856.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_140856.jpg",
+                  "caption": {
+                    "en": "Hall of Supreme Harmony selfie",
+                    "ja": "太和殿で自撮り",
+                    "es": "Selfie en el Salón de la Armonía Suprema"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_145909.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_145909.jpg",
+                  "caption": {
+                    "en": "A green-roofed hall",
+                    "ja": "緑の瓦の殿舎",
+                    "es": "Un salón de techo verde"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_154935.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_154935.jpg",
+                  "caption": {
+                    "en": "Imperial enamel vase",
+                    "ja": "宮廷の琺瑯彩の花瓶",
+                    "es": "Jarrón imperial esmaltado"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_155446.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_155446.jpg",
+                  "caption": {
+                    "en": "With a Qing-dynasty princess",
+                    "ja": "清朝のお姫様と",
+                    "es": "Con una princesa de la dinastía Qing"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_160849.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_160849.jpg",
+                  "caption": {
+                    "en": "The great courtyard",
+                    "ja": "大きな広場",
+                    "es": "El gran patio"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The marble terraces",
+                    "ja": "大理石の基壇",
+                    "es": "Las terrazas de mármol"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_161217.jpg",
+                      "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_161217.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_161226.jpg",
+                      "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_161226.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_163459.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_163459.jpg",
+                  "caption": {
+                    "en": "Into the inner palaces",
+                    "ja": "内廷へ",
+                    "es": "Hacia los palacios interiores"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_163614.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_163614.jpg",
+                  "caption": {
+                    "en": "A throne room",
+                    "ja": "玉座の間",
+                    "es": "Una sala del trono"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_163830.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_163830.jpg",
+                  "caption": {
+                    "en": "Palace hall",
+                    "ja": "宮殿",
+                    "es": "Salón del palacio"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_164140.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_164140.jpg",
+                  "caption": {
+                    "en": "The Imperial Garden",
+                    "ja": "御花園",
+                    "es": "El Jardín Imperial"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_164520.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_164520.jpg",
+                  "caption": {
+                    "en": "The red-walled lanes, like in Story of Yanxi Palace",
+                    "ja": "「瓔珞」のような赤い壁の路地",
+                    "es": "Los pasillos de muros rojos, como en La historia del palacio Yanxi"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_170241.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_170241.jpg",
+                  "caption": {
+                    "en": "By the moat at the north gate",
+                    "ja": "神武門の堀端で",
+                    "es": "Junto al foso de la puerta norte"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/forbidden-city/2024-09-06/20240906_171144.jpg",
+                  "thumb": "photos/china/beijing/forbidden-city/2024-09-06/thumbs/20240906_171144.jpg",
+                  "caption": {
+                    "en": "The corner tower reflected in the moat",
+                    "ja": "堀に映る角楼",
+                    "es": "La torre de esquina reflejada en el foso"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Inside the Forbidden City. The long red-walled lanes of the inner palace felt just like a scene from the palace dramas.",
+                "ja": "故宮の中へ。内廷の赤い壁の長い路地は、宮廷ドラマのワンシーンのようでした。",
+                "es": "Dentro de la Ciudad Prohibida. Los largos pasillos de muros rojos del palacio interior parecían una escena de las series de palacio."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wangfujing",
+          "name": {
+            "en": "Wangfujing",
+            "ja": "王府井",
+            "es": "Wangfujing"
+          },
+          "lat": 39.9137,
+          "lon": 116.4108,
+          "visits": [
+            {
+              "date": "2024-09-06",
+              "photos": [
+                {
+                  "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_182910.jpg",
+                  "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_182910.jpg",
+                  "caption": {
+                    "en": "Bubble tea on Wangfujing Street",
+                    "ja": "王府井でタピオカ",
+                    "es": "Bubble tea en la calle Wangfujing"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_183111.jpg",
+                  "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_183111.jpg",
+                  "caption": {
+                    "en": "The giant 3D panda screen",
+                    "ja": "巨大な3Dパンダのスクリーン",
+                    "es": "La gigantesca pantalla 3D del panda"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The panda comes out of the screen (from my video)",
+                    "ja": "スクリーンから飛び出すパンダ（動画より）",
+                    "es": "El panda sale de la pantalla (de mi video)"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_183119.jpg",
+                      "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_183119.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_183127.jpg",
+                      "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_183127.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_183132.jpg",
+                      "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_183132.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_183138.jpg",
+                      "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_183138.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The clock tower at dusk",
+                    "ja": "夕暮れの時計塔",
+                    "es": "La torre del reloj al atardecer"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_183821.jpg",
+                      "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_183821.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_184138.jpg",
+                      "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_184138.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_192757.jpg",
+                  "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_192757.jpg",
+                  "caption": {
+                    "en": "Watching the chef carve the duck",
+                    "ja": "北京ダックを切り分ける職人",
+                    "es": "Mirando al chef cortar el pato"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_193530.jpg",
+                  "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_193530.jpg",
+                  "caption": {
+                    "en": "Peking duck dinner",
+                    "ja": "北京ダックの夕食",
+                    "es": "Cena de pato laqueado"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_193941.jpg",
+                  "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_193941.jpg",
+                  "caption": {
+                    "en": "Wrapping my own duck",
+                    "ja": "自分で包む北京ダック",
+                    "es": "Armando mi propio pato"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "temple-of-heaven",
+          "name": {
+            "en": "Temple of Heaven",
+            "ja": "天壇",
+            "es": "Templo del Cielo"
+          },
+          "lat": 39.8822,
+          "lon": 116.4066,
+          "visits": [
+            {
+              "date": "2024-09-07",
+              "photos": [
+                {
+                  "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_104135.jpg",
+                  "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_104135.jpg",
+                  "caption": {
+                    "en": "A rainy morning on the subway",
+                    "ja": "雨の朝、地下鉄で",
+                    "es": "Una mañana lluviosa en el metro"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_120245.jpg",
+                  "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_120245.jpg",
+                  "caption": {
+                    "en": "An ancient guqin",
+                    "ja": "古代の古琴",
+                    "es": "Un antiguo guqin"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_123456.jpg",
+                  "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_123456.jpg",
+                  "caption": {
+                    "en": "In the Long Corridor",
+                    "ja": "長廊で",
+                    "es": "En el Largo Corredor"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Hall of Prayer for Good Harvests",
+                    "ja": "祈年殿",
+                    "es": "Salón de la Oración por las Buenas Cosechas"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_125233.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_125233.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_125235.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_125235.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_125246.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_125246.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Right below the hall",
+                    "ja": "祈年殿の真下で",
+                    "es": "Justo bajo el salón"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_125637.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_125637.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_125638.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_125638.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_125645.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_125645.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Inside the hall",
+                    "ja": "祈年殿の中",
+                    "es": "Dentro del salón"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_130400.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_130400.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_130409.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_130409.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_152416.jpg",
+                  "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_152416.jpg",
+                  "caption": {
+                    "en": "A squirrel on a pine",
+                    "ja": "松の木のリス",
+                    "es": "Una ardilla en un pino"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Respect Heaven (敬天)",
+                    "ja": "敬天",
+                    "es": "Respetar al Cielo (敬天)"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_153416.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_153416.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_153421.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_153421.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Playing in the round gate",
+                    "ja": "丸い門で遊ぶ",
+                    "es": "Jugando en la puerta redonda"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_154544.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_154544.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_154612.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_154612.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Resting among the cypresses",
+                    "ja": "柏の森でひと休み",
+                    "es": "Descansando entre los cipreses"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_173330.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_173330.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/temple-of-heaven/2024-09-07/20240907_173342.jpg",
+                      "thumb": "photos/china/beijing/temple-of-heaven/2024-09-07/thumbs/20240907_173342.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "confucius-temple",
+          "name": {
+            "en": "Confucius Temple & Imperial Academy",
+            "ja": "孔廟・国子監",
+            "es": "Templo de Confucio y Academia Imperial"
+          },
+          "lat": 39.9465,
+          "lon": 116.4116,
+          "visits": [
+            {
+              "date": "2024-09-08",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Statue of Confucius",
+                    "ja": "孔子像",
+                    "es": "Estatua de Confucio"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/confucius-temple/2024-09-08/20240908_124355.jpg",
+                      "thumb": "photos/china/beijing/confucius-temple/2024-09-08/thumbs/20240908_124355.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/confucius-temple/2024-09-08/20240908_124400.jpg",
+                      "thumb": "photos/china/beijing/confucius-temple/2024-09-08/thumbs/20240908_124400.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The carved dragon stairway",
+                    "ja": "龍の彫刻の石段",
+                    "es": "La escalinata tallada con dragones"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/confucius-temple/2024-09-08/20240908_124927.jpg",
+                      "thumb": "photos/china/beijing/confucius-temple/2024-09-08/thumbs/20240908_124927.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/confucius-temple/2024-09-08/20240908_124939.jpg",
+                      "thumb": "photos/china/beijing/confucius-temple/2024-09-08/thumbs/20240908_124939.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/confucius-temple/2024-09-08/20240908_133425.jpg",
+                  "thumb": "photos/china/beijing/confucius-temple/2024-09-08/thumbs/20240908_133425.jpg",
+                  "caption": {
+                    "en": "Confucius on his ox cart",
+                    "ja": "牛車に乗る孔子",
+                    "es": "Confucio en su carro de bueyes"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/confucius-temple/2024-09-08/20240908_141541.jpg",
+                  "thumb": "photos/china/beijing/confucius-temple/2024-09-08/thumbs/20240908_141541.jpg",
+                  "caption": {
+                    "en": "The glazed archway of the Imperial Academy",
+                    "ja": "国子監の瑠璃牌坊",
+                    "es": "El arco vidriado de la Academia Imperial"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shichahai",
+          "name": {
+            "en": "Shichahai",
+            "ja": "什刹海",
+            "es": "Shichahai"
+          },
+          "lat": 39.9406,
+          "lon": 116.3854,
+          "visits": [
+            {
+              "date": "2024-09-08",
+              "photos": [
+                {
+                  "src": "photos/china/beijing/shichahai/2024-09-08/20240908_162313.jpg",
+                  "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_162313.jpg",
+                  "caption": {
+                    "en": "A smiling dessert",
+                    "ja": "笑顔のデザート",
+                    "es": "Un postre sonriente"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/shichahai/2024-09-08/20240908_191527.jpg",
+                  "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_191527.jpg",
+                  "caption": {
+                    "en": "The lake at night",
+                    "ja": "夜の湖",
+                    "es": "El lago de noche"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/shichahai/2024-09-08/20240908_192429.jpg",
+                  "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_192429.jpg",
+                  "caption": {
+                    "en": "A lit bridge",
+                    "ja": "ライトアップされた橋",
+                    "es": "Un puente iluminado"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/shichahai/2024-09-08/20240908_192639.jpg",
+                  "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_192639.jpg",
+                  "caption": {
+                    "en": "Willows and lights",
+                    "ja": "柳と灯り",
+                    "es": "Sauces y luces"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Dragon lanterns from the boat",
+                    "ja": "船から見た龍の灯籠",
+                    "es": "Faroles de dragón desde el bote"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/shichahai/2024-09-08/20240908_193106.jpg",
+                      "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_193106.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/shichahai/2024-09-08/20240908_193448.jpg",
+                      "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_193448.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/shichahai/2024-09-08/20240908_193601.jpg",
+                      "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_193601.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/shichahai/2024-09-08/20240908_193613.jpg",
+                      "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_193613.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/shichahai/2024-09-08/20240908_194202.jpg",
+                  "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_194202.jpg",
+                  "caption": {
+                    "en": "Gliding across the lake",
+                    "ja": "湖を進む",
+                    "es": "Deslizándonos por el lago"
+                  }
+                },
+                {
+                  "src": "photos/china/beijing/shichahai/2024-09-08/20240908_200121.jpg",
+                  "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_200121.jpg",
+                  "caption": {
+                    "en": "A pavilion among the lotus",
+                    "ja": "蓮の中の亭",
+                    "es": "Un pabellón entre los lotos"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The lakeside corridor",
+                    "ja": "湖畔の回廊",
+                    "es": "El corredor junto al lago"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/shichahai/2024-09-08/20240908_203839.jpg",
+                      "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_203839.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/shichahai/2024-09-08/20240908_203911.jpg",
+                      "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_203911.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/beijing/shichahai/2024-09-08/20240908_203954.jpg",
+                  "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_203954.jpg",
+                  "caption": {
+                    "en": "By the lotus pond",
+                    "ja": "蓮池のそばで",
+                    "es": "Junto al estanque de lotos"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The giant dragon lantern",
+                    "ja": "巨大な龍の灯籠",
+                    "es": "El gran farol de dragón"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/beijing/shichahai/2024-09-08/20240908_210413.jpg",
+                      "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_210413.jpg"
+                    },
+                    {
+                      "src": "photos/china/beijing/shichahai/2024-09-08/20240908_210543.jpg",
+                      "thumb": "photos/china/beijing/shichahai/2024-09-08/thumbs/20240908_210543.jpg"
+                    }
+                  ]
+                }
+              ],
+              "note": {
+                "en": "Back to the hutongs, this time around the lakes of Shichahai, with a boat ride under the dragon lanterns.",
+                "ja": "再び胡同へ。今度は什刹海の湖のまわりで、龍の灯籠の下を船で巡りました。",
+                "es": "De vuelta a los hutong, esta vez alrededor de los lagos de Shichahai, con un paseo en bote bajo los faroles de dragón."
+              }
+            }
+          ]
+        }
+      ],
+      "cover": "photos/china/beijing/great-wall/2024-09-05/20240905_134818.jpg"
+    },
+    {
+      "region": "shanghai",
+      "note": {
+        "en": "Rainy nights at Yu Garden and the Bund, a quiet temple among skyscrapers, and a day of dinosaurs.",
+        "ja": "雨の豫園と外灘の夜、高層ビルの中の静かな寺、そして恐竜の一日。",
+        "es": "Noches de lluvia en el Jardín Yu y el Bund, un templo tranquilo entre rascacielos y un día de dinosaurios."
+      },
+      "spots": [
+        {
+          "id": "lotso",
+          "name": {
+            "en": "Lotso's strawberry shop",
+            "ja": "ロッツォのいちごショップ",
+            "es": "La tienda de fresas de Lotso"
+          },
+          "lat": 31.2353,
+          "lon": 121.4747,
+          "visits": [
+            {
+              "date": "2024-09-09",
+              "photos": [
+                {
+                  "src": "photos/china/shanghai/lotso/2024-09-09/20240909_195757.jpg",
+                  "thumb": "photos/china/shanghai/lotso/2024-09-09/thumbs/20240909_195757.jpg",
+                  "caption": {
+                    "en": "A hug from Lotso",
+                    "ja": "ロッツォとハグ",
+                    "es": "Un abrazo de Lotso"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yu-garden",
+          "name": {
+            "en": "Yu Garden Bazaar",
+            "ja": "豫園商城",
+            "es": "Bazar del Jardín Yu"
+          },
+          "lat": 31.2272,
+          "lon": 121.4921,
+          "visits": [
+            {
+              "date": "2024-09-10",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Arms open in the rain",
+                    "ja": "雨の中で両手を広げて",
+                    "es": "Brazos abiertos bajo la lluvia"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_184226.jpg",
+                      "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_184226.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_184229.jpg",
+                      "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_184229.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Red lights and umbrellas",
+                    "ja": "赤い灯りと傘",
+                    "es": "Luces rojas y paraguas"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_184716.jpg",
+                      "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_184716.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_184721.jpg",
+                      "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_184721.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_185119.jpg",
+                  "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_185119.jpg",
+                  "caption": {
+                    "en": "The golden moon gate",
+                    "ja": "金色の月の門",
+                    "es": "La puerta de la luna dorada"
+                  }
+                },
+                {
+                  "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_185755.jpg",
+                  "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_185755.jpg",
+                  "caption": {
+                    "en": "Mid-Autumn lanterns by the water",
+                    "ja": "水辺の中秋の灯籠",
+                    "es": "Faroles del Medio Otoño junto al agua"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "On the zigzag bridge",
+                    "ja": "九曲橋で",
+                    "es": "En el puente en zigzag"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_190034.jpg",
+                      "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_190034.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_190059.jpg",
+                      "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_190059.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_190105.jpg",
+                      "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_190105.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_190409.jpg",
+                  "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_190409.jpg",
+                  "caption": {
+                    "en": "The Huxinting teahouse",
+                    "ja": "湖心亭",
+                    "es": "La casa de té Huxinting"
+                  }
+                },
+                {
+                  "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_190433.jpg",
+                  "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_190433.jpg",
+                  "caption": {
+                    "en": "Lit pavilions",
+                    "ja": "ライトアップされた楼閣",
+                    "es": "Pabellones iluminados"
+                  }
+                },
+                {
+                  "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_190757.jpg",
+                  "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_190757.jpg",
+                  "caption": {
+                    "en": "Under the star lanterns",
+                    "ja": "星の灯籠の下で",
+                    "es": "Bajo los faroles de estrellas"
+                  }
+                },
+                {
+                  "src": "photos/china/shanghai/yu-garden/2024-09-10/20240910_191231.jpg",
+                  "thumb": "photos/china/shanghai/yu-garden/2024-09-10/thumbs/20240910_191231.jpg",
+                  "caption": {
+                    "en": "Old Shanghai streets",
+                    "ja": "老上海の街並み",
+                    "es": "Calles del viejo Shanghái"
+                  }
+                }
+              ],
+              "note": {
+                "en": "My first evening in Shanghai: the Yu Garden Bazaar in the rain, decorated for the Mid-Autumn Festival.",
+                "ja": "上海の最初の夜：中秋節の飾りつけをした雨の豫園商城。",
+                "es": "Mi primera noche en Shanghái: el Bazar del Jardín Yu bajo la lluvia, decorado para el Festival del Medio Otoño."
+              }
+            }
+          ]
+        },
+        {
+          "id": "the-bund",
+          "name": {
+            "en": "The Bund",
+            "ja": "外灘",
+            "es": "El Bund"
+          },
+          "lat": 31.24,
+          "lon": 121.49,
+          "visits": [
+            {
+              "date": "2024-09-10",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "With the Lujiazui skyline",
+                    "ja": "陸家嘴の夜景と",
+                    "es": "Con el skyline de Lujiazui"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/the-bund/2024-09-10/20240910_195618.jpg",
+                      "thumb": "photos/china/shanghai/the-bund/2024-09-10/thumbs/20240910_195618.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/the-bund/2024-09-10/20240910_195632.jpg",
+                      "thumb": "photos/china/shanghai/the-bund/2024-09-10/thumbs/20240910_195632.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/the-bund/2024-09-10/20240910_195712.jpg",
+                      "thumb": "photos/china/shanghai/the-bund/2024-09-10/thumbs/20240910_195712.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/the-bund/2024-09-10/20240910_195729.jpg",
+                      "thumb": "photos/china/shanghai/the-bund/2024-09-10/thumbs/20240910_195729.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The Oriental Pearl Tower across the river",
+                    "ja": "対岸の東方明珠塔",
+                    "es": "La Torre de la Perla Oriental al otro lado del río"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/the-bund/2024-09-10/20240910_200112.jpg",
+                      "thumb": "photos/china/shanghai/the-bund/2024-09-10/thumbs/20240910_200112.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/the-bund/2024-09-10/20240910_200816.jpg",
+                      "thumb": "photos/china/shanghai/the-bund/2024-09-10/thumbs/20240910_200816.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/shanghai/the-bund/2024-09-10/20240910_201530.jpg",
+                  "thumb": "photos/china/shanghai/the-bund/2024-09-10/thumbs/20240910_201530.jpg",
+                  "caption": {
+                    "en": "One more by the river",
+                    "ja": "川辺でもう一枚",
+                    "es": "Una más junto al río"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The historic Bund in the rain",
+                    "ja": "雨の外灘の歴史的建築",
+                    "es": "El Bund histórico bajo la lluvia"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/the-bund/2024-09-10/20240910_201928.jpg",
+                      "thumb": "photos/china/shanghai/the-bund/2024-09-10/thumbs/20240910_201928.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/the-bund/2024-09-10/20240910_202308.jpg",
+                      "thumb": "photos/china/shanghai/the-bund/2024-09-10/thumbs/20240910_202308.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/shanghai/the-bund/2024-09-10/20240910_203216.jpg",
+                  "thumb": "photos/china/shanghai/the-bund/2024-09-10/thumbs/20240910_203216.jpg",
+                  "caption": {
+                    "en": "A lit-up Bund building",
+                    "ja": "ライトアップされた外灘の建物",
+                    "es": "Un edificio iluminado del Bund"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jingan-temple",
+          "name": {
+            "en": "Jing'an Temple",
+            "ja": "静安寺",
+            "es": "Templo Jing'an"
+          },
+          "lat": 31.2235,
+          "lon": 121.4456,
+          "visits": [
+            {
+              "date": "2024-09-11",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "The pagoda incense burner among skyscrapers",
+                    "ja": "高層ビルに囲まれた香炉",
+                    "es": "El incensario-pagoda entre rascacielos"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/jingan-temple/2024-09-11/20240911_140731.jpg",
+                      "thumb": "photos/china/shanghai/jingan-temple/2024-09-11/thumbs/20240911_140731.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/jingan-temple/2024-09-11/20240911_140745.jpg",
+                      "thumb": "photos/china/shanghai/jingan-temple/2024-09-11/thumbs/20240911_140745.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/jingan-temple/2024-09-11/20240911_140823.jpg",
+                      "thumb": "photos/china/shanghai/jingan-temple/2024-09-11/thumbs/20240911_140823.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/shanghai/jingan-temple/2024-09-11/20240911_141523.jpg",
+                  "thumb": "photos/china/shanghai/jingan-temple/2024-09-11/thumbs/20240911_141523.jpg",
+                  "caption": {
+                    "en": "A royal seat",
+                    "ja": "立派な椅子でひと休み",
+                    "es": "Un asiento real"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The golden temple and the city",
+                    "ja": "金色の寺と街",
+                    "es": "El templo dorado y la ciudad"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/jingan-temple/2024-09-11/20240911_142404.jpg",
+                      "thumb": "photos/china/shanghai/jingan-temple/2024-09-11/thumbs/20240911_142404.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/jingan-temple/2024-09-11/20240911_142409.jpg",
+                      "thumb": "photos/china/shanghai/jingan-temple/2024-09-11/thumbs/20240911_142409.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "natural-history-museum",
+          "name": {
+            "en": "Shanghai Natural History Museum",
+            "ja": "上海自然博物館",
+            "es": "Museo de Historia Natural de Shanghái"
+          },
+          "lat": 31.2355,
+          "lon": 121.4588,
+          "visits": [
+            {
+              "date": "2024-09-11",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Sea creatures overhead",
+                    "ja": "頭上の海の生き物",
+                    "es": "Criaturas marinas sobre mi cabeza"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_153710.jpg",
+                      "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_153710.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_153719.jpg",
+                      "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_153719.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The great hall of the oceans",
+                    "ja": "海洋の大ホール",
+                    "es": "El gran salón de los océanos"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_153945.jpg",
+                      "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_153945.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_153952.jpg",
+                      "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_153952.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_154002.jpg",
+                      "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_154002.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "With the lions",
+                    "ja": "ライオンと",
+                    "es": "Con los leones"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_164024.jpg",
+                      "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_164024.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_164032.jpg",
+                      "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_164032.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Among the dinosaurs",
+                    "ja": "恐竜に囲まれて",
+                    "es": "Entre los dinosaurios"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_165540.jpg",
+                      "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_165540.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_165547.jpg",
+                      "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_165547.jpg"
+                    },
+                    {
+                      "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_165745.jpg",
+                      "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_165745.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_165801.jpg",
+                  "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_165801.jpg",
+                  "caption": {
+                    "en": "A woolly mammoth",
+                    "ja": "マンモス",
+                    "es": "Un mamut lanudo"
+                  }
+                },
+                {
+                  "src": "photos/china/shanghai/natural-history-museum/2024-09-11/20240911_165840.jpg",
+                  "thumb": "photos/china/shanghai/natural-history-museum/2024-09-11/thumbs/20240911_165840.jpg",
+                  "caption": {
+                    "en": "A giant glyptodon",
+                    "ja": "巨大なグリプトドン",
+                    "es": "Un gliptodonte gigante"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "evening-malls",
+          "name": {
+            "en": "Evening in the city",
+            "ja": "夜の街",
+            "es": "Noche en la ciudad"
+          },
+          "lat": 31.2304,
+          "lon": 121.4737,
+          "visits": [
+            {
+              "date": "2024-09-11",
+              "photos": [
+                {
+                  "src": "photos/china/shanghai/evening-malls/2024-09-11/20240911_184220.jpg",
+                  "thumb": "photos/china/shanghai/evening-malls/2024-09-11/thumbs/20240911_184220.jpg",
+                  "caption": {
+                    "en": "Psyduck pop-up",
+                    "ja": "コダックのポップアップ",
+                    "es": "Pop-up de Psyduck"
+                  }
+                },
+                {
+                  "src": "photos/china/shanghai/evening-malls/2024-09-11/20240911_191311.jpg",
+                  "thumb": "photos/china/shanghai/evening-malls/2024-09-11/thumbs/20240911_191311.jpg",
+                  "caption": {
+                    "en": "An old-Shanghai photo corner",
+                    "ja": "老上海のフォトスポット",
+                    "es": "Un rincón de fotos del viejo Shanghái"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "cover": "photos/china/shanghai/the-bund/2024-09-10/20240910_200112.jpg"
+    }
+  ],
+  "cover": "photos/china/beijing/great-wall/2024-09-05/20240905_134818.jpg"
+}

@@ -102,7 +102,8 @@ def file_original(src: Path, prefecture: str, place: str, when: datetime) -> Non
 
 
 def check_slugs(*names: str) -> None:
-    for s in names:
+    # The first argument may be a path like "china/beijing" (country/region).
+    for s in (part for name in names for part in name.split("/")):
         if not SLUG.match(s):
             sys.exit(f"'{s}' should be lowercase words joined by '-', like 'tokyo' or 'expo-center'.")
 
