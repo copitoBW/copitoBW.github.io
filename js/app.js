@@ -291,26 +291,30 @@
     const path = d3.geoPath(proj);
     const nexts = c.nextSpots.filter((n) => regionOf(n) === info.slug);
     const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": regionName(info) });
+    // Shapes live in one layer that is scaled when zooming; pins sit on top and
+    // are only moved, so dots and labels keep their size at any zoom.
+    const layer = svgEl("g", { class: "zoom-layer" });
+    svg.append(layer);
 
     for (const [code, f] of Object.entries(c.features)) {
       if (code === info.code) continue;
       const other = c.byCode[code];
-      svg.append(svgEl("path", { d: path(f), class: "pref context", "data-name": other ? regionName(other) : "" }));
+      layer.append(svgEl("path", { d: path(f), class: "pref context", "data-name": other ? regionName(other) : "" }));
     }
-    svg.append(svgEl("path", { d: path(c.features[info.code]), class: "pref focus", "data-name": regionName(info) }));
+    layer.append(svgEl("path", { d: path(c.features[info.code]), class: "pref focus", "data-name": regionName(info) }));
 
     if (muni) {
       const areas = new Set(place.areas || []);
       for (const f of muni) {
         if (f.id.slice(0, 2) !== info.code) continue;
         const hit = areas.has(f.id) || spots.some((s) => d3.geoContains(f, [s.lon, s.lat]));
-        svg.append(svgEl("path", { d: path(f), class: "muni" + (hit ? " visited" : ""), "data-name": muniName(f) }));
+        layer.append(svgEl("path", { d: path(f), class: "muni" + (hit ? " visited" : ""), "data-name": muniName(f) }));
       }
     }
 
     nexts.forEach((s) => {
       const [x, y] = proj([s.lon, s.lat]);
-      const g = svgEl("g", { class: "pin next-pin" });
+      const g = svgEl("g", { class: "pin next-pin", "data-x": x, "data-y": y });
       g.append(svgEl("circle", { cx: x, cy: y, r: 11, "data-name": `${loc(s.name)}?` }));
       const label = svgEl("text", { x: x + 17, y: y + 10 });
       label.textContent = `${loc(s.name)}?`;
@@ -320,7 +324,7 @@
 
     spots.forEach((s, i) => {
       const [x, y] = proj([s.lon, s.lat]);
-      const g = svgEl("g", { class: "pin", tabindex: "0", role: "link", "aria-label": loc(s.name) });
+      const g = svgEl("g", { class: "pin", tabindex: "0", role: "link", "aria-label": loc(s.name), "data-x": x, "data-y": y });
       g.append(svgEl("circle", { cx: x, cy: y, r: 11, "data-name": loc(s.name) }));
       const label = svgEl("text", { x: x + 17, y: y + 10 });
       label.textContent = loc(s.name);
@@ -330,10 +334,109 @@
       g.addEventListener("keydown", (e) => { if (e.key === "Enter") jump(); });
       svg.append(g);
     });
+    enableZoom(svg, layer, W, H, `${c.slug}/${info.slug}`);
     // Labels can only be measured once the map is on the page (and again once the font loads).
-    requestAnimationFrame(() => placeLabels(svg, W, H));
     if (document.fonts) document.fonts.ready.then(() => placeLabels(svg, W, H));
     return svg;
+  }
+
+  // ---------- zoom and pan (region maps) ----------
+  // Mouse: wheel or double-click to zoom, drag to move. Touch: pinch to zoom,
+  // drag to move once zoomed in (at full view one finger still scrolls the page).
+  // Buttons call svg.zoomApi. The view is remembered per region during the visit.
+  const zoomView = {}; // "country/region" -> { k, x, y }
+  const MAX_ZOOM = 16;
+  function enableZoom(svg, layer, W, H, key) {
+    const st = zoomView[key] || (zoomView[key] = { k: 1, x: 0, y: 0 });
+    const pins = [...svg.querySelectorAll(".pin")];
+    let raf = 0;
+    const apply = () => {
+      st.k = Math.min(MAX_ZOOM, Math.max(1, st.k));
+      st.x = Math.min(0, Math.max(W - W * st.k, st.x));
+      st.y = Math.min(0, Math.max(H - H * st.k, st.y));
+      layer.setAttribute("transform", `translate(${st.x} ${st.y}) scale(${st.k})`);
+      for (const g of pins) {
+        const x = st.x + st.k * +g.dataset.x, y = st.y + st.k * +g.dataset.y;
+        const circle = g.querySelector("circle");
+        circle.setAttribute("cx", x); circle.setAttribute("cy", y);
+      }
+      svg.classList.toggle("zoomed", st.k > 1);
+      svg.style.touchAction = st.k > 1 ? "none" : "pan-y";
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => placeLabels(svg, W, H));
+    };
+    const toSvg = (cx, cy) => {
+      const p = svg.createSVGPoint(); p.x = cx; p.y = cy;
+      return p.matrixTransform(svg.getScreenCTM().inverse());
+    };
+    const zoomAt = (factor, px, py) => {
+      const k = Math.min(MAX_ZOOM, Math.max(1, st.k * factor));
+      const r = k / st.k;
+      st.x = px - (px - st.x) * r; st.y = py - (py - st.y) * r; st.k = k;
+      apply();
+    };
+    svg.zoomApi = {
+      by: (f) => zoomAt(f, W / 2, H / 2),
+      reset: () => { st.k = 1; st.x = 0; st.y = 0; apply(); }
+    };
+
+    svg.addEventListener("wheel", (e) => {
+      e.preventDefault();
+      const p = toSvg(e.clientX, e.clientY);
+      zoomAt(Math.exp(-e.deltaY * 0.002), p.x, p.y);
+    }, { passive: false });
+    svg.addEventListener("dblclick", (e) => {
+      e.preventDefault();
+      const p = toSvg(e.clientX, e.clientY);
+      zoomAt(2, p.x, p.y);
+    });
+
+    // Dragging and pinching. Listening on window keeps the drag going outside the map;
+    // the listeners remove themselves once this map is no longer on the page.
+    const ptrs = new Map();
+    let moved = 0, pinchDist = 0;
+    const dist = () => { const [a, b] = [...ptrs.values()]; return Math.hypot(a.x - b.x, a.y - b.y); };
+    svg.addEventListener("pointerdown", (e) => {
+      if (e.pointerType === "mouse" && e.button !== 0) return;
+      ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (ptrs.size === 1) moved = 0;
+      if (ptrs.size === 2) pinchDist = dist();
+    });
+    const onMove = (e) => {
+      if (!svg.isConnected) return cleanup();
+      const prev = ptrs.get(e.pointerId);
+      if (!prev) return;
+      ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (ptrs.size === 2) {
+        const d = dist(), [a, b] = [...ptrs.values()];
+        const p = toSvg((a.x + b.x) / 2, (a.y + b.y) / 2);
+        if (pinchDist) zoomAt(d / pinchDist, p.x, p.y);
+        pinchDist = d; moved += 10;
+        e.preventDefault();
+      } else if (st.k > 1) {
+        const s = W / svg.getBoundingClientRect().width;
+        const dx = (e.clientX - prev.x) * s, dy = (e.clientY - prev.y) * s;
+        moved += Math.abs(dx) + Math.abs(dy);
+        st.x += dx; st.y += dy;
+        apply();
+      }
+    };
+    const onUp = (e) => {
+      if (!svg.isConnected) return cleanup();
+      ptrs.delete(e.pointerId);
+      if (ptrs.size < 2) pinchDist = 0;
+    };
+    const cleanup = () => {
+      window.removeEventListener("pointermove", onMove);
+      window.removeEventListener("pointerup", onUp);
+      window.removeEventListener("pointercancel", onUp);
+    };
+    window.addEventListener("pointermove", onMove, { passive: false });
+    window.addEventListener("pointerup", onUp);
+    window.addEventListener("pointercancel", onUp);
+    // A drag that ends on a pin should not count as a click on it.
+    svg.addEventListener("click", (e) => { if (moved > 6) { e.stopPropagation(); e.preventDefault(); } }, true);
+    apply();
   }
 
   // Keep pin labels from piling up where places are close together (central Tokyo):
@@ -511,7 +614,7 @@
       const cur = zoomState[key] === "all" ? "all" : "zoom";
       const btn = (mode, label) => h("button", {
         type: "button", "aria-pressed": String(cur === mode),
-        onclick: () => { zoomState[key] = mode; render(); }
+        onclick: () => { zoomState[key] = mode; delete zoomView[key]; render(); }
       }, label);
       mapCard.append(h("div", { class: "zoom-toggle", role: "group" },
         btn("zoom", loc(place.zoomLabel) || t("zoomIn")), btn("all", t("viewAll"))));
@@ -519,6 +622,12 @@
     const svg = regionMap(c, info, place);
     mapCard.append(svg);
     attachTip(mapCard, svg);
+    const zbtn = (label, text, fn) => h("button", { type: "button", "aria-label": label, title: label, onclick: fn }, text);
+    mapCard.append(h("div", { class: "zoom-ctrl" },
+      zbtn(t("zoomInBtn"), "+", () => svg.zoomApi.by(2)),
+      zbtn(t("zoomOutBtn"), "−", () => svg.zoomApi.by(0.5)),
+      zbtn(t("zoomReset"), "⟲", () => svg.zoomApi.reset())));
+    mapCard.append(h("p", { class: "map-hint" }, t("zoomHint")));
 
     const noteText = loc(place.note);
     const visits = placeDates(place);

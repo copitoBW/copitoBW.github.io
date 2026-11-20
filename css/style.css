@@ -283,6 +283,18 @@ h1.chapter { margin-top: 4px; }
 .zoom-toggle button { border: 0; background: none; padding: 5px 12px; font-size: .8rem; cursor: pointer; color: var(--ink-soft); }
 .zoom-toggle button[aria-pressed="true"] { background: var(--accent); color: #fff; }
 
+/* Zoomable region maps: borders keep their width, pins and labels their size */
+.zoom-layer path { vector-effect: non-scaling-stroke; }
+.map-card svg.zoomed { cursor: grab; }
+.map-card svg.zoomed:active { cursor: grabbing; }
+.zoom-ctrl { position: absolute; z-index: 2; right: 18px; bottom: 44px; display: flex; flex-direction: column; gap: 6px; }
+.zoom-ctrl button {
+  width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); background: var(--card);
+  color: var(--ink); font-size: 1.15rem; line-height: 1; cursor: pointer; box-shadow: var(--shadow);
+}
+.zoom-ctrl button:hover { background: var(--accent); color: #fff; }
+.map-hint { margin: 6px 2px 0; font-size: .75rem; color: var(--ink-soft); text-align: center; }
+
 /* Visited area chips */
 .areas { margin-top: 16px; }
 .areas h2 { font-family: var(--hand); font-size: 1.5rem; margin: 0 0 6px; }
