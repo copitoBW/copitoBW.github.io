@@ -1,1 +1,804 @@
-{"places": []}
+{
+  "places": [
+    {
+      "region": "lima-city",
+      "cover": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_175640.jpg",
+      "note": {
+        "en": "Back home in Lima after two and a half years: the zoo, the historic centre, Barranco and the Miraflores clifftops.",
+        "ja": "2年半ぶりの故郷リマ。動物公園、旧市街、バランコ、そしてミラフローレスの崖の上。",
+        "es": "De vuelta en Lima tras dos años y medio: el zoológico, el Centro Histórico, Barranco y los acantilados de Miraflores."
+      },
+      "spots": [
+        {
+          "id": "parque-de-las-leyendas",
+          "name": {
+            "en": "Parque de las Leyendas",
+            "ja": "パルケ・デ・ラス・レジェンダス（伝説の公園）",
+            "es": "Parque de las Leyendas"
+          },
+          "lat": -12.0687,
+          "lon": -77.0866,
+          "visits": [
+            {
+              "date": "2026-08-31",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Turtles sunbathing around a giant sloth statue",
+                    "ja": "巨大ナマケモノ像のまわりで日光浴するカメ",
+                    "es": "Tortugas tomando sol alrededor de una estatua de perezoso gigante"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_132948.jpg",
+                      "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_132948.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_133137.jpg",
+                      "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_133137.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_133158.jpg",
+                  "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_133158.jpg",
+                  "caption": {
+                    "en": "By the lagoon",
+                    "ja": "池のほとりで",
+                    "es": "Junto a la laguna"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Kayaking on the lagoon",
+                    "ja": "池でカヤック",
+                    "es": "En kayak por la laguna"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_134832.jpg",
+                      "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_134832.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_135406.jpg",
+                      "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_135406.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_135410.jpg",
+                      "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_135410.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Petting a rhino",
+                    "ja": "サイをなでる",
+                    "es": "Acariciando a un rinoceronte"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_144035.jpg",
+                      "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_144035.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_144037.jpg",
+                      "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_144037.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_144527.jpg",
+                  "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_144527.jpg",
+                  "caption": {
+                    "en": "A water buffalo",
+                    "ja": "スイギュウ",
+                    "es": "Un búfalo de agua"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_150813.jpg",
+                  "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_150813.jpg",
+                  "caption": {
+                    "en": "An albino python",
+                    "ja": "アルビノのニシキヘビ",
+                    "es": "Una pitón albina"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_151853.jpg",
+                  "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_151853.jpg",
+                  "caption": {
+                    "en": "Giraffes",
+                    "ja": "キリン",
+                    "es": "Jirafas"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_152353.jpg",
+                  "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_152353.jpg",
+                  "caption": {
+                    "en": "An Andean spectacled bear",
+                    "ja": "アンデスのメガネグマ",
+                    "es": "Un oso de anteojos andino"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_171507.jpg",
+                  "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_171507.jpg",
+                  "caption": {
+                    "en": "At the park sign",
+                    "ja": "公園のサインの前で",
+                    "es": "En el letrero del parque"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/20260831_172208.jpg",
+                  "thumb": "photos/peru/lima-city/parque-de-las-leyendas/2026-08-31/thumbs/20260831_172208.jpg",
+                  "caption": {
+                    "en": "Vicuñas grazing below the huaca",
+                    "ja": "遺跡の下で草を食むビクーニャ",
+                    "es": "Vicuñas pastando bajo la huaca"
+                  }
+                }
+              ],
+              "note": {
+                "en": "My first outing back in Peru after two and a half years: Lima's zoo and park, with a pre-Inca huaca inside.",
+                "ja": "2年半ぶりのペルーで最初のお出かけ。園内にインカ以前の遺跡（ワカ）もあるリマの動物公園。",
+                "es": "Mi primera salida de vuelta en Perú tras dos años y medio: el zoológico y parque de Lima, con una huaca preínca adentro."
+              }
+            }
+          ]
+        },
+        {
+          "id": "plaza-de-armas",
+          "name": {
+            "en": "Plaza de Armas of Lima",
+            "ja": "リマのアルマス広場",
+            "es": "Plaza de Armas de Lima"
+          },
+          "lat": -12.0464,
+          "lon": -77.03,
+          "visits": [
+            {
+              "date": "2026-09-02",
+              "photos": [
+                {
+                  "src": "photos/peru/lima-city/plaza-de-armas/2026-09-02/20260902_150048.jpg",
+                  "thumb": "photos/peru/lima-city/plaza-de-armas/2026-09-02/thumbs/20260902_150048.jpg",
+                  "caption": {
+                    "en": "PERÚ in the garden",
+                    "ja": "庭園の「PERÚ」",
+                    "es": "PERÚ en el jardín"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/plaza-de-armas/2026-09-02/20260902_150412.jpg",
+                  "thumb": "photos/peru/lima-city/plaza-de-armas/2026-09-02/thumbs/20260902_150412.jpg",
+                  "caption": {
+                    "en": "The fountain and the Government Palace",
+                    "ja": "噴水と大統領府",
+                    "es": "La pileta y Palacio de Gobierno"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/plaza-de-armas/2026-09-02/20260902_150545.jpg",
+                  "thumb": "photos/peru/lima-city/plaza-de-armas/2026-09-02/thumbs/20260902_150545.jpg",
+                  "caption": {
+                    "en": "In front of the Cathedral",
+                    "ja": "大聖堂の前で",
+                    "es": "Frente a la Catedral"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-09-17",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Back at the plaza on a sunny morning",
+                    "ja": "晴れた朝にもう一度広場へ",
+                    "es": "De vuelta en la plaza una mañana soleada"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/peru/lima-city/plaza-de-armas/2026-09-17/20260917_100942.jpg",
+                      "thumb": "photos/peru/lima-city/plaza-de-armas/2026-09-17/thumbs/20260917_100942.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/plaza-de-armas/2026-09-17/20260917_100954.jpg",
+                      "thumb": "photos/peru/lima-city/plaza-de-armas/2026-09-17/thumbs/20260917_100954.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "catedral-de-lima",
+          "name": {
+            "en": "Cathedral of Lima",
+            "ja": "リマ大聖堂",
+            "es": "Catedral de Lima"
+          },
+          "lat": -12.0459,
+          "lon": -77.0296,
+          "visits": [
+            {
+              "date": "2026-09-17",
+              "photos": [
+                {
+                  "src": "photos/peru/lima-city/catedral-de-lima/2026-09-17/20260917_101717.jpg",
+                  "thumb": "photos/peru/lima-city/catedral-de-lima/2026-09-17/thumbs/20260917_101717.jpg",
+                  "caption": {
+                    "en": "The mosaic in Pizarro's chapel",
+                    "ja": "ピサロの礼拝堂のモザイク",
+                    "es": "El mosaico de la capilla de Pizarro"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/catedral-de-lima/2026-09-17/20260917_101959.jpg",
+                  "thumb": "photos/peru/lima-city/catedral-de-lima/2026-09-17/thumbs/20260917_101959.jpg",
+                  "caption": {
+                    "en": "A side chapel",
+                    "ja": "脇の礼拝堂",
+                    "es": "Una capilla lateral"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/catedral-de-lima/2026-09-17/20260917_104222.jpg",
+                  "thumb": "photos/peru/lima-city/catedral-de-lima/2026-09-17/thumbs/20260917_104222.jpg",
+                  "caption": {
+                    "en": "At the cathedral museum",
+                    "ja": "大聖堂の博物館で",
+                    "es": "En el museo de la catedral"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/catedral-de-lima/2026-09-17/20260917_104315.jpg",
+                  "thumb": "photos/peru/lima-city/catedral-de-lima/2026-09-17/thumbs/20260917_104315.jpg",
+                  "caption": {
+                    "en": "The main nave",
+                    "ja": "身廊",
+                    "es": "La nave central"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lima-balconies",
+          "name": {
+            "en": "Colonial balconies, Historic Centre",
+            "ja": "旧市街のバルコニー",
+            "es": "Balcones coloniales, Centro Histórico"
+          },
+          "lat": -12.0452,
+          "lon": -77.0285,
+          "visits": [
+            {
+              "date": "2026-09-17",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "The old wooden balconies of Lima",
+                    "ja": "リマの古い木造バルコニー",
+                    "es": "Los antiguos balcones de madera de Lima"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/peru/lima-city/lima-balconies/2026-09-17/20260917_122342.jpg",
+                      "thumb": "photos/peru/lima-city/lima-balconies/2026-09-17/thumbs/20260917_122342.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/lima-balconies/2026-09-17/20260917_122444.jpg",
+                      "thumb": "photos/peru/lima-city/lima-balconies/2026-09-17/thumbs/20260917_122444.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "barranco",
+          "name": {
+            "en": "Barranco",
+            "ja": "バランコ",
+            "es": "Barranco"
+          },
+          "lat": -12.149,
+          "lon": -77.0213,
+          "visits": [
+            {
+              "date": "2026-09-05",
+              "photos": [
+                {
+                  "src": "photos/peru/lima-city/barranco/2026-09-05/20260905_165339.jpg",
+                  "thumb": "photos/peru/lima-city/barranco/2026-09-05/thumbs/20260905_165339.jpg",
+                  "caption": {
+                    "en": "Barranco's main square",
+                    "ja": "バランコの広場",
+                    "es": "La plaza de Barranco"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/barranco/2026-09-05/20260905_165413.jpg",
+                  "thumb": "photos/peru/lima-city/barranco/2026-09-05/thumbs/20260905_165413.jpg",
+                  "caption": {
+                    "en": "La Santísima Cruz church",
+                    "ja": "サンティシマ・クルス教会",
+                    "es": "La iglesia de La Santísima Cruz"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/barranco/2026-09-05/20260905_165752.jpg",
+                  "thumb": "photos/peru/lima-city/barranco/2026-09-05/thumbs/20260905_165752.jpg",
+                  "caption": {
+                    "en": "The old tram",
+                    "ja": "古い路面電車",
+                    "es": "El antiguo tranvía"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/barranco/2026-09-05/20260905_175820.jpg",
+                  "thumb": "photos/peru/lima-city/barranco/2026-09-05/thumbs/20260905_175820.jpg",
+                  "caption": {
+                    "en": "Looking south over the bay",
+                    "ja": "南の湾を望む",
+                    "es": "Mirando al sur sobre la bahía"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/barranco/2026-09-05/20260905_175958.jpg",
+                  "thumb": "photos/peru/lima-city/barranco/2026-09-05/thumbs/20260905_175958.jpg",
+                  "caption": {
+                    "en": "On the clifftop",
+                    "ja": "崖の上で",
+                    "es": "En lo alto del acantilado"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/barranco/2026-09-05/20260905_181056.jpg",
+                  "thumb": "photos/peru/lima-city/barranco/2026-09-05/thumbs/20260905_181056.jpg",
+                  "caption": {
+                    "en": "Bougainvillea over the Pacific",
+                    "ja": "太平洋とブーゲンビリア",
+                    "es": "Buganvillas sobre el Pacífico"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "costa-verde",
+          "name": {
+            "en": "Malecón de Miraflores & Costa Verde",
+            "ja": "ミラフローレスの海岸遊歩道とコスタ・ベルデ",
+            "es": "Malecón de Miraflores y la Costa Verde"
+          },
+          "lat": -12.1235,
+          "lon": -77.0425,
+          "visits": [
+            {
+              "date": "2026-09-11",
+              "photos": [
+                {
+                  "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_155232.jpg",
+                  "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_155232.jpg",
+                  "caption": {
+                    "en": "Lawns on the clifftop, Morro Solar in the distance",
+                    "ja": "崖上の芝生、遠くにモロ・ソラル",
+                    "es": "Césped sobre el acantilado, con el Morro Solar a lo lejos"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The Costa Verde from above",
+                    "ja": "上から見たコスタ・ベルデ",
+                    "es": "La Costa Verde desde arriba"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_155710.jpg",
+                      "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_155710.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_155823.jpg",
+                      "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_155823.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_160350.jpg",
+                  "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_160350.jpg",
+                  "caption": {
+                    "en": "The golden statue of Admiral Grau",
+                    "ja": "金色のグラウ提督像",
+                    "es": "La estatua dorada del almirante Grau"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_161204.jpg",
+                  "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_161204.jpg",
+                  "caption": {
+                    "en": "Cliffs and beaches",
+                    "ja": "崖と海岸",
+                    "es": "Acantilados y playas"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_164205.jpg",
+                  "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_164205.jpg",
+                  "caption": {
+                    "en": "Waves below the cliffs",
+                    "ja": "崖下の波",
+                    "es": "Olas bajo los acantilados"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_164252.jpg",
+                  "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_164252.jpg",
+                  "caption": {
+                    "en": "Thumbs up on the cliff edge",
+                    "ja": "崖の端でグッド",
+                    "es": "Pulgares arriba al borde del acantilado"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_165838.jpg",
+                  "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_165838.jpg",
+                  "caption": {
+                    "en": "The clifftop path",
+                    "ja": "崖の上の小道",
+                    "es": "El sendero del acantilado"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Sunset over the Pacific",
+                    "ja": "太平洋の夕日",
+                    "es": "Atardecer sobre el Pacífico"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_173958.jpg",
+                      "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_173958.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_174359.jpg",
+                      "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_174359.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_174940.jpg",
+                      "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_174940.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_175519.jpg",
+                      "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_175519.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_175640.jpg",
+                  "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_175640.jpg",
+                  "caption": {
+                    "en": "Sunset selfie",
+                    "ja": "夕日と自撮り",
+                    "es": "Selfie con el atardecer"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_181629.jpg",
+                  "thumb": "photos/peru/lima-city/costa-verde/2026-09-11/thumbs/20260911_181629.jpg",
+                  "caption": {
+                    "en": "Night falls on the Costa Verde",
+                    "ja": "夜のコスタ・ベルデ",
+                    "es": "Cae la noche en la Costa Verde"
+                  }
+                }
+              ],
+              "note": {
+                "en": "A long walk along the Miraflores clifftops, from the new Parque Shibuya to the Parque del Amor, ending with the sunset.",
+                "ja": "新しいシブヤ公園から愛の公園まで、ミラフローレスの崖の上を歩いて夕日まで。",
+                "es": "Una larga caminata por los acantilados de Miraflores, del nuevo Parque Shibuya al Parque del Amor, terminando con el atardecer."
+              }
+            }
+          ]
+        },
+        {
+          "id": "parque-shibuya",
+          "name": {
+            "en": "Parque Shibuya (Hachiko)",
+            "ja": "シブヤ公園（ハチ公）",
+            "es": "Parque Shibuya (Hachiko)"
+          },
+          "lat": -12.115,
+          "lon": -77.0515,
+          "visits": [
+            {
+              "date": "2026-09-11",
+              "photos": [
+                {
+                  "src": "photos/peru/lima-city/parque-shibuya/2026-09-11/20260911_161639.jpg",
+                  "thumb": "photos/peru/lima-city/parque-shibuya/2026-09-11/thumbs/20260911_161639.jpg",
+                  "caption": {
+                    "en": "Hachiko in Lima!",
+                    "ja": "リマにハチ公！",
+                    "es": "¡Hachiko en Lima!"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "With Hachiko",
+                    "ja": "ハチ公と",
+                    "es": "Con Hachiko"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/peru/lima-city/parque-shibuya/2026-09-11/20260911_161715.jpg",
+                      "thumb": "photos/peru/lima-city/parque-shibuya/2026-09-11/thumbs/20260911_161715.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/parque-shibuya/2026-09-11/20260911_161731.jpg",
+                      "thumb": "photos/peru/lima-city/parque-shibuya/2026-09-11/thumbs/20260911_161731.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-shibuya/2026-09-11/20260911_161916.jpg",
+                  "thumb": "photos/peru/lima-city/parque-shibuya/2026-09-11/thumbs/20260911_161916.jpg",
+                  "caption": {
+                    "en": "Above the Costa Verde",
+                    "ja": "コスタ・ベルデを見下ろして",
+                    "es": "Sobre la Costa Verde"
+                  }
+                }
+              ],
+              "note": {
+                "en": "A Japanese park opened in August 2026, celebrating Miraflores and Shibuya as sister cities.",
+                "ja": "ミラフローレスと渋谷の姉妹都市を記念して2026年8月に開園した日本庭園。",
+                "es": "Un parque japonés inaugurado en agosto de 2026 por el hermanamiento entre Miraflores y Shibuya."
+              }
+            }
+          ]
+        },
+        {
+          "id": "parque-chino",
+          "name": {
+            "en": "Parque Chino",
+            "ja": "中国庭園（パルケ・チノ）",
+            "es": "Parque Chino"
+          },
+          "lat": -12.1225,
+          "lon": -77.044,
+          "visits": [
+            {
+              "date": "2026-09-11",
+              "photos": [
+                {
+                  "src": "photos/peru/lima-city/parque-chino/2026-09-11/20260911_170416.jpg",
+                  "thumb": "photos/peru/lima-city/parque-chino/2026-09-11/thumbs/20260911_170416.jpg",
+                  "caption": {
+                    "en": "The pavilion over the sea",
+                    "ja": "海の上の東屋",
+                    "es": "El pabellón sobre el mar"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-chino/2026-09-11/20260911_170515.jpg",
+                  "thumb": "photos/peru/lima-city/parque-chino/2026-09-11/thumbs/20260911_170515.jpg",
+                  "caption": {
+                    "en": "The sun breaks through",
+                    "ja": "雲間からの光",
+                    "es": "El sol se asoma"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-chino/2026-09-11/20260911_170642.jpg",
+                  "thumb": "photos/peru/lima-city/parque-chino/2026-09-11/thumbs/20260911_170642.jpg",
+                  "caption": {
+                    "en": "Resting on the wall",
+                    "ja": "塀に座ってひと休み",
+                    "es": "Descansando en el muro"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-chino/2026-09-11/20260911_170915.jpg",
+                  "thumb": "photos/peru/lima-city/parque-chino/2026-09-11/thumbs/20260911_170915.jpg",
+                  "caption": {
+                    "en": "The garden, pond and bridge",
+                    "ja": "庭園と池と橋",
+                    "es": "El jardín, el estanque y el puente"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-chino/2026-09-11/20260911_171212.jpg",
+                  "thumb": "photos/peru/lima-city/parque-chino/2026-09-11/thumbs/20260911_171212.jpg",
+                  "caption": {
+                    "en": "On the pavilion steps",
+                    "ja": "東屋の階段で",
+                    "es": "En las escaleras del pabellón"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Inside the pavilion",
+                    "ja": "東屋の中で",
+                    "es": "Dentro del pabellón"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/peru/lima-city/parque-chino/2026-09-11/20260911_171234.jpg",
+                      "thumb": "photos/peru/lima-city/parque-chino/2026-09-11/thumbs/20260911_171234.jpg"
+                    },
+                    {
+                      "src": "photos/peru/lima-city/parque-chino/2026-09-11/20260911_171252.jpg",
+                      "thumb": "photos/peru/lima-city/parque-chino/2026-09-11/thumbs/20260911_171252.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-chino/2026-09-11/20260911_171323.jpg",
+                  "thumb": "photos/peru/lima-city/parque-chino/2026-09-11/thumbs/20260911_171323.jpg",
+                  "caption": {
+                    "en": "The view from the pavilion",
+                    "ja": "東屋からの眺め",
+                    "es": "La vista desde el pabellón"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-chino/2026-09-11/20260911_171510.jpg",
+                  "thumb": "photos/peru/lima-city/parque-chino/2026-09-11/thumbs/20260911_171510.jpg",
+                  "caption": {
+                    "en": "Selfie at the pavilion",
+                    "ja": "東屋で自撮り",
+                    "es": "Selfie en el pabellón"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "parque-del-amor",
+          "name": {
+            "en": "Parque del Amor",
+            "ja": "愛の公園",
+            "es": "Parque del Amor"
+          },
+          "lat": -12.127,
+          "lon": -77.0398,
+          "visits": [
+            {
+              "date": "2026-09-11",
+              "photos": [
+                {
+                  "src": "photos/peru/lima-city/parque-del-amor/2026-09-11/20260911_180340.jpg",
+                  "thumb": "photos/peru/lima-city/parque-del-amor/2026-09-11/thumbs/20260911_180340.jpg",
+                  "caption": {
+                    "en": "El Beso, the giant kissing couple",
+                    "ja": "巨大なキスの像「エル・ベソ」",
+                    "es": "El Beso, la pareja gigante"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-09-13",
+              "photos": [
+                {
+                  "src": "photos/peru/lima-city/parque-del-amor/2026-09-13/20260913_184533.jpg",
+                  "thumb": "photos/peru/lima-city/parque-del-amor/2026-09-13/thumbs/20260913_184533.jpg",
+                  "caption": {
+                    "en": "El Beso at night",
+                    "ja": "夜のエル・ベソ",
+                    "es": "El Beso de noche"
+                  }
+                },
+                {
+                  "src": "photos/peru/lima-city/parque-del-amor/2026-09-13/20260913_184730.jpg",
+                  "thumb": "photos/peru/lima-city/parque-del-amor/2026-09-13/thumbs/20260913_184730.jpg",
+                  "caption": {
+                    "en": "On the mosaic bench",
+                    "ja": "モザイクのベンチで",
+                    "es": "En la banca de mosaicos"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "region": "callao",
+      "cover": "photos/peru/callao/lima-airport/2026-09-20/20260920_195634.jpg",
+      "spots": [
+        {
+          "id": "lima-airport",
+          "name": {
+            "en": "Jorge Chávez Airport (new terminal)",
+            "ja": "ホルヘ・チャベス空港（新ターミナル）",
+            "es": "Aeropuerto Jorge Chávez (nuevo terminal)"
+          },
+          "lat": -12.026,
+          "lon": -77.12,
+          "visits": [
+            {
+              "date": "2026-09-20",
+              "photos": [
+                {
+                  "src": "photos/peru/callao/lima-airport/2026-09-20/20260919_215705.jpg",
+                  "thumb": "photos/peru/callao/lima-airport/2026-09-20/thumbs/20260919_215705.jpg",
+                  "caption": {
+                    "en": "Last days at home: my gym…",
+                    "ja": "家での最後の日々：ジム…",
+                    "es": "Últimos días en casa: mi gimnasio…"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "…and my cat, who packed himself to come to Japan",
+                    "ja": "…と、日本についてくる気満々の猫",
+                    "es": "…y mi gato, que se metió en la maleta para venir a Japón"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/peru/callao/lima-airport/2026-09-20/20260920_151406.jpg",
+                      "thumb": "photos/peru/callao/lima-airport/2026-09-20/thumbs/20260920_151406.jpg"
+                    },
+                    {
+                      "src": "photos/peru/callao/lima-airport/2026-09-20/20260920_151411.jpg",
+                      "thumb": "photos/peru/callao/lima-airport/2026-09-20/thumbs/20260920_151411.jpg"
+                    },
+                    {
+                      "src": "photos/peru/callao/lima-airport/2026-09-20/20260920_151421.jpg",
+                      "thumb": "photos/peru/callao/lima-airport/2026-09-20/thumbs/20260920_151421.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/peru/callao/lima-airport/2026-09-20/20260920_173206.jpg",
+                  "thumb": "photos/peru/callao/lima-airport/2026-09-20/thumbs/20260920_173206.jpg",
+                  "caption": {
+                    "en": "The new airport terminal",
+                    "ja": "新しい空港ターミナル",
+                    "es": "El nuevo terminal del aeropuerto"
+                  }
+                },
+                {
+                  "src": "photos/peru/callao/lima-airport/2026-09-20/20260920_195634.jpg",
+                  "thumb": "photos/peru/callao/lima-airport/2026-09-20/thumbs/20260920_195634.jpg",
+                  "caption": {
+                    "en": "A giant bear sculpture in the terminal",
+                    "ja": "ターミナルの巨大なクマの彫刻",
+                    "es": "Una escultura gigante de oso en el terminal"
+                  }
+                },
+                {
+                  "src": "photos/peru/callao/lima-airport/2026-09-20/20260921_193346.jpg",
+                  "thumb": "photos/peru/callao/lima-airport/2026-09-20/thumbs/20260921_193346.jpg",
+                  "caption": {
+                    "en": "On the way: Madrid-Barajas Airport",
+                    "ja": "経由地マドリード＝バラハス空港",
+                    "es": "En el camino: el aeropuerto Madrid-Barajas"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Goodbye, Lima: last days at home, then the new airport and a stop in Madrid on the way back to Japan.",
+                "ja": "さよならリマ。家での最後の日々、新空港、そしてマドリード経由で日本へ。",
+                "es": "Adiós, Lima: los últimos días en casa, el nuevo aeropuerto y una escala en Madrid de vuelta a Japón."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cover": "photos/peru/lima-city/costa-verde/2026-09-11/20260911_175640.jpg"
+}

@@ -544,6 +544,29 @@
                   }
                 }
               ]
+            },
+            {
+              "date": "2026-08-06",
+              "photos": [
+                {
+                  "src": "photos/tokyo/asakusa/2026-08-06/20260806_161003.jpg",
+                  "thumb": "photos/tokyo/asakusa/2026-08-06/thumbs/20260806_161003.jpg",
+                  "caption": {
+                    "en": "The famous melon pan with ice cream",
+                    "ja": "名物のメロンパンアイス",
+                    "es": "El famoso melon pan con helado"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/asakusa/2026-08-06/20260806_163704.jpg",
+                  "thumb": "photos/tokyo/asakusa/2026-08-06/thumbs/20260806_163704.jpg",
+                  "caption": {
+                    "en": "Sweet potato crème brûlée from Ippo",
+                    "ja": "いっぽの焼き芋ブリュレ",
+                    "es": "Crème brûlée de camote de Ippo"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -877,6 +900,29 @@
                   ]
                 }
               ]
+            },
+            {
+              "date": "2026-07-23",
+              "photos": [
+                {
+                  "src": "photos/tokyo/shinjuku/2026-07-23/20260723_195729.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2026-07-23/thumbs/20260723_195729.jpg",
+                  "caption": {
+                    "en": "Night streets of Shinjuku",
+                    "ja": "夜の新宿",
+                    "es": "Las calles de Shinjuku de noche"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shinjuku/2026-07-23/20260723_200251.jpg",
+                  "thumb": "photos/tokyo/shinjuku/2026-07-23/thumbs/20260723_200251.jpg",
+                  "caption": {
+                    "en": "I ♥ Kabukichō",
+                    "ja": "I ♥ 歌舞伎町",
+                    "es": "I ♥ Kabukichō"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -1150,6 +1196,43 @@
                   ]
                 }
               ]
+            },
+            {
+              "date": "2026-07-17",
+              "photos": [
+                {
+                  "src": "photos/tokyo/shibuya/2026-07-17/20260717_194458.jpg",
+                  "thumb": "photos/tokyo/shibuya/2026-07-17/thumbs/20260717_194458.jpg",
+                  "caption": {
+                    "en": "Inside the giant Krispy Kreme donut",
+                    "ja": "クリスピー・クリームの巨大ドーナツの中で",
+                    "es": "Dentro de la dona gigante de Krispy Kreme"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/shibuya/2026-07-17/20260717_203350.jpg",
+                  "thumb": "photos/tokyo/shibuya/2026-07-17/thumbs/20260717_203350.jpg",
+                  "caption": {
+                    "en": "Jujutsu Kaisen gacha at Animate",
+                    "ja": "アニメイトの呪術廻戦ガチャ",
+                    "es": "Gacha de Jujutsu Kaisen en Animate"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-10-25",
+              "photos": [
+                {
+                  "src": "photos/tokyo/shibuya/2026-10-25/20261025_201704.jpg",
+                  "thumb": "photos/tokyo/shibuya/2026-10-25/thumbs/20261025_201704.jpg",
+                  "caption": {
+                    "en": "The red spiral stairs at Shibuya Sakura Stage",
+                    "ja": "渋谷サクラステージの赤いらせん階段",
+                    "es": "La escalera roja en espiral de Shibuya Sakura Stage"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -1268,6 +1351,97 @@
                     "en": "The tower lit up",
                     "ja": "ライトアップされたタワー",
                     "es": "La torre iluminada"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-11-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/tokyo-tower/2026-11-21/20261121_191537.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2026-11-21/thumbs/20261121_191537.jpg",
+                  "caption": {
+                    "en": "The famous 7-Eleven and Tokyo Tower view",
+                    "ja": "有名なセブン-イレブンと東京タワーの景色",
+                    "es": "La famosa vista del 7-Eleven y la Torre de Tokio"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Tokyo Tower at the end of the street",
+                    "ja": "通りの先の東京タワー",
+                    "es": "La Torre de Tokio al final de la calle"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/tokyo-tower/2026-11-21/20261121_192106.jpg",
+                      "thumb": "photos/tokyo/tokyo-tower/2026-11-21/thumbs/20261121_192106.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/tokyo-tower/2026-11-21/20261121_192114.jpg",
+                      "thumb": "photos/tokyo/tokyo-tower/2026-11-21/thumbs/20261121_192114.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/tokyo-tower/2026-11-21/20261121_192118.jpg",
+                      "thumb": "photos/tokyo/tokyo-tower/2026-11-21/thumbs/20261121_192118.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/tokyo-tower/2026-11-21/20261121_192124.jpg",
+                      "thumb": "photos/tokyo/tokyo-tower/2026-11-21/thumbs/20261121_192124.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Tokyo Tower lit up",
+                    "ja": "ライトアップされた東京タワー",
+                    "es": "La Torre de Tokio iluminada"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/tokyo-tower/2026-11-21/20261121_192336.jpg",
+                      "thumb": "photos/tokyo/tokyo-tower/2026-11-21/thumbs/20261121_192336.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/tokyo-tower/2026-11-21/20261121_192818.jpg",
+                      "thumb": "photos/tokyo/tokyo-tower/2026-11-21/thumbs/20261121_192818.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Right under the tower",
+                    "ja": "タワーの真下で",
+                    "es": "Justo debajo de la torre"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/tokyo-tower/2026-11-21/20261121_193024.jpg",
+                      "thumb": "photos/tokyo/tokyo-tower/2026-11-21/thumbs/20261121_193024.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/tokyo-tower/2026-11-21/20261121_193156.jpg",
+                      "thumb": "photos/tokyo/tokyo-tower/2026-11-21/thumbs/20261121_193156.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/tokyo-tower/2026-11-21/20261121_194859.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2026-11-21/thumbs/20261121_194859.jpg",
+                  "caption": {
+                    "en": "The tower from down the road",
+                    "ja": "坂の下から見たタワー",
+                    "es": "La torre desde el camino"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/tokyo-tower/2026-11-21/20261121_194935.jpg",
+                  "thumb": "photos/tokyo/tokyo-tower/2026-11-21/thumbs/20261121_194935.jpg",
+                  "caption": {
+                    "en": "Through Zōjō-ji's gate",
+                    "ja": "増上寺の門越しに",
+                    "es": "A través de la puerta de Zōjō-ji"
                   }
                 }
               ]
@@ -1474,6 +1648,29 @@
                   }
                 }
               ]
+            },
+            {
+              "date": "2026-07-19",
+              "photos": [
+                {
+                  "src": "photos/tokyo/meiji-jingu/2026-07-19/20260719_160508.jpg",
+                  "thumb": "photos/tokyo/meiji-jingu/2026-07-19/thumbs/20260719_160508.jpg",
+                  "caption": {
+                    "en": "Under the great wooden torii",
+                    "ja": "大鳥居の下で",
+                    "es": "Bajo el gran torii de madera"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/meiji-jingu/2026-07-19/20260719_162306.jpg",
+                  "thumb": "photos/tokyo/meiji-jingu/2026-07-19/thumbs/20260719_162306.jpg",
+                  "caption": {
+                    "en": "The main hall on a summer day",
+                    "ja": "夏の日の本殿",
+                    "es": "El salón principal en un día de verano"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -1644,6 +1841,136 @@
                       "thumb": "photos/tokyo/harajuku/2025-07-05/thumbs/20250705_163937.jpg"
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "date": "2026-07-19",
+              "photos": [
+                {
+                  "src": "photos/tokyo/harajuku/2026-07-19/20260719_172745.jpg",
+                  "thumb": "photos/tokyo/harajuku/2026-07-19/thumbs/20260719_172745.jpg",
+                  "caption": {
+                    "en": "Torching the sugar on a matcha crêpe",
+                    "ja": "抹茶クレープをバーナーで炙る",
+                    "es": "Quemando el azúcar de un crepe de matcha"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/harajuku/2026-07-19/20260719_172903.jpg",
+                  "thumb": "photos/tokyo/harajuku/2026-07-19/thumbs/20260719_172903.jpg",
+                  "caption": {
+                    "en": "Matcha brûlée crêpe",
+                    "ja": "抹茶ブリュレクレープ",
+                    "es": "Crepe de matcha brûlée"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/harajuku/2026-07-19/20260719_172934.jpg",
+                  "thumb": "photos/tokyo/harajuku/2026-07-19/thumbs/20260719_172934.jpg",
+                  "caption": {
+                    "en": "Crêpe selfie",
+                    "ja": "クレープと自撮り",
+                    "es": "Selfie con el crepe"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/harajuku/2026-07-19/20260719_174800.jpg",
+                  "thumb": "photos/tokyo/harajuku/2026-07-19/thumbs/20260719_174800.jpg",
+                  "caption": {
+                    "en": "Dango in Harajuku",
+                    "ja": "原宿でお団子",
+                    "es": "Dango en Harajuku"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/harajuku/2026-07-19/20260719_181000.jpg",
+                  "thumb": "photos/tokyo/harajuku/2026-07-19/thumbs/20260719_181000.jpg",
+                  "caption": {
+                    "en": "The mirrored entrance of Tokyu Plaza",
+                    "ja": "東急プラザの鏡のエントランス",
+                    "es": "La entrada de espejos de Tokyu Plaza"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/harajuku/2026-07-19/20260719_181029.jpg",
+                  "thumb": "photos/tokyo/harajuku/2026-07-19/thumbs/20260719_181029.jpg",
+                  "caption": {
+                    "en": "Mirror selfie",
+                    "ja": "鏡の中で自撮り",
+                    "es": "Selfie entre espejos"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/harajuku/2026-07-19/20260719_181050.jpg",
+                  "thumb": "photos/tokyo/harajuku/2026-07-19/thumbs/20260719_181050.jpg",
+                  "caption": {
+                    "en": "Looking down at Omotesandō",
+                    "ja": "表参道を見下ろして",
+                    "es": "Mirando hacia Omotesandō"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Owls over the forest escalator, Harry Potter Shop Harajuku",
+                    "ja": "ハリー・ポッター ショップ原宿、森のエスカレーターとふくろう",
+                    "es": "Lechuzas sobre la escalera del bosque, Harry Potter Shop Harajuku"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/harajuku/2026-07-19/20260719_183905.jpg",
+                      "thumb": "photos/tokyo/harajuku/2026-07-19/thumbs/20260719_183905.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/harajuku/2026-07-19/20260719_185641.jpg",
+                      "thumb": "photos/tokyo/harajuku/2026-07-19/thumbs/20260719_185641.jpg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "date": "2026-10-10",
+              "photos": [
+                {
+                  "src": "photos/tokyo/harajuku/2026-10-10/20261010_174805.jpg",
+                  "thumb": "photos/tokyo/harajuku/2026-10-10/thumbs/20261010_174805.jpg",
+                  "caption": {
+                    "en": "Fluffy soufflé pancakes",
+                    "ja": "ふわふわスフレパンケーキ",
+                    "es": "Pancakes soufflé esponjosos"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Demon Slayer limited reproduction art",
+                    "ja": "鬼滅の刃の限定複製原画",
+                    "es": "Reproducciones limitadas de arte de Demon Slayer"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/harajuku/2026-10-10/20261010_181458.jpg",
+                      "thumb": "photos/tokyo/harajuku/2026-10-10/thumbs/20261010_181458.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/harajuku/2026-10-10/20261010_181506.jpg",
+                      "thumb": "photos/tokyo/harajuku/2026-10-10/thumbs/20261010_181506.jpg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "date": "2026-11-07",
+              "photos": [
+                {
+                  "src": "photos/tokyo/harajuku/2026-11-07/20261107_171217.jpg",
+                  "thumb": "photos/tokyo/harajuku/2026-11-07/thumbs/20261107_171217.jpg",
+                  "caption": {
+                    "en": "Butterbeer at the Harry Potter Shop",
+                    "ja": "ハリー・ポッター ショップでバタービール",
+                    "es": "Cerveza de mantequilla en la Harry Potter Shop"
+                  }
                 }
               ]
             }
@@ -2369,6 +2696,38 @@
                 "ja": "お台場でデジモン聖地巡礼：階段、フジテレビ、ビッグサイト。",
                 "es": "Una peregrinación Digimon en Odaiba: las escaleras, Fuji TV y Big Sight."
               }
+            },
+            {
+              "date": "2026-08-04",
+              "photos": [
+                {
+                  "src": "photos/tokyo/odaiba/2026-08-04/20260804_154229.jpg",
+                  "thumb": "photos/tokyo/odaiba/2026-08-04/thumbs/20260804_154229.jpg",
+                  "caption": {
+                    "en": "Yamashita Honki Udon's famous foam-topped udon, at DECKS",
+                    "ja": "デックスの山下本気うどん、名物の泡のせうどん",
+                    "es": "El famoso udon con espuma de Yamashita Honki Udon, en DECKS"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/odaiba/2026-08-04/20260804_154536.jpg",
+                  "thumb": "photos/tokyo/odaiba/2026-08-04/thumbs/20260804_154536.jpg",
+                  "caption": {
+                    "en": "All mixed in",
+                    "ja": "混ぜたら",
+                    "es": "Todo mezclado"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/odaiba/2026-08-04/20260804_204506.jpg",
+                  "thumb": "photos/tokyo/odaiba/2026-08-04/thumbs/20260804_204506.jpg",
+                  "caption": {
+                    "en": "The Statue of Liberty and Rainbow Bridge at night",
+                    "ja": "夜の自由の女神とレインボーブリッジ",
+                    "es": "La Estatua de la Libertad y el Rainbow Bridge de noche"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -2627,6 +2986,52 @@
                   ]
                 }
               ]
+            },
+            {
+              "date": "2026-07-19",
+              "photos": [
+                {
+                  "src": "photos/tokyo/suga-shrine/2026-07-19/20260719_125459.jpg",
+                  "thumb": "photos/tokyo/suga-shrine/2026-07-19/thumbs/20260719_125459.jpg",
+                  "caption": {
+                    "en": "Yotsuya Station, another Your Name spot",
+                    "ja": "四ツ谷駅も「君の名は。」の聖地",
+                    "es": "La estación Yotsuya, otro lugar de Your Name"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/suga-shrine/2026-07-19/20260719_133539.jpg",
+                  "thumb": "photos/tokyo/suga-shrine/2026-07-19/thumbs/20260719_133539.jpg",
+                  "caption": {
+                    "en": "Purifying at the shrine's water basin",
+                    "ja": "手水舎で清める",
+                    "es": "Purificándome en la fuente del santuario"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/suga-shrine/2026-07-19/20260719_134406.jpg",
+                  "thumb": "photos/tokyo/suga-shrine/2026-07-19/thumbs/20260719_134406.jpg",
+                  "caption": {
+                    "en": "A fan's ema: “10th anniversary, congratulations!”",
+                    "ja": "ファンの絵馬「10周年おめでとう！」",
+                    "es": "Un ema de un fan: “¡Feliz 10.º aniversario!”"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/suga-shrine/2026-07-19/20260719_141210.jpg",
+                  "thumb": "photos/tokyo/suga-shrine/2026-07-19/thumbs/20260719_141210.jpg",
+                  "caption": {
+                    "en": "Back on the famous stairs",
+                    "ja": "またあの階段で",
+                    "es": "De nuevo en las famosas escaleras"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Your Name turned ten this year, so I walked its spots again: Yotsuya Station and the Suga Shrine stairs.",
+                "ja": "「君の名は。」公開10周年の年に、四ツ谷駅と須賀神社の階段をもう一度歩いた。",
+                "es": "Your Name cumplió diez años, así que volví a recorrer sus lugares: la estación Yotsuya y las escaleras del santuario Suga."
+              }
             }
           ]
         },
@@ -3069,6 +3474,112 @@
                   }
                 }
               ]
+            },
+            {
+              "date": "2026-07-30",
+              "photos": [
+                {
+                  "src": "photos/tokyo/sunshine-city/2026-07-30/20260730_164147.jpg",
+                  "thumb": "photos/tokyo/sunshine-city/2026-07-30/thumbs/20260730_164147.jpg",
+                  "caption": {
+                    "en": "Bakudan-yaki, a giant takoyaki",
+                    "ja": "ばくだん焼",
+                    "es": "Bakudan-yaki, un takoyaki gigante"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Seals swimming behind me",
+                    "ja": "後ろを泳ぐアザラシ",
+                    "es": "Focas nadando detrás de mí"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/sunshine-city/2026-07-30/20260730_174113.jpg",
+                      "thumb": "photos/tokyo/sunshine-city/2026-07-30/thumbs/20260730_174113.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/sunshine-city/2026-07-30/20260730_174136.jpg",
+                      "thumb": "photos/tokyo/sunshine-city/2026-07-30/thumbs/20260730_174136.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/sunshine-city/2026-07-30/20260730_175936.jpg",
+                  "thumb": "photos/tokyo/sunshine-city/2026-07-30/thumbs/20260730_175936.jpg",
+                  "caption": {
+                    "en": "The big Sunshine Lagoon tank",
+                    "ja": "大水槽「サンシャインラグーン」",
+                    "es": "El gran tanque Sunshine Lagoon"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Japanese spider crabs",
+                    "ja": "タカアシガニ",
+                    "es": "Cangrejos araña japoneses"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/sunshine-city/2026-07-30/20260730_180337.jpg",
+                      "thumb": "photos/tokyo/sunshine-city/2026-07-30/thumbs/20260730_180337.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/sunshine-city/2026-07-30/20260730_180358.jpg",
+                      "thumb": "photos/tokyo/sunshine-city/2026-07-30/thumbs/20260730_180358.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/sunshine-city/2026-07-30/20260730_181100.jpg",
+                  "thumb": "photos/tokyo/sunshine-city/2026-07-30/thumbs/20260730_181100.jpg",
+                  "caption": {
+                    "en": "The jellyfish tunnel",
+                    "ja": "クラゲのトンネル",
+                    "es": "El túnel de medusas"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/sunshine-city/2026-07-30/20260730_181946.jpg",
+                  "thumb": "photos/tokyo/sunshine-city/2026-07-30/thumbs/20260730_181946.jpg",
+                  "caption": {
+                    "en": "Penguins on the rooftop",
+                    "ja": "屋上のペンギン",
+                    "es": "Pingüinos en la azotea"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Penguins flying over the city",
+                    "ja": "空飛ぶペンギン",
+                    "es": "Pingüinos volando sobre la ciudad"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/sunshine-city/2026-07-30/20260730_182208.jpg",
+                      "thumb": "photos/tokyo/sunshine-city/2026-07-30/thumbs/20260730_182208.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/sunshine-city/2026-07-30/20260730_182238.jpg",
+                      "thumb": "photos/tokyo/sunshine-city/2026-07-30/thumbs/20260730_182238.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/sunshine-city/2026-07-30/20260730_191621.jpg",
+                  "thumb": "photos/tokyo/sunshine-city/2026-07-30/thumbs/20260730_191621.jpg",
+                  "caption": {
+                    "en": "Sunshine 60 Observatory",
+                    "ja": "サンシャイン60展望台",
+                    "es": "El mirador Sunshine 60"
+                  }
+                }
+              ],
+              "note": {
+                "en": "The aquarium on the roof of Sunshine City, then the observatory up top.",
+                "ja": "サンシャインシティ屋上の水族館と、最上階の展望台。",
+                "es": "El acuario en la azotea de Sunshine City y luego el mirador en lo más alto."
+              }
             }
           ]
         },
@@ -3464,6 +3975,91 @@
                   }
                 }
               ]
+            },
+            {
+              "date": "2026-11-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/hibiya/2026-11-21/20261121_205039.jpg",
+                  "thumb": "photos/tokyo/hibiya/2026-11-21/thumbs/20261121_205039.jpg",
+                  "caption": {
+                    "en": "Street musicians under the tracks",
+                    "ja": "高架下のストリートミュージシャン",
+                    "es": "Músicos callejeros bajo las vías"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Hibiya Okuroji, shops in the railway arches",
+                    "ja": "日比谷OKUROJI、高架下の店",
+                    "es": "Hibiya Okuroji, tiendas bajo los arcos del tren"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/hibiya/2026-11-21/20261121_205423.jpg",
+                      "thumb": "photos/tokyo/hibiya/2026-11-21/thumbs/20261121_205423.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/hibiya/2026-11-21/20261121_205623.jpg",
+                      "thumb": "photos/tokyo/hibiya/2026-11-21/thumbs/20261121_205623.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/hibiya/2026-11-21/20261121_205723.jpg",
+                  "thumb": "photos/tokyo/hibiya/2026-11-21/thumbs/20261121_205723.jpg",
+                  "caption": {
+                    "en": "Yūrakuchō Sanchoku Yokochō",
+                    "ja": "有楽町産直横丁",
+                    "es": "Yūrakuchō Sanchoku Yokochō"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/hibiya/2026-11-21/20261121_205934.jpg",
+                  "thumb": "photos/tokyo/hibiya/2026-11-21/thumbs/20261121_205934.jpg",
+                  "caption": {
+                    "en": "An alley under the tracks",
+                    "ja": "高架下の路地",
+                    "es": "Un callejón bajo las vías"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/hibiya/2026-11-21/20261121_210150.jpg",
+                  "thumb": "photos/tokyo/hibiya/2026-11-21/thumbs/20261121_210150.jpg",
+                  "caption": {
+                    "en": "Illuminations on Hibiya Naka-dōri",
+                    "ja": "日比谷仲通りのイルミネーション",
+                    "es": "Iluminaciones en Hibiya Naka-dōri"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/hibiya/2026-11-21/20261121_210244.jpg",
+                  "thumb": "photos/tokyo/hibiya/2026-11-21/thumbs/20261121_210244.jpg",
+                  "caption": {
+                    "en": "The Avengers Christmas tree",
+                    "ja": "アベンジャーズのクリスマスツリー",
+                    "es": "El árbol de Navidad de los Vengadores"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/hibiya/2026-11-21/20261121_210323.jpg",
+                  "thumb": "photos/tokyo/hibiya/2026-11-21/thumbs/20261121_210323.jpg",
+                  "caption": {
+                    "en": "Tokyo Midtown Hibiya",
+                    "ja": "東京ミッドタウン日比谷",
+                    "es": "Tokyo Midtown Hibiya"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/hibiya/2026-11-21/20261121_210923.jpg",
+                  "thumb": "photos/tokyo/hibiya/2026-11-21/thumbs/20261121_210923.jpg",
+                  "caption": {
+                    "en": "The Avengers sign on the Step Square",
+                    "ja": "ステップ広場のアベンジャーズ",
+                    "es": "El logo de los Vengadores en la Step Square"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -3494,6 +4090,108 @@
                     {
                       "src": "photos/tokyo/marunouchi/2024-12-28/20241228_183946.jpg",
                       "thumb": "photos/tokyo/marunouchi/2024-12-28/thumbs/20241228_183946.jpg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "date": "2026-11-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/marunouchi/2026-11-21/20261121_211228.jpg",
+                  "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_211228.jpg",
+                  "caption": {
+                    "en": "Marunouchi Naka-dōri lit up",
+                    "ja": "丸の内仲通りのイルミネーション",
+                    "es": "Marunouchi Naka-dōri iluminada"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/marunouchi/2026-11-21/20261121_211530.jpg",
+                  "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_211530.jpg",
+                  "caption": {
+                    "en": "Marunouchi Street Park",
+                    "ja": "丸の内ストリートパーク",
+                    "es": "Marunouchi Street Park"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/marunouchi/2026-11-21/20261121_211716.jpg",
+                  "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_211716.jpg",
+                  "caption": {
+                    "en": "Champagne-gold trees",
+                    "ja": "シャンパンゴールドの並木",
+                    "es": "Árboles dorados de champán"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Harry Potter Marunouchi Bright Holiday",
+                    "ja": "ハリー・ポッター 丸の内ブライトホリデー",
+                    "es": "Harry Potter Marunouchi Bright Holiday"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/marunouchi/2026-11-21/20261121_211945.jpg",
+                      "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_211945.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/marunouchi/2026-11-21/20261121_212136.jpg",
+                      "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_212136.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/marunouchi/2026-11-21/20261121_212343.jpg",
+                  "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_212343.jpg",
+                  "caption": {
+                    "en": "A Christmas tree in the courtyard",
+                    "ja": "中庭のクリスマスツリー",
+                    "es": "Un árbol de Navidad en el patio"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/marunouchi/2026-11-21/20261121_212427.jpg",
+                  "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_212427.jpg",
+                  "caption": {
+                    "en": "A giant Chocolate Frog card",
+                    "ja": "巨大な蛙チョコのカード",
+                    "es": "Una carta gigante de Rana de Chocolate"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/marunouchi/2026-11-21/20261121_212637.jpg",
+                  "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_212637.jpg",
+                  "caption": {
+                    "en": "The Christmas shop windows",
+                    "ja": "クリスマスのショーウィンドウ",
+                    "es": "Los escaparates navideños"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/marunouchi/2026-11-21/20261121_212712.jpg",
+                  "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_212712.jpg",
+                  "caption": {
+                    "en": "Maru Building",
+                    "ja": "丸ビル",
+                    "es": "Edificio Marunouchi"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The Harry Potter tree at Marucube",
+                    "ja": "マルキューブのハリー・ポッターツリー",
+                    "es": "El árbol de Harry Potter en el Marucube"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/marunouchi/2026-11-21/20261121_212746.jpg",
+                      "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_212746.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/marunouchi/2026-11-21/20261121_212808.jpg",
+                      "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_212808.jpg"
                     }
                   ]
                 }
@@ -4263,6 +4961,1165 @@
               ]
             }
           ]
+        },
+        {
+          "id": "yoyogi-crossing",
+          "name": {
+            "en": "Railroad crossing near Yoyogi",
+            "ja": "代々木の踏切",
+            "es": "Cruce de tren cerca de Yoyogi"
+          },
+          "lat": 35.6806,
+          "lon": 139.7027,
+          "visits": [
+            {
+              "date": "2026-07-19",
+              "photos": [
+                {
+                  "src": "photos/tokyo/yoyogi-crossing/2026-07-19/20260719_155353.jpg",
+                  "thumb": "photos/tokyo/yoyogi-crossing/2026-07-19/thumbs/20260719_155353.jpg",
+                  "caption": {
+                    "en": "Two trains at once: Saikyō Line below, Yamanote Line above",
+                    "ja": "埼京線と山手線が同時に",
+                    "es": "Dos trenes a la vez: la línea Saikyō abajo y la Yamanote arriba"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/yoyogi-crossing/2026-07-19/20260719_155400.jpg",
+                  "thumb": "photos/tokyo/yoyogi-crossing/2026-07-19/thumbs/20260719_155400.jpg",
+                  "caption": {
+                    "en": "Selfie at the crossing",
+                    "ja": "踏切で自撮り",
+                    "es": "Selfie en el cruce"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Found on the walk from Suga Shrine toward Yoyogi.",
+                "ja": "須賀神社から代々木へ歩く途中で見つけた。",
+                "es": "Lo encontré caminando del santuario Suga hacia Yoyogi."
+              }
+            }
+          ]
+        },
+        {
+          "id": "mutekiya",
+          "name": {
+            "en": "Mutekiya ramen, Ikebukuro",
+            "ja": "無敵家（池袋）",
+            "es": "Ramen Mutekiya, Ikebukuro"
+          },
+          "lat": 35.729,
+          "lon": 139.7128,
+          "visits": [
+            {
+              "date": "2026-07-30",
+              "photos": [
+                {
+                  "src": "photos/tokyo/mutekiya/2026-07-30/20260730_204106.jpg",
+                  "thumb": "photos/tokyo/mutekiya/2026-07-30/thumbs/20260730_204106.jpg",
+                  "caption": {
+                    "en": "Mutekiya's famous tonkotsu ramen",
+                    "ja": "無敵家の豚骨ラーメン",
+                    "es": "El famoso ramen tonkotsu de Mutekiya"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pokepark-kanto",
+          "name": {
+            "en": "PokéPark Kanto",
+            "ja": "ポケパーク カントー",
+            "es": "PokéPark Kanto"
+          },
+          "lat": 35.6255,
+          "lon": 139.516,
+          "visits": [
+            {
+              "date": "2026-08-01",
+              "photos": [
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_153434.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_153434.jpg",
+                  "caption": {
+                    "en": "Into Yomiuriland",
+                    "ja": "よみうりランドへ",
+                    "es": "Entrando a Yomiuriland"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_153451.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_153451.jpg",
+                  "caption": {
+                    "en": "The PokéPark Kanto sign",
+                    "ja": "ポケパーク カントーのサイン",
+                    "es": "El letrero de PokéPark Kanto"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_154129.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_154129.jpg",
+                  "caption": {
+                    "en": "A Rattata on the forest path",
+                    "ja": "森の小道のコラッタ",
+                    "es": "Un Rattata en el sendero del bosque"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_154309.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_154309.jpg",
+                  "caption": {
+                    "en": "With Paras",
+                    "ja": "パラスと",
+                    "es": "Con Paras"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_154355.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_154355.jpg",
+                  "caption": {
+                    "en": "With Nidorina and Nidorino",
+                    "ja": "ニドリーナとニドリーノと",
+                    "es": "Con Nidorina y Nidorino"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "A forest full of Pikachu",
+                    "ja": "ピカチュウだらけの森",
+                    "es": "Un bosque lleno de Pikachu"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_154408.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_154408.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_154411.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_154411.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_154502.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_154502.jpg",
+                  "caption": {
+                    "en": "Hanging out with the Pikachu",
+                    "ja": "ピカチュウたちとひと休み",
+                    "es": "Pasando el rato con los Pikachu"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_154514.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_154514.jpg",
+                  "caption": {
+                    "en": "Pikachu in a hollow stump",
+                    "ja": "切り株の中のピカチュウ",
+                    "es": "Pikachu en un tronco hueco"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_154609.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_154609.jpg",
+                  "caption": {
+                    "en": "A grumpy Pikachu",
+                    "ja": "ご機嫌ななめのピカチュウ",
+                    "es": "Un Pikachu enojado"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_154631.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_154631.jpg",
+                  "caption": {
+                    "en": "Eevee and Diglett",
+                    "ja": "イーブイとディグダ",
+                    "es": "Eevee y Diglett"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_154733.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_154733.jpg",
+                  "caption": {
+                    "en": "Cubone on the trail",
+                    "ja": "小道のカラカラ",
+                    "es": "Cubone en el sendero"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_155039.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_155039.jpg",
+                  "caption": {
+                    "en": "Bidoof gnawing a tree",
+                    "ja": "木をかじるビッパ",
+                    "es": "Bidoof royendo un árbol"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_155356.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_155356.jpg",
+                  "caption": {
+                    "en": "A family of Goomy and Sliggoo",
+                    "ja": "ヌメラとヌメイルの群れ",
+                    "es": "Una familia de Goomy y Sliggoo"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Rock Pokémon along the trail",
+                    "ja": "小道の岩タイプたち",
+                    "es": "Pokémon de roca a lo largo del sendero"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_155415.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_155415.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_155454.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_155454.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_155521.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_155521.jpg",
+                  "caption": {
+                    "en": "Sudowoodo pretending to be a tree",
+                    "ja": "木のふりをするウソッキー",
+                    "es": "Sudowoodo haciéndose pasar por árbol"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Zubat, Golbat and Sableye in the cave",
+                    "ja": "洞窟のズバット、ゴルバット、ヤミラミ",
+                    "es": "Zubat, Golbat y Sableye en la cueva"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_155614.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_155614.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_155620.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_155620.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_155902.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_155902.jpg",
+                  "caption": {
+                    "en": "Fossils in the cave wall",
+                    "ja": "洞窟の壁の化石",
+                    "es": "Fósiles en la pared de la cueva"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_160036.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_160036.jpg",
+                  "caption": {
+                    "en": "Back out on the trail",
+                    "ja": "また小道へ",
+                    "es": "De vuelta al sendero"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_160042.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_160042.jpg",
+                  "caption": {
+                    "en": "Under Onix",
+                    "ja": "イワークの下で",
+                    "es": "Bajo Onix"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_160058.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_160058.jpg",
+                  "caption": {
+                    "en": "Diggersby",
+                    "ja": "ホルード",
+                    "es": "Diggersby"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_160122.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_160122.jpg",
+                  "caption": {
+                    "en": "With Steelix",
+                    "ja": "ハガネールと",
+                    "es": "Con Steelix"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_160755.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_160755.jpg",
+                  "caption": {
+                    "en": "Charmander and Charizard in the woods",
+                    "ja": "森のヒトカゲとリザードン",
+                    "es": "Charmander y Charizard en el bosque"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "With Charizard",
+                    "ja": "リザードンと",
+                    "es": "Con Charizard"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_160932.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_160932.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_160940.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_160940.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_160949.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_160949.jpg",
+                  "caption": {
+                    "en": "Charmeleon and Zorua",
+                    "ja": "リザードとゾロア",
+                    "es": "Charmeleon y Zorua"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The Bellossom flower bed",
+                    "ja": "キレイハナの花壇",
+                    "es": "El jardín de Bellossom"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_161009.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_161009.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_161013.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_161013.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_161122.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_161122.jpg",
+                  "caption": {
+                    "en": "Waving with Totodile",
+                    "ja": "ワニノコと手を振る",
+                    "es": "Saludando con Totodile"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_161141.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_161141.jpg",
+                  "caption": {
+                    "en": "Squirtle in the mist",
+                    "ja": "ミストの中のゼニガメ",
+                    "es": "Squirtle entre la neblina"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_161231.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_161231.jpg",
+                  "caption": {
+                    "en": "The Squirtle water jets",
+                    "ja": "ゼニガメの噴水",
+                    "es": "Los chorros de agua de Squirtle"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_162205.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_162205.jpg",
+                  "caption": {
+                    "en": "Selfie with Dragonite",
+                    "ja": "カイリューと自撮り",
+                    "es": "Selfie con Dragonite"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_163151.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_163151.jpg",
+                  "caption": {
+                    "en": "Bulbasaur melon float",
+                    "ja": "フシギダネのメロンフロート",
+                    "es": "Flotante de melón de Bulbasaur"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_163210.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_163210.jpg",
+                  "caption": {
+                    "en": "Charmander dessert",
+                    "ja": "ヒトカゲのデザート",
+                    "es": "Postre de Charmander"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_163255.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_163255.jpg",
+                  "caption": {
+                    "en": "The Kanto starters",
+                    "ja": "カントーの御三家",
+                    "es": "Los iniciales de Kanto"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_172432.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_172432.jpg",
+                  "caption": {
+                    "en": "Holding a Friend Ball",
+                    "ja": "フレンドボールを手に",
+                    "es": "Con una Friend Ball en la mano"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The Pikachu dance show",
+                    "ja": "ピカチュウのダンスショー",
+                    "es": "El show de baile de Pikachu"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_175253.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_175253.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_175257.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_175257.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_175302.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_175302.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_175352.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_175352.jpg",
+                  "caption": {
+                    "en": "The grand finale",
+                    "ja": "フィナーレ",
+                    "es": "El gran final"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_175833.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_175833.jpg",
+                  "caption": {
+                    "en": "Pikachu and Eevee on the balcony",
+                    "ja": "バルコニーのピカチュウとイーブイ",
+                    "es": "Pikachu y Eevee en el balcón"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_175937.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_175937.jpg",
+                  "caption": {
+                    "en": "The Squirtle Squad and Wartortle",
+                    "ja": "ゼニガメ隊とカメール",
+                    "es": "El Escuadrón Squirtle y Wartortle"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_180309.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_180309.jpg",
+                  "caption": {
+                    "en": "Abra napping on the roof",
+                    "ja": "屋根の上で眠るケーシィ",
+                    "es": "Abra durmiendo en el techo"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_180412.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_180412.jpg",
+                  "caption": {
+                    "en": "With Pidgeotto (and an Eevee on its back)",
+                    "ja": "ピジョンと（背中にイーブイ）",
+                    "es": "Con Pidgeotto (y un Eevee en su espalda)"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_180440.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_180440.jpg",
+                  "caption": {
+                    "en": "Psyduck headache pose",
+                    "ja": "コダックの頭痛ポーズ",
+                    "es": "La pose de dolor de cabeza de Psyduck"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_180726.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_180726.jpg",
+                  "caption": {
+                    "en": "Dragonite and my Poké Ball",
+                    "ja": "カイリューとモンスターボール",
+                    "es": "Dragonite y mi Poké Ball"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Dragonite vs Kangaskhan, with me in the middle",
+                    "ja": "カイリュー対ガルーラ、真ん中に僕",
+                    "es": "Dragonite contra Kangaskhan, conmigo en medio"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_180914.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_180914.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_180930.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_180930.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_181134.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_181134.jpg",
+                  "caption": {
+                    "en": "Bursting out of the wall with Greninja",
+                    "ja": "ゲッコウガと壁を突き破って",
+                    "es": "Saliendo de la pared con Greninja"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_182256.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_182256.jpg",
+                  "caption": {
+                    "en": "Snorlax out for a walk",
+                    "ja": "散歩中のカビゴン",
+                    "es": "Snorlax de paseo"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The welcome mural",
+                    "ja": "ウェルカムの壁画",
+                    "es": "El mural de bienvenida"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_184657.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_184657.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_184836.jpg",
+                      "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_184836.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_185006.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_185006.jpg",
+                  "caption": {
+                    "en": "Back at the sign at dusk",
+                    "ja": "夕暮れのサインに戻って",
+                    "es": "De vuelta al letrero al anochecer"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_185016.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_185016.jpg",
+                  "caption": {
+                    "en": "Goodbye pose",
+                    "ja": "さよならポーズ",
+                    "es": "Pose de despedida"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/pokepark-kanto/2026-08-01/20260801_185026.jpg",
+                  "thumb": "photos/tokyo/pokepark-kanto/2026-08-01/thumbs/20260801_185026.jpg",
+                  "caption": {
+                    "en": "PokéPark Kanto at dusk",
+                    "ja": "夕暮れのポケパーク カントー",
+                    "es": "PokéPark Kanto al anochecer"
+                  }
+                }
+              ],
+              "note": {
+                "en": "An afternoon at the Pokémon park inside Yomiuriland: a forest trail full of Pokémon, the Pikachu dance show and Pokémon snacks.",
+                "ja": "よみうりランドの中のポケモンのパークで過ごした午後。ポケモンがいっぱいの森の小道、ピカチュウのダンスショー、ポケモンのおやつ。",
+                "es": "Una tarde en el parque Pokémon dentro de Yomiuriland: un sendero del bosque lleno de Pokémon, el show de baile de Pikachu y snacks de Pokémon."
+              }
+            }
+          ]
+        },
+        {
+          "id": "haneda-airport",
+          "name": {
+            "en": "Haneda Airport",
+            "ja": "羽田空港",
+            "es": "Aeropuerto de Haneda"
+          },
+          "lat": 35.5494,
+          "lon": 139.7798,
+          "visits": [
+            {
+              "date": "2026-08-20",
+              "photos": [
+                {
+                  "src": "photos/tokyo/haneda-airport/2026-08-20/20260820_015353.jpg",
+                  "thumb": "photos/tokyo/haneda-airport/2026-08-20/thumbs/20260820_015353.jpg",
+                  "caption": {
+                    "en": "Taking off over Tokyo Bay at night",
+                    "ja": "夜の東京湾を離陸",
+                    "es": "Despegando sobre la bahía de Tokio de noche"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/haneda-airport/2026-08-20/20260820_102909.jpg",
+                  "thumb": "photos/tokyo/haneda-airport/2026-08-20/thumbs/20260820_102909.jpg",
+                  "caption": {
+                    "en": "On the way: the indoor garden at Doha's Hamad Airport",
+                    "ja": "経由地ドーハ・ハマド空港の屋内庭園",
+                    "es": "En el camino: el jardín interior del aeropuerto Hamad de Doha"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Leaving Tokyo for Peru, with a stop in Doha.",
+                "ja": "ドーハ経由でペルーへ出発。",
+                "es": "Saliendo de Tokio rumbo a Perú, con escala en Doha."
+              }
+            }
+          ]
+        },
+        {
+          "id": "daikanyama",
+          "name": {
+            "en": "Daikanyama",
+            "ja": "代官山",
+            "es": "Daikanyama"
+          },
+          "lat": 35.6486,
+          "lon": 139.7034,
+          "visits": [
+            {
+              "date": "2026-10-25",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Odd little houses on the walk to Shibuya",
+                    "ja": "渋谷へ歩く途中の不思議な家",
+                    "es": "Casas curiosas camino a Shibuya"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/daikanyama/2026-10-25/20261025_195127.jpg",
+                      "thumb": "photos/tokyo/daikanyama/2026-10-25/thumbs/20261025_195127.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/daikanyama/2026-10-25/20261025_195139.jpg",
+                      "thumb": "photos/tokyo/daikanyama/2026-10-25/thumbs/20261025_195139.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jingu-gaien-ginkgo",
+          "name": {
+            "en": "Jingū Gaien Ginkgo Avenue",
+            "ja": "神宮外苑いちょう並木",
+            "es": "Avenida de ginkgos de Jingū Gaien"
+          },
+          "lat": 35.6745,
+          "lon": 139.7175,
+          "visits": [
+            {
+              "date": "2026-11-15",
+              "photos": [
+                {
+                  "src": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/20261115_164547.jpg",
+                  "thumb": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/thumbs/20261115_164547.jpg",
+                  "caption": {
+                    "en": "Ginkgo trees at dusk",
+                    "ja": "夕暮れのいちょう",
+                    "es": "Ginkgos al anochecer"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/20261115_164752.jpg",
+                  "thumb": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/thumbs/20261115_164752.jpg",
+                  "caption": {
+                    "en": "The avenue from Aoyama-itchōme",
+                    "ja": "青山一丁目側から見た並木",
+                    "es": "La avenida desde Aoyama-itchōme"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/20261115_164905.jpg",
+                  "thumb": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/thumbs/20261115_164905.jpg",
+                  "caption": {
+                    "en": "Yellow leaves under the streetlights",
+                    "ja": "街灯に照らされた黄葉",
+                    "es": "Hojas amarillas bajo las farolas"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/20261115_165538.jpg",
+                  "thumb": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/thumbs/20261115_165538.jpg",
+                  "caption": {
+                    "en": "The old ginkgo by Shake Shack",
+                    "ja": "シェイクシャック横の古いいちょう",
+                    "es": "El viejo ginkgo junto a Shake Shack"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/20261115_165631.jpg",
+                  "thumb": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/thumbs/20261115_165631.jpg",
+                  "caption": {
+                    "en": "The ginkgo tunnel",
+                    "ja": "いちょうのトンネル",
+                    "es": "El túnel de ginkgos"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Autumn ginkgo season: a rainy evening walk from Aoyama to Roppongi and Ebisu.",
+                "ja": "いちょうの季節。青山から六本木、恵比寿まで雨の夜を歩いた。",
+                "es": "Temporada de ginkgos: una caminata lluviosa de Aoyama a Roppongi y Ebisu."
+              }
+            }
+          ]
+        },
+        {
+          "id": "roppongi-hills",
+          "name": {
+            "en": "Roppongi Hills",
+            "ja": "六本木ヒルズ",
+            "es": "Roppongi Hills"
+          },
+          "lat": 35.6605,
+          "lon": 139.7292,
+          "visits": [
+            {
+              "date": "2026-11-15",
+              "photos": [
+                {
+                  "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_181159.jpg",
+                  "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_181159.jpg",
+                  "caption": {
+                    "en": "Autumn trees at Roppongi Hills",
+                    "ja": "六本木ヒルズの紅葉",
+                    "es": "Árboles de otoño en Roppongi Hills"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_181439.jpg",
+                  "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_181439.jpg",
+                  "caption": {
+                    "en": "Maman, the giant spider",
+                    "ja": "巨大グモ「ママン」",
+                    "es": "Maman, la araña gigante"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Mori Tower in blue",
+                    "ja": "青く光る森タワー",
+                    "es": "La Mori Tower en azul"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_181527.jpg",
+                      "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_181527.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_181620.jpg",
+                      "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_181620.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_181644.jpg",
+                  "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_181644.jpg",
+                  "caption": {
+                    "en": "The lit path",
+                    "ja": "光の小道",
+                    "es": "El camino iluminado"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Tokyo Tower from Roppongi Hills",
+                    "ja": "六本木ヒルズから東京タワー",
+                    "es": "La Torre de Tokio desde Roppongi Hills"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_181823.jpg",
+                      "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_181823.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_181943.jpg",
+                      "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_181943.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_182212.jpg",
+                  "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_182212.jpg",
+                  "caption": {
+                    "en": "A heart in the lights",
+                    "ja": "光のハート",
+                    "es": "Un corazón entre las luces"
+                  }
+                },
+                {
+                  "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_182357.jpg",
+                  "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_182357.jpg",
+                  "caption": {
+                    "en": "The Roppongi Hills arena",
+                    "ja": "六本木ヒルズアリーナ",
+                    "es": "La arena de Roppongi Hills"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Mōri Garden lit up",
+                    "ja": "ライトアップされた毛利庭園",
+                    "es": "El jardín Mōri iluminado"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_183017.jpg",
+                      "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_183017.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_183125.jpg",
+                      "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_183125.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_183217.jpg",
+                      "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_183217.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_183510.jpg",
+                  "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_183510.jpg",
+                  "caption": {
+                    "en": "Keyakizaka illuminations",
+                    "ja": "けやき坂イルミネーション",
+                    "es": "Las iluminaciones de Keyakizaka"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Keyakizaka and Tokyo Tower in the rain",
+                    "ja": "雨のけやき坂と東京タワー",
+                    "es": "Keyakizaka y la Torre de Tokio bajo la lluvia"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_184151.jpg",
+                      "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_184151.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/roppongi-hills/2026-11-15/20261115_184422.jpg",
+                      "thumb": "photos/tokyo/roppongi-hills/2026-11-15/thumbs/20261115_184422.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ebisu-garden-place",
+          "name": {
+            "en": "Yebisu Garden Place",
+            "ja": "恵比寿ガーデンプレイス",
+            "es": "Yebisu Garden Place"
+          },
+          "lat": 35.6425,
+          "lon": 139.7135,
+          "visits": [
+            {
+              "date": "2026-11-15",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "The giant Christmas tree in the rain",
+                    "ja": "雨の中の大きなクリスマスツリー",
+                    "es": "El gran árbol de Navidad bajo la lluvia"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/ebisu-garden-place/2026-11-15/20261115_193502.jpg",
+                      "thumb": "photos/tokyo/ebisu-garden-place/2026-11-15/thumbs/20261115_193502.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/ebisu-garden-place/2026-11-15/20261115_193527.jpg",
+                      "thumb": "photos/tokyo/ebisu-garden-place/2026-11-15/thumbs/20261115_193527.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/ebisu-garden-place/2026-11-15/20261115_193548.jpg",
+                  "thumb": "photos/tokyo/ebisu-garden-place/2026-11-15/thumbs/20261115_193548.jpg",
+                  "caption": {
+                    "en": "Christmas tree selfie",
+                    "ja": "ツリーと自撮り",
+                    "es": "Selfie con el árbol"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The lit walkway under the glass arch",
+                    "ja": "ガラスのアーチと光の並木",
+                    "es": "El paseo iluminado bajo el arco de vidrio"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/ebisu-garden-place/2026-11-15/20261115_193610.jpg",
+                      "thumb": "photos/tokyo/ebisu-garden-place/2026-11-15/thumbs/20261115_193610.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/ebisu-garden-place/2026-11-15/20261115_193906.jpg",
+                      "thumb": "photos/tokyo/ebisu-garden-place/2026-11-15/thumbs/20261115_193906.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/ebisu-garden-place/2026-11-15/20261115_194701.jpg",
+                  "thumb": "photos/tokyo/ebisu-garden-place/2026-11-15/thumbs/20261115_194701.jpg",
+                  "caption": {
+                    "en": "The Yebisu Garden Place building",
+                    "ja": "恵比寿ガーデンプレイスの建物",
+                    "es": "El edificio de Yebisu Garden Place"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "togoshi-ginza",
+          "name": {
+            "en": "Togoshi Ginza",
+            "ja": "戸越銀座",
+            "es": "Togoshi Ginza"
+          },
+          "lat": 35.6157,
+          "lon": 139.715,
+          "visits": [
+            {
+              "date": "2026-11-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/togoshi-ginza/2026-11-21/20261121_171545.jpg",
+                  "thumb": "photos/tokyo/togoshi-ginza/2026-11-21/thumbs/20261121_171545.jpg",
+                  "caption": {
+                    "en": "The Togoshi Ginza shopping street",
+                    "ja": "戸越銀座商店街",
+                    "es": "La calle comercial Togoshi Ginza"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Street-food snacks",
+                    "ja": "食べ歩き",
+                    "es": "Comida callejera"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/togoshi-ginza/2026-11-21/20261121_172051.jpg",
+                      "thumb": "photos/tokyo/togoshi-ginza/2026-11-21/thumbs/20261121_172051.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/togoshi-ginza/2026-11-21/20261121_172127.jpg",
+                      "thumb": "photos/tokyo/togoshi-ginza/2026-11-21/thumbs/20261121_172127.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/togoshi-ginza/2026-11-21/20261121_173741.jpg",
+                  "thumb": "photos/tokyo/togoshi-ginza/2026-11-21/thumbs/20261121_173741.jpg",
+                  "caption": {
+                    "en": "A little red shrine",
+                    "ja": "小さな赤い神社",
+                    "es": "Un pequeño santuario rojo"
+                  }
+                }
+              ],
+              "note": {
+                "en": "The start of a long walk: Togoshi Ginza, Mita, Tokyo Tower, Shimbashi, Hibiya and Marunouchi, all the way to Tokyo Station.",
+                "ja": "長い散歩のはじまり。戸越銀座から三田、東京タワー、新橋、日比谷、丸の内を通って東京駅まで。",
+                "es": "El inicio de una larga caminata: Togoshi Ginza, Mita, la Torre de Tokio, Shimbashi, Hibiya y Marunouchi, hasta la estación de Tokio."
+              }
+            }
+          ]
+        },
+        {
+          "id": "keio-mita",
+          "name": {
+            "en": "Keio University, Mita",
+            "ja": "慶應義塾大学 三田キャンパス",
+            "es": "Universidad Keio, Mita"
+          },
+          "lat": 35.649,
+          "lon": 139.7425,
+          "visits": [
+            {
+              "date": "2026-11-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/keio-mita/2026-11-21/20261121_190939.jpg",
+                  "thumb": "photos/tokyo/keio-mita/2026-11-21/thumbs/20261121_190939.jpg",
+                  "caption": {
+                    "en": "Keio's Mita campus at night",
+                    "ja": "夜の三田キャンパス",
+                    "es": "El campus Mita de Keio de noche"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shimbashi",
+          "name": {
+            "en": "Shimbashi",
+            "ja": "新橋",
+            "es": "Shimbashi"
+          },
+          "lat": 35.6663,
+          "lon": 139.7584,
+          "visits": [
+            {
+              "date": "2026-11-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/shimbashi/2026-11-21/20261121_203321.jpg",
+                  "thumb": "photos/tokyo/shimbashi/2026-11-21/thumbs/20261121_203321.jpg",
+                  "caption": {
+                    "en": "I ♥ Shimbashi",
+                    "ja": "I ♥ 新橋",
+                    "es": "I ♥ Shimbashi"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kitte",
+          "name": {
+            "en": "KITTE Marunouchi",
+            "ja": "KITTE丸の内",
+            "es": "KITTE Marunouchi"
+          },
+          "lat": 35.6795,
+          "lon": 139.7646,
+          "visits": [
+            {
+              "date": "2026-11-21",
+              "photos": [
+                {
+                  "src": "photos/tokyo/kitte/2026-11-21/20261121_213251.jpg",
+                  "thumb": "photos/tokyo/kitte/2026-11-21/thumbs/20261121_213251.jpg",
+                  "caption": {
+                    "en": "The KITTE entrance",
+                    "ja": "KITTEの入口",
+                    "es": "La entrada de KITTE"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The Christmas tree in the atrium",
+                    "ja": "アトリウムのクリスマスツリー",
+                    "es": "El árbol de Navidad en el atrio"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/kitte/2026-11-21/20261121_213328.jpg",
+                      "thumb": "photos/tokyo/kitte/2026-11-21/thumbs/20261121_213328.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/kitte/2026-11-21/20261121_213414.jpg",
+                      "thumb": "photos/tokyo/kitte/2026-11-21/thumbs/20261121_213414.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/kitte/2026-11-21/20261121_213806.jpg",
+                  "thumb": "photos/tokyo/kitte/2026-11-21/thumbs/20261121_213806.jpg",
+                  "caption": {
+                    "en": "The rooftop garden",
+                    "ja": "屋上庭園",
+                    "es": "El jardín de la azotea"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Tokyo Station from the rooftop",
+                    "ja": "屋上から見た東京駅",
+                    "es": "La estación de Tokio desde la azotea"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/kitte/2026-11-21/20261121_213826.jpg",
+                      "thumb": "photos/tokyo/kitte/2026-11-21/thumbs/20261121_213826.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/kitte/2026-11-21/20261121_213902.jpg",
+                      "thumb": "photos/tokyo/kitte/2026-11-21/thumbs/20261121_213902.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/kitte/2026-11-21/20261121_214024.jpg",
+                  "thumb": "photos/tokyo/kitte/2026-11-21/thumbs/20261121_214024.jpg",
+                  "caption": {
+                    "en": "The Marunouchi skyline",
+                    "ja": "丸の内のビル群",
+                    "es": "El skyline de Marunouchi"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Trains coming and going",
+                    "ja": "行き交う電車",
+                    "es": "Trenes que van y vienen"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/tokyo/kitte/2026-11-21/20261121_214317.jpg",
+                      "thumb": "photos/tokyo/kitte/2026-11-21/thumbs/20261121_214317.jpg"
+                    },
+                    {
+                      "src": "photos/tokyo/kitte/2026-11-21/20261121_214404.jpg",
+                      "thumb": "photos/tokyo/kitte/2026-11-21/thumbs/20261121_214404.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/tokyo/kitte/2026-11-21/20261121_214655.jpg",
+                  "thumb": "photos/tokyo/kitte/2026-11-21/thumbs/20261121_214655.jpg",
+                  "caption": {
+                    "en": "The atrium from above",
+                    "ja": "上から見たアトリウム",
+                    "es": "El atrio desde arriba"
+                  }
+                }
+              ],
+              "note": {
+                "en": "The end of the walk: the rooftop of KITTE, looking down on Tokyo Station.",
+                "ja": "散歩のゴールはKITTEの屋上。東京駅を見下ろして。",
+                "es": "El final de la caminata: la azotea de KITTE, mirando la estación de Tokio."
+              }
+            }
+          ]
         }
       ],
       "zoom": "131",
@@ -4527,6 +6384,38 @@
                     "en": "A gate in the night alleys",
                     "ja": "夜の路地の門",
                     "es": "Una puerta en los callejones nocturnos"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-07-25",
+              "photos": [
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2026-07-25/20260725_204349.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2026-07-25/thumbs/20260725_204349.jpg",
+                  "caption": {
+                    "en": "A whole fried frog for 900 yen",
+                    "ja": "カエル一本丸揚げ 900円",
+                    "es": "Una rana frita entera por 900 yenes"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2026-07-25/20260725_204749.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2026-07-25/thumbs/20260725_204749.jpg",
+                  "caption": {
+                    "en": "I tried it!",
+                    "ja": "食べてみた！",
+                    "es": "¡La probé!"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-chinatown/2026-07-25/20260725_210822.jpg",
+                  "thumb": "photos/kanagawa/yokohama-chinatown/2026-07-25/thumbs/20260725_210822.jpg",
+                  "caption": {
+                    "en": "Kantei-byō temple at night",
+                    "ja": "夜の関帝廟",
+                    "es": "El templo Kantei-byō de noche"
                   }
                 }
               ]
@@ -5005,6 +6894,55 @@
                   }
                 }
               ]
+            },
+            {
+              "date": "2026-07-25",
+              "photos": [
+                {
+                  "src": "photos/kanagawa/minato-mirai/2026-07-25/20260725_171414.jpg",
+                  "thumb": "photos/kanagawa/minato-mirai/2026-07-25/thumbs/20260725_171414.jpg",
+                  "caption": {
+                    "en": "A chocolate-pistachio donut",
+                    "ja": "チョコとピスタチオのドーナツ",
+                    "es": "Una dona de chocolate y pistacho"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/minato-mirai/2026-07-25/20260725_181742.jpg",
+                  "thumb": "photos/kanagawa/minato-mirai/2026-07-25/thumbs/20260725_181742.jpg",
+                  "caption": {
+                    "en": "Dobby at Harry Potter Mahou Dokoro, Landmark Plaza",
+                    "ja": "ランドマークプラザのハリー・ポッター マホウドコロでドビー",
+                    "es": "Dobby en Harry Potter Mahou Dokoro, Landmark Plaza"
+                  }
+                },
+                {
+                  "src": "photos/kanagawa/minato-mirai/2026-07-25/20260725_185428.jpg",
+                  "thumb": "photos/kanagawa/minato-mirai/2026-07-25/thumbs/20260725_185428.jpg",
+                  "caption": {
+                    "en": "With the Cosmo Clock 21",
+                    "ja": "コスモクロック21と",
+                    "es": "Con el Cosmo Clock 21"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The wheel changes colour at 19:00",
+                    "ja": "19時に色が変わる観覧車",
+                    "es": "La rueda cambia de color a las 19:00"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/kanagawa/minato-mirai/2026-07-25/20260725_190031.jpg",
+                      "thumb": "photos/kanagawa/minato-mirai/2026-07-25/thumbs/20260725_190031.jpg"
+                    },
+                    {
+                      "src": "photos/kanagawa/minato-mirai/2026-07-25/20260725_190052.jpg",
+                      "thumb": "photos/kanagawa/minato-mirai/2026-07-25/thumbs/20260725_190052.jpg"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5353,6 +7291,120 @@
                 "en": "A full afternoon at Hakkeijima: the island, the sunset and the Aqua Museum.",
                 "ja": "八景島で午後を満喫：島、夕日、そしてアクアミュージアム。",
                 "es": "Una tarde completa en Hakkeijima: la isla, el atardecer y el Aqua Museum."
+              }
+            }
+          ]
+        },
+        {
+          "id": "yokohama-air-cabin",
+          "name": {
+            "en": "Yokohama Air Cabin",
+            "ja": "YOKOHAMA AIR CABIN",
+            "es": "Yokohama Air Cabin"
+          },
+          "lat": 35.453,
+          "lon": 139.6345,
+          "visits": [
+            {
+              "date": "2026-07-25",
+              "photos": [
+                {
+                  "src": "photos/kanagawa/yokohama-air-cabin/2026-07-25/20260725_163541.jpg",
+                  "thumb": "photos/kanagawa/yokohama-air-cabin/2026-07-25/thumbs/20260725_163541.jpg",
+                  "caption": {
+                    "en": "The cabins at Sakuragichō station",
+                    "ja": "桜木町駅のキャビン",
+                    "es": "Las cabinas en la estación Sakuragichō"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Rain on the window",
+                    "ja": "窓に雨粒",
+                    "es": "Lluvia en la ventana"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/kanagawa/yokohama-air-cabin/2026-07-25/20260725_163718.jpg",
+                      "thumb": "photos/kanagawa/yokohama-air-cabin/2026-07-25/thumbs/20260725_163718.jpg"
+                    },
+                    {
+                      "src": "photos/kanagawa/yokohama-air-cabin/2026-07-25/20260725_163727.jpg",
+                      "thumb": "photos/kanagawa/yokohama-air-cabin/2026-07-25/thumbs/20260725_163727.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/kanagawa/yokohama-air-cabin/2026-07-25/20260725_163839.jpg",
+                  "thumb": "photos/kanagawa/yokohama-air-cabin/2026-07-25/thumbs/20260725_163839.jpg",
+                  "caption": {
+                    "en": "Gliding over the canal toward Cosmo World",
+                    "ja": "運河の上をコスモワールドへ",
+                    "es": "Sobre el canal hacia Cosmo World"
+                  }
+                }
+              ],
+              "note": {
+                "en": "The ropeway from Sakuragichō over the canal to Minato Mirai, on a rainy afternoon.",
+                "ja": "雨の午後、桜木町から運河を越えてみなとみらいへ渡るロープウェイ。",
+                "es": "El teleférico de Sakuragichō sobre el canal hasta Minato Mirai, en una tarde de lluvia."
+              }
+            }
+          ]
+        },
+        {
+          "id": "cupnoodles-museum",
+          "name": {
+            "en": "Cup Noodles Museum",
+            "ja": "カップヌードルミュージアム",
+            "es": "Museo del Cup Noodles"
+          },
+          "lat": 35.4556,
+          "lon": 139.6386,
+          "visits": [
+            {
+              "date": "2026-07-25",
+              "photos": [
+                {
+                  "src": "photos/kanagawa/cupnoodles-museum/2026-07-25/20260725_164930.jpg",
+                  "thumb": "photos/kanagawa/cupnoodles-museum/2026-07-25/thumbs/20260725_164930.jpg",
+                  "caption": {
+                    "en": "The Cup Noodles Museum",
+                    "ja": "カップヌードルミュージアム",
+                    "es": "El Museo del Cup Noodles"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ramen-torisetsu",
+          "name": {
+            "en": "Ramen Factory Torisetsu, Shin-Yurigaoka",
+            "ja": "ラーメンファクトリー トリセツ（新百合ヶ丘）",
+            "es": "Ramen Factory Torisetsu, Shin-Yurigaoka"
+          },
+          "lat": 35.6032,
+          "lon": 139.5081,
+          "visits": [
+            {
+              "date": "2026-08-01",
+              "photos": [
+                {
+                  "src": "photos/kanagawa/ramen-torisetsu/2026-08-01/20260801_201959.jpg",
+                  "thumb": "photos/kanagawa/ramen-torisetsu/2026-08-01/thumbs/20260801_201959.jpg",
+                  "caption": {
+                    "en": "Creamy chicken paitan ramen",
+                    "ja": "濃厚鶏白湯ラーメン",
+                    "es": "Ramen paitan de pollo cremoso"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Dinner on the way home from PokéPark.",
+                "ja": "ポケパークの帰りに夕食。",
+                "es": "Cena de regreso de PokéPark."
               }
             }
           ]
