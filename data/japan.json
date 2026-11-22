@@ -5790,31 +5790,1001 @@
       "note": {},
       "spots": [
         {
+          "id": "osaka-castle",
           "name": {
-            "en": "Osaka",
-            "ja": "大阪",
-            "es": "Osaka"
+            "en": "Osaka Castle",
+            "ja": "大阪城",
+            "es": "Castillo de Osaka"
           },
-          "lat": 34.6937,
-          "lon": 135.5023,
-          "photos": [
+          "lat": 34.6873,
+          "lon": 135.5262,
+          "visits": [
             {
-              "src": "photos/osaka/osaka-castle.jpg",
-              "caption": {
-                "en": "Osaka Castle walls",
-                "ja": "大阪城の石垣",
-                "es": "Murallas del castillo de Osaka"
-              },
-              "credit": {
-                "author": "dave massie",
-                "license": "CC BY 2.0",
-                "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%98%AA%E5%9F%8E_%E7%9F%B3%E5%9E%A3_(54539316083).jpg"
-              },
-              "test": true
+              "date": "2026-05-16",
+              "photos": [
+                {
+                  "src": "photos/osaka/osaka-castle/2026-05-16/20260516_143911.jpg",
+                  "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_143911.jpg",
+                  "caption": {
+                    "en": "Through the castle gate",
+                    "ja": "城門をくぐって",
+                    "es": "Atravesando la puerta del castillo"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The keep appears",
+                    "ja": "天守閣が見えた",
+                    "es": "Aparece la torre del castillo"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_144129.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_144129.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_144317.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_144317.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/osaka-castle/2026-05-16/20260516_144336.jpg",
+                  "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_144336.jpg",
+                  "caption": {
+                    "en": "First castle selfie",
+                    "ja": "城と最初の自撮り",
+                    "es": "Primera selfie con el castillo"
+                  }
+                },
+                {
+                  "src": "photos/osaka/osaka-castle/2026-05-16/20260516_144959.jpg",
+                  "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_144959.jpg",
+                  "caption": {
+                    "en": "The main keep",
+                    "ja": "天守閣",
+                    "es": "La torre principal"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Castle selfies",
+                    "ja": "大阪城で自撮り",
+                    "es": "Selfies con el castillo"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_145028.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_145028.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_145051.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_145051.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The keep and its stone walls",
+                    "ja": "天守閣と石垣",
+                    "es": "La torre y sus muros de piedra"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_145109.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_145109.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_145142.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_145142.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_145315.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_145315.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/osaka-castle/2026-05-16/20260516_145837.jpg",
+                  "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_145837.jpg",
+                  "caption": {
+                    "en": "In front of the keep",
+                    "ja": "天守閣の前で",
+                    "es": "Frente a la torre"
+                  }
+                },
+                {
+                  "src": "photos/osaka/osaka-castle/2026-05-16/20260516_150720.jpg",
+                  "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_150720.jpg",
+                  "caption": {
+                    "en": "The Japanese garden",
+                    "ja": "日本庭園",
+                    "es": "El jardín japonés"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The castle over the garden pond",
+                    "ja": "庭園の池と大阪城",
+                    "es": "El castillo sobre el estanque del jardín"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_151046.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_151046.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_151418.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_151418.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_151424.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_151424.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The moat and the great stone walls",
+                    "ja": "堀と石垣",
+                    "es": "El foso y las grandes murallas"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_153547.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_153547.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/osaka-castle/2026-05-16/20260516_153556.jpg",
+                      "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_153556.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/osaka-castle/2026-05-16/20260516_153854.jpg",
+                  "thumb": "photos/osaka/osaka-castle/2026-05-16/thumbs/20260516_153854.jpg",
+                  "caption": {
+                    "en": "NHK Osaka and the Museum of History",
+                    "ja": "NHK大阪と大阪歴史博物館",
+                    "es": "NHK Osaka y el Museo de Historia"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shinsaibashi",
+          "name": {
+            "en": "Shinsaibashi",
+            "ja": "心斎橋",
+            "es": "Shinsaibashi"
+          },
+          "lat": 34.6745,
+          "lon": 135.5012,
+          "visits": [
+            {
+              "date": "2026-05-16",
+              "photos": [
+                {
+                  "src": "photos/osaka/shinsaibashi/2026-05-16/20260516_171924.jpg",
+                  "thumb": "photos/osaka/shinsaibashi/2026-05-16/thumbs/20260516_171924.jpg",
+                  "caption": {
+                    "en": "The line at Rikuro's cheesecake",
+                    "ja": "りくろーおじさんの店の行列",
+                    "es": "La fila de la tarta de queso de Rikuro"
+                  }
+                },
+                {
+                  "src": "photos/osaka/shinsaibashi/2026-05-16/20260516_174135.jpg",
+                  "thumb": "photos/osaka/shinsaibashi/2026-05-16/thumbs/20260516_174135.jpg",
+                  "caption": {
+                    "en": "Fresh-baked cheesecakes",
+                    "ja": "焼きたてチーズケーキ",
+                    "es": "Tartas de queso recién horneadas"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Shinsaibashi-suji shopping street",
+                    "ja": "心斎橋筋商店街",
+                    "es": "La calle comercial Shinsaibashi-suji"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/shinsaibashi/2026-05-16/20260516_175025.jpg",
+                      "thumb": "photos/osaka/shinsaibashi/2026-05-16/thumbs/20260516_175025.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/shinsaibashi/2026-05-16/20260516_175303.jpg",
+                      "thumb": "photos/osaka/shinsaibashi/2026-05-16/thumbs/20260516_175303.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Pokémon Center Osaka",
+                    "ja": "ポケモンセンターオーサカ",
+                    "es": "Pokémon Center Osaka"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/shinsaibashi/2026-05-16/20260516_175944.jpg",
+                      "thumb": "photos/osaka/shinsaibashi/2026-05-16/thumbs/20260516_175944.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/shinsaibashi/2026-05-16/20260516_175952.jpg",
+                      "thumb": "photos/osaka/shinsaibashi/2026-05-16/thumbs/20260516_175952.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dotonbori",
+          "name": {
+            "en": "Dōtonbori",
+            "ja": "道頓堀",
+            "es": "Dōtonbori"
+          },
+          "lat": 34.6687,
+          "lon": 135.5013,
+          "visits": [
+            {
+              "date": "2026-05-16",
+              "photos": [
+                {
+                  "src": "photos/osaka/dotonbori/2026-05-16/20260516_182433.jpg",
+                  "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_182433.jpg",
+                  "caption": {
+                    "en": "Ebisubashi and the Glico Running Man",
+                    "ja": "戎橋とグリコサイン",
+                    "es": "Ebisubashi y el corredor de Glico"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "With the Glico sign",
+                    "ja": "グリコサインと",
+                    "es": "Con el letrero de Glico"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/dotonbori/2026-05-16/20260516_182511.jpg",
+                      "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_182511.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/dotonbori/2026-05-16/20260516_182653.jpg",
+                      "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_182653.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The canal at sunset",
+                    "ja": "夕暮れの道頓堀川",
+                    "es": "El canal al atardecer"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/dotonbori/2026-05-16/20260516_182914.jpg",
+                      "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_182914.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/dotonbori/2026-05-16/20260516_182952.jpg",
+                      "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_182952.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/dotonbori/2026-05-16/20260516_183212.jpg",
+                  "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_183212.jpg",
+                  "caption": {
+                    "en": "Glico selfie",
+                    "ja": "グリコと自撮り",
+                    "es": "Selfie con Glico"
+                  }
+                },
+                {
+                  "src": "photos/osaka/dotonbori/2026-05-16/20260516_183330.jpg",
+                  "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_183330.jpg",
+                  "caption": {
+                    "en": "Boats on the canal",
+                    "ja": "道頓堀川の船",
+                    "es": "Botes en el canal"
+                  }
+                },
+                {
+                  "src": "photos/osaka/dotonbori/2026-05-16/20260516_183526.jpg",
+                  "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_183526.jpg",
+                  "caption": {
+                    "en": "The Glico pose!",
+                    "ja": "グリコポーズ！",
+                    "es": "¡La pose de Glico!"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The signs light up",
+                    "ja": "看板が灯る",
+                    "es": "Se encienden los letreros"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/dotonbori/2026-05-16/20260516_183616.jpg",
+                      "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_183616.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/dotonbori/2026-05-16/20260516_184402.jpg",
+                      "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_184402.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/dotonbori/2026-05-16/20260516_184528.jpg",
+                  "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_184528.jpg",
+                  "caption": {
+                    "en": "A giant Shiba Inu on the screen",
+                    "ja": "巨大スクリーンの柴犬",
+                    "es": "Un Shiba Inu gigante en la pantalla"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Kani Dōraku's moving crab",
+                    "ja": "かに道楽の動くカニ",
+                    "es": "El cangrejo móvil de Kani Dōraku"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/dotonbori/2026-05-16/20260516_184554.jpg",
+                      "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_184554.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/dotonbori/2026-05-16/20260516_184609.jpg",
+                      "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_184609.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/dotonbori/2026-05-16/20260516_184623.jpg",
+                  "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_184623.jpg",
+                  "caption": {
+                    "en": "The busy evening street",
+                    "ja": "賑わう夕方の通り",
+                    "es": "La calle llena al anochecer"
+                  }
+                },
+                {
+                  "src": "photos/osaka/dotonbori/2026-05-16/20260516_192955.jpg",
+                  "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_192955.jpg",
+                  "caption": {
+                    "en": "Okonomiyaki on the grill",
+                    "ja": "鉄板のお好み焼き",
+                    "es": "Okonomiyaki en la plancha"
+                  }
+                },
+                {
+                  "src": "photos/osaka/dotonbori/2026-05-16/20260516_194000.jpg",
+                  "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_194000.jpg",
+                  "caption": {
+                    "en": "“Osaka” okonomiyaki",
+                    "ja": "「OSAKA」のお好み焼き",
+                    "es": "Okonomiyaki con “Osaka” escrito"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Dōtonbori at night",
+                    "ja": "夜の道頓堀",
+                    "es": "Dōtonbori de noche"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/dotonbori/2026-05-16/20260516_201105.jpg",
+                      "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_201105.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/dotonbori/2026-05-16/20260516_202308.jpg",
+                      "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_202308.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/dotonbori/2026-05-16/20260516_204330.jpg",
+                  "thumb": "photos/osaka/dotonbori/2026-05-16/thumbs/20260516_204330.jpg",
+                  "caption": {
+                    "en": "Strawberry soft-serve",
+                    "ja": "いちごソフト",
+                    "es": "Helado de fresa"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Sunset and neon in Dōtonbori, with okonomiyaki for dinner.",
+                "ja": "道頓堀の夕焼けとネオン、夕食はお好み焼き。",
+                "es": "Atardecer y neón en Dōtonbori, con okonomiyaki para cenar."
+              }
+            },
+            {
+              "date": "2026-05-17",
+              "photos": [
+                {
+                  "src": "photos/osaka/dotonbori/2026-05-17/20260517_175552.jpg",
+                  "thumb": "photos/osaka/dotonbori/2026-05-17/thumbs/20260517_175552.jpg",
+                  "caption": {
+                    "en": "The Dōtonbori gate",
+                    "ja": "道頓堀のゲート",
+                    "es": "La puerta de Dōtonbori"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "namba-yasaka",
+          "name": {
+            "en": "Namba Yasaka Shrine",
+            "ja": "難波八阪神社",
+            "es": "Santuario Namba Yasaka"
+          },
+          "lat": 34.6618,
+          "lon": 135.4972,
+          "visits": [
+            {
+              "date": "2026-05-17",
+              "photos": [
+                {
+                  "src": "photos/osaka/namba-yasaka/2026-05-17/20260517_091232.jpg",
+                  "thumb": "photos/osaka/namba-yasaka/2026-05-17/thumbs/20260517_091232.jpg",
+                  "caption": {
+                    "en": "The giant lion-head stage",
+                    "ja": "巨大な獅子殿",
+                    "es": "El gran escenario con cabeza de león"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "In front of the lion's mouth",
+                    "ja": "獅子の口の前で",
+                    "es": "Frente a la boca del león"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/namba-yasaka/2026-05-17/20260517_091315.jpg",
+                      "thumb": "photos/osaka/namba-yasaka/2026-05-17/thumbs/20260517_091315.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/namba-yasaka/2026-05-17/20260517_092418.jpg",
+                      "thumb": "photos/osaka/namba-yasaka/2026-05-17/thumbs/20260517_092418.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shinsekai",
+          "name": {
+            "en": "Shinsekai & Tsūtenkaku",
+            "ja": "新世界・通天閣",
+            "es": "Shinsekai y Tsūtenkaku"
+          },
+          "lat": 34.6525,
+          "lon": 135.5063,
+          "visits": [
+            {
+              "date": "2026-05-17",
+              "photos": [
+                {
+                  "src": "photos/osaka/shinsekai/2026-05-17/20260517_071512.jpg",
+                  "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_071512.jpg",
+                  "caption": {
+                    "en": "Kansai dashi-flavour chips",
+                    "ja": "関西だししょうゆ味のポテト",
+                    "es": "Papitas sabor dashi de Kansai"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The Shinsekai gate",
+                    "ja": "新世界のゲート",
+                    "es": "La puerta de Shinsekai"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/shinsekai/2026-05-17/20260517_095721.jpg",
+                      "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_095721.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/shinsekai/2026-05-17/20260517_095726.jpg",
+                      "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_095726.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Tsūtenkaku down the street",
+                    "ja": "通りの先の通天閣",
+                    "es": "Tsūtenkaku al final de la calle"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/shinsekai/2026-05-17/20260517_100957.jpg",
+                      "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_100957.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/shinsekai/2026-05-17/20260517_101010.jpg",
+                      "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_101010.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/shinsekai/2026-05-17/20260517_101410.jpg",
+                  "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_101410.jpg",
+                  "caption": {
+                    "en": "Peace sign under Tsūtenkaku",
+                    "ja": "通天閣の下でピース",
+                    "es": "Paz y amor bajo Tsūtenkaku"
+                  }
+                },
+                {
+                  "src": "photos/osaka/shinsekai/2026-05-17/20260517_101853.jpg",
+                  "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_101853.jpg",
+                  "caption": {
+                    "en": "Entering the observatory",
+                    "ja": "展望台へ",
+                    "es": "Entrando al mirador"
+                  }
+                },
+                {
+                  "src": "photos/osaka/shinsekai/2026-05-17/20260517_104536.jpg",
+                  "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_104536.jpg",
+                  "caption": {
+                    "en": "Looking down through the tower frame",
+                    "ja": "鉄骨越しの眺め",
+                    "es": "Mirando abajo entre la estructura"
+                  }
+                },
+                {
+                  "src": "photos/osaka/shinsekai/2026-05-17/20260517_104742.jpg",
+                  "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_104742.jpg",
+                  "caption": {
+                    "en": "Tennōji and Abeno Harukas from above",
+                    "ja": "上から見た天王寺とあべのハルカス",
+                    "es": "Tennōji y Abeno Harukas desde arriba"
+                  }
+                },
+                {
+                  "src": "photos/osaka/shinsekai/2026-05-17/20260517_104756.jpg",
+                  "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_104756.jpg",
+                  "caption": {
+                    "en": "Tower selfie",
+                    "ja": "展望台で自撮り",
+                    "es": "Selfie en la torre"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Standing over the glass floor",
+                    "ja": "ガラスの床の上で",
+                    "es": "Sobre el piso de vidrio"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/shinsekai/2026-05-17/20260517_105847.jpg",
+                      "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_105847.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/shinsekai/2026-05-17/20260517_105849.jpg",
+                      "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_105849.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/shinsekai/2026-05-17/20260517_111209.jpg",
+                  "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_111209.jpg",
+                  "caption": {
+                    "en": "Trying to stop the clock at 11.11",
+                    "ja": "11.11で止めろ！",
+                    "es": "Intentando parar el reloj en 11.11"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Ready for the Tower Slider",
+                    "ja": "タワースライダーの準備",
+                    "es": "Listo para el Tower Slider"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/shinsekai/2026-05-17/20260517_120454.jpg",
+                      "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_120454.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/shinsekai/2026-05-17/20260517_120923.jpg",
+                      "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_120923.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/shinsekai/2026-05-17/20260517_124451.jpg",
+                  "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_124451.jpg",
+                  "caption": {
+                    "en": "Kushikatsu lunch",
+                    "ja": "串カツのランチ",
+                    "es": "Almuerzo de kushikatsu"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Shinsekai's colourful streets",
+                    "ja": "新世界のカラフルな通り",
+                    "es": "Las calles coloridas de Shinsekai"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/shinsekai/2026-05-17/20260517_131635.jpg",
+                      "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_131635.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/shinsekai/2026-05-17/20260517_133616.jpg",
+                      "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_133616.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/shinsekai/2026-05-17/20260517_134552.jpg",
+                  "thumb": "photos/osaka/shinsekai/2026-05-17/thumbs/20260517_134552.jpg",
+                  "caption": {
+                    "en": "One last selfie with Tsūtenkaku",
+                    "ja": "最後に通天閣と自撮り",
+                    "es": "Una última selfie con Tsūtenkaku"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nipponbashi-street-festa",
+          "name": {
+            "en": "Nipponbashi Street Festa",
+            "ja": "日本橋ストリートフェスタ",
+            "es": "Nipponbashi Street Festa"
+          },
+          "lat": 34.6603,
+          "lon": 135.5058,
+          "visits": [
+            {
+              "date": "2026-05-17",
+              "photos": [
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_141815.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_141815.jpg",
+                  "caption": {
+                    "en": "The 19th Nipponbashi Street Festa",
+                    "ja": "第19回日本橋ストリートフェスタ",
+                    "es": "La 19.ª Nipponbashi Street Festa"
+                  }
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_142654.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_142654.jpg",
+                  "caption": {
+                    "en": "The Survey Corps (Attack on Titan)",
+                    "ja": "調査兵団（進撃の巨人）",
+                    "es": "La Legión de Reconocimiento (Attack on Titan)"
+                  }
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_144434.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_144434.jpg",
+                  "caption": {
+                    "en": "With Ram and Rem (Re:Zero)",
+                    "ja": "ラムとレム（リゼロ）と",
+                    "es": "Con Ram y Rem (Re:Zero)"
+                  }
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_144647.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_144647.jpg",
+                  "caption": {
+                    "en": "With Kurumi Tokisaki (Date A Live)",
+                    "ja": "時崎狂三（デート・ア・ライブ）と",
+                    "es": "Con Kurumi Tokisaki (Date A Live)"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "With Anakin Skywalker",
+                    "ja": "アナキン・スカイウォーカーと",
+                    "es": "Con Anakin Skywalker"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_144711.jpg",
+                      "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_144711.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_144715.jpg",
+                      "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_144715.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_144719.jpg",
+                      "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_144719.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_145012.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_145012.jpg",
+                  "caption": {
+                    "en": "With Tobi (Naruto)",
+                    "ja": "トビ（NARUTO）と",
+                    "es": "Con Tobi (Naruto)"
+                  }
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_145216.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_145216.jpg",
+                  "caption": {
+                    "en": "With a Poké Ball parasol",
+                    "ja": "モンスターボールの日傘と",
+                    "es": "Con una sombrilla de Poké Ball"
+                  }
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_145535.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_145535.jpg",
+                  "caption": {
+                    "en": "With Tanjirō, Giyū and Nezuko (Demon Slayer)",
+                    "ja": "炭治郎・義勇・禰豆子（鬼滅の刃）と",
+                    "es": "Con Tanjirō, Giyū y Nezuko (Demon Slayer)"
+                  }
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_152246.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_152246.jpg",
+                  "caption": {
+                    "en": "With Albedo (Overlord)",
+                    "ja": "アルベド（オーバーロード）と",
+                    "es": "Con Albedo (Overlord)"
+                  }
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_152338.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_152338.jpg",
+                  "caption": {
+                    "en": "With Sailor Moon and Chibiusa",
+                    "ja": "セーラームーンとちびうさと",
+                    "es": "Con Sailor Moon y Chibiusa"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "With Boba Fett and the Mandalorian",
+                    "ja": "ボバ・フェットとマンダロリアンと",
+                    "es": "Con Boba Fett y el Mandaloriano"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_152755.jpg",
+                      "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_152755.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_152800.jpg",
+                      "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_152800.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_153240.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_153240.jpg",
+                  "caption": {
+                    "en": "With Power and Chainsaw Man",
+                    "ja": "パワーとチェンソーマンと",
+                    "es": "Con Power y Chainsaw Man"
+                  }
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_153406.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_153406.jpg",
+                  "caption": {
+                    "en": "With Rei Ayanami (Evangelion)",
+                    "ja": "綾波レイ（エヴァンゲリオン）と",
+                    "es": "Con Rei Ayanami (Evangelion)"
+                  }
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_153628.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_153628.jpg",
+                  "caption": {
+                    "en": "With Inosuke (Demon Slayer)",
+                    "ja": "伊之助（鬼滅の刃）と",
+                    "es": "Con Inosuke (Demon Slayer)"
+                  }
+                },
+                {
+                  "src": "photos/osaka/nipponbashi-street-festa/2026-05-17/20260517_153824.jpg",
+                  "thumb": "photos/osaka/nipponbashi-street-festa/2026-05-17/thumbs/20260517_153824.jpg",
+                  "caption": {
+                    "en": "With Fern (Frieren)",
+                    "ja": "フェルン（葬送のフリーレン）と",
+                    "es": "Con Fern (Frieren)"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Osaka's biggest street cosplay festival, in the Den Den Town otaku district.",
+                "ja": "でんでんタウンで開かれる大阪最大級のコスプレイベント。",
+                "es": "El festival de cosplay callejero más grande de Osaka, en el barrio otaku de Den Den Town."
+              }
+            }
+          ]
+        },
+        {
+          "id": "kuromon-market",
+          "name": {
+            "en": "Kuromon Market",
+            "ja": "黒門市場",
+            "es": "Mercado Kuromon"
+          },
+          "lat": 34.6655,
+          "lon": 135.5068,
+          "visits": [
+            {
+              "date": "2026-05-17",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Takoyaki from Wanaka",
+                    "ja": "わなかのたこ焼き",
+                    "es": "Takoyaki de Wanaka"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/kuromon-market/2026-05-17/20260517_161101.jpg",
+                      "thumb": "photos/osaka/kuromon-market/2026-05-17/thumbs/20260517_161101.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/kuromon-market/2026-05-17/20260517_161113.jpg",
+                      "thumb": "photos/osaka/kuromon-market/2026-05-17/thumbs/20260517_161113.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/kuromon-market/2026-05-17/20260517_164128.jpg",
+                  "thumb": "photos/osaka/kuromon-market/2026-05-17/thumbs/20260517_164128.jpg",
+                  "caption": {
+                    "en": "The entrance to Kuromon Market",
+                    "ja": "黒門市場の入口",
+                    "es": "La entrada al Mercado Kuromon"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Under the market arcade",
+                    "ja": "市場のアーケード",
+                    "es": "Bajo la galería del mercado"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/kuromon-market/2026-05-17/20260517_164323.jpg",
+                      "thumb": "photos/osaka/kuromon-market/2026-05-17/thumbs/20260517_164323.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/kuromon-market/2026-05-17/20260517_164507.jpg",
+                      "thumb": "photos/osaka/kuromon-market/2026-05-17/thumbs/20260517_164507.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/osaka/kuromon-market/2026-05-17/20260517_165059.jpg",
+                  "thumb": "photos/osaka/kuromon-market/2026-05-17/thumbs/20260517_165059.jpg",
+                  "caption": {
+                    "en": "Grilled seafood on display",
+                    "ja": "焼き海鮮の店先",
+                    "es": "Mariscos a la parrilla en exhibición"
+                  }
+                },
+                {
+                  "src": "photos/osaka/kuromon-market/2026-05-17/20260517_165325.jpg",
+                  "thumb": "photos/osaka/kuromon-market/2026-05-17/thumbs/20260517_165325.jpg",
+                  "caption": {
+                    "en": "The arcade toward evening",
+                    "ja": "夕方のアーケード",
+                    "es": "La galería al atardecer"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hozenji",
+          "name": {
+            "en": "Hōzen-ji Yokochō",
+            "ja": "法善寺横丁",
+            "es": "Hōzen-ji Yokochō"
+          },
+          "lat": 34.6681,
+          "lon": 135.503,
+          "visits": [
+            {
+              "date": "2026-05-17",
+              "photos": [
+                {
+                  "src": "photos/osaka/hozenji/2026-05-17/20260517_174013.jpg",
+                  "thumb": "photos/osaka/hozenji/2026-05-17/thumbs/20260517_174013.jpg",
+                  "caption": {
+                    "en": "The moss-covered Fudō Myōō",
+                    "ja": "苔に覆われた水掛不動",
+                    "es": "El Fudō Myōō cubierto de musgo"
+                  }
+                },
+                {
+                  "src": "photos/osaka/hozenji/2026-05-17/20260517_174126.jpg",
+                  "thumb": "photos/osaka/hozenji/2026-05-17/thumbs/20260517_174126.jpg",
+                  "caption": {
+                    "en": "Splashing water on Fudō-san",
+                    "ja": "水掛不動さん",
+                    "es": "Echando agua a Fudō-san"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The stone-paved alley",
+                    "ja": "石畳の横丁",
+                    "es": "El callejón empedrado"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/osaka/hozenji/2026-05-17/20260517_174315.jpg",
+                      "thumb": "photos/osaka/hozenji/2026-05-17/thumbs/20260517_174315.jpg"
+                    },
+                    {
+                      "src": "photos/osaka/hozenji/2026-05-17/20260517_174327.jpg",
+                      "thumb": "photos/osaka/hozenji/2026-05-17/thumbs/20260517_174327.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shin-osaka",
+          "name": {
+            "en": "Shin-Osaka Station",
+            "ja": "新大阪駅",
+            "es": "Estación Shin-Osaka"
+          },
+          "lat": 34.7335,
+          "lon": 135.5003,
+          "visits": [
+            {
+              "date": "2026-05-17",
+              "photos": [
+                {
+                  "src": "photos/osaka/shin-osaka/2026-05-17/20260517_205909.jpg",
+                  "thumb": "photos/osaka/shin-osaka/2026-05-17/thumbs/20260517_205909.jpg",
+                  "caption": {
+                    "en": "Shinkansen home",
+                    "ja": "新幹線で帰路へ",
+                    "es": "En Shinkansen de vuelta a casa"
+                  }
+                }
+              ]
             }
           ]
         }
-      ]
+      ],
+      "cover": "photos/osaka/dotonbori/2026-05-16/20260516_183526.jpg"
     },
     {
       "prefecture": "nara",
@@ -5822,31 +6792,608 @@
       "note": {},
       "spots": [
         {
+          "id": "nara-park",
           "name": {
-            "en": "Nara",
-            "ja": "奈良",
-            "es": "Nara"
+            "en": "Nara Park",
+            "ja": "奈良公園",
+            "es": "Parque de Nara"
           },
           "lat": 34.6851,
-          "lon": 135.8048,
-          "photos": [
+          "lon": 135.843,
+          "visits": [
             {
-              "src": "photos/nara/todaiji.jpg",
-              "caption": {
-                "en": "Inside Tōdai-ji",
-                "ja": "東大寺の大仏殿",
-                "es": "Dentro del Tōdai-ji"
-              },
-              "credit": {
-                "author": "TANAKA Juuyoh (田中十洋)",
-                "license": "CC BY 2.0",
-                "url": "https://commons.wikimedia.org/wiki/File:T%C5%8Ddai-ji_Temple,_Nara;_November_2010_(01).jpg"
-              },
-              "test": true
+              "date": "2026-05-16",
+              "photos": [
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_074343.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_074343.jpg",
+                  "caption": {
+                    "en": "A vending machine that supports the deer",
+                    "ja": "鹿を守る自動販売機",
+                    "es": "Una máquina expendedora que apoya a los ciervos"
+                  }
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_074514.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_074514.jpg",
+                  "caption": {
+                    "en": "Signs with deer",
+                    "ja": "鹿の案内板",
+                    "es": "Letreros con ciervos"
+                  }
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_075647.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_075647.jpg",
+                  "caption": {
+                    "en": "Good morning, deer",
+                    "ja": "鹿さん、おはよう",
+                    "es": "Buenos días, ciervo"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Breakfast on the grass",
+                    "ja": "草の朝ごはん",
+                    "es": "Desayuno en el pasto"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/nara-park/2026-05-16/20260516_075703.jpg",
+                      "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_075703.jpg"
+                    },
+                    {
+                      "src": "photos/nara/nara-park/2026-05-16/20260516_075717.jpg",
+                      "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_075717.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_075733.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_075733.jpg",
+                  "caption": {
+                    "en": "First deer selfie",
+                    "ja": "最初の鹿との自撮り",
+                    "es": "Primera selfie con ciervo"
+                  }
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_080221.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_080221.jpg",
+                  "caption": {
+                    "en": "Himuro Shrine's torii",
+                    "ja": "氷室神社の鳥居",
+                    "es": "El torii del santuario Himuro"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Into Nara Park",
+                    "ja": "奈良公園へ",
+                    "es": "Entrando al Parque de Nara"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/nara-park/2026-05-16/20260516_080236.jpg",
+                      "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_080236.jpg"
+                    },
+                    {
+                      "src": "photos/nara/nara-park/2026-05-16/20260516_080431.jpg",
+                      "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_080431.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_081016.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_081016.jpg",
+                  "caption": {
+                    "en": "Deer resting in the shade",
+                    "ja": "木陰で休む鹿",
+                    "es": "Ciervos descansando a la sombra"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Selfies with a whole herd",
+                    "ja": "鹿の群れと自撮り",
+                    "es": "Selfies con toda la manada"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/nara-park/2026-05-16/20260516_081058.jpg",
+                      "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_081058.jpg"
+                    },
+                    {
+                      "src": "photos/nara/nara-park/2026-05-16/20260516_081106.jpg",
+                      "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_081106.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_081302.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_081302.jpg",
+                  "caption": {
+                    "en": "Nara National Museum",
+                    "ja": "奈良国立博物館",
+                    "es": "Museo Nacional de Nara"
+                  }
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_081546.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_081546.jpg",
+                  "caption": {
+                    "en": "Deer under the pines",
+                    "ja": "松の下の鹿",
+                    "es": "Ciervos bajo los pinos"
+                  }
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_081658.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_081658.jpg",
+                  "caption": {
+                    "en": "Me and the deer",
+                    "ja": "鹿と私",
+                    "es": "Los ciervos y yo"
+                  }
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_084012.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_084012.jpg",
+                  "caption": {
+                    "en": "A curious one",
+                    "ja": "好奇心旺盛な鹿",
+                    "es": "Uno muy curioso"
+                  }
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_110904.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_110904.jpg",
+                  "caption": {
+                    "en": "A pond in the park",
+                    "ja": "公園の池",
+                    "es": "Un estanque en el parque"
+                  }
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_112647.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_112647.jpg",
+                  "caption": {
+                    "en": "With a stag",
+                    "ja": "雄鹿と",
+                    "es": "Con un ciervo macho"
+                  }
+                },
+                {
+                  "src": "photos/nara/nara-park/2026-05-16/20260516_132435.jpg",
+                  "thumb": "photos/nara/nara-park/2026-05-16/thumbs/20260516_132435.jpg",
+                  "caption": {
+                    "en": "Welcome to Nara!",
+                    "ja": "ようこそ奈良へ！",
+                    "es": "¡Bienvenido a Nara!"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "todaiji",
+          "name": {
+            "en": "Tōdai-ji",
+            "ja": "東大寺",
+            "es": "Tōdai-ji"
+          },
+          "lat": 34.689,
+          "lon": 135.8398,
+          "visits": [
+            {
+              "date": "2026-05-16",
+              "photos": [
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_085358.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_085358.jpg",
+                  "caption": {
+                    "en": "Nandaimon, the Great South Gate",
+                    "ja": "南大門",
+                    "es": "Nandaimon, la Gran Puerta Sur"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_085412.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_085412.jpg",
+                  "caption": {
+                    "en": "Selfie at Nandaimon",
+                    "ja": "南大門で自撮り",
+                    "es": "Selfie en Nandaimon"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_085620.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_085620.jpg",
+                  "caption": {
+                    "en": "A gentle pat",
+                    "ja": "鹿をなでる",
+                    "es": "Una caricia"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Deer selfies at the gate",
+                    "ja": "門の前で鹿と自撮り",
+                    "es": "Selfies con ciervos en la puerta"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_085746.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_085746.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_085753.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_085753.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Up close with a deer",
+                    "ja": "鹿とどアップ",
+                    "es": "Muy cerca de un ciervo"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_085859.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_085859.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_085930.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_085930.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_085937.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_085937.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "A stag joins in",
+                    "ja": "雄鹿も参加",
+                    "es": "Un ciervo macho se une"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_090622.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_090622.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_090630.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_090630.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_090738.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_090738.jpg",
+                  "caption": {
+                    "en": "The Middle Gate",
+                    "ja": "中門",
+                    "es": "La Puerta Central"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_091304.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_091304.jpg",
+                  "caption": {
+                    "en": "The Great Buddha Hall from the garden",
+                    "ja": "庭から見た大仏殿",
+                    "es": "El Salón del Gran Buda desde el jardín"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_091343.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_091343.jpg",
+                  "caption": {
+                    "en": "Selfie with the Great Buddha Hall",
+                    "ja": "大仏殿と自撮り",
+                    "es": "Selfie con el Salón del Gran Buda"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_091649.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_091649.jpg",
+                  "caption": {
+                    "en": "In front of the hall",
+                    "ja": "大仏殿の前で",
+                    "es": "Frente al salón"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_091752.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_091752.jpg",
+                  "caption": {
+                    "en": "The Great Buddha Hall",
+                    "ja": "大仏殿",
+                    "es": "El Salón del Gran Buda"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_092256.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_092256.jpg",
+                  "caption": {
+                    "en": "The Great Buddha",
+                    "ja": "奈良の大仏",
+                    "es": "El Gran Buda"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_092453.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_092453.jpg",
+                  "caption": {
+                    "en": "Me and the Great Buddha",
+                    "ja": "大仏と私",
+                    "es": "El Gran Buda y yo"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_092551.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_092551.jpg",
+                  "caption": {
+                    "en": "The Great Buddha up close",
+                    "ja": "間近で見る大仏",
+                    "es": "El Gran Buda de cerca"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_092711.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_092711.jpg",
+                  "caption": {
+                    "en": "Kokūzō Bosatsu beside the Buddha",
+                    "ja": "大仏と虚空蔵菩薩",
+                    "es": "Kokūzō Bosatsu junto al Buda"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Kōmokuten, the guardian king",
+                    "ja": "広目天",
+                    "es": "Kōmokuten, el rey guardián"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_092750.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_092750.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_092800.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_092800.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Models of the old temple",
+                    "ja": "創建当時の伽藍模型",
+                    "es": "Maquetas del templo original"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_092823.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_092823.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_092940.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_092940.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Squeezing through the pillar (from my video)",
+                    "ja": "柱くぐりに挑戦（動画より）",
+                    "es": "Pasando por el agujero del pilar (de mi video)"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_094026.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_094026.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_094031.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_094031.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_094034.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_094034.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_094039.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_094039.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_094044.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_094044.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_094049.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_094049.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_094054.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_094054.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_094104.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_094104.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_094342.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_094342.jpg",
+                  "caption": {
+                    "en": "The hole in the pillar, as big as the Buddha's nostril",
+                    "ja": "大仏の鼻の穴と同じ大きさの柱の穴",
+                    "es": "El agujero del pilar, del tamaño de la nariz del Buda"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_102413.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_102413.jpg",
+                  "caption": {
+                    "en": "The golden sōrin spire",
+                    "ja": "黄金の相輪",
+                    "es": "La aguja dorada sōrin"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_103211.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_103211.jpg",
+                  "caption": {
+                    "en": "The bell tower",
+                    "ja": "鐘楼",
+                    "es": "El campanario"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The great bell",
+                    "ja": "大鐘",
+                    "es": "La gran campana"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_103317.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_103317.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_103336.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_103336.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "Nigatsu-dō",
+                    "ja": "二月堂",
+                    "es": "Nigatsu-dō"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_104141.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_104141.jpg"
+                    },
+                    {
+                      "src": "photos/nara/todaiji/2026-05-16/20260516_104152.jpg",
+                      "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_104152.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_104339.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_104339.jpg",
+                  "caption": {
+                    "en": "The dragon water basin",
+                    "ja": "龍の手水",
+                    "es": "La fuente del dragón"
+                  }
+                },
+                {
+                  "src": "photos/nara/todaiji/2026-05-16/20260516_104512.jpg",
+                  "thumb": "photos/nara/todaiji/2026-05-16/thumbs/20260516_104512.jpg",
+                  "caption": {
+                    "en": "The view from Nigatsu-dō",
+                    "ja": "二月堂からの眺め",
+                    "es": "La vista desde Nigatsu-dō"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Tōdai-ji: the Great Buddha, and I made it through the pillar!",
+                "ja": "東大寺：大仏さま、そして柱くぐりに成功！",
+                "es": "Tōdai-ji: el Gran Buda, ¡y logré pasar por el pilar!"
+              }
+            }
+          ]
+        },
+        {
+          "id": "kasuga-taisha",
+          "name": {
+            "en": "Kasuga Taisha",
+            "ja": "春日大社",
+            "es": "Kasuga Taisha"
+          },
+          "lat": 34.6812,
+          "lon": 135.8484,
+          "visits": [
+            {
+              "date": "2026-05-16",
+              "photos": [
+                {
+                  "src": "photos/nara/kasuga-taisha/2026-05-16/20260516_114726.jpg",
+                  "thumb": "photos/nara/kasuga-taisha/2026-05-16/thumbs/20260516_114726.jpg",
+                  "caption": {
+                    "en": "Stone lanterns and the vermilion gate",
+                    "ja": "石灯籠と朱色の門",
+                    "es": "Linternas de piedra y la puerta bermellón"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Selfies at Kasuga Taisha",
+                    "ja": "春日大社で自撮り",
+                    "es": "Selfies en Kasuga Taisha"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/kasuga-taisha/2026-05-16/20260516_114932.jpg",
+                      "thumb": "photos/nara/kasuga-taisha/2026-05-16/thumbs/20260516_114932.jpg"
+                    },
+                    {
+                      "src": "photos/nara/kasuga-taisha/2026-05-16/20260516_115049.jpg",
+                      "thumb": "photos/nara/kasuga-taisha/2026-05-16/thumbs/20260516_115049.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nakatanidou",
+          "name": {
+            "en": "Nakatanidou",
+            "ja": "中谷堂",
+            "es": "Nakatanidou"
+          },
+          "lat": 34.6823,
+          "lon": 135.8277,
+          "visits": [
+            {
+              "date": "2026-05-16",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "Fresh yomogi mochi",
+                    "ja": "つきたてのよもぎ餅",
+                    "es": "Mochi de yomogi recién hecho"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/nara/nakatanidou/2026-05-16/20260516_125244.jpg",
+                      "thumb": "photos/nara/nakatanidou/2026-05-16/thumbs/20260516_125244.jpg"
+                    },
+                    {
+                      "src": "photos/nara/nakatanidou/2026-05-16/20260516_125301.jpg",
+                      "thumb": "photos/nara/nakatanidou/2026-05-16/thumbs/20260516_125301.jpg"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
-      ]
+      ],
+      "cover": "photos/nara/todaiji/2026-05-16/20260516_091752.jpg"
     },
     {
       "prefecture": "hyogo",
@@ -5941,26 +7488,290 @@
       "note": {},
       "spots": [
         {
+          "id": "izumo-taisha",
           "name": {
-            "en": "Izumo",
-            "ja": "出雲",
-            "es": "Izumo"
+            "en": "Izumo Taisha",
+            "ja": "出雲大社",
+            "es": "Izumo Taisha"
           },
-          "lat": 35.367,
-          "lon": 132.7547,
-          "photos": []
+          "lat": 35.4019,
+          "lon": 132.6853,
+          "visits": [
+            {
+              "date": "2026-05-12",
+              "photos": [
+                {
+                  "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_111858.jpg",
+                  "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_111858.jpg",
+                  "caption": {
+                    "en": "Landing at Izumo Enmusubi Airport",
+                    "ja": "出雲縁結び空港に到着",
+                    "es": "Llegando al aeropuerto Izumo Enmusubi"
+                  }
+                },
+                {
+                  "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_112528.jpg",
+                  "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_112528.jpg",
+                  "caption": {
+                    "en": "Dojō-sukui manjū, Shimane's souvenir",
+                    "ja": "島根みやげのどじょう掬いまんじゅう",
+                    "es": "Dojō-sukui manjū, el recuerdo de Shimane"
+                  }
+                },
+                {
+                  "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_121905.jpg",
+                  "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_121905.jpg",
+                  "caption": {
+                    "en": "Izumo-taisha-mae Station",
+                    "ja": "出雲大社前駅",
+                    "es": "Estación Izumo-taisha-mae"
+                  }
+                },
+                {
+                  "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_123051.jpg",
+                  "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_123051.jpg",
+                  "caption": {
+                    "en": "The approach road",
+                    "ja": "参道へ",
+                    "es": "El camino de acceso"
+                  }
+                },
+                {
+                  "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_131039.jpg",
+                  "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_131039.jpg",
+                  "caption": {
+                    "en": "The great torii",
+                    "ja": "大鳥居",
+                    "es": "El gran torii"
+                  }
+                },
+                {
+                  "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_131108.jpg",
+                  "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_131108.jpg",
+                  "caption": {
+                    "en": "Under the torii",
+                    "ja": "鳥居の下で",
+                    "es": "Bajo el torii"
+                  }
+                },
+                {
+                  "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_131203.jpg",
+                  "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_131203.jpg",
+                  "caption": {
+                    "en": "The pine-lined approach",
+                    "ja": "松の参道",
+                    "es": "El camino de los pinos"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The hare statues of Izumo",
+                    "ja": "出雲のうさぎの像",
+                    "es": "Las estatuas de conejos de Izumo"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_131524.jpg",
+                      "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_131524.jpg"
+                    },
+                    {
+                      "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_131532.jpg",
+                      "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_131532.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_132203.jpg",
+                  "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_132203.jpg",
+                  "caption": {
+                    "en": "The bronze torii and the hall of worship",
+                    "ja": "銅鳥居と拝殿",
+                    "es": "El torii de bronce y el salón de oración"
+                  }
+                },
+                {
+                  "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_134954.jpg",
+                  "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_134954.jpg",
+                  "caption": {
+                    "en": "A hare for Izumo, birthplace of sake",
+                    "ja": "日本酒発祥の地・出雲のうさぎ",
+                    "es": "Un conejo de Izumo, cuna del sake"
+                  }
+                },
+                {
+                  "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_140722.jpg",
+                  "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_140722.jpg",
+                  "caption": {
+                    "en": "An en-musubi soft-serve",
+                    "ja": "縁結びソフト",
+                    "es": "Un helado en-musubi"
+                  }
+                },
+                {
+                  "src": "photos/shimane/izumo-taisha/2026-05-12/20260512_151639.jpg",
+                  "thumb": "photos/shimane/izumo-taisha/2026-05-12/thumbs/20260512_151639.jpg",
+                  "caption": {
+                    "en": "The orange Ichibata train",
+                    "ja": "オレンジの一畑電車",
+                    "es": "El tren naranja de Ichibata"
+                  }
+                }
+              ],
+              "note": {
+                "en": "Izumo Taisha, the shrine of good connections (en-musubi), with its little hares everywhere.",
+                "ja": "縁結びの神社、出雲大社。うさぎの像があちこちに。",
+                "es": "Izumo Taisha, el santuario de los buenos lazos (en-musubi), con sus conejitos por todas partes."
+              }
+            }
+          ]
         },
         {
+          "id": "vogel-park",
+          "name": {
+            "en": "Matsue Vogel Park",
+            "ja": "松江フォーゲルパーク",
+            "es": "Matsue Vogel Park"
+          },
+          "lat": 35.4462,
+          "lon": 132.9614,
+          "visits": [
+            {
+              "date": "2026-05-13",
+              "photos": [
+                {
+                  "src": "photos/shimane/vogel-park/2026-05-13/20260513_174648.jpg",
+                  "thumb": "photos/shimane/vogel-park/2026-05-13/thumbs/20260513_174648.jpg",
+                  "caption": {
+                    "en": "A greenhouse full of hanging flowers",
+                    "ja": "花がいっぱいの温室",
+                    "es": "Un invernadero lleno de flores colgantes"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "Kagura: the eight-headed serpent Orochi",
+                    "ja": "神楽「大蛇（おろち）」",
+                    "es": "Kagura: la serpiente de ocho cabezas Orochi"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/shimane/vogel-park/2026-05-13/20260513_182018.jpg",
+                      "thumb": "photos/shimane/vogel-park/2026-05-13/thumbs/20260513_182018.jpg"
+                    },
+                    {
+                      "src": "photos/shimane/vogel-park/2026-05-13/20260513_182128.jpg",
+                      "thumb": "photos/shimane/vogel-park/2026-05-13/thumbs/20260513_182128.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/shimane/vogel-park/2026-05-13/20260513_182204.jpg",
+                  "thumb": "photos/shimane/vogel-park/2026-05-13/thumbs/20260513_182204.jpg",
+                  "caption": {
+                    "en": "Orochi up close",
+                    "ja": "間近で見る大蛇",
+                    "es": "Orochi de cerca"
+                  }
+                },
+                {
+                  "caption": {
+                    "en": "The serpents fill the stage",
+                    "ja": "舞台いっぱいの大蛇",
+                    "es": "Las serpientes llenan el escenario"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/shimane/vogel-park/2026-05-13/20260513_182443.jpg",
+                      "thumb": "photos/shimane/vogel-park/2026-05-13/thumbs/20260513_182443.jpg"
+                    },
+                    {
+                      "src": "photos/shimane/vogel-park/2026-05-13/20260513_182456.jpg",
+                      "thumb": "photos/shimane/vogel-park/2026-05-13/thumbs/20260513_182456.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "matsue",
           "name": {
             "en": "Matsue",
             "ja": "松江",
             "es": "Matsue"
           },
-          "lat": 35.4723,
-          "lon": 133.0505,
-          "photos": []
+          "lat": 35.4751,
+          "lon": 133.0507,
+          "visits": [
+            {
+              "date": "2026-05-13",
+              "photos": [
+                {
+                  "src": "photos/shimane/matsue/2026-05-13/20260513_063916.jpg",
+                  "thumb": "photos/shimane/matsue/2026-05-13/thumbs/20260513_063916.jpg",
+                  "caption": {
+                    "en": "Breakfast over Lake Shinji",
+                    "ja": "宍道湖を望む朝食",
+                    "es": "Desayuno frente al lago Shinji"
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-05-14",
+              "photos": [
+                {
+                  "src": "photos/shimane/matsue/2026-05-14/20260514_082105.jpg",
+                  "thumb": "photos/shimane/matsue/2026-05-14/thumbs/20260514_082105.jpg",
+                  "caption": {
+                    "en": "An equestrian statue by the castle",
+                    "ja": "城のそばの騎馬像",
+                    "es": "Una estatua ecuestre junto al castillo"
+                  }
+                },
+                {
+                  "src": "photos/shimane/matsue/2026-05-14/20260514_082436.jpg",
+                  "thumb": "photos/shimane/matsue/2026-05-14/thumbs/20260514_082436.jpg",
+                  "caption": {
+                    "en": "Matsue Castle through the pines",
+                    "ja": "松の間から松江城",
+                    "es": "El castillo de Matsue entre los pinos"
+                  }
+                },
+                {
+                  "src": "photos/shimane/matsue/2026-05-14/20260514_082639.jpg",
+                  "thumb": "photos/shimane/matsue/2026-05-14/thumbs/20260514_082639.jpg",
+                  "caption": {
+                    "en": "Matsue Castle, one of Japan's original castles",
+                    "ja": "現存天守の松江城",
+                    "es": "El castillo de Matsue, uno de los originales de Japón"
+                  }
+                },
+                {
+                  "src": "photos/shimane/matsue/2026-05-14/20260514_082731.jpg",
+                  "thumb": "photos/shimane/matsue/2026-05-14/thumbs/20260514_082731.jpg",
+                  "caption": {
+                    "en": "At the castle",
+                    "ja": "松江城にて",
+                    "es": "En el castillo"
+                  }
+                },
+                {
+                  "src": "photos/shimane/matsue/2026-05-14/20260514_195920.jpg",
+                  "thumb": "photos/shimane/matsue/2026-05-14/thumbs/20260514_195920.jpg",
+                  "caption": {
+                    "en": "A heron on the bridge at night",
+                    "ja": "夜の橋のサギ",
+                    "es": "Una garza en el puente de noche"
+                  }
+                }
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "cover": "photos/shimane/izumo-taisha/2026-05-12/20260512_131039.jpg"
     },
     {
       "prefecture": "okayama",
@@ -5968,16 +7779,97 @@
       "note": {},
       "spots": [
         {
+          "id": "kurashiki",
           "name": {
-            "en": "Kurashiki",
-            "ja": "倉敷",
-            "es": "Kurashiki"
+            "en": "Kurashiki Bikan Quarter",
+            "ja": "倉敷美観地区",
+            "es": "Barrio histórico de Kurashiki"
           },
-          "lat": 34.585,
-          "lon": 133.772,
-          "photos": []
+          "lat": 34.5955,
+          "lon": 133.7717,
+          "visits": [
+            {
+              "date": "2026-05-15",
+              "photos": [
+                {
+                  "caption": {
+                    "en": "On the Nakabashi bridge",
+                    "ja": "中橋にて",
+                    "es": "En el puente Nakabashi"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/okayama/kurashiki/2026-05-15/20260515_180312.jpg",
+                      "thumb": "photos/okayama/kurashiki/2026-05-15/thumbs/20260515_180312.jpg"
+                    },
+                    {
+                      "src": "photos/okayama/kurashiki/2026-05-15/20260515_180325.jpg",
+                      "thumb": "photos/okayama/kurashiki/2026-05-15/thumbs/20260515_180325.jpg"
+                    },
+                    {
+                      "src": "photos/okayama/kurashiki/2026-05-15/20260515_180338.jpg",
+                      "thumb": "photos/okayama/kurashiki/2026-05-15/thumbs/20260515_180338.jpg"
+                    }
+                  ]
+                },
+                {
+                  "caption": {
+                    "en": "The willow-lined canal",
+                    "ja": "柳並木の運河",
+                    "es": "El canal bordeado de sauces"
+                  },
+                  "shots": [
+                    {
+                      "src": "photos/okayama/kurashiki/2026-05-15/20260515_180548.jpg",
+                      "thumb": "photos/okayama/kurashiki/2026-05-15/thumbs/20260515_180548.jpg"
+                    },
+                    {
+                      "src": "photos/okayama/kurashiki/2026-05-15/20260515_180603.jpg",
+                      "thumb": "photos/okayama/kurashiki/2026-05-15/thumbs/20260515_180603.jpg"
+                    }
+                  ]
+                },
+                {
+                  "src": "photos/okayama/kurashiki/2026-05-15/20260515_180957.jpg",
+                  "thumb": "photos/okayama/kurashiki/2026-05-15/thumbs/20260515_180957.jpg",
+                  "caption": {
+                    "en": "A stone bridge at golden hour",
+                    "ja": "夕日の石橋",
+                    "es": "Un puente de piedra al atardecer"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "okayama-station",
+          "name": {
+            "en": "Okayama Station",
+            "ja": "岡山駅",
+            "es": "Estación de Okayama"
+          },
+          "lat": 34.6664,
+          "lon": 133.9178,
+          "visits": [
+            {
+              "date": "2026-05-15",
+              "photos": [
+                {
+                  "src": "photos/okayama/okayama-station/2026-05-15/20260515_201753.jpg",
+                  "thumb": "photos/okayama/okayama-station/2026-05-15/thumbs/20260515_201753.jpg",
+                  "caption": {
+                    "en": "With Momotarō",
+                    "ja": "桃太郎像と",
+                    "es": "Con Momotarō"
+                  }
+                }
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "cover": "photos/okayama/kurashiki/2026-05-15/20260515_180548.jpg"
     },
     {
       "prefecture": "hiroshima",
