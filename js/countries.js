@@ -7,6 +7,11 @@ window.COUNTRIES = [
     names: { en: "Japan", ja: "日本", es: "Japón" },
     data: "data/japan.json",
     map: { file: "data/prefectures.topo.json", object: "prefectures" },
+    credit: {
+      en: "Map data: Global Map Japan, Geospatial Information Authority of Japan (GSI).",
+      ja: "地図データ：地球地図日本（国土地理院）",
+      es: "Datos del mapa: Global Map Japan, Autoridad de Información Geoespacial de Japón (GSI)."
+    },
     size: [800, 800],
     // Fixed view of the main islands, with Okinawa in a box at the top left.
     extent: [[128.5, 30.8], [146.0, 45.6]],
@@ -25,6 +30,11 @@ window.COUNTRIES = [
     names: { en: "China", ja: "中国", es: "China" },
     data: "data/china.json",
     map: { file: "data/china.geo.json" },
+    credit: {
+      en: "Map data: geoBoundaries (public domain).",
+      ja: "地図データ：geoBoundaries（パブリックドメイン）",
+      es: "Datos del mapa: geoBoundaries (dominio público)."
+    },
     size: [800, 640],
     unit: { en: ["province", "provinces"], ja: ["省級行政区", "省級行政区"], es: ["provincia", "provincias"] },
     groups: {
@@ -73,6 +83,11 @@ window.COUNTRIES = [
     names: { en: "Peru", ja: "ペルー", es: "Perú" },
     data: "data/peru.json",
     map: { file: "data/peru.geo.json" },
+    credit: {
+      en: "Map data: geoBoundaries (public domain).",
+      ja: "地図データ：geoBoundaries（パブリックドメイン）",
+      es: "Datos del mapa: geoBoundaries (dominio público)."
+    },
     size: [640, 800],
     unit: { en: ["region", "regions"], ja: ["県", "県"], es: ["región", "regiones"] },
     groups: {

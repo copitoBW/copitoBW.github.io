@@ -1,0 +1,164 @@
+{
+  "moods": [
+    {
+      "id": "walk",
+      "name": {
+        "en": "Night walks",
+        "ja": "夜の散歩",
+        "es": "Caminatas nocturnas"
+      }
+    },
+    {
+      "id": "road",
+      "name": {
+        "en": "On the road",
+        "ja": "ドライブ",
+        "es": "En la carretera"
+      }
+    }
+  ],
+  "onRepeatPeriod": {
+    "from": "2026-11-14",
+    "to": "2026-11-28"
+  },
+  "onRepeat": [
+    {
+      "id": "repeat-1",
+      "title": "Lay All Your Love On Me",
+      "artist": "ABBA",
+      "plays": 15,
+      "youtubeUrl": "",
+      "spotifyUrl": ""
+    },
+    {
+      "id": "repeat-2",
+      "title": "King For A Day",
+      "artist": "Pierce The Veil",
+      "plays": 13,
+      "youtubeUrl": "",
+      "spotifyUrl": ""
+    },
+    {
+      "id": "repeat-3",
+      "title": "New Romantics",
+      "artist": "Taylor Swift",
+      "plays": 12,
+      "youtubeUrl": "",
+      "spotifyUrl": ""
+    },
+    {
+      "id": "repeat-4",
+      "title": "Love Me To Heaven",
+      "artist": "Jonas Brothers",
+      "plays": 12,
+      "youtubeUrl": "",
+      "spotifyUrl": ""
+    },
+    {
+      "id": "repeat-5",
+      "title": "Love Runs Out",
+      "artist": "OneRepublic",
+      "plays": 9,
+      "youtubeUrl": "",
+      "spotifyUrl": ""
+    },
+    {
+      "id": "repeat-6",
+      "title": "Oddloop (オドループ)",
+      "artist": "Frederic",
+      "plays": 9,
+      "youtubeUrl": "",
+      "spotifyUrl": ""
+    },
+    {
+      "id": "repeat-7",
+      "title": "Hysteria",
+      "artist": "Muse",
+      "plays": 8,
+      "youtubeUrl": "",
+      "spotifyUrl": ""
+    },
+    {
+      "id": "repeat-8",
+      "title": "If I'm James Dean, You're Audrey Hepburn",
+      "artist": "Sleeping With Sirens",
+      "plays": 8,
+      "youtubeUrl": "",
+      "spotifyUrl": ""
+    },
+    {
+      "id": "repeat-9",
+      "title": "I'm Not A Vampire",
+      "artist": "Falling In Reverse",
+      "plays": 7,
+      "youtubeUrl": "",
+      "spotifyUrl": ""
+    },
+    {
+      "id": "repeat-10",
+      "title": "Cheap Thrills",
+      "artist": "Sia",
+      "plays": 7,
+      "youtubeUrl": "",
+      "spotifyUrl": ""
+    }
+  ],
+  "playlists": [
+    {
+      "id": "night-walks",
+      "mood": "walk",
+      "color": "teal",
+      "title": {
+        "en": "Walking alone at night",
+        "ja": "夜、ひとりで歩くとき",
+        "es": "Caminando solo de noche"
+      },
+      "note": {
+        "en": "The songs that come to mind when I'm walking alone at night.",
+        "ja": "夜ひとりで歩いていると、頭に浮かんでくる曲。",
+        "es": "Las canciones que me vienen a la cabeza cuando camino solo de noche."
+      },
+      "tracks": [
+        {
+          "title": "Los Angeles",
+          "artist": "SEULGI"
+        },
+        {
+          "title": "Self Control",
+          "artist": "Laura Branigan"
+        },
+        {
+          "title": "Tokyo Flash (東京フラッシュ)",
+          "artist": "Vaundy"
+        }
+      ],
+      "spotifyUrl": "",
+      "youtubeUrl": "",
+      "embedUrl": ""
+    },
+    {
+      "id": "on-the-road",
+      "mood": "road",
+      "color": "gold",
+      "title": {
+        "en": "From the passenger seat",
+        "ja": "助手席のサウンドトラック",
+        "es": "Desde el asiento del copiloto"
+      },
+      "note": {
+        "en": "I don't drive, so this is for when I'm the copilot.",
+        "ja": "運転はしないので、助手席で聴きたい曲。",
+        "es": "No manejo, así que esto es para cuando voy de copiloto."
+      },
+      "tracks": [
+        {
+          "title": "Send Me on My Way",
+          "artist": "Rusted Root"
+        }
+      ],
+      "spotifyUrl": "",
+      "youtubeUrl": "",
+      "embedUrl": ""
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "categories": [
+    {
+      "id": "ramen",
+      "name": { "en": "Ramen", "ja": "ラーメン", "es": "Ramen" }
+    },
+    {
+      "id": "japanese",
+      "name": { "en": "Japanese", "ja": "和食", "es": "Japonesa" }
+    },
+    {
+      "id": "sweets",
+      "name": { "en": "Sweets & Cafés", "ja": "スイーツ・カフェ", "es": "Dulces y cafés" }
+    },
+    {
+      "id": "world",
+      "name": { "en": "World Food", "ja": "世界の料理", "es": "Comida del mundo" }
+    }
+  ],
+  "entries": [
+    {
+      "id": "mutekiya-ikebukuro",
+      "category": "ramen",
+      "style": { "en": "Tonkotsu", "ja": "豚骨", "es": "Tonkotsu" },
+      "shop": {
+        "en": "Mutekiya",
+        "ja": "麺創房 無敵家",
+        "es": "Mutekiya"
+      },
+      "dish": {
+        "en": "Tonkotsu Ramen",
+        "ja": "豚骨ラーメン",
+        "es": "Ramen tonkotsu"
+      },
+      "area": {
+        "en": "Ikebukuro, Tokyo",
+        "ja": "東京・池袋",
+        "es": "Ikebukuro, Tokio"
+      },
+      "date": "2026-07-30",
+      "mapsUrl": "",
+      "tastingNote": {
+        "en": "Rich, creamy pork broth with thick chashu and nori stamped with a message.",
+        "ja": "濃厚でクリーミーな豚骨スープと分厚いチャーシュー。",
+        "es": "Caldo tonkotsu rico y cremoso con chashu grueso."
+      },
+      "placeNote": {
+        "en": "Very popular counter-only shop near Ikebukuro East Exit, so expect a line in the evening — moves steadily.",
+        "ja": "池袋駅東口近くの人気カウンター店。夜は並びますが回転はスムーズです。",
+        "es": "Local muy popular de solo barra cerca de la salida este de Ikebukuro; suele haber fila por la noche, pero avanza bien."
+      },
+      "perks": [
+        { "en": "Free fresh garlic & press", "ja": "生にんにく＆クラッシャー無料", "es": "Ajo fresco y prensador gratis" },
+        { "en": "Free jasmine tea concentrate", "ja": "濃縮ジャスミン茶無料", "es": "Concentrado de té de jazmín gratis" },
+        { "en": "Free pickled greens (takana)", "ja": "激辛高菜無料", "es": "Takana encurtida gratis" }
+      ],
+      "photos": [
+        {
+          "src": "photos/tokyo/mutekiya/2026-07-30/20260730_204106.jpg",
+          "thumb": "photos/tokyo/mutekiya/2026-07-30/thumbs/20260730_204106.jpg",
+          "caption": {
+            "en": "Mutekiya's tonkotsu ramen",
+            "ja": "無敵家の豚骨ラーメン",
+            "es": "Ramen tonkotsu de Mutekiya"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ramen-torisetsu-shinyurigaoka",
+      "category": "ramen",
+      "style": { "en": "Chicken Paitan", "ja": "鶏白湯", "es": "Paitan de pollo" },
+      "shop": {
+        "en": "Ramen Factory Torisetsu",
+        "ja": "ラーメンファクトリー トリセツ",
+        "es": "Ramen Factory Torisetsu"
+      },
+      "dish": {
+        "en": "Creamy Chicken Paitan Ramen",
+        "ja": "濃厚鶏白湯ラーメン",
+        "es": "Ramen paitan de pollo cremoso"
+      },
+      "area": {
+        "en": "Shin-Yurigaoka, Kanagawa",
+        "ja": "神奈川・新百合ヶ丘",
+        "es": "Shin-Yurigaoka, Kanagawa"
+      },
+      "date": "2026-08-01",
+      "mapsUrl": "",
+      "tastingNote": {
+        "en": "Velvety, comforting chicken broth — lighter than pork tonkotsu while still super rich.",
+        "ja": "まろやかでコクのある鶏白湯スープ。豚骨より軽めながらしっかり濃厚。",
+        "es": "Caldo de pollo aterciopelado y reconfortante; más ligero que el tonkotsu pero igual de intenso."
+      },
+      "placeNote": {
+        "en": "Dinner stop on the way home from PokéPark.",
+        "ja": "ポケパークの帰りに立ち寄った夕食スポット。",
+        "es": "Parada para cenar de regreso desde PokéPark."
+      },
+      "perks": [],
+      "photos": [
+        {
+          "src": "photos/kanagawa/ramen-torisetsu/2026-08-01/20260801_201959.jpg",
+          "thumb": "photos/kanagawa/ramen-torisetsu/2026-08-01/thumbs/20260801_201959.jpg",
+          "caption": {
+            "en": "Creamy chicken paitan ramen",
+            "ja": "濃厚鶏白湯ラーメン",
+            "es": "Ramen paitan de pollo cremoso"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yamashita-honki-udon-odaiba",
+      "category": "japanese",
+      "style": { "en": "Udon", "ja": "うどん", "es": "Udon" },
+      "shop": {
+        "en": "Yamashita Honki Udon",
+        "ja": "山下本気うどん",
+        "es": "Yamashita Honki Udon"
+      },
+      "dish": {
+        "en": "White Cream Udon",
+        "ja": "白い明太チーズクリームうどん",
+        "es": "Udon con espuma cremosa"
+      },
+      "area": {
+        "en": "DECKS, Odaiba, Tokyo",
+        "ja": "東京・お台場（デックス東京ビーチ）",
+        "es": "DECKS, Odaiba, Tokio"
+      },
+      "date": "2026-08-04",
+      "mapsUrl": "",
+      "tastingNote": {
+        "en": "Their famous foam-topped udon — chewy noodles under a cloud of rich cream.",
+        "ja": "名物の白いクリームうどん。もちもちの麺にふわふわのクリームが絡みます。",
+        "es": "Su famoso udon cubierto de espuma: fideos firmes bajo una nube cremosa."
+      },
+      "placeNote": {
+        "en": "Inside DECKS Tokyo Beach, easy to stop by while walking around Odaiba.",
+        "ja": "デックス東京ビーチ内にあり、お台場散策の合間に寄りやすいお店。",
+        "es": "Dentro de DECKS Tokyo Beach, muy cómodo para parar mientras recorres Odaiba."
+      },
+      "perks": [
+        { "en": "Large portion often free", "ja": "麺大盛り無料サービスあり", "es": "Porción grande gratis en muchos platos" }
+      ],
+      "photos": [
+        {
+          "src": "photos/tokyo/odaiba/2026-08-04/20260804_154229.jpg",
+          "thumb": "photos/tokyo/odaiba/2026-08-04/thumbs/20260804_154229.jpg",
+          "caption": {
+            "en": "Foam-topped udon at DECKS",
+            "ja": "デックスで白いクリームうどん",
+            "es": "Udon con espuma en DECKS"
+          }
+        }
+      ]
+    },
+    {
+      "id": "harajuku-matcha-crepe",
+      "category": "sweets",
+      "style": { "en": "Crêpe", "ja": "クレープ", "es": "Crepe" },
+      "shop": {
+        "en": "Harajuku Crêpe Stand",
+        "ja": "原宿クレープスタンド",
+        "es": "Puesto de crepes en Harajuku"
+      },
+      "dish": {
+        "en": "Matcha Brûlée Crêpe",
+        "ja": "抹茶ブリュレクレープ",
+        "es": "Crepe brûlée de matcha"
+      },
+      "area": {
+        "en": "Harajuku, Tokyo",
+        "ja": "東京・原宿",
+        "es": "Harajuku, Tokio"
+      },
+      "date": "2026-07-19",
+      "mapsUrl": "",
+      "tastingNote": {
+        "en": "Caramelized crispy sugar crust on top of smooth matcha cream.",
+        "ja": "パリパリのキャラメリゼとほろ苦い抹茶クリームの組み合わせ。",
+        "es": "Costra crujiente de azúcar caramelizada sobre crema suave de matcha."
+      },
+      "placeNote": {
+        "en": "They torch the sugar right in front of you before handing it over.",
+        "ja": "受け取る直前に目の前でバーナーで炙ってくれます。",
+        "es": "Caramelizan el azúcar con soplete justo delante de ti."
+      },
+      "perks": [],
+      "photos": [
+        {
+          "src": "photos/tokyo/harajuku/2026-07-19/20260719_172903.jpg",
+          "thumb": "photos/tokyo/harajuku/2026-07-19/thumbs/20260719_172903.jpg",
+          "caption": {
+            "en": "Matcha brûlée crêpe",
+            "ja": "抹茶ブリュレクレープ",
+            "es": "Crepe brûlée de matcha"
+          }
+        },
+        {
+          "src": "photos/tokyo/harajuku/2026-07-19/20260719_172745.jpg",
+          "thumb": "photos/tokyo/harajuku/2026-07-19/thumbs/20260719_172745.jpg",
+          "caption": {
+            "en": "Torching the sugar on top",
+            "ja": "表面の砂糖をバーナーで炙るところ",
+            "es": "Caramelizando el azúcar con soplete"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wangfujing-peking-duck",
+      "category": "world",
+      "style": { "en": "Beijing Cuisine", "ja": "北京料理", "es": "Cocina pekinesa" },
+      "shop": {
+        "en": "Peking Duck Dinner, Wangfujing",
+        "ja": "王府井の北京ダック店",
+        "es": "Cena de pato pekinés, Wangfujing"
+      },
+      "dish": {
+        "en": "Roast Peking Duck",
+        "ja": "北京ダック",
+        "es": "Pato laqueado a la pekinesa"
+      },
+      "area": {
+        "en": "Wangfujing, Beijing",
+        "ja": "中国・北京（王府井）",
+        "es": "Wangfujing, Pekín"
+      },
+      "date": "2024-09-06",
+      "mapsUrl": "",
+      "tastingNote": {
+        "en": "Crispy lacquered skin wrapped in thin pancakes with scallions, cucumber, and sweet bean sauce.",
+        "ja": "パリパリの皮を薄餅でねぎ・きゅうり・甜麺醤と一緒に包んでいただきます。",
+        "es": "Piel crujiente laqueada envuelta en panqueques finos con cebollín, pepino y salsa dulce."
+      },
+      "placeNote": {
+        "en": "The chef wheels the whole roast duck out and carves it tableside.",
+        "ja": "シェフがテーブルの横で丸ごと切り分けてくれます。",
+        "es": "El chef trae el pato entero y lo corta junto a la mesa."
+      },
+      "perks": [
+        { "en": "Tableside carving", "ja": "目の前でカッティング", "es": "Corte frente a la mesa" }
+      ],
+      "photos": [
+        {
+          "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_193530.jpg",
+          "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_193530.jpg",
+          "caption": {
+            "en": "Peking duck dinner",
+            "ja": "北京ダックの夕食",
+            "es": "Cena de pato pekinés"
+          }
+        },
+        {
+          "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_192757.jpg",
+          "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_192757.jpg",
+          "caption": {
+            "en": "Watching the chef carve the duck",
+            "ja": "シェフがダックを切り分ける様子",
+            "es": "Viendo al chef cortar el pato"
+          }
+        },
+        {
+          "src": "photos/china/beijing/wangfujing/2024-09-06/20240906_193941.jpg",
+          "thumb": "photos/china/beijing/wangfujing/2024-09-06/thumbs/20240906_193941.jpg",
+          "caption": {
+            "en": "Wrapping my own duck",
+            "ja": "自分で巻いて食べる北京ダック",
+            "es": "Armando mi propio rollito de pato"
+          }
+        }
+      ]
+    }
+  ]
+}

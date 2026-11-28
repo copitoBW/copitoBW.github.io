@@ -1,0 +1,367 @@
+{
+  "categories": [
+    { "id": "seasons", "name": { "en": "Seasons", "ja": "季節", "es": "Estaciones" } },
+    { "id": "festivals", "name": { "en": "Festivals", "ja": "祭り・花火", "es": "Festivales" } },
+    { "id": "holidays", "name": { "en": "Holidays", "ja": "季節行事", "es": "Fiestas" } },
+    { "id": "live", "name": { "en": "Concerts & Shows", "ja": "ライブ・展示", "es": "Conciertos y eventos" } },
+    { "id": "sports", "name": { "en": "Sports", "ja": "スポーツ", "es": "Deportes" } }
+  ],
+  "entries": [
+    {
+      "id": "marunouchi-christmas-2026",
+      "category": "holidays",
+      "tag": { "en": "Christmas", "ja": "クリスマス", "es": "Navidad" },
+      "title": {
+        "en": "Marunouchi & KITTE Christmas Illuminations",
+        "ja": "丸の内・KITTE クリスマスイルミネーション",
+        "es": "Iluminación navideña en Marunouchi y KITTE"
+      },
+      "place": {
+        "en": "Marunouchi & Hibiya, Tokyo",
+        "ja": "東京・丸の内・日比谷",
+        "es": "Marunouchi y Hibiya, Tokio"
+      },
+      "date": "2026-11-21",
+      "note": {
+        "en": "An evening walk through the winter lights from Hibiya Naka-dōri to Marunouchi and the glowing Christmas tree inside KITTE's atrium.",
+        "ja": "日比谷仲通りから丸の内、そしてKITTEアトリウムのクリスマスツリーまで巡った冬の夜散歩。",
+        "es": "Paseo nocturno entre luces de invierno desde Hibiya Naka-dōri hasta Marunouchi y el árbol navideño del atrio de KITTE."
+      },
+      "highlights": [
+        { "en": "KITTE atrium tree", "ja": "KITTEの巨大ツリー", "es": "Árbol del atrio de KITTE" },
+        { "en": "Hibiya Naka-dōri lights", "ja": "日比谷仲通りイルミ", "es": "Luces de Hibiya Naka-dōri" }
+      ],
+      "photos": [
+        {
+          "src": "photos/tokyo/kitte/2026-11-21/20261121_213328.jpg",
+          "thumb": "photos/tokyo/kitte/2026-11-21/thumbs/20261121_213328.jpg",
+          "caption": {
+            "en": "The Christmas tree in KITTE's atrium",
+            "ja": "KITTEアトリウムのクリスマスツリー",
+            "es": "El árbol de Navidad en el atrio de KITTE"
+          }
+        },
+        {
+          "src": "photos/tokyo/hibiya/2026-11-21/20261121_210150.jpg",
+          "thumb": "photos/tokyo/hibiya/2026-11-21/thumbs/20261121_210150.jpg",
+          "caption": {
+            "en": "Illuminations on Hibiya Naka-dōri",
+            "ja": "日比谷仲通りのイルミネーション",
+            "es": "Iluminación en Hibiya Naka-dōri"
+          }
+        },
+        {
+          "src": "photos/tokyo/marunouchi/2026-11-21/20261121_212343.jpg",
+          "thumb": "photos/tokyo/marunouchi/2026-11-21/thumbs/20261121_212343.jpg",
+          "caption": {
+            "en": "Christmas tree in the Marunouchi courtyard",
+            "ja": "丸の内の中庭のクリスマスツリー",
+            "es": "Árbol navideño en el patio de Marunouchi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jingu-gaien-koyo-2026",
+      "category": "seasons",
+      "tag": { "en": "Autumn · Kōyō", "ja": "秋・紅葉", "es": "Otoño · Kōyō" },
+      "title": {
+        "en": "Jingū Gaien Ginkgo Avenue",
+        "ja": "明治神宮外苑のいちょう並木",
+        "es": "Avenida de Ginkgos en Jingū Gaien"
+      },
+      "place": {
+        "en": "Aoyama-itchōme, Tokyo",
+        "ja": "東京・青山一丁目",
+        "es": "Aoyama-itchōme, Tokio"
+      },
+      "date": "2026-11-15",
+      "note": {
+        "en": "Peak golden ginkgo leaves at dusk — the whole avenue glows yellow once the streetlights come on.",
+        "ja": "夕暮れ時の見頃を迎えた黄金色のいちょう並木。街灯が灯ると通り全体が金色に輝きます。",
+        "es": "Hojas doradas de ginkgo en su punto máximo al atardecer; toda la avenida brilla en amarillo al encenderse las farolas."
+      },
+      "highlights": [
+        { "en": "Golden ginkgo tunnel", "ja": "黄金色のトンネル", "es": "Túnel dorado de ginkgos" },
+        { "en": "Dusk streetlights", "ja": "夕暮れのライトアップ", "es": "Luces al anochecer" }
+      ],
+      "photos": [
+        {
+          "src": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/20261115_164547.jpg",
+          "thumb": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/thumbs/20261115_164547.jpg",
+          "caption": {
+            "en": "Ginkgo trees at dusk",
+            "ja": "夕暮れのいちょう並木",
+            "es": "Árboles de ginkgo al atardecer"
+          }
+        },
+        {
+          "src": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/20261115_164905.jpg",
+          "thumb": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/thumbs/20261115_164905.jpg",
+          "caption": {
+            "en": "Yellow leaves under the streetlights",
+            "ja": "街灯に照らされる黄色い葉",
+            "es": "Hojas amarillas bajo las farolas"
+          }
+        },
+        {
+          "src": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/20261115_165631.jpg",
+          "thumb": "photos/tokyo/jingu-gaien-ginkgo/2026-11-15/thumbs/20261115_165631.jpg",
+          "caption": {
+            "en": "The ginkgo tunnel",
+            "ja": "いちょうのトンネル",
+            "es": "El túnel de ginkgos"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yoyogi-bon-odori-2025",
+      "category": "festivals",
+      "tag": { "en": "Summer · Bon Odori", "ja": "夏・盆踊り", "es": "Verano · Bon Odori" },
+      "title": {
+        "en": "Bon Odori at Yoyogi Park",
+        "ja": "代々木公園の盆踊り",
+        "es": "Bon Odori en el Parque Yoyogi"
+      },
+      "place": {
+        "en": "Yoyogi Park, Tokyo",
+        "ja": "東京・代々木公園",
+        "es": "Parque Yoyogi, Tokio"
+      },
+      "date": "2025-07-12",
+      "note": {
+        "en": "Caught a summer Bon Odori festival on the walk toward Shibuya — lanterns, taiko drums, and warm July night air.",
+        "ja": "渋谷へ向かう途中で出会った夏の盆踊り。提灯と太鼓の音、夏の夜の空気。",
+        "es": "Encontré un festival de Bon Odori camino a Shibuya: faroles, tambores taiko y aire cálido de verano."
+      },
+      "highlights": [
+        { "en": "Lanterns & summer music", "ja": "提灯と盆踊り", "es": "Faroles y música de verano" }
+      ],
+      "photos": [
+        {
+          "src": "photos/tokyo/yoyogi-park/2025-07-12/20250712_183929.jpg",
+          "thumb": "photos/tokyo/yoyogi-park/2025-07-12/thumbs/20250712_183929.jpg",
+          "caption": {
+            "en": "Bon odori on the way to Shibuya",
+            "ja": "渋谷へ向かう途中の盆踊り",
+            "es": "Bon odori camino a Shibuya"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gundam-next-future-2025",
+      "category": "live",
+      "tag": { "en": "Expo", "ja": "イベント・展示", "es": "Expo" },
+      "title": {
+        "en": "Gundam Next Future",
+        "ja": "GUNDAM NEXT FUTURE",
+        "es": "Gundam Next Future"
+      },
+      "place": {
+        "en": "Shinjuku, Tokyo",
+        "ja": "東京・新宿",
+        "es": "Shinjuku, Tokio"
+      },
+      "date": "2025-02-22",
+      "note": {
+        "en": "Giant Gundam head, classic RX-78-2 displays, and the GQuuuuuuX showcase in Shinjuku.",
+        "ja": "新宿で開催されたガンダムイベント。巨大な頭部やRX-78-2、GQuuuuuuXの展示まで盛りだくさん。",
+        "es": "Cabeza gigante de Gundam, exhibiciones del clásico RX-78-2 y la muestra de GQuuuuuuX en Shinjuku."
+      },
+      "highlights": [
+        { "en": "Giant Gundam head", "ja": "巨大ガンダムヘッド", "es": "Cabeza gigante de Gundam" },
+        { "en": "GQuuuuuuX showcase", "ja": "GQuuuuuuX展示", "es": "Muestra de GQuuuuuuX" }
+      ],
+      "photos": [
+        {
+          "src": "photos/tokyo/gundam-next-future/2025-02-22/20250222_190246.jpg",
+          "thumb": "photos/tokyo/gundam-next-future/2025-02-22/thumbs/20250222_190246.jpg",
+          "caption": {
+            "en": "RX-78-2 Gundam",
+            "ja": "RX-78-2 ガンダム",
+            "es": "RX-78-2 Gundam"
+          }
+        },
+        {
+          "src": "photos/tokyo/gundam-next-future/2025-02-22/20250222_191352.jpg",
+          "thumb": "photos/tokyo/gundam-next-future/2025-02-22/thumbs/20250222_191352.jpg",
+          "caption": {
+            "en": "GQuuuuuuX!",
+            "ja": "GQuuuuuuX！",
+            "es": "¡GQuuuuuuX!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gotanda-idol-live-2025",
+      "category": "live",
+      "tag": { "en": "Live Concert", "ja": "ライブ", "es": "Concierto" },
+      "title": {
+        "en": "Underground Idol Live",
+        "ja": "地下アイドルライブ",
+        "es": "Concierto idol underground"
+      },
+      "place": {
+        "en": "Gotanda, Tokyo",
+        "ja": "東京・五反田",
+        "es": "Gotanda, Tokio"
+      },
+      "date": "2025-01-26",
+      "note": {
+        "en": "High energy, packed room, and glow sticks waving from start to finish.",
+        "ja": "熱気あふれる会場で、最初から最後までペンライトを振り続けた夜！",
+        "es": "Mucha energía, sala llena y varitas luminosas de principio a fin."
+      },
+      "highlights": [
+        { "en": "Glow sticks up!", "ja": "ペンライト全開", "es": "¡Varitas luminosas arriba!" }
+      ],
+      "photos": [
+        {
+          "src": "photos/tokyo/idol-live/2025-01-26/20250126_202759.jpg",
+          "thumb": "photos/tokyo/idol-live/2025-01-26/thumbs/20250126_202759.jpg",
+          "caption": {
+            "en": "Glow sticks up!",
+            "ja": "ペンライトを高く掲げて！",
+            "es": "¡Arriba las varitas luminosas!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blue-cave-shibuya-2024",
+      "category": "holidays",
+      "tag": { "en": "Winter Illuminations", "ja": "冬・イルミネーション", "es": "Invierno · Luces" },
+      "title": {
+        "en": "Blue Cave Shibuya",
+        "ja": "青の洞窟 SHIBUYA",
+        "es": "Cueva Azul (Blue Cave), Shibuya"
+      },
+      "place": {
+        "en": "Yoyogi Park to Shibuya, Tokyo",
+        "ja": "東京・代々木公園〜渋谷",
+        "es": "Parque Yoyogi a Shibuya, Tokio"
+      },
+      "date": "2024-12-20",
+      "note": {
+        "en": "Hundreds of thousands of deep blue lights lining the trees all the way from Yoyogi Park toward Shibuya.",
+        "ja": "代々木公園から渋谷方面へ続く並木道一面が深い青色の光に包まれる冬の定番イルミネーション。",
+        "es": "Miles de luces azul intenso cubriendo los árboles desde el Parque Yoyogi hasta Shibuya."
+      },
+      "highlights": [
+        { "en": "Blue light tunnel", "ja": "青い光のトンネル", "es": "Túnel de luces azules" }
+      ],
+      "photos": [
+        {
+          "src": "photos/tokyo/blue-cave/2024-12-20/20241220_205056.jpg",
+          "thumb": "photos/tokyo/blue-cave/2024-12-20/thumbs/20241220_205056.jpg",
+          "caption": {
+            "en": "Walking through the Blue Cave",
+            "ja": "青の洞窟を歩く",
+            "es": "Caminando por la Cueva Azul"
+          }
+        },
+        {
+          "src": "photos/tokyo/blue-cave/2024-12-20/20241220_210719.jpg",
+          "thumb": "photos/tokyo/blue-cave/2024-12-20/thumbs/20241220_210719.jpg",
+          "caption": {
+            "en": "Blue lights all the way to Shibuya",
+            "ja": "渋谷まで続く青い光",
+            "es": "Luces azules hasta Shibuya"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sumida-fireworks-2024",
+      "category": "festivals",
+      "tag": { "en": "Summer · Fireworks", "ja": "夏・花火大会", "es": "Verano · Fuegos artificiales" },
+      "title": {
+        "en": "Sumida River Fireworks",
+        "ja": "隅田川花火大会",
+        "es": "Fuegos artificiales del río Sumida"
+      },
+      "place": {
+        "en": "Shioiri Park, Tokyo",
+        "ja": "東京・汐入公園",
+        "es": "Parque Shioiri, Tokio"
+      },
+      "date": "2024-07-27",
+      "note": {
+        "en": "Watched the Sumida River fireworks bursting right beside the lit-up Tokyo Skytree.",
+        "ja": "ライトアップされた東京スカイツリーのすぐ隣に上がる隅田川花火大会。",
+        "es": "Viendo los fuegos artificiales del río Sumida explotar justo al lado de la Tokyo Skytree iluminada."
+      },
+      "highlights": [
+        { "en": "Fireworks + Skytree view", "ja": "花火とスカイツリーの共演", "es": "Fuegos artificiales + Skytree" }
+      ],
+      "photos": [
+        {
+          "src": "photos/tokyo/shioiri-park/2024-07-27/20240727_190604.jpg",
+          "thumb": "photos/tokyo/shioiri-park/2024-07-27/thumbs/20240727_190604.jpg",
+          "caption": {
+            "en": "Sumida River fireworks with Skytree",
+            "ja": "隅田川花火大会とスカイツリー",
+            "es": "Fuegos artificiales del río Sumida con la Skytree"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chidorigafuchi-sakura-2024",
+      "category": "seasons",
+      "tag": { "en": "Spring · Sakura", "ja": "春・桜", "es": "Primavera · Sakura" },
+      "title": {
+        "en": "Sakura Season at Chidorigafuchi",
+        "ja": "千鳥ヶ淵の桜",
+        "es": "Temporada de sakura en Chidorigafuchi"
+      },
+      "place": {
+        "en": "Chidorigafuchi, Tokyo",
+        "ja": "東京・千鳥ヶ淵",
+        "es": "Chidorigafuchi, Tokio"
+      },
+      "date": "2024-04-07",
+      "note": {
+        "en": "Cherry blossom branches leaning right out over the moat — followed by night hanami at Yoyogi Park.",
+        "ja": "お堀の水面にせり出す満開の桜並木。夜は代々木公園で夜桜花見も。",
+        "es": "Ramas de cerezos en flor colgando sobre el foso, seguido de hanami nocturno en el Parque Yoyogi."
+      },
+      "highlights": [
+        { "en": "Full-bloom moat promenade", "ja": "満開のお堀散歩", "es": "Paseo de cerezos en plena floración" },
+        { "en": "Night hanami", "ja": "夜桜花見", "es": "Hanami nocturno" }
+      ],
+      "photos": [
+        {
+          "src": "photos/tokyo/chidorigafuchi/2024-04-07/20240407_165305.jpg",
+          "thumb": "photos/tokyo/chidorigafuchi/2024-04-07/thumbs/20240407_165305.jpg",
+          "caption": {
+            "en": "Sakura season at Chidorigafuchi",
+            "ja": "千鳥ヶ淵の桜",
+            "es": "Temporada de sakura en Chidorigafuchi"
+          }
+        },
+        {
+          "src": "photos/tokyo/chidorigafuchi/2024-04-07/20240407_165917.jpg",
+          "thumb": "photos/tokyo/chidorigafuchi/2024-04-07/thumbs/20240407_165917.jpg",
+          "caption": {
+            "en": "Cherry trees over the water",
+            "ja": "水面に広がる桜",
+            "es": "Cerezos sobre el agua"
+          }
+        },
+        {
+          "src": "photos/tokyo/yoyogi-park/2024-04-07/20240407_184250.jpg",
+          "thumb": "photos/tokyo/yoyogi-park/2024-04-07/thumbs/20240407_184250.jpg",
+          "caption": {
+            "en": "Night hanami at Yoyogi Park",
+            "ja": "代々木公園の夜桜",
+            "es": "Hanami nocturno en el Parque Yoyogi"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Copito",
+  "photo": "",
+  "photoCaption": {
+    "en": "Greetings from Copito Diary",
+    "ja": "コピト日記より",
+    "es": "Saludos desde el Diario de Copito"
+  },
+  "headline": {
+    "en": "Hi, I'm Copito!",
+    "ja": "こんにちは、コピトです！",
+    "es": "¡Hola, soy Copito!"
+  },
+  "bio": {
+    "en": "Welcome to my personal corner of the internet. This started as a simple map to keep track of the places I've visited in Japan, and slowly grew into a digital notebook for trips, bowls of ramen, seasonal moments, and the music I listen to along the way.\nI write everything in English, Japanese, and Spanish so friends and family everywhere can browse around — and so future me has a cozy archive of memories to look back on.",
+    "ja": "インターネット上の小さな自分だけの日記帳へようこそ。最初は日本で訪れた場所を地図に残すために始めましたが、旅のアルバムやおいしいラーメン、季節のイベント、お気に入りの音楽まで集めるノートへと広がりました。\n英語・日本語・スペイン語の3言語で書いているので、どこにいる友達や家族にも気軽に読んでもらえたら嬉しいです。",
+    "es": "¡Bienvenido a mi pequeño rincón personal en internet! Empezó como un mapa sencillo para recordar los lugares que visitaba en Japón, y poco a poco se convirtió en un cuaderno digital para mis viajes, platos de ramen, momentos especiales y la música que me acompaña.\nEscribo todo en inglés, japonés y español para que amigos y familia de cualquier lugar puedan explorarlo, y para tener un archivo bonito de recuerdos."
+  },
+  "facts": [
+    {
+      "label": { "en": "Roots & Base", "ja": "ルーツ・拠点", "es": "Raíces y base" },
+      "value": { "en": "Peru → Japan", "ja": "ペルー → 日本", "es": "Perú → Japón" }
+    },
+    {
+      "label": { "en": "Languages", "ja": "言語", "es": "Idiomas" },
+      "value": { "en": "Spanish · English · Japanese", "ja": "スペイン語 · 英語 · 日本語", "es": "Español · Inglés · Japonés" }
+    },
+    {
+      "label": { "en": "Comfort food", "ja": "大好物", "es": "Comida favorita" },
+      "value": { "en": "A good bowl of ramen", "ja": "おいしいラーメン", "es": "Un buen plato de ramen" }
+    },
+    {
+      "label": { "en": "This diary", "ja": "このサイト", "es": "Este diario" },
+      "value": { "en": "Hand-built static scrapbook", "ja": "手作りの静的スクラップブック", "es": "Cuaderno estático hecho a mano" }
+    }
+  ],
+  "interests": [
+    { "en": "Exploring new towns", "ja": "街歩き・旅", "es": "Explorar nuevos lugares" },
+    { "en": "Ramen hunting", "ja": "ラーメン巡り", "es": "Probar ramen" },
+    { "en": "Photography", "ja": "写真", "es": "Fotografía" },
+    { "en": "Music & playlists", "ja": "音楽・プレイリスト", "es": "Música y playlists" },
+    { "en": "Anime & games", "ja": "アニメ・ゲーム", "es": "Anime y videojuegos" },
+    { "en": "Seasonal events", "ja": "季節のイベント", "es": "Eventos de temporada" },
+    { "en": "Football", "ja": "サッカー", "es": "Fútbol" }
+  ],
+  "colophon": {
+    "en": "Built with plain HTML, CSS, and JavaScript (no frameworks, no trackers) and hosted on GitHub Pages. All photos are stripped of EXIF/GPS metadata before publishing.",
+    "ja": "フレームワークやトラッカーを使わず、シンプルなHTML・CSS・JavaScriptで作り、GitHub Pagesで公開しています。公開する写真はすべてEXIF・位置情報を削除しています。",
+    "es": "Hecho a mano con HTML, CSS y JavaScript puros (sin frameworks ni rastreadores) y alojado en GitHub Pages. Todas las fotos se publican sin metadatos EXIF ni GPS."
+  },
+  "links": []
+}

@@ -144,6 +144,42 @@
     })
   );
 
+  // ---------- mobile menu ----------
+  const menuBtn = document.getElementById("menuBtn");
+  const siteNav = document.getElementById("siteNav");
+  function closeMenu() {
+    if (!menuBtn || !siteNav) return;
+    siteNav.classList.remove("open");
+    menuBtn.setAttribute("aria-expanded", "false");
+  }
+  if (menuBtn && siteNav) {
+    menuBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const open = !siteNav.classList.contains("open");
+      siteNav.classList.toggle("open", open);
+      menuBtn.setAttribute("aria-expanded", String(open));
+    });
+    siteNav.addEventListener("click", (e) => {
+      if (e.target.closest("a")) closeMenu();
+    });
+    document.addEventListener("click", (e) => {
+      if (siteNav.classList.contains("open") && !e.target.closest(".topbar")) closeMenu();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && siteNav.classList.contains("open")) closeMenu();
+    });
+  }
+
+  // On small screens the language switch moves into the drawer to free the top bar.
+  const langBox = document.querySelector(".lang");
+  const controlsBox = document.querySelector(".controls");
+  if (siteNav && langBox && controlsBox && window.matchMedia) {
+    const mq = window.matchMedia("(max-width: 820px)");
+    const placeLang = () => { if (mq.matches) siteNav.append(langBox); else controlsBox.prepend(langBox); };
+    mq.addEventListener("change", placeLang);
+    placeLang();
+  }
+
   function applyStatic() {
     document.documentElement.lang = lang;
     document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = t(el.dataset.i18n); });
@@ -151,6 +187,8 @@
     themeBtn.setAttribute("aria-label", t("theme"));
     themeBtn.title = t("theme");
     document.querySelector(".lang").setAttribute("aria-label", t("language"));
+    if (siteNav) siteNav.setAttribute("aria-label", t("navLabel"));
+    if (menuBtn) { menuBtn.setAttribute("aria-label", t("navMenu")); menuBtn.title = t("navMenu"); }
   }
 
   // ---------- toast ----------
@@ -495,8 +533,135 @@
   const countryPhotos = (c) => [...c.visited.values()].flatMap((p) => (p.spots || []).flatMap(spotPhotos));
 
   // ---------- views ----------
-  // Home: every country as a card.
+  function chapterArt(kind) {
+    const svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", "0 0 160 100");
+    svg.setAttribute("aria-hidden", "true");
+    if (kind === "music") {
+      svg.innerHTML =
+        '<rect width="160" height="100" fill="var(--paper-2)"/>' +
+        '<g stroke="var(--line)" stroke-width="1" opacity=".55">' +
+        '<path d="M0 18h160M0 24h160M0 30h160M0 36h160M0 42h160"/>' +
+        '<path d="M0 64h160M0 70h160M0 76h160M0 82h160M0 88h160"/></g>' +
+        '<rect x="30" y="19" width="100" height="62" rx="7" fill="var(--ink)" opacity=".92"/>' +
+        '<rect x="38" y="25" width="84" height="33" rx="3" fill="var(--card)"/>' +
+        '<rect x="38" y="25" width="84" height="9" rx="3" fill="var(--accent)"/>' +
+        '<rect x="52" y="40" width="56" height="14" rx="7" fill="var(--paper-2)" stroke="var(--line)"/>' +
+        '<circle cx="63" cy="47" r="5" fill="var(--ink)"/><circle cx="63" cy="47" r="2" fill="var(--card)"/>' +
+        '<circle cx="97" cy="47" r="5" fill="var(--ink)"/><circle cx="97" cy="47" r="2" fill="var(--card)"/>' +
+        '<path d="M52 74l5-10h46l5 10z" fill="var(--paper-2)" opacity=".28"/>';
+    } else {
+      svg.innerHTML =
+        '<rect width="160" height="100" fill="var(--paper-2)"/>' +
+        '<rect x="34" y="16" width="92" height="68" rx="4" fill="var(--card)" stroke="var(--line)" stroke-width="1.5"/>' +
+        '<line x1="80" y1="16" x2="80" y2="84" stroke="var(--line)" stroke-width="1.5"/>' +
+        '<path d="M84 16h8v20l-4-3.5-4 3.5z" fill="var(--accent)"/>' +
+        '<g stroke="var(--line)" stroke-width="1.5" stroke-linecap="round">' +
+        '<path d="M44 31h26M44 41h26M44 51h20M44 61h24"/>' +
+        '<path d="M90 44h26M90 54h26M90 64h18"/></g>' +
+        '<circle cx="57" cy="72" r="5" fill="var(--next)" opacity=".85"/>' +
+        '<path d="M114 26l12-12 5 5-12 12-6 1z" fill="var(--pin)"/>';
+    }
+    return svg;
+  }
+
+  // The newest pages across trips, food and events, for the home page.
+  const isoDay = (d) => /^\d{4}-\d{2}-\d{2}$/.test(d || "");
+  const fmtShort = (iso) => {
+    const [y, m, d] = iso.split("-").map(Number);
+    return new Intl.DateTimeFormat(LOCALES[lang], { year: "numeric", month: "short", day: "numeric" }).format(new Date(y, m - 1, d));
+  };
+  function recentItems(limit) {
+    const items = [];
+    for (const c of Object.values(C)) {
+      for (const [slug, place] of c.visited) {
+        const photos = (place.spots || []).flatMap(spotPhotos).filter((p) => !p.test && isoDay(p.date));
+        if (!photos.length) continue;
+        const last = photos.reduce((x, y) => (y.date > x.date ? y : x));
+        items.push({ date: last.date, photo: last, title: regionName(c.R[slug]), kind: t("navTrips"), href: `#/trips/${c.slug}/${slug}` });
+      }
+    }
+    const add = (list, kind, href, titleOf) => {
+      for (const e of list || []) {
+        const photo = (e.photos || []).flatMap(shotsOf)[0];
+        if (photo && isoDay(e.date)) items.push({ date: e.date, photo, title: titleOf(e), kind, href });
+      }
+    };
+    if (FOOD) add(FOOD.entries, t("navFood"), "#/food", (e) => loc(e.dish) || loc(e.shop));
+    if (EVENTS) add(EVENTS.entries, t("navEvents"), "#/events", (e) => loc(e.title));
+    return items.sort((x, y) => y.date.localeCompare(x.date)).slice(0, limit);
+  }
+  const musicReady = () => !!(MUSIC && !MUSIC.draft && ((MUSIC.onRepeat || []).length || (MUSIC.playlists || []).length));
+
+  // Home: the diary's cover — a greeting, the newest pages, then one card per chapter.
   function homeView() {
+    if (!FOOD) loadFood();
+    if (!EVENTS) loadEvents();
+    const all = Object.values(C);
+    const withPlaces = all.filter((c) => c.visited.size);
+    const placeCount = withPlaces.reduce((n, c) => n + [...c.visited.values()].reduce((m, p) => m + (p.spots || []).length, 0), 0);
+    const photoCount = withPlaces.reduce((n, c) => n + countryPhotos(c).filter((p) => !p.test).length, 0);
+
+    const byDate = (list) => (list || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    const photosIn = (list) => list.reduce((n, e) => n + (e.photos || []).flatMap(shotsOf).length, 0);
+    const firstPhoto = (list) => { const e = list.find((x) => (x.photos || []).length); return e ? shotsOf(e.photos[0])[0] : null; };
+    const tripsCover = C.japan ? coverOf(countryPhotos(C.japan), C.japan.data.cover) : null;
+    const foodEntries = FOOD ? byDate(FOOD.entries) : [];
+    const eventEntries = EVENTS ? byDate(EVENTS.entries) : [];
+
+    const chapterCard = ({ href, kind, title, desc, meta, cover, art }) => {
+      const pic = h("div", { class: "pic" });
+      if (cover) pic.append(h("img", { src: cover.thumb || cover.src, alt: "", loading: "lazy" }));
+      else if (art) pic.append(art);
+      else pic.append(postcard(kind));
+      return h("a", { class: `chapter-card chapter-${kind}`, href },
+        pic,
+        h("div", { class: "chapter-body" },
+          h("h3", {}, title),
+          h("p", {}, desc),
+          h("div", { class: "chapter-foot" },
+            h("span", { class: "chapter-meta" }, meta || ""),
+            h("span", { class: "chapter-go" }, arrowSvg("right")))));
+    };
+
+    const recent = recentItems(6);
+    const chapters = [
+      chapterCard({
+        href: "#/trips", kind: "trips", title: t("tripsTitle"), desc: t("homeTripsDesc"),
+        meta: t("stats", withPlaces.length, placeCount, photoCount), cover: tripsCover
+      }),
+      chapterCard({
+        href: "#/food", kind: "food", title: t("foodTitle"), desc: t("homeFoodDesc"),
+        meta: foodEntries.length ? t("foodStats", foodEntries.length, photosIn(foodEntries)) : "", cover: firstPhoto(foodEntries)
+      }),
+      chapterCard({
+        href: "#/events", kind: "events", title: t("eventsTitle"), desc: t("homeEventsDesc"),
+        meta: eventEntries.length ? t("eventsStats", eventEntries.length, photosIn(eventEntries)) : "", cover: firstPhoto(eventEntries)
+      }),
+      musicReady() ? chapterCard({
+        href: "#/music", kind: "music", title: t("musicTitle"), desc: t("homeMusicDesc"),
+        meta: (MUSIC.onRepeat || []).length ? t("musicStats", MUSIC.onRepeat.length, (MUSIC.playlists || []).length) : "", art: chapterArt("music")
+      }) : null
+    ].filter(Boolean);
+
+    return [
+      h("section", { class: "hero home-hero" },
+        h("h1", {}, t("title")),
+        h("p", {}, t("homeGreeting")),
+        h("p", { class: "home-about" }, h("a", { href: "#/about" }, t("aboutTitle"), arrowSvg("right")))),
+      recent.length ? h("h2", { class: "section-title" }, t("homeRecent")) : null,
+      recent.length ? h("div", { class: "grid recent" }, recent.map((it) =>
+        h("a", { class: "polaroid", href: it.href },
+          h("div", { class: "pic" }, h("img", { src: it.photo.thumb || it.photo.src, alt: "", loading: "lazy" })),
+          h("div", { class: "cap" }, it.title),
+          h("div", { class: "sub" }, `${it.kind} · ${fmtShort(it.date)}`)))) : null,
+      h("h2", { class: "section-title" }, t("homeChapters")),
+      h("div", { class: "chapter-grid" }, chapters)
+    ].filter(Boolean);
+  }
+
+  // Trips: every country as a card.
+  function tripsView() {
     const all = Object.values(C);
     const withPlaces = all.filter((c) => c.visited.size);
     const placeCount = withPlaces.reduce((n, c) => n + [...c.visited.values()].reduce((m, p) => m + (p.spots || []).length, 0), 0);
@@ -510,12 +675,12 @@
       const sub = c.visited.size
         ? t("regionCount", c.visited.size, c.regions.length, unit(c, true))
         : t("photosSoonCountry");
-      return h("a", { class: "polaroid", href: `#/${c.slug}` },
+      return h("a", { class: "polaroid", href: `#/trips/${c.slug}` },
         pic, h("div", { class: "cap" }, countryName(c)), h("div", { class: "sub" }, sub));
     });
 
     return [
-      h("section", { class: "hero" }, h("h1", {}, t("title")), h("p", {}, t("subtitle"))),
+      h("section", { class: "hero" }, h("h1", {}, t("tripsTitle")), h("p", {}, t("tripsSubtitle"))),
       h("p", { class: "stats" }, t("stats", withPlaces.length, placeCount, photoCount)),
       h("h2", { class: "section-title" }, t("countriesTitle")),
       h("div", { class: "grid countries" }, cards)
@@ -528,7 +693,7 @@
     if (cover) pic.append(h("img", { src: cover.thumb || cover.src, alt: "", loading: "lazy" }));
     else pic.append(postcard(info.slug));
     const n = (place.spots || []).length;
-    return h("a", { class: "polaroid", href: `#/${c.slug}/${info.slug}` },
+    return h("a", { class: "polaroid", href: `#/trips/${c.slug}/${info.slug}` },
       pic,
       h("div", { class: "cap" }, regionName(info)),
       h("div", { class: "sub" }, n ? t("spotsCount", n) : regionAlt(info)));
@@ -537,7 +702,7 @@
   // A country: its map, progress, next trips and region albums.
   function countryView(c) {
     const head = [
-      backLink("#/", t("allCountries")),
+      backLink("#/trips", t("allCountries")),
       h("h1", { class: "chapter" }, countryName(c))
     ];
     if (!c.features) { loadMap(c); return [...head, loading()]; }
@@ -596,14 +761,14 @@
     const prev = order[(i - 1 + order.length) % order.length], next = order[(i + 1) % order.length];
     return h("nav", { class: "pref-nav" },
       // With only two regions, "previous" and "next" are the same one: show it once.
-      prev === next ? h("span") : h("a", { href: `#/${c.slug}/${prev}`, class: "prev" }, arrowSvg("left"), h("span", {}, regionName(c.R[prev]))),
-      h("a", { href: `#/${c.slug}/${next}`, class: "next" }, h("span", {}, regionName(c.R[next])), arrowSvg("right")));
+      prev === next ? h("span") : h("a", { href: `#/trips/${c.slug}/${prev}`, class: "prev" }, arrowSvg("left"), h("span", {}, regionName(c.R[prev]))),
+      h("a", { href: `#/trips/${c.slug}/${next}`, class: "next" }, h("span", {}, regionName(c.R[next])), arrowSvg("right")));
   }
 
   function regionView(c, slug) {
     const info = c.R[slug];
     const place = c.visited.get(slug);
-    const back = backLink(`#/${c.slug}`, countryName(c));
+    const back = backLink(`#/trips/${c.slug}`, countryName(c));
     if (!info || !place) return [back, h("p", {}, t("notFound"))];
     if (!c.features) { loadMap(c); return [back, loading()]; }
     if (c.municipalities && !MUNI) loadMuni();
@@ -736,28 +901,552 @@
     lb.classList.add("open");
   }
 
+  // ---------- food journal ----------
+  let FOOD = null, foodLoading = null, foodCat = "all";
+  function loadFood() {
+    if (!foodLoading) {
+      foodLoading = fetch("data/food.json")
+        .then((r) => r.json())
+        .then((d) => { FOOD = d; render(); })
+        .catch((e) => {
+          console.error(e);
+          FOOD = { categories: [], entries: [] };
+          render();
+        });
+    }
+  }
+
+  const pinSvg = () => {
+    const el = document.createElementNS(NS, "svg");
+    el.setAttribute("viewBox", "0 0 24 24"); el.setAttribute("aria-hidden", "true"); el.setAttribute("class", "ico");
+    el.innerHTML = '<path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="currentColor"/>';
+    return el;
+  };
+  const extSvg = () => {
+    const el = document.createElementNS(NS, "svg");
+    el.setAttribute("viewBox", "0 0 24 24"); el.setAttribute("aria-hidden", "true"); el.setAttribute("class", "ico");
+    el.innerHTML = '<path d="M14 4h6v6M20 4l-9 9M18 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>';
+    return el;
+  };
+
+  function foodEntryCard(entry, catMap) {
+    const rawPhotos = (entry.photos || []).flatMap(shotsOf).map((p) => ({
+      ...p,
+      date: p.date || entry.date,
+      caption: p.caption || entry.dish || entry.shop
+    }));
+    const first = rawPhotos[0];
+    const n = rawPhotos.length;
+
+    const polaroid = first
+      ? h("button", {
+          class: "polaroid" + (n > 1 ? " stack" : ""),
+          type: "button",
+          onclick: () => openLightbox(rawPhotos, 0)
+        },
+        h("div", { class: "pic" },
+          h("img", { src: first.thumb || first.src, alt: loc(entry.dish) || loc(entry.shop), loading: "lazy" }),
+          n > 1 ? h("span", { class: "stack-badge", "aria-label": t("photosCount", n) }, `×${n}`) : null),
+        h("div", { class: "cap" }, loc(entry.dish) || loc(first.caption) || loc(entry.shop)))
+      : h("div", { class: "polaroid" },
+        h("div", { class: "pic" }, postcard(entry.id || loc(entry.shop))),
+        h("div", { class: "cap" }, loc(entry.dish) || loc(entry.shop)));
+
+    const catInfo = catMap[entry.category];
+    const kicker = [catInfo && loc(catInfo.name), loc(entry.style)].filter(Boolean).join(" · ");
+
+    const metaBits = [
+      loc(entry.area) ? h("span", { class: "food-area" }, pinSvg(), loc(entry.area)) : null,
+      entry.date ? h("span", { class: "food-date" }, /^\d{4}-\d{2}-\d{2}$/.test(entry.date) ? fmtDate(entry.date) : entry.date) : null,
+      entry.mapsUrl ? h("a", {
+        class: "food-maps",
+        href: entry.mapsUrl,
+        target: "_blank",
+        rel: "noopener noreferrer"
+      }, t("foodMaps"), extSvg()) : null
+    ].filter(Boolean);
+
+    const tasting = loc(entry.tastingNote);
+    const placeNote = loc(entry.placeNote);
+    const perks = (entry.perks || []).map((p) => loc(p)).filter(Boolean);
+
+    const details = h("div", { class: "food-card note" },
+      kicker ? h("div", { class: "kicker" }, kicker) : null,
+      h("h2", {}, loc(entry.shop)),
+      metaBits.length ? h("div", { class: "food-meta" }, metaBits) : null,
+      tasting ? tasting.split(/\n+/).map((para) => h("p", {}, para)) : null,
+      placeNote ? placeNote.split(/\n+/).map((para) => h("p", { class: "aside" }, para)) : null,
+      perks.length ? h("ul", { class: "plus-list" }, perks.map((txt) => h("li", {}, txt))) : null
+    );
+
+    return h("article", { class: "food-entry", id: entry.id ? `food-${entry.id}` : null },
+      h("div", { class: "food-photo" }, polaroid),
+      details);
+  }
+
+  function foodView(routeCat) {
+    const hero = h("section", { class: "hero" }, h("h1", {}, t("foodTitle")), h("p", {}, t("foodSubtitle")));
+    if (!FOOD) {
+      loadFood();
+      return [hero, h("p", { class: "muted", style: "text-align:center" }, t("foodLoading"))];
+    }
+
+    const cats = FOOD.categories || [];
+    const catMap = Object.fromEntries(cats.map((c) => [c.id, c]));
+    if (routeCat && catMap[routeCat]) foodCat = routeCat;
+    if (foodCat !== "all" && !catMap[foodCat]) foodCat = "all";
+
+    const entries = (FOOD.entries || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    const totalPhotos = entries.reduce((n, e) => n + (e.photos || []).flatMap(shotsOf).length, 0);
+
+    const filterBtn = (id, label, count) => h("button", {
+      type: "button",
+      class: "filter-pill",
+      "aria-pressed": String(foodCat === id),
+      onclick: () => {
+        foodCat = id;
+        const target = id === "all" ? "#/food" : `#/food/${id}`;
+        if (location.hash !== target) history.replaceState(null, "", target);
+        render();
+      }
+    }, label, count != null ? h("span", { class: "pill-count" }, count) : null);
+
+    const filterBar = h("div", { class: "food-filters", role: "group", "aria-label": t("foodTitle") },
+      filterBtn("all", t("foodAll"), entries.length),
+      ...cats.map((c) => [c, entries.filter((e) => e.category === c.id).length]).filter(([, n]) => n).map(([c, n]) => filterBtn(c.id, loc(c.name), n))
+    );
+
+    const shown = foodCat === "all" ? entries : entries.filter((e) => e.category === foodCat);
+    const list = shown.length
+      ? h("div", { class: "food-list" }, shown.map((e) => foodEntryCard(e, catMap)))
+      : h("p", { class: "muted", style: "text-align:center;margin-top:24px" }, t("foodEmpty"));
+
+    return [
+      hero,
+      h("p", { class: "stats" }, t("foodStats", entries.length, totalPhotos)),
+      filterBar,
+      list
+    ];
+  }
+
+  // ---------- events & seasons ----------
+  let EVENTS = null, eventsLoading = null, eventsCat = "all";
+  function loadEvents() {
+    if (!eventsLoading) {
+      eventsLoading = fetch("data/events.json")
+        .then((r) => r.json())
+        .then((d) => { EVENTS = d; render(); })
+        .catch((e) => {
+          console.error(e);
+          EVENTS = { categories: [], entries: [] };
+          render();
+        });
+    }
+  }
+
+  function eventEntryCard(entry, catMap) {
+    const rawPhotos = (entry.photos || []).flatMap(shotsOf).map((p) => ({
+      ...p,
+      date: p.date || entry.date,
+      caption: p.caption || entry.title
+    }));
+    const first = rawPhotos[0];
+    const n = rawPhotos.length;
+
+    const polaroid = first
+      ? h("button", {
+          class: "polaroid" + (n > 1 ? " stack" : ""),
+          type: "button",
+          onclick: () => openLightbox(rawPhotos, 0)
+        },
+        h("div", { class: "pic" },
+          h("img", { src: first.thumb || first.src, alt: loc(entry.title), loading: "lazy" }),
+          n > 1 ? h("span", { class: "stack-badge", "aria-label": t("photosCount", n) }, `×${n}`) : null),
+        h("div", { class: "cap" }, loc(first.caption) || loc(entry.title)))
+      : h("div", { class: "polaroid" },
+        h("div", { class: "pic" }, postcard(entry.id || loc(entry.title))),
+        h("div", { class: "cap" }, loc(entry.title)));
+
+    const catInfo = catMap[entry.category];
+    const kicker = [catInfo && loc(catInfo.name), loc(entry.tag)].filter(Boolean).join(" · ");
+
+    const metaBits = [
+      loc(entry.place) ? h("span", { class: "food-area" }, pinSvg(), loc(entry.place)) : null,
+      entry.date ? h("span", { class: "food-date" }, /^\d{4}-\d{2}-\d{2}$/.test(entry.date) ? fmtDate(entry.date) : entry.date) : null,
+      entry.mapsUrl ? h("a", {
+        class: "food-maps",
+        href: entry.mapsUrl,
+        target: "_blank",
+        rel: "noopener noreferrer"
+      }, t("foodMaps"), extSvg()) : null
+    ].filter(Boolean);
+
+    const noteText = loc(entry.note);
+    const highlights = (entry.highlights || []).map((x) => loc(x)).filter(Boolean);
+
+    const details = h("div", { class: "food-card event-card note" },
+      kicker ? h("div", { class: "kicker" }, kicker) : null,
+      h("h2", {}, loc(entry.title)),
+      metaBits.length ? h("div", { class: "food-meta" }, metaBits) : null,
+      noteText ? noteText.split(/\n+/).map((para) => h("p", {}, para)) : null,
+      highlights.length ? h("ul", { class: "plus-list stars" }, highlights.map((txt) => h("li", {}, txt))) : null
+    );
+
+    return h("article", { class: "food-entry event-entry", id: entry.id ? `event-${entry.id}` : null },
+      h("div", { class: "food-photo" }, polaroid),
+      details);
+  }
+
+  function eventsView(routeCat) {
+    const hero = h("section", { class: "hero" }, h("h1", {}, t("eventsTitle")), h("p", {}, t("eventsSubtitle")));
+    if (!EVENTS) {
+      loadEvents();
+      return [hero, h("p", { class: "muted", style: "text-align:center" }, t("eventsLoading"))];
+    }
+
+    const cats = EVENTS.categories || [];
+    const catMap = Object.fromEntries(cats.map((c) => [c.id, c]));
+    if (routeCat && catMap[routeCat]) eventsCat = routeCat;
+    if (eventsCat !== "all" && !catMap[eventsCat]) eventsCat = "all";
+
+    const entries = (EVENTS.entries || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    const totalPhotos = entries.reduce((n, e) => n + (e.photos || []).flatMap(shotsOf).length, 0);
+
+    const filterBtn = (id, label, count) => h("button", {
+      type: "button",
+      class: "filter-pill",
+      "aria-pressed": String(eventsCat === id),
+      onclick: () => {
+        eventsCat = id;
+        const target = id === "all" ? "#/events" : `#/events/${id}`;
+        if (location.hash !== target) history.replaceState(null, "", target);
+        render();
+      }
+    }, label, count != null ? h("span", { class: "pill-count" }, count) : null);
+
+    const filterBar = h("div", { class: "food-filters", role: "group", "aria-label": t("eventsTitle") },
+      filterBtn("all", t("eventsAll"), entries.length),
+      ...cats.map((c) => [c, entries.filter((e) => e.category === c.id).length]).filter(([, n]) => n).map(([c, n]) => filterBtn(c.id, loc(c.name), n))
+    );
+
+    const shown = eventsCat === "all" ? entries : entries.filter((e) => e.category === eventsCat);
+    const groups = [];
+    if (shown.length) {
+      const byYear = new Map();
+      for (const e of shown) {
+        const y = (e.date || "").slice(0, 4) || "—";
+        if (!byYear.has(y)) byYear.set(y, []);
+        byYear.get(y).push(e);
+      }
+      for (const [year, list] of byYear) {
+        groups.push(h("section", { class: "event-year" },
+          h("h2", { class: "year-heading" }, h("span", {}, year)),
+          h("div", { class: "food-list" }, list.map((e) => eventEntryCard(e, catMap)))));
+      }
+    } else {
+      groups.push(h("p", { class: "muted", style: "text-align:center;margin-top:24px" }, t("eventsEmpty")));
+    }
+
+    return [
+      hero,
+      h("p", { class: "stats" }, t("eventsStats", entries.length, totalPhotos)),
+      filterBar,
+      ...groups
+    ];
+  }
+
+  // ---------- music ----------
+  let MUSIC = null, musicLoading = null, musicMood = "all";
+  function loadMusic() {
+    if (!musicLoading) {
+      musicLoading = fetch("data/music.json")
+        .then((r) => r.json())
+        .then((d) => { MUSIC = d; render(); })
+        .catch((e) => {
+          console.error(e);
+          MUSIC = { moods: [], onRepeat: [], playlists: [] };
+          render();
+        });
+    }
+  }
+
+  const vinylSvg = () => {
+    const el = document.createElementNS(NS, "svg");
+    el.setAttribute("viewBox", "0 0 64 64"); el.setAttribute("aria-hidden", "true"); el.setAttribute("class", "vinyl");
+    el.innerHTML =
+      '<circle cx="32" cy="32" r="30" fill="#2a221d"/>' +
+      '<circle cx="32" cy="32" r="24" fill="none" stroke="#463932" stroke-width="1"/>' +
+      '<circle cx="32" cy="32" r="19" fill="none" stroke="#463932" stroke-width="1"/>' +
+      '<circle cx="32" cy="32" r="11" fill="var(--accent)"/>' +
+      '<circle cx="32" cy="32" r="3" fill="var(--card)"/>';
+    return el;
+  };
+
+  function listenLinks(item) {
+    const links = [
+      item.spotifyUrl ? h("a", { class: "music-link", href: item.spotifyUrl, target: "_blank", rel: "noopener noreferrer" }, "Spotify", extSvg()) : null,
+      item.youtubeUrl ? h("a", { class: "music-link", href: item.youtubeUrl, target: "_blank", rel: "noopener noreferrer" }, "YouTube", extSvg()) : null,
+      item.appleUrl ? h("a", { class: "music-link", href: item.appleUrl, target: "_blank", rel: "noopener noreferrer" }, "Apple Music", extSvg()) : null
+    ].filter(Boolean);
+    return links;
+  }
+
+  function trackCard(tr) {
+    const links = listenLinks(tr);
+    return h("article", { class: "track-card note" },
+      h("div", { class: "track-top" },
+        vinylSvg(),
+        h("div", { class: "track-info" },
+          h("h3", {}, tr.title),
+          h("div", { class: "track-artist" }, tr.artist),
+          (tr.plays || loc(tr.tag)) ? h("div", { class: "kicker" }, tr.plays ? t("musicPlays", tr.plays) : loc(tr.tag)) : null)),
+      loc(tr.note) ? h("p", { class: "track-note" }, loc(tr.note)) : null,
+      links.length ? h("div", { class: "music-actions" }, links) : null);
+  }
+
+  function cassetteCard(pl, moodMap) {
+    const moodInfo = moodMap[pl.mood];
+    const links = listenLinks(pl);
+    const tracks = pl.tracks || [];
+    const embedBox = h("div", { class: "embed-box", hidden: true });
+    let embedBtn = null;
+    if (pl.embedUrl) {
+      embedBtn = h("button", {
+        type: "button",
+        class: "music-link preview-btn",
+        onclick: () => {
+          const open = embedBox.hidden;
+          embedBox.hidden = !open;
+          embedBtn.textContent = open ? t("musicPreviewHide") : t("musicPreviewShow");
+          if (open && !embedBox.firstChild) {
+            embedBox.append(h("iframe", {
+              src: pl.embedUrl,
+              loading: "lazy",
+              allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
+              title: loc(pl.title)
+            }));
+          }
+        }
+      }, t("musicPreviewShow"));
+    }
+
+    return h("article", { class: `cassette-card tape-${pl.color || "terracotta"}` },
+      h("div", { class: "cassette-stripe" },
+        h("span", { class: "tape-reels", "aria-hidden": "true" }, h("i"), h("i")),
+        moodInfo ? h("span", { class: "tape-mood" }, loc(moodInfo.name)) : null),
+      h("div", { class: "cassette-body" },
+        h("h3", {}, loc(pl.title)),
+        loc(pl.note) ? h("p", { class: "cassette-note" }, loc(pl.note)) : null,
+        tracks.length ? h("ol", { class: "tape-tracks" },
+          tracks.map((tr) => h("li", {},
+            h("strong", {}, tr.title),
+            tr.artist ? h("span", {}, ` — ${tr.artist}`) : null))) : null,
+        (links.length || embedBtn) ? h("div", { class: "music-actions" }, ...links, embedBtn) : null,
+        pl.embedUrl ? embedBox : null));
+  }
+
+  function musicView(routeMood) {
+    const hero = h("section", { class: "hero" }, h("h1", {}, t("musicTitle")), h("p", {}, t("musicSubtitle")));
+    if (!MUSIC) {
+      loadMusic();
+      return [hero, h("p", { class: "muted", style: "text-align:center" }, t("musicLoading"))];
+    }
+
+    const moods = MUSIC.moods || [];
+    const moodMap = Object.fromEntries(moods.map((m) => [m.id, m]));
+    if (routeMood && moodMap[routeMood]) musicMood = routeMood;
+    if (musicMood !== "all" && !moodMap[musicMood]) musicMood = "all";
+
+    const repeat = MUSIC.onRepeat || [];
+    const playlists = MUSIC.playlists || [];
+
+    const filterBtn = (id, label, count) => h("button", {
+      type: "button",
+      class: "filter-pill",
+      "aria-pressed": String(musicMood === id),
+      onclick: () => {
+        musicMood = id;
+        const target = id === "all" ? "#/music" : `#/music/${id}`;
+        if (location.hash !== target) history.replaceState(null, "", target);
+        render();
+      }
+    }, label, count != null ? h("span", { class: "pill-count" }, count) : null);
+
+    const filterBar = h("div", { class: "food-filters", role: "group", "aria-label": t("musicPlaylistsTitle") },
+      filterBtn("all", t("musicAll"), playlists.length),
+      ...moods.map((m) => [m, playlists.filter((p) => p.mood === m.id).length]).filter(([, n]) => n).map(([m, n]) => filterBtn(m.id, loc(m.name), n))
+    );
+
+    const shown = musicMood === "all" ? playlists : playlists.filter((p) => p.mood === musicMood);
+
+    // Plain numbered lists: title and artist, nothing else.
+    const songList = (tracks) => h("ol", { class: "rank-list" }, tracks.map((tr) =>
+      h("li", {}, h("div", {},
+        h("span", { class: "rank-title" }, tr.title),
+        tr.artist ? h("span", { class: "rank-artist" }, tr.artist) : null))));
+    const mix = (pl) => {
+      const links = listenLinks(pl);
+      return h("section", { class: "mix" },
+        h("h3", {}, loc(pl.title)),
+        loc(pl.note) ? h("p", { class: "mix-note" }, loc(pl.note)) : null,
+        songList(pl.tracks || []),
+        links.length ? h("div", { class: "music-actions" }, links) : null);
+    };
+
+    return [
+      hero,
+      repeat.length ? h("h2", { class: "section-title" }, t("musicRepeatTitle")) : null,
+      repeat.length ? songList(repeat) : null,
+      playlists.length ? h("h2", { class: "section-title" }, t("musicPlaylistsTitle")) : null,
+      playlists.length > 4 ? filterBar : null,
+      shown.length
+        ? shown.map(mix)
+        : (playlists.length ? h("p", { class: "muted", style: "text-align:center;margin-top:24px" }, t("musicEmpty")) : null)
+    ].flat().filter(Boolean);
+  }
+
+  // ---------- about me ----------
+  let ABOUT = null, aboutLoading = null;
+  function loadAbout() {
+    if (!aboutLoading) {
+      aboutLoading = fetch("data/about.json")
+        .then((r) => r.json())
+        .then((d) => { ABOUT = d; render(); })
+        .catch((e) => {
+          console.error(e);
+          ABOUT = {};
+          render();
+        });
+    }
+  }
+
+  function aboutView() {
+    const hero = h("section", { class: "hero" }, h("h1", {}, t("aboutTitle")), h("p", {}, t("aboutSubtitle")));
+    if (!ABOUT) {
+      loadAbout();
+      return [hero, h("p", { class: "muted", style: "text-align:center" }, t("aboutLoading"))];
+    }
+
+    const pic = h("div", { class: "pic" });
+    if (ABOUT.photo) pic.append(h("img", { src: ABOUT.photo, alt: ABOUT.name || t("title") }));
+    else pic.append(chapterArt("about"));
+    const polaroid = h("div", { class: "polaroid about-polaroid" },
+      pic,
+      h("div", { class: "cap" }, loc(ABOUT.photoCaption) || ABOUT.name || t("title")));
+
+    const facts = ABOUT.facts || [];
+    const factsCard = facts.length ? h("div", { class: "note about-facts" },
+      h("h2", {}, t("aboutFactsTitle")),
+      h("dl", {}, facts.flatMap((f) => [h("dt", {}, loc(f.label)), h("dd", {}, loc(f.value))]))) : null;
+
+    const bioText = loc(ABOUT.bio);
+    const interests = (ABOUT.interests || []).map((x) => loc(x)).filter(Boolean);
+    const bioCard = h("div", { class: "note about-bio" },
+      loc(ABOUT.headline) ? h("h2", {}, loc(ABOUT.headline)) : null,
+      ...(bioText ? bioText.split(/\n+/).map((para) => h("p", {}, para)) : []),
+      interests.length ? h("div", { class: "about-interests" },
+        h("h3", {}, t("aboutInterestsTitle")),
+        h("ul", {}, interests.map((x) => h("li", {}, x)))) : null);
+
+    const colophon = loc(ABOUT.colophon) ? h("div", { class: "note about-colophon" },
+      h("h2", {}, t("aboutColophonTitle")),
+      h("p", {}, loc(ABOUT.colophon))) : null;
+
+    const links = (ABOUT.links || []).filter((l) => l && l.url);
+    const linksCard = links.length ? h("div", { class: "note about-links" },
+      h("h2", {}, t("aboutLinksTitle")),
+      h("div", { class: "music-actions" },
+        links.map((l) => h("a", { class: "music-link", href: l.url, target: "_blank", rel: "noopener noreferrer" }, loc(l.label) || l.label, extSvg())))) : null;
+
+    return [
+      hero,
+      h("div", { class: "about-layout" },
+        h("div", { class: "about-side" }, polaroid, factsCard),
+        h("div", { class: "about-main" }, bioCard, colophon, linksCard))
+    ];
+  }
+
   // ---------- routing ----------
-  // #/                    home (all countries)
-  // #/japan               a country
-  // #/japan/tokyo         a region of that country
-  function go(c, slug) { location.hash = `#/${c.slug}/${slug}`; }
+  // #/                       home (diary cover & chapters)
+  // #/trips                  all countries
+  // #/trips/japan            a country
+  // #/trips/japan/tokyo      a region of that country
+  // #/food                   food journal (optional #/food/<category>)
+  // #/events                 events & seasons (optional #/events/<category>)
+  // #/music                  music & playlists (optional #/music/<mood>)
+  // #/about                  about me
+  function go(c, slug) { location.hash = `#/trips/${c.slug}/${slug}`; }
   function route() {
-    const m = location.hash.match(/^#\/([a-z]+)(?:\/([a-z-]+))?/);
-    if (!m || !C[m[1]]) return { view: "home" };
-    return m[2] ? { view: "region", c: C[m[1]], slug: m[2] } : { view: "country", c: C[m[1]] };
+    const tm = location.hash.match(/^#\/trips(?:\/([a-z]+)(?:\/([a-z-]+))?)?\/?$/);
+    if (tm) {
+      if (tm[1] && C[tm[1]]) {
+        return tm[2] ? { view: "region", c: C[tm[1]], slug: tm[2] } : { view: "country", c: C[tm[1]] };
+      }
+      return { view: "trips" };
+    }
+    const fm = location.hash.match(/^#\/food(?:\/([a-z0-9-]+))?/);
+    if (fm) return { view: "food", cat: fm[1] || null };
+    const em = location.hash.match(/^#\/events(?:\/([a-z0-9-]+))?/);
+    if (em) return { view: "events", cat: em[1] || null };
+    const mm = location.hash.match(/^#\/music(?:\/([a-z0-9-]+))?/);
+    if (mm) return { view: "music", mood: mm[1] || null };
+    if (/^#\/about\/?$/.test(location.hash)) return { view: "about" };
+    // Quietly upgrade any legacy #/japan or #/japan/tokyo link to #/trips/...
+    const legacy = location.hash.match(/^#\/([a-z]+)(?:\/([a-z-]+))?/);
+    if (legacy && C[legacy[1]]) {
+      const upgraded = `#/trips/${legacy[1]}${legacy[2] ? `/${legacy[2]}` : ""}`;
+      history.replaceState(null, "", upgraded);
+      return legacy[2] ? { view: "region", c: C[legacy[1]], slug: legacy[2] } : { view: "country", c: C[legacy[1]] };
+    }
+    return { view: "home" };
+  }
+  function sectionOf(r) {
+    if (r.view === "food") return "food";
+    if (r.view === "events") return "events";
+    if (r.view === "music") return "music";
+    if (r.view === "about") return "about";
+    if (r.view === "trips" || r.view === "country" || r.view === "region") return "trips";
+    return "home";
   }
   let lastRoute = "";
   const zoomState = {}; // "country/region" -> "all" | "zoom" (for regions with a zoomed view)
   function render() {
     applyStatic();
-    if (!loaded) return;
+    closeMenu();
     const r = route();
-    const view = r.view === "region" ? regionView(r.c, r.slug) : r.view === "country" ? countryView(r.c) : homeView();
+    const sec = sectionOf(r);
+    document.body.dataset.section = sec;
+    const creditEl = document.querySelector(".footer .credit");
+    if (creditEl) {
+      const creditText = (r.view === "country" || r.view === "region") && r.c ? loc(r.c.credit) : "";
+      creditEl.hidden = !creditText;
+      creditEl.textContent = creditText;
+    }
+    document.querySelectorAll("[data-nav]").forEach((a) => {
+      if (a.dataset.nav === sec) a.setAttribute("aria-current", "page");
+      else a.removeAttribute("aria-current");
+      if (a.dataset.nav === "music") a.hidden = !musicReady() && sec !== "music";
+    });
+    const standalone = r.view === "food" || r.view === "events" || r.view === "music" || r.view === "about";
+    if (!loaded && !standalone) return;
+    const view = r.view === "food" ? foodView(r.cat)
+      : r.view === "events" ? eventsView(r.cat)
+      : r.view === "music" ? musicView(r.mood)
+      : r.view === "about" ? aboutView()
+      : r.view === "trips" ? tripsView()
+      : r.view === "region" ? regionView(r.c, r.slug)
+      : r.view === "country" ? countryView(r.c)
+      : homeView();
     app.replaceChildren(...view);
-    const key = location.hash;
+    const key = standalone ? `#/${r.view}` : location.hash;
     if (key !== lastRoute) { window.scrollTo(0, 0); lastRoute = key; }
     const info = r.view === "region" ? r.c.R[r.slug] : null;
-    document.title = info ? `${regionName(info)} · ${t("title")}`
+    document.title = r.view === "food" ? `${t("foodTitle")} · ${t("title")}`
+      : r.view === "events" ? `${t("eventsTitle")} · ${t("title")}`
+      : r.view === "music" ? `${t("musicTitle")} · ${t("title")}`
+      : r.view === "about" ? `${t("aboutTitle")} · ${t("title")}`
+      : r.view === "trips" ? `${t("tripsTitle")} · ${t("title")}`
+      : info ? `${regionName(info)} · ${t("title")}`
       : r.view === "country" ? `${countryName(r.c)} · ${t("title")}` : t("title");
   }
   window.addEventListener("hashchange", render);
@@ -767,6 +1456,7 @@
   // needs their counts and covers). The maps load only when a country is opened.
   let loaded = false;
   applyStatic();
+  loadMusic();
   Promise.all(Object.values(C).map((c) => fetch(c.dataFile).then((r) => r.json()).then((d) => setData(c, d))))
     .then(() => { loaded = true; render(); })
     .catch((err) => {

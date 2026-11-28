@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480" height="480" viewBox="0 0 480 480">
+<g fill="none" stroke="#000" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<g transform="translate(28 34) rotate(-12 24 24) scale(1.0)"><path d="M5 24h38a19 19 0 0 1-38 0z"/><path d="M17 43h14"/><path d="M27 23L41 5M32 23.5L45 8"/><path d="M12 18q-3-3.5 0-7t0-7M20 18q-3-3.5 0-7"/></g>
+<g transform="translate(192 66) rotate(10 24 24) scale(1.05)"><path d="M24 7q5 0 9 8l8 15q3 9-7 9H14q-10 0-7-9l8-15q4-8 9-8z"/><path d="M17 39V29h14v10"/></g>
+<g transform="translate(356 26) rotate(-6 24 24) scale(0.95)"><path d="M8 17h26v12a13 13 0 0 1-26 0z"/><path d="M34 20h4a5 5 0 0 1 0 10h-4.5"/><path d="M6 44h30"/><path d="M16 11q-2.5-3 0-6M25 11q-2.5-3 0-6"/></g>
+<g transform="translate(100 196) rotate(8 24 24) scale(1.0)"><circle cx="24" cy="10" r="6.5"/><circle cx="24" cy="23" r="6.5"/><circle cx="24" cy="36" r="6.5"/><path d="M24 42.5V47"/></g>
+<g transform="translate(270 186) rotate(-14 24 24) scale(1.1)"><path d="M7 31q0-6 17-6t17 6v5q0 4-4 4H11q-4 0-4-4z"/><path d="M5 27q19-15 38 0"/><path d="M16 20.5l3 4M24 19v4.5M32 20.5l-3 4"/></g>
+<g transform="translate(406 172) rotate(12 24 24) scale(0.9)"><path d="M24 5l4.5 3 5.5-1 2 5 5 2-1 5.5 3 4.5-3 4.5 1 5.5-5 2-2 5-5.5-1-4.5 3-4.5-3-5.5 1-2-5-5-2 1-5.5-3-4.5 3-4.5-1-5.5 5-2 2-5 5.5 1z"/><path d="M24 24a2.5 2.5 0 1 1 2.5 2.5 5.5 5.5 0 1 1-5.5-5.5 8.5 8.5 0 1 1 8.5 8.5"/></g>
+<g transform="translate(34 336) rotate(14 24 24) scale(1.05)"><path d="M13 22l11 23 11-23"/><path d="M11 22a13 13 0 0 1 26 0z"/><path d="M17.5 31l10 6M30.5 31l-10 6"/></g>
+<g transform="translate(190 322) rotate(-8 24 24) scale(0.95)"><path d="M5 24h38a19 19 0 0 1-38 0z"/><path d="M17 43h14"/><path d="M27 23L41 5M32 23.5L45 8"/><path d="M12 18q-3-3.5 0-7t0-7M20 18q-3-3.5 0-7"/></g>
+<g transform="translate(346 348) rotate(6 24 24) scale(1.0)"><path d="M8 44L36 4M16 45L42 7"/></g>
+<g transform="translate(116 420) rotate(-10 24 24) scale(0.9)"><path d="M24 7q5 0 9 8l8 15q3 9-7 9H14q-10 0-7-9l8-15q4-8 9-8z"/><path d="M17 39V29h14v10"/></g>
+<path d="M146 22h8M150 18v8"/>
+<circle cx="308" cy="108" r="2.5"/>
+<path d="M57 154q2.5-5 5 0t5 0"/>
+<path d="M232 300h8M236 296v8"/>
+<circle cx="420" cy="316" r="2.5"/>
+<path d="M155 400q2.5-5 5 0t5 0"/>
+<path d="M296 440h8M300 436v8"/>
+<circle cx="452" cy="60" r="2.5"/>
+<path d="M15 270q2.5-5 5 0t5 0"/>
+</g></svg>
