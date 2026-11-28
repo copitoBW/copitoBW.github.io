@@ -717,6 +717,11 @@
     {
       "region": "callao",
       "cover": "photos/peru/callao/lima-airport/2026-09-20/20260920_195634.jpg",
+      "note": {
+        "en": "Goodbye, Lima: my last days at home, my cat packing himself to come to Japan, then the new airport terminal and the long way back.",
+        "ja": "さよなら、リマ。実家で過ごした最後の数日、日本について来ようとスーツケースに入った猫、そして新しい空港ターミナルから長い帰り道へ。",
+        "es": "Adiós, Lima: mis últimos días en casa, mi gato metiéndose en la maleta para venir a Japón, y luego la nueva terminal del aeropuerto y el largo camino de vuelta."
+      },
       "spots": [
         {
           "id": "lima-airport",

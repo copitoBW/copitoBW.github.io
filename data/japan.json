@@ -17,7 +17,11 @@
     {
       "prefecture": "tokyo",
       "visits": [],
-      "note": {},
+      "note": {
+        "en": "The page that never stops growing. Anime pilgrimages (the Your Name stairs, Shimokitazawa for Bocchi the Rock!, Odaiba for Digimon), cherry blossoms at Chidorigafuchi, my favourite bridge in Yoyogi Park, and long walks that end at Tokyo Station.",
+        "ja": "いつまでも増え続けるページ。聖地巡礼（『君の名は。』の階段、『ぼっち・ざ・ろっく！』の下北沢、『デジモン』のお台場）、千鳥ヶ淵の桜、代々木公園のお気に入りの橋、そして東京駅まで続く長い散歩。",
+        "es": "La página que nunca deja de crecer. Peregrinajes de anime (las escaleras de Your Name, Shimokitazawa por Bocchi the Rock!, Odaiba por Digimon), los cerezos de Chidorigafuchi, mi puente favorito del parque Yoyogi y caminatas largas que terminan en la estación de Tokio."
+      },
       "spots": [
         {
           "id": "akihabara",
@@ -6151,7 +6155,11 @@
     {
       "prefecture": "kanagawa",
       "visits": [],
-      "note": {},
+      "note": {
+        "en": "Yokohama by night (Chinatown, Minato Mirai and the Red Brick Warehouse), a full day in Kamakura from the Great Buddha to the beach, a sunset at Hakkeijima and the Doraemon museum.",
+        "ja": "夜の横浜（中華街、みなとみらい、赤レンガ倉庫）、大仏から海まで歩いた鎌倉の一日、八景島の夕日、そしてドラえもんのミュージアム。",
+        "es": "Yokohama de noche (el barrio chino, Minato Mirai y el Almacén de Ladrillo Rojo), un día entero en Kamakura desde el Gran Buda hasta la playa, un atardecer en Hakkeijima y el museo de Doraemon."
+      },
       "spots": [
         {
           "id": "yokohama-chinatown",
@@ -7414,7 +7422,11 @@
     {
       "prefecture": "ibaraki",
       "visits": [],
-      "note": {},
+      "note": {
+        "en": "My first weeks in Japan, in early 2023: Tsukuba, the cable car up Mount Tsukuba, and Matsumi Park, where I went to feed the ducks and found the plum trees in bloom.",
+        "ja": "2023年のはじめ、日本での最初の数週間。つくばの街、筑波山のケーブルカー、そしてカモにエサをあげに行ったら梅が咲いていた松見公園。",
+        "es": "Mis primeras semanas en Japón, a inicios de 2023: Tsukuba, el funicular del monte Tsukuba y el parque Matsumi, donde fui a dar de comer a los patos y encontré los ciruelos en flor."
+      },
       "spots": [
         {
           "id": "tsukuba",
@@ -7672,7 +7684,11 @@
     {
       "prefecture": "kyoto",
       "visits": [],
-      "note": {},
+      "note": {
+        "en": "I arrived late and escaped to Arashiyama: everything was dark and there wasn't a soul around. Really scary! The next morning, Kinkaku-ji: the Golden Pavilion and its reflection in the pond.",
+        "ja": "夜遅くに着いて、そのまま嵐山へ。真っ暗で人っ子ひとりいなくて、本当に怖かった！翌朝は金閣寺。池に映る金色の姿。",
+        "es": "Llegué tarde y me escapé a Arashiyama: todo estaba oscuro y no había ni un alma. ¡Qué miedo! A la mañana siguiente, Kinkaku-ji: el Pabellón Dorado y su reflejo en el estanque."
+      },
       "spots": [
         {
           "id": "arashiyama",
@@ -7839,7 +7855,11 @@
     {
       "prefecture": "osaka",
       "visits": [],
-      "note": {},
+      "note": {
+        "en": "Two days in Osaka: the castle, sunset and neon in Dōtonbori with okonomiyaki for dinner, takoyaki at Kuromon Market, Tsūtenkaku, and the Nipponbashi Street Festa, the city's biggest street cosplay festival.",
+        "ja": "大阪での二日間。大阪城、夕暮れとネオンの道頓堀でお好み焼き、黒門市場のたこ焼き、通天閣、そして大阪最大のコスプレイベント「日本橋ストリートフェスタ」。",
+        "es": "Dos días en Osaka: el castillo, el atardecer y los neones de Dōtonbori con okonomiyaki de cena, takoyaki en el mercado Kuromon, la torre Tsūtenkaku y el Nipponbashi Street Festa, el mayor festival callejero de cosplay de la ciudad."
+      },
       "spots": [
         {
           "id": "osaka-castle",
@@ -8841,7 +8861,11 @@
     {
       "prefecture": "nara",
       "visits": [],
-      "note": {},
+      "note": {
+        "en": "A day with the deer of Nara Park, the Great Buddha of Tōdai-ji (I made it through the pillar!), the stone lanterns of Kasuga Taisha and fresh yomogi mochi from Nakatanidou.",
+        "ja": "奈良公園の鹿たちと過ごした一日。東大寺の大仏（柱の穴もくぐれた！）、春日大社の石灯籠、そして中谷堂のつきたてよもぎ餅。",
+        "es": "Un día con los ciervos del parque de Nara, el Gran Buda de Tōdai-ji (¡logré pasar por el pilar!), las linternas de piedra de Kasuga Taisha y mochi de yomogi recién hecho en Nakatanidou."
+      },
       "spots": [
         {
           "id": "nara-park",
@@ -9450,7 +9474,11 @@
     {
       "prefecture": "hyogo",
       "visits": [],
-      "note": {},
+      "note": {
+        "en": "Passing through: a bus change at Shin-Kobe, the Akashi Kaikyō Bridge, and Awaji Island, where I stood over the Nojima Fault from the 1995 earthquake.",
+        "ja": "通りすがりの兵庫。新神戸でバスに乗り換え、明石海峡大橋を渡って淡路島へ。1995年の地震でできた野島断層の真上に立った。",
+        "es": "De paso: cambio de bus en Shin-Kobe, el puente Akashi Kaikyō y la isla de Awaji, donde me paré sobre la falla de Nojima, la del terremoto de 1995."
+      },
       "spots": [
         {
           "id": "kobe",
@@ -9537,7 +9565,11 @@
     {
       "prefecture": "shimane",
       "visits": [],
-      "note": {},
+      "note": {
+        "en": "Izumo Taisha, the shrine of good connections, with its little hares everywhere; a kagura show with the eight-headed serpent Orochi; and Matsue Castle beside Lake Shinji.",
+        "ja": "あちこちに小さなうさぎがいる、縁結びの出雲大社。八岐大蛇が舞う神楽。そして宍道湖のほとりの松江城。",
+        "es": "Izumo Taisha, el santuario de los buenos lazos, con sus liebres por todas partes; una función de kagura con Orochi, la serpiente de ocho cabezas; y el castillo de Matsue junto al lago Shinji."
+      },
       "spots": [
         {
           "id": "izumo-taisha",
@@ -9828,7 +9860,11 @@
     {
       "prefecture": "okayama",
       "visits": [],
-      "note": {},
+      "note": {
+        "en": "A short stop: the willow-lined canal of Kurashiki's Bikan Quarter at golden hour, and a photo with Momotarō at Okayama Station.",
+        "ja": "短い立ち寄り。夕日に染まる倉敷美観地区の柳並木の川と、岡山駅の桃太郎との一枚。",
+        "es": "Una parada corta: el canal con sauces del barrio Bikan de Kurashiki a la hora dorada y una foto con Momotarō en la estación de Okayama."
+      },
       "spots": [
         {
           "id": "kurashiki",
@@ -9926,7 +9962,11 @@
     {
       "prefecture": "hiroshima",
       "visits": [],
-      "note": {},
+      "note": {
+        "en": "We arrived late and everyone rested, but I went out for a night walk to the Peace Memorial Park. The next morning: the A-Bomb Dome in daylight and the Peace Memorial Museum.",
+        "ja": "遅くに着いてみんなは休んだけれど、ひとりで夜の平和記念公園まで歩いた。翌朝は、明るい中の原爆ドームと平和記念資料館。",
+        "es": "Llegamos tarde y todos descansaron, pero yo salí a caminar de noche hasta el Parque Memorial de la Paz. A la mañana siguiente: la Cúpula de la Bomba Atómica de día y el Museo Memorial de la Paz."
+      },
       "spots": [
         {
           "id": "hiroshima-station",

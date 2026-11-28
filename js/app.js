@@ -56,12 +56,6 @@
     ? it.shots.map((sh, i) => ({ ...it, ...sh, shots: undefined, shot: i + 1, of: it.shots.length }))
     : [it]);
   const spotPhotos = (s) => spotItems(s).flatMap(shotsOf);
-  // Region visit dates: written by hand, or collected from the spots' visits.
-  const placeDates = (place) => {
-    if (place.visits && place.visits.length) return place.visits;
-    const set = new Set((place.spots || []).flatMap((s) => (s.visits || []).map((v) => v.date)));
-    return [...set].sort();
-  };
   // Cover: the photo named in "cover", else the first real (non-test) photo.
   const coverOf = (photos, cover) =>
     (cover && photos.find((p) => p.src === cover)) || photos.find((p) => !p.test) || photos[0];
@@ -795,10 +789,8 @@
     mapCard.append(h("p", { class: "map-hint" }, t("zoomHint")));
 
     const noteText = loc(place.note);
-    const visits = placeDates(place);
     const note = h("div", { class: "note" },
       h("h2", {}, `✎ ${t("notes")}`),
-      visits.length ? h("p", {}, h("strong", {}, `${t("visits")}: `), visits.map((d) => (/^\d{4}-\d{2}-\d{2}$/.test(d) ? fmtDate(d) : d)).join(" · ")) : null,
       noteText ? noteText.split(/\n+/).map((para) => h("p", {}, para)) : h("p", { class: "muted" }, t("noNote")));
 
     const spots = place.spots || [];
